@@ -56,6 +56,8 @@ Most beginners ignore this line. But an expert reads it like a map:
 
 ### The Wrong Way to Learn This
 
+![](./assets/image%20copy.png)
+
 Most courses say: *"Linux is an open-source operating system created by Linus Torvalds in 1991..."*
 
 That tells you **nothing useful**.
