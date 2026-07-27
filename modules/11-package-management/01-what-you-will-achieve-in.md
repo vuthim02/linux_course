@@ -1,0 +1,15 @@
+## 🎯 What You Will Achieve in Part 11
+
+| Level | Focus | What You'll Master |
+|-------|-------|-------------------|
+| ⭐ **Level 1: Basic** | Debian packaging fundamentals | Two packaging worlds, apt commands, dpkg basics, Debian repositories |
+| ⭐ **Level 2: Intermediary** | RPM and universal packaging | dnf/yum, rpm, RPM repositories, Snap, Flatpak, cache management |
+| ⭐ **Level 3: Advanced** | Troubleshooting and internals | Fixing broken packages, dependency resolution, package database internals |
+
+---
+
+
+
+---
+
+[↑ Index](index.md) | [Next →](02-level-1-basic-debian-packaging.md)
