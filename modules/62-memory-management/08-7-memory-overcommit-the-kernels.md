@@ -112,10 +112,8 @@ gcc -o /tmp/test_overcommit /tmp/test_overcommit.c
 
 > 🔍 **Reverse Engineering Insight:** `overcommit_memory=1` is a common cause of mysterious OOM kills in production. The kernel allows a process to mmap() terabytes of virtual memory, but when it tries to actually use that memory, there's nothing physical available. Use `overcommit_memory=2` for databases and any process that needs guaranteed memory availability.
 
----
 
 
 
----
 
 [← Previous](07-6-oom-killer-last-resort.md) | [↑ Index](index.md) | [Next →](09-8-diagnosing-memory-pressure.md)

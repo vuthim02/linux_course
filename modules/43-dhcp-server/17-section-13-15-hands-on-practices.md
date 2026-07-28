@@ -288,10 +288,8 @@ for pool in "192.168.1.100 192.168.1.200"; do
 done
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-12-pxe-booting.md) | [↑ Index](index.md) | [Next →](18-section-14-deep-understanding.md)

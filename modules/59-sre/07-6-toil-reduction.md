@@ -74,10 +74,8 @@ spec:
           restartPolicy: OnFailure
 ```
 
----
 
 
 
----
 
 [← Previous](06-5-four-golden-signals.md) | [↑ Index](index.md) | [Next →](08-7-incident-management.md)

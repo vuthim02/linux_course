@@ -211,10 +211,8 @@ network:
         - 192.168.200.1/24
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-networkmanager-nmcli-nmtui.md) | [↑ Index](index.md) | [Next →](09-section-6-traditional-etcnetworkinterfaces-debianubuntu.md)

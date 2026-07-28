@@ -101,10 +101,8 @@ The HPA controller runs every 15 seconds. It rescales only if:
 - `abs(desired_replicas - current_replicas) > 1` (to avoid flapping when close to target).
 - Or `desired_replicas = 0` (scale to zero, requires special configuration).
 
----
 
 
 
----
 
 [← Previous](13-13-upgrades.md) | [↑ Index](index.md) | [Next →](15-15-command-reference.md)

@@ -1,5 +1,6 @@
 # 62-memory-management
 
+**Prerequisites:** Complete [Part 61 - filesystem-internals](../61-filesystem-internals/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

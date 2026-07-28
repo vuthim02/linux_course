@@ -13,10 +13,14 @@ By the end of this part, you will:
 - Find and handle zombie processes
 - Complete **15 hands-on practices**
 
----
+### Key Skills You'll Build
+- Diagnosing resource-hogging processes quickly
+- Gracefully stopping runaway services without data loss
+- Running background tasks that survive SSH disconnects
+- Reading `/proc` to understand what any process is doing
 
 
 
----
+
 
 [↑ Index](index.md) | [Next →](02-section-1-what-is-a.md)

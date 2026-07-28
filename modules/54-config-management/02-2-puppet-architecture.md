@@ -42,10 +42,8 @@ Agent → CSR → Puppet Server → autosign or pending → puppetserver ca sign
 
 Each environment has its own `modulepath` — different module versions per env. r10k builds environments from Git branches.
 
----
 
 
 
----
 
 [← Previous](01-1-configuration-management-paradigms.md) | [↑ Index](index.md) | [Next →](03-3-puppet-dsl.md)

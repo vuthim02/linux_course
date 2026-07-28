@@ -98,10 +98,8 @@ kubectl describe pdb nginx-pdb
 | kube-proxy | ≤ 2 minor versions behind API server |
 | kubectl | ±1 minor version from API server |
 
----
 
 
 
----
 
 [← Previous](12-12-logging-and-debugging.md) | [↑ Index](index.md) | [Next →](14-14-deep-understanding.md)

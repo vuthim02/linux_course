@@ -76,10 +76,8 @@ Routing Decision
                                                   POSTROUTING (mangle → nat)
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-understanding-linux.md) | [↑ Index](index.md) | [Next →](04-section-2-iptables-basics.md)

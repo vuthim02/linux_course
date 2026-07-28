@@ -436,10 +436,8 @@ echo "============================================"
 
 ✅ **Expected**: Complete memory audit covering physical, virtual, slab, NUMA, swap, OOM, and overcommit
 
----
 
 
 
----
 
 [← Previous](10-9-tuning-for-applications.md) | [↑ Index](index.md) | [Next →](12-deep-understanding.md)

@@ -53,10 +53,8 @@ Breaking change: when major version changes (1.1 → 3)
   - Each program uses the version it was linked against
 ```
 
----
 
 
 
----
 
 [← Previous](13-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](15-summary-complete-command-reference-for.md)

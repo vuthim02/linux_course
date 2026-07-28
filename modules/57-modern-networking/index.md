@@ -1,5 +1,6 @@
 # 57-modern-networking
 
+**Prerequisites:** Complete [Part 56 - observability](../56-observability/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

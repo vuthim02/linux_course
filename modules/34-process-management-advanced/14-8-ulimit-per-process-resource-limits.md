@@ -67,10 +67,8 @@ $ ulimit -u 500
 $ :(){ :|:& };:     # fork bomb at 500 processes → EAGAIN
 ```
 
----
 
 
 
----
 
 [← Previous](13-4-pgrep-pkill-finding-and.md) | [↑ Index](index.md) | [Next →](15-9-oom-killer-out-of-memory-resolution.md)

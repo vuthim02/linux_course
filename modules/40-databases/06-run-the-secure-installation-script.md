@@ -25,6 +25,5 @@ Reload privilege tables now? [Y/n]: Y
 
 
 
----
 
 [← Previous](05-install-mariadb-server.md) | [↑ Index](index.md) | [Next →](07-configuration-files.md)

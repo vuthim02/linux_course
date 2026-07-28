@@ -27,10 +27,8 @@ Hidden files store **configuration** for programs. Each program you install puts
 
 > 🔍 **Reverse Engineering Insight:** When something behaves unexpectedly, a sysadmin's first instinct is to check these hidden config files. If `bash` is acting strange, check `~/.bashrc`. If SSH won't connect, check `~/.ssh/config`.
 
----
 
 
 
----
 
 [← Previous](05-section-3-the-ls-command.md) | [↑ Index](index.md) | [Next →](07-section-5-creating-directories-and.md)

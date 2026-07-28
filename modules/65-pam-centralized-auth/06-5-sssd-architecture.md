@@ -193,10 +193,8 @@ sudo sssctl domain-status example.com --online
 
 > 🔍 **Reverse Engineering Insight:** SSSD's memory cache (`/var/lib/sss/mc/`) is memory-mapped, meaning `getent passwd` reads directly from shared memory without even contacting the SSSD daemon. This is why `getent passwd <ldap_user>` is near-instant even with thousands of LDAP users.
 
----
 
 
 
----
 
 [← Previous](05-4-password-policies.md) | [↑ Index](index.md) | [Next →](07-6-ldap-integration.md)

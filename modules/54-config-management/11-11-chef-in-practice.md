@@ -79,10 +79,8 @@ chef push production Policyfile.rb  # Push to server
 knife node policy set web01 myapp production
 ```
 
----
 
 
 
----
 
 [← Previous](10-10-chef-dsl.md) | [↑ Index](index.md) | [Next →](12-12-comparative-analysis.md)

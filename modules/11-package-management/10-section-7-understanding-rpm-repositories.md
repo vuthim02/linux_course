@@ -48,10 +48,8 @@ sudo dnf install epel-release
 # This adds packages that are not in the base RHEL repos
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-rpm-the-low-level.md) | [↑ Index](index.md) | [Next →](11-section-8-snap-universal-linux.md)

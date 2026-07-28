@@ -28,10 +28,8 @@
 | `sudo hwclock -w` | System → Hardware |
 | `sudo hwclock -s` | Hardware → System |
 
----
 
 
 
----
 
 [← Previous](13-deep-understanding-how-ntp-really.md) | [↑ Index](index.md) | [Next →](15-whats-coming-in-part-22.md)

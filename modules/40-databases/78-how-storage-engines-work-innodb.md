@@ -100,6 +100,5 @@ SHOW STATUS LIKE 'Innodb_undo%';
 
 
 
----
 
 [← Previous](77-practice-15-real-world-integration-complete.md) | [↑ Index](index.md) | [Next →](79-postgresql-process-architecture.md)

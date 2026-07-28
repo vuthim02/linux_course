@@ -2,7 +2,6 @@
 
 ### ✅ Level 1: Basic Practices
 
----
 
 ### ✅ Practice 1: Explore Your Package System
 
@@ -25,7 +24,6 @@ fi
 cat /etc/os-release
 ```
 
----
 
 ### ✅ Practice 2: Update Package List (Safe)
 
@@ -39,7 +37,6 @@ if command -v apt &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 3: Search and Install
 
@@ -55,7 +52,6 @@ which tree
 tree ~/linux-course
 ```
 
----
 
 ### ✅ Practice 4: Package Information
 
@@ -70,7 +66,6 @@ tree --version
 ls -la /var/lib/dpkg/info/tree.list 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 5: List Installed Packages
 
@@ -84,7 +79,6 @@ elif command -v rpm &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 6: Find Files From a Package
 
@@ -93,7 +87,6 @@ fi
 dpkg -L tree 2>/dev/null || rpm -ql tree 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 7: Find Which Package Owns a File
 
@@ -102,11 +95,9 @@ dpkg -L tree 2>/dev/null || rpm -ql tree 2>/dev/null
 dpkg -S /usr/bin/tree 2>/dev/null || rpm -qf /usr/bin/tree 2>/dev/null
 ```
 
----
 
 ### ✅ Level 2: Intermediary Practices
 
----
 
 ### ✅ Practice 8: Install Multiple Packages
 
@@ -125,7 +116,6 @@ for cmd in htop curl wget git nmap; do
 done
 ```
 
----
 
 ### ✅ Practice 9: Remove a Package
 
@@ -143,7 +133,6 @@ sudo apt remove -y cowsay 2>/dev/null || sudo dnf remove -y cowsay 2>/dev/null
 which cowsay 2>/dev/null || echo "cowsay removed successfully"
 ```
 
----
 
 ### ✅ Practice 10: Purge vs Remove (Debian Specific)
 
@@ -170,7 +159,6 @@ ls -la /etc/nano/ 2>/dev/null || echo "Config directory purged"
 sudo apt install -y nano 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 11: Hold a Package
 
@@ -185,7 +173,6 @@ apt-mark showhold 2>/dev/null
 sudo apt-mark unhold nano 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 12: Clean Package Cache
 
@@ -203,7 +190,6 @@ sudo apt clean 2>/dev/null || sudo dnf clean all 2>/dev/null
 echo "Cache cleaned"
 ```
 
----
 
 ### ✅ Practice 13: Simulate an Installation
 
@@ -215,7 +201,6 @@ apt install -s nginx 2>/dev/null | head -20
 dnf install --assumeno nginx 2>/dev/null | head -20
 ```
 
----
 
 ### ✅ Practice 14: Download Without Installing
 
@@ -233,7 +218,6 @@ ls -la *.deb *.rpm 2>/dev/null || echo "No .deb/.rpm files"
 rm -f *.deb *.rpm 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 15: Explore Repositories
 
@@ -250,7 +234,6 @@ elif [ -d /etc/yum.repos.d ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 16: Explore Snap
 
@@ -280,7 +263,6 @@ hello-world
 sudo snap remove hello-world 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 17: Explore Flatpak
 
@@ -298,7 +280,6 @@ flatpak search org.gnome.Logs 2>/dev/null | head -5
 echo "Flatpak ready (primarily for desktop apps)"
 ```
 
----
 
 ### ✅ Practice 18: Package Dependency Tree
 
@@ -315,11 +296,9 @@ dnf repoquery --requires bash 2>/dev/null | head -20
 dnf repoquery --whatrequires bash 2>/dev/null | head -20
 ```
 
----
 
 ### ✅ Level 3: Advanced Practices
 
----
 
 ### ✅ Practice 19: Check System for Orphaned Packages
 
@@ -332,7 +311,6 @@ sudo apt autoremove --dry-run 2>/dev/null
 sudo dnf autoremove --dry-run 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 20: Real SysAdmin Scenario — Package Audit Report
 
@@ -412,10 +390,8 @@ chmod +x package_audit.sh
 ./package_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](16-deep-understanding-how-package-management.md) | [↑ Index](index.md) | [Next →](18-summary-complete-command-reference-for.md)

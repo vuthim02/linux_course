@@ -63,10 +63,8 @@ sudo cat /var/lib/dhcp/dhcpd.leases | grep -A 5 "192.168.1.100"
 sudo grep "DHCPACK" /var/log/syslog | grep -i "192.168.1.100"
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-isc-dhcp-configuration.md) | [↑ Index](index.md) | [Next →](08-section-5-dhcp-options.md)

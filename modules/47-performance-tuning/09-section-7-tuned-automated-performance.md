@@ -53,10 +53,8 @@ sudo tuned-adm profile myprofile
 
 `tuned` also supports `tuned-adm recommend` which detects the hardware (bare metal, VM, laptop) and suggests the best profile automatically.
 
----
 
 
 
----
 
 [← Previous](08-section-6-kernel-parameters.md) | [↑ Index](index.md) | [Next →](10-section-8-perf-linux-profiler.md)

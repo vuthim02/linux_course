@@ -49,10 +49,8 @@ lsof -i
 lsof -i -P -n | grep LISTEN
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-nice-and-renice.md) | [↑ Index](index.md) | [Next →](10-section-9-zombie-and-orphan.md)

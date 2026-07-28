@@ -104,10 +104,8 @@ sed G file.txt
 sed -n '/START/{:a;n;/END/{p;d};H;ba};${g;p}' file.txt
 ```
 
----
 
 
 
----
 
 [← Previous](07-3-sed-stream-editor.md) | [↑ Index](index.md) | [Next →](09-5-awk-text-processing-language.md)

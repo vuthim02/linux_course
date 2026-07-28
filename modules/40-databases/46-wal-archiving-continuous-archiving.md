@@ -60,6 +60,5 @@ sudo -u postgres psql -c "SELECT pg_is_in_recovery();"
 
 
 
----
 
 [← Previous](45-restore-plain-sql.md) | [↑ Index](index.md) | [Next →](47-pgbackrest-modern-backup-tool.md)

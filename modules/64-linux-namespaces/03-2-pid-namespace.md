@@ -132,10 +132,8 @@ cat /proc/sys/kernel/ns_last_pid
 # Last PID allocated in the current PID namespace
 ```
 
----
 
 
 
----
 
 [← Previous](02-1-what-are-namespaces.md) | [↑ Index](index.md) | [Next →](04-3-network-namespace.md)

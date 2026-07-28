@@ -34,6 +34,5 @@ sudo -u postgres psql -c "SELECT pg_is_in_recovery();"
 
 
 
----
 
 [← Previous](69-practice-7-tune-buffer-sizes.md) | [↑ Index](index.md) | [Next →](71-practice-9-configure-slow-query.md)

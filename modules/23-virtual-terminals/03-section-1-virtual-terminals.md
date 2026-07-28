@@ -130,10 +130,8 @@ sudo dmesg -D            # Disable printing to console
 sudo dmesg -E            # Enable printing to console
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-virtual-terminal.md) | [↑ Index](index.md) | [Next →](04-level-2-intermediary-terminal-multiplexers.md)

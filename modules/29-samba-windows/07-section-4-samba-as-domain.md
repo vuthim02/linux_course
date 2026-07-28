@@ -151,10 +151,8 @@ wbinfo -u
 # ...
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-samba-as-standalone.md) | [↑ Index](index.md) | [Next →](08-level-3-advanced-ad-dc.md)

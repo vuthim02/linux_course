@@ -31,6 +31,5 @@ GRANT ALL PRIVILEGES ON *.* TO 'superadmin'@'localhost' WITH GRANT OPTION;
 
 
 
----
 
 [← Previous](15-userhost-format.md) | [↑ Index](index.md) | [Next →](17-view-effective-privileges.md)

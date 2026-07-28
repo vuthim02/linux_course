@@ -79,10 +79,8 @@ tar -czpf "$BACKUP_DIR/full_system_$DATE.tar.gz" \
     / 2>> "$BACKUP_DIR/backup_$DATE.log"
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-6-other-archiving-tools.md) | [↑ Index](index.md) | [Next →](09-section-8-splitting-large-archives.md)

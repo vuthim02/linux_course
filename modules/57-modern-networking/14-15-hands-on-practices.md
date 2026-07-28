@@ -843,10 +843,8 @@ echo "  WireGuard encryption"
 echo "  FQDN-based egress policies"
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-12-performance-and-tuning.md) | [↑ Index](index.md) | [Next →](15-deep-understanding.md)

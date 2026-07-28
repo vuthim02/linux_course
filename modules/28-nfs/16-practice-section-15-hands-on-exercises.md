@@ -1,6 +1,5 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### 📘 Level 1 Practices: NFS Concepts and Installation
 
@@ -34,11 +33,9 @@ cat rpcinfo_output.txt
 echo "Practice 1 complete — NFS server is ready"
 ```
 
----
 
 ### ✅ Practice 2: Export a Directory via NFS
 
----
 
 ### 📘 Level 2 Practices: Client Setup, Autofs, Security, and Troubleshooting
 
@@ -67,7 +64,6 @@ showmount -e localhost
 echo "Practice 2 complete — directory exported"
 ```
 
----
 
 ### ✅ Practice 3: Mount NFS Share Locally (Loopback)
 
@@ -97,7 +93,6 @@ sudo umount /mnt/nfs_test
 echo "Practice 3 complete — loopback NFS mount works"
 ```
 
----
 
 ### ✅ Practice 4: NFS Mount Options Deep Dive
 
@@ -128,7 +123,6 @@ sudo umount /mnt/nfs_test
 echo "Practice 4 complete — mount options explored"
 ```
 
----
 
 ### ✅ Practice 5: /etc/fstab NFS Mount
 
@@ -155,7 +149,6 @@ sudo sed -i '/nfs_auto/d' /etc/fstab
 echo "Practice 5 complete — fstab NFS mount configured"
 ```
 
----
 
 ### ✅ Practice 6: Create a Systemd Mount Unit for NFS
 
@@ -199,7 +192,6 @@ sudo systemctl daemon-reload
 echo "Practice 6 complete — systemd mount unit created"
 ```
 
----
 
 ### ✅ Practice 7: Configure Autofs for NFS
 
@@ -237,7 +229,6 @@ automount --status 2>&1 | head -20
 echo "Practice 7 complete — autofs configured"
 ```
 
----
 
 ### ✅ Practice 8: Wildcard Autofs Map
 
@@ -272,7 +263,6 @@ mount | grep nfswild
 echo "Practice 8 complete — wildcard autofs working"
 ```
 
----
 
 ### ✅ Practice 9: Export Security — root_squash
 
@@ -320,7 +310,6 @@ sudo umount /mnt/squashed /mnt/nosquash
 echo "Practice 9 complete — root_squash behavior observed"
 ```
 
----
 
 ### ✅ Practice 10: Kerberos Preparation (Keytab Setup)
 
@@ -361,11 +350,9 @@ echo "Practice 10 complete — Kerberos config structure in place"
 echo "Real Kerberos NFS requires: KDC, service principal, keytab"
 ```
 
----
 
 ### ✅ Practice 11: Troubleshoot with rpcinfo and showmount
 
----
 
 ### 📘 Level 3 Practices: Performance Tuning and Protocol Internals
 
@@ -424,7 +411,6 @@ chmod +x nfs_health_check.sh
 echo "Practice 11 complete — troubleshooting tools explored"
 ```
 
----
 
 ### ✅ Practice 12: Performance Benchmarking with dd and nfsstat
 
@@ -461,7 +447,6 @@ sudo umount /mnt/nfs_test
 echo "Practice 12 complete — performance baseline captured"
 ```
 
----
 
 ### ✅ Practice 13: Tune rsize/wsize for Performance
 
@@ -495,7 +480,6 @@ done
 echo "Practice 13 complete — optimal buffer size determined"
 ```
 
----
 
 ### ✅ Practice 14: NFS Locking and Delegation Test
 
@@ -550,7 +534,6 @@ sudo umount /mnt/nfs_test
 echo "Practice 14 complete — NFS locking fundamentals explored"
 ```
 
----
 
 ### ✅ Practice 15: Real-World Integration — Multi-Client NFS with Autofs and Security
 
@@ -691,10 +674,8 @@ echo "  read-only public share, restricted projects,"
 echo "  root_squash security, and performance validation."
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-11-locking-in-nfs.md) | [↑ Index](index.md) | [Next →](17-deep-understanding-how-nfs-really.md)

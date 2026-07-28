@@ -1,5 +1,6 @@
 # 14-logging-journald
 
+**Prerequisites:** Complete [Part 13 - scheduling-tasks](../13-scheduling-tasks/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

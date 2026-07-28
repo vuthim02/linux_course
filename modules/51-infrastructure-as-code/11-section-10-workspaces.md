@@ -125,10 +125,8 @@ terraform state list
 # → only prod resources
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-9-modules.md) | [↑ Index](index.md) | [Next →](12-section-11-provisioners.md)

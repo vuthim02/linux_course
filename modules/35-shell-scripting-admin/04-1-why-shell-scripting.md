@@ -22,10 +22,8 @@ Script + Edge cases = Robust tool
 Robust tool + Documentation = Team asset
 ```
 
----
 
 
 
----
 
 [← Previous](03-level-1-basic-writing-your.md) | [↑ Index](index.md) | [Next →](05-2-script-basics.md)

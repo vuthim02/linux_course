@@ -65,10 +65,8 @@ sudo dnf config-manager --add-repo https://example.com/repo.repo
 sudo dnf install -y epel-release
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-ppas-personal-package.md) | [↑ Index](index.md) | [Next →](08-section-5-epel-extra-packages.md)

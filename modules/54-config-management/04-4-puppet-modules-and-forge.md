@@ -48,10 +48,8 @@ r10k puppetfile install --moduledir=/etc/puppetlabs/code/environments/production
 r10k deploy environment production -v
 ```
 
----
 
 
 
----
 
 [← Previous](03-3-puppet-dsl.md) | [↑ Index](index.md) | [Next →](05-5-puppet-in-practice-roles.md)

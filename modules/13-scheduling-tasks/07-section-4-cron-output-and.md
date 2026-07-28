@@ -43,10 +43,8 @@ journalctl -u cron --since "1 hour ago"
 mail
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-crontab-environment.md) | [↑ Index](index.md) | [Next →](08-section-5-common-cron-mistakes.md)

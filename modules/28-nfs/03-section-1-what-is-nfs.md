@@ -59,10 +59,8 @@ mount | grep nfs
 # 192.168.1.100:/export/nfs on /mnt/nfs type nfs4 (rw,relatime,vers=4.2)
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-nfs-fundamentals.md) | [↑ Index](index.md) | [Next →](04-level-2-intermediary-nfs-server.md)

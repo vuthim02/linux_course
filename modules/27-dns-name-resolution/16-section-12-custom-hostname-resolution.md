@@ -84,10 +84,8 @@ hosts: files dns mycustom
 
 For most admins, understanding and configuring the standard modules is sufficient.
 
----
 
 
 
----
 
 [← Previous](15-section-11-etchostsallow-and-hostsdeny.md) | [↑ Index](index.md) | [Next →](17-15-hands-on-practices.md)

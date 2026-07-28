@@ -137,13 +137,11 @@ C) Randomly guess from the available headers
 D) The true client IP is lost and cannot be recovered
 ```
 
----
 
 **Score:** 12/15 correct = ready for Part 46.
 
 **Answers:** 1-C, 2-B, 3-B, 4-B, 5-B, 6-B, 7-B, 8-B, 9-D, 10-B, 11-B, 12-B, 13-B, 14-C, 15-B
 
----
 
 *Previous → Part 44: Mail Servers — Postfix*
 *Next → Part 46: Monitoring and Alerting*
@@ -151,6 +149,5 @@ D) The true client IP is lost and cannot be recovered
 [← Previous](part44.md) | [Next →](part46.md)
 
 
----
 
 [← Previous](21-whats-coming-in-part-46.md) | [↑ Index](index.md)

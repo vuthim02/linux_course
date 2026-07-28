@@ -46,10 +46,8 @@ compress
 # - audispd (real-time audit events)
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-8-analyzing-logs-for.md) | [↑ Index](index.md) | [Next →](14-deep-understanding-how-logging-really.md)

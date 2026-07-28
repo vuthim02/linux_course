@@ -67,10 +67,8 @@ cat /proc/cmdline
 # systemd.unit=emergency.target — Boot to emergency mode
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-stage-3-grub.md) | [↑ Index](index.md) | [Next →](09-section-6-stage-5-systemd.md)

@@ -46,10 +46,8 @@ Every part follows this exact structure:
 | `✅` | Practice exercise — do it before continuing |
 | `📝` | Self-test question |
 
----
 
 
 
----
 
 [← Previous](04-what-you-need-before-starting.md) | [↑ Index](index.md) | [Next →](06-suggested-pace.md)

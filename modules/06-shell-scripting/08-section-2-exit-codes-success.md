@@ -64,10 +64,8 @@ cp /etc/hosts /backup/    # If this fails, script STOPS
 > # -E: trap ERR signals in functions/subshells
 > ```
 
----
 
 
 
----
 
 [← Previous](07-section-1-loops-doing-things.md) | [↑ Index](index.md) | [Next →](09-section-3-functions-reusable-code.md)

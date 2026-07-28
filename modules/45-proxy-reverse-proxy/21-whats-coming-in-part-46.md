@@ -13,10 +13,8 @@
 
 The monitoring stack you build in Part 46 will watch over the proxy infrastructure you built today.
 
----
 
 
 
----
 
 [← Previous](20-command-reference.md) | [↑ Index](index.md) | [Next →](22-self-test.md)

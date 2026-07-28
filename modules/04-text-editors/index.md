@@ -1,5 +1,6 @@
 # 04-text-editors
 
+**Prerequisites:** Complete [Part 3 - users-groups-permissions](../03-users-groups-permissions/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

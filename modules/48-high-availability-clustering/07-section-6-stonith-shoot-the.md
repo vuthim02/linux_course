@@ -72,10 +72,8 @@ crm configure fencing_topology \
 
 If IPMI fails, APC PDU power-off is the backup.
 
----
 
 
 
----
 
 [← Previous](06-section-5-resource-agents.md) | [↑ Index](index.md) | [Next →](08-section-7-quorum.md)

@@ -1,5 +1,6 @@
 # 31-lvm
 
+**Prerequisites:** Complete [Part 30 - raid](../30-raid/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

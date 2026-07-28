@@ -10,10 +10,11 @@ You will learn:
 - Troubleshooting time synchronization issues
 - 15 hands-on practices
 
----
+### Why This Matters
+Incorrect time causes failed authentications, log inconsistencies, and distributed system failures. Time synchronization is a quiet essential for any networked infrastructure.
 
 
 
----
+
 
 [← Previous](15-summary-complete-command-reference-for.md) | [↑ Index](index.md) | [Next →](17-self-test-can-you-answer-these.md)

@@ -108,10 +108,8 @@ failover peer "dhcp-failover" {
 
 **Score:** ___/15 correct = ready for Part 44.
 
----
 
 
 
----
 
 [← Previous](20-section-16-whats-coming-in.md) | [↑ Index](index.md) | [Next →](22-quick-reference-cards.md)

@@ -40,10 +40,8 @@ knife bootstrap 10.0.0.5 \
 # 4. Run chef-client: registers as web01, downloads run_list, runs Ohai, applies
 ```
 
----
 
 
 
----
 
 [← Previous](08-8-saltstack-advanced.md) | [↑ Index](index.md) | [Next →](10-10-chef-dsl.md)

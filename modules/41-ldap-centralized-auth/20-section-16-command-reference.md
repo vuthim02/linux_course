@@ -87,10 +87,8 @@
 | `dsconf instance plugin enable` | Enable plugin |
 | `dsidm instance user list` | List users |
 
----
 
 
 
----
 
 [← Previous](19-section-15-deep-understanding.md) | [↑ Index](index.md) | [Next →](21-section-17-whats-coming-in.md)

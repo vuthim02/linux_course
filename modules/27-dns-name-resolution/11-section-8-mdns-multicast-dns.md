@@ -72,10 +72,8 @@ avahi-browse -a -t -r
 
 mDNS records have low TTLs (typically 120 seconds) because local network devices come and go.
 
----
 
 
 
----
 
 [← Previous](10-section-7-dns-caching.md) | [↑ Index](index.md) | [Next →](12-section-9-llmnr-link-local-multicast.md)

@@ -15,10 +15,8 @@ By the end of this part, you will:
 - Compare equivalent services across AWS, GCP, and Azure
 - Complete **15 hands-on practices**
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-section-1-cloud-computing-models.md)

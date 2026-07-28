@@ -115,10 +115,8 @@ sudo chattr +a /var/log/auth.log
 # Even root cannot modify immutable files without first removing the flag
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-user-account-hardening.md) | [↑ Index](index.md) | [Next →](10-section-9-network-security.md)

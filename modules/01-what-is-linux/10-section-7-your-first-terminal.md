@@ -18,10 +18,8 @@ ls -la /home
 - `-la` = options (`l` = long format, `a` = show hidden files)
 - `/home` = argument (which directory to list)
 
----
 
 
 
----
 
 [← Previous](09-section-6-users-and-permissions.md) | [↑ Index](index.md) | [Next →](11-practice-section-10-hands-on-exercises.md)

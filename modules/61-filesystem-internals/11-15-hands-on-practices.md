@@ -366,10 +366,8 @@ rm /tmp/prod.img
 
 ✅ **Expected**: Filesystem repaired, majority of files recovered
 
----
 
 
 
----
 
 [← Previous](10-9-practical-recovery-scenarios.md) | [↑ Index](index.md) | [Next →](12-deep-understanding.md)

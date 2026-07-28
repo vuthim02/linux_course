@@ -62,10 +62,8 @@
 | `split -l 1000 file prefix` | Split by lines |
 | `cat prefix_* > original` | Rejoin split files |
 
----
 
 
 
----
 
 [← Previous](11-deep-understanding-how-compression-works.md) | [↑ Index](index.md) | [Next →](13-whats-coming-in-part-9.md)

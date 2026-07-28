@@ -31,10 +31,8 @@
 | `dnf history` | DNF transaction history |
 | `sudo dnf history undo ID` | Rollback transaction |
 
----
 
 
 
----
 
 [← Previous](14-deep-understanding-how-updates-work.md) | [↑ Index](index.md) | [Next →](16-whats-coming-in-part-21.md)

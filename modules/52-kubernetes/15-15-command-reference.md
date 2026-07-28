@@ -90,10 +90,8 @@
 | `kubectl create clusterrolebinding <name> --clusterrole=view --user=<user>` | Bind ClusterRole to user |
 | `kubectl auth can-i get pods --as=system:serviceaccount:ns:sa` | Test permissions |
 
----
 
 
 
----
 
 [← Previous](14-14-deep-understanding.md) | [↑ Index](index.md) | [Next →](16-16-15-hands-on-practices.md)

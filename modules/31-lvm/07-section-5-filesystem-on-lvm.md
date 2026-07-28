@@ -26,10 +26,8 @@ sudo xfs_growfs /mount/point
 sudo lvextend -r -L +5G /dev/vg_data/lv_home
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-4-logical-volumes-creation.md) | [↑ Index](index.md) | [Next →](08-level-2-intermediary-lvm-in.md)

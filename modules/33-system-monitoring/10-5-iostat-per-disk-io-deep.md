@@ -51,10 +51,8 @@ r/s: 500   r_await: 150ms    %util: 100%
 ```
 **Bottleneck confirmed.** Queue is building up. Need faster storage or fewer I/Os.
 
----
 
 
 
----
 
 [← Previous](09-4-vmstat-system-wide-snapshot-machine.md) | [↑ Index](index.md) | [Next →](11-6-mpstat-per-cpu-breakdown.md)

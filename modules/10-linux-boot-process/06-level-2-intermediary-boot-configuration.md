@@ -6,10 +6,15 @@
 
 > **Level 2 Goal:** Configure GRUB boot parameters, understand kernel initialization and initramfs, manage systemd targets, read boot logs, and manage filesystem mounting at boot.
 
----
+### What You'll Cover
+- GRUB2 configuration and editing boot parameters
+- Kernel initialization and initramfs role
+- systemd targets (multi-user, graphical, rescue)
+- Reading boot logs with `journalctl` and `/var/log`
+- `/etc/fstab` and filesystem mounting at boot
 
 
 
----
+
 
 [← Previous](05-section-3-stage-2-bios.md) | [↑ Index](index.md) | [Next →](07-section-4-stage-3-grub.md)

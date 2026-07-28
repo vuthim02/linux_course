@@ -50,10 +50,8 @@ sudo tcpdump -i eth0 -n -s 0 port 67 or port 68 -w dhcp.pcap
 #   Parameter-Request (55): 1,3,6,15,42,51,58,59
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-dhcp-relay.md) | [↑ Index](index.md) | [Next →](12-level-3-advanced-failover-kea.md)

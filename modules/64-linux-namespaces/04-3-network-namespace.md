@@ -131,10 +131,8 @@ sudo ip netns exec container_a cat /proc/net/tcp
 
 > 🔍 **Reverse Engineering Insight:** Every container gets its own port space. Two containers can both bind to port 8080 because they exist in separate network namespaces. This is why `-p 8080:80` in Docker maps the host port to the container port — it's bridging two different network namespaces.
 
----
 
 
 
----
 
 [← Previous](03-2-pid-namespace.md) | [↑ Index](index.md) | [Next →](05-4-mount-namespace.md)

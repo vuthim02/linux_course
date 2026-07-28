@@ -55,10 +55,8 @@ export MYVAR="hello"
 bash -c 'echo "$MYVAR"'  # Shows "hello"
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-understanding-environment.md) | [↑ Index](index.md) | [Next →](04-section-2-critical-environment-variables.md)

@@ -112,7 +112,6 @@ d) The file becomes read-only
 
 **Score:** 12/15 correct = ready for Part 39.
 
----
 
 ```
 *Previous → Part 37: Automation with Ansible*
@@ -122,6 +121,5 @@ d) The file becomes read-only
 [← Previous](part37.md) | [Next →](part39.md)
 
 
----
 
 [← Previous](23-18-whats-coming-in-part.md) | [↑ Index](index.md)

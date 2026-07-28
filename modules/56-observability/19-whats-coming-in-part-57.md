@@ -11,10 +11,8 @@ We will cover:
 - Advanced troubleshooting: bpftrace, tcpdump, tc, ss, iproute2
 - Performance tuning: RPS/RFS/XPS, TSO/GRO, ring buffers, IRQ affinity
 
----
 
 
 
----
 
 [← Previous](18-command-reference.md) | [↑ Index](index.md) | [Next →](20-self-test.md)

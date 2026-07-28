@@ -44,10 +44,8 @@ ssh user@server "cat /var/log/syslog" > local-syslog.txt
 # ~C  — open command line (for port forwarding)
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-how-ssh-works.md) | [↑ Index](index.md) | [Next →](05-section-3-ssh-key-authentication.md)

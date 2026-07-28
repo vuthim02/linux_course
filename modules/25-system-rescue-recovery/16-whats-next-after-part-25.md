@@ -15,7 +15,6 @@ Topics include:
 - Automation with shell scripts
 - And much more...
 
----
 
 *Linux SysAdmin Course | Part 25 of ∞ | Reverse Engineering Approach*
 *Previous → Part 24: Kernel Modules and Device Drivers*
@@ -24,6 +23,5 @@ Topics include:
 [← Previous](part24.md) | [Next →](part26.md)
 
 
----
 
 [← Previous](15-final-self-test-can-you-answer.md) | [↑ Index](index.md)

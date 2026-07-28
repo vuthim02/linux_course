@@ -60,10 +60,8 @@ DAC + MAC: SELinux says "nginx is a web server, not allowed
 | openSUSE | AppArmor |
 | Arch Linux | None (user chooses) |
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-understanding-mac.md) | [↑ Index](index.md) | [Next →](04-section-2-selinux-modes-and.md)

@@ -110,10 +110,8 @@ sudo tee /etc/logrotate.d/myapp << 'EOF'
 EOF
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-journald-deep-dive.md) | [↑ Index](index.md) | [Next →](10-level-3-advanced-centralized-logging.md)

@@ -25,6 +25,5 @@ sudo -u postgres psql -c "SHOW effective_cache_size;"
 
 
 
----
 
 [← Previous](68-practice-6-explain-a-slow.md) | [↑ Index](index.md) | [Next →](70-practice-8-set-up-postgresql.md)

@@ -91,10 +91,8 @@ apt remove --purge broken-package
 systemctl enable essential-services
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-using-a-live.md) | [↑ Index](index.md) | [Next →](10-section-7-specific-recovery-scenarios.md)

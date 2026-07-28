@@ -31,10 +31,8 @@ echo "2024-01-15: Fixed X by doing Y" >> ~/sysadmin_notes.md
 ### 5. Learn to Learn
 The distro you use today may be obsolete in 5 years. The commands change. The tools change. But the **concepts** — processes, files, users, permissions, networking, storage — those never change. Learn the concepts.
 
----
 
 
 
----
 
 [← Previous](06-suggested-pace.md) | [↑ Index](index.md) | [Next →](08-the-3-books-every-sysadmin.md)

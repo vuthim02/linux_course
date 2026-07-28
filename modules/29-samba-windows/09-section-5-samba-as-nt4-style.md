@@ -51,10 +51,8 @@ Before Active Directory, Windows NT domains used a "Primary Domain Controller" (
 
 **Important:** NT4-style domains are deprecated. Use security = ADS (domain member) or the samba-ad-dc for modern deployments.
 
----
 
 
 
----
 
 [← Previous](08-level-3-advanced-ad-dc.md) | [↑ Index](index.md) | [Next →](10-section-6-samba-as-active.md)

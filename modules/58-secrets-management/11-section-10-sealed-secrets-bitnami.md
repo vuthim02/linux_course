@@ -55,10 +55,8 @@ Controller auto-rotates keys. Old keys retained — previously sealed items rema
 kubectl delete secret -n sealed-secrets -l sealedsecrets.bitnami.com/sealed-secrets-key
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-9-sops-mozilla.md) | [↑ Index](index.md) | [Next →](12-section-11-cloud-secrets-managers.md)

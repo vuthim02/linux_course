@@ -252,10 +252,8 @@ mdadm --examine /dev/loop1
 
 The `Events` count is critical. If one drive shows events=2478 and another shows events=2479, the second drive has more recent data. During assembly, md selects the drive with the highest event count as authoritative.
 
----
 
 
 
----
 
 [← Previous](17-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](19-command-reference-by-level.md)

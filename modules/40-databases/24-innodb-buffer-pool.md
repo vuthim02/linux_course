@@ -27,6 +27,5 @@ SHOW VARIABLES LIKE 'innodb_buffer_pool_size';
 
 
 
----
 
 [← Previous](23-slow-query-log.md) | [↑ Index](index.md) | [Next →](25-query-cache-deprecated.md)

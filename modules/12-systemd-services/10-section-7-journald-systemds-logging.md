@@ -84,10 +84,8 @@ sudo mkdir -p /var/log/journal
 sudo systemctl restart systemd-journald
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-targets-the-modern.md) | [↑ Index](index.md) | [Next →](11-section-8-analyzing-boot-performance.md)

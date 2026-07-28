@@ -135,10 +135,8 @@ ls -la /proc/$PID/ns/
 # User NS (rootless user → UID mapping) + all other NS
 ```
 
----
 
 
 
----
 
 [← Previous](08-7-unshare-and-nsenter.md) | [↑ Index](index.md) | [Next →](10-9-namespace-security.md)

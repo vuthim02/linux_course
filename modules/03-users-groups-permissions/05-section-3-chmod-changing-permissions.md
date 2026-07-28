@@ -97,10 +97,8 @@ chmod 777 dangerous.sh
 # chmod u=rw,g=rw,o=r     =  664
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-reading-permission-strings.md) | [↑ Index](index.md) | [Next →](06-section-4-chown-and-chgrp.md)

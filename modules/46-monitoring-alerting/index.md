@@ -1,5 +1,7 @@
 # 46-monitoring-alerting
 
+**Prerequisites:** Complete [Part 45 - proxy-reverse-proxy](../45-proxy-reverse-proxy/) before this module.
+
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

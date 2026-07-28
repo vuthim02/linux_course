@@ -55,10 +55,8 @@ nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin   # Least-privilege a
 
 > 💡 The `nobody` account is used by services that need minimal privileges. If a web server gets hacked while running as `nobody`, the attacker has almost no power.
 
----
 
 
 
----
 
 [← Previous](07-level-2-intermediary-user-group.md) | [↑ Index](index.md) | [Next →](09-section-6-etcshadow-the-password.md)

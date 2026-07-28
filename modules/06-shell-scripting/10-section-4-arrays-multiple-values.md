@@ -36,10 +36,8 @@ user[role]="admin"
 echo "${user[name]}"   # Alice
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-3-functions-reusable-code.md) | [↑ Index](index.md) | [Next →](11-section-5-input-and-output.md)

@@ -1,5 +1,6 @@
 # 40-databases
 
+**Prerequisites:** Complete [Part 39 - web-servers](../39-web-servers/) before this module.
 ## Sections
 
 - [Relational Databases Rdbms](01-relational-databases-rdbms.md)

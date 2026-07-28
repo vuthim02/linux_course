@@ -42,10 +42,8 @@ Hard links:
 
 > 🔍 **Reverse Engineering Insight:** When you "delete" a file with `rm`, Linux doesn't actually erase the data. It removes the **name** (the link). The data is only truly deleted when there are zero names pointing to it. This is why the link count in `ls -l` matters — it shows how many names point to this data.
 
----
 
 
 
----
 
 [← Previous](12-section-9-finding-files-find.md) | [↑ Index](index.md) | [Next →](14-practice-section-15-hands-on-exercises.md)

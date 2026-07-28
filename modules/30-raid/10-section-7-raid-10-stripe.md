@@ -67,10 +67,8 @@ mdadm --create /dev/md10 --level=10 --raid-devices=4 \
 
 The `far` layout spreads the mirrored copies to opposite ends of the drive platters, which improves sequential read performance but increases seek time for random reads.
 
----
 
 
 
----
 
 [← Previous](09-section-6-raid-56-parity.md) | [↑ Index](index.md) | [Next →](11-section-8-raid-failure-simulation.md)

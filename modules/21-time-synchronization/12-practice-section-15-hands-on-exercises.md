@@ -1,10 +1,8 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### Level 1 Practices: Time Basics and timedatectl
 
----
 
 ### ✅ Practice 1: Check Your Current Time Settings
 
@@ -27,7 +25,6 @@ echo "Hardware clock:"
 sudo hwclock --show 2>/dev/null || echo "Cannot access hardware clock"
 ```
 
----
 
 ### ✅ Practice 2: Check NTP Service
 
@@ -46,7 +43,6 @@ echo "=== Active time service ==="
 systemctl list-units --type=service --state=running | grep -E "chrony|timesyncd|ntp"
 ```
 
----
 
 ### ✅ Practice 3: List and Change Timezones
 
@@ -72,7 +68,6 @@ TZ='Europe/London' date
 TZ='Australia/Sydney' date
 ```
 
----
 
 ### ✅ Practice 5: Check Time Synchronization Status
 
@@ -95,7 +90,6 @@ if command -v chronyc &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 7: Manual Time Setting (Simulated)
 
@@ -127,7 +121,6 @@ Manual time setting can break authentication, logging, and scheduled tasks.
 EOF
 ```
 
----
 
 ### ✅ Practice 12: Test Time with curl
 
@@ -146,11 +139,9 @@ echo "Local:  $(date -u)"
 echo "Server: $(curl -sI https://example.com 2>/dev/null | grep -i "date" | cut -d' ' -f2-)"
 ```
 
----
 
 ### Level 2 Practices: Chrony Configuration and Monitoring
 
----
 
 ### ✅ Practice 4: Explore Chrony (if installed)
 
@@ -177,7 +168,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 6: Test NTP Server Connectivity
 
@@ -203,7 +193,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 8: Measure Clock Drift
 
@@ -226,7 +215,6 @@ echo "System clock: $(date)"
 echo "UTC:          $(date -u)"
 ```
 
----
 
 ### ✅ Practice 9: View Chrony Logs
 
@@ -246,7 +234,6 @@ if command -v chronyc &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 10: Compare Chrony and timesyncd Config
 
@@ -271,7 +258,6 @@ FallbackNTP=ntp.ubuntu.com
 EOF
 ```
 
----
 
 ### ✅ Practice 11: Chrony Server Configuration (Simulated)
 
@@ -311,7 +297,6 @@ EOF
 echo "Example Chrony server config written"
 ```
 
----
 
 ### ✅ Practice 13: RTC (Hardware Clock) Management
 
@@ -333,7 +318,6 @@ echo "System time:  $(date)"
 echo "Hardware RTC: $(sudo hwclock --show 2>/dev/null || echo 'N/A')"
 ```
 
----
 
 ### ✅ Practice 14: Chrony Source Statistics
 
@@ -353,11 +337,9 @@ if command -v chronyc &>/dev/null; then
 fi
 ```
 
----
 
 ### Level 3 Practices: Advanced Troubleshooting and Auditing
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Time Audit Report
 
@@ -441,10 +423,8 @@ chmod +x time_audit.sh
 ./time_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-troubleshooting-time-sync.md) | [↑ Index](index.md) | [Next →](13-deep-understanding-how-ntp-really.md)

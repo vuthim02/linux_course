@@ -55,10 +55,8 @@ wc -c file.txt          # Count bytes/characters only
 wc -l /etc/passwd
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-5-creating-directories-and.md) | [↑ Index](index.md) | [Next →](09-section-7-copying-moving-and.md)

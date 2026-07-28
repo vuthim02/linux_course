@@ -41,10 +41,8 @@ grep "SessionID: abc123" /var/log/app.log
 grep -oE "\[ERROR\] [a-zA-Z ]+" log.txt | sort | uniq -c | sort -rn
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-2-regular-expressions-the.md) | [↑ Index](index.md) | [Next →](05-section-4-find-advanced-file.md)

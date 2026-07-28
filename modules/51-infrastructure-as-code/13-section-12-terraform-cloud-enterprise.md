@@ -117,10 +117,8 @@ module "vpc" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-11-provisioners.md) | [↑ Index](index.md) | [Next →](14-section-13-testing-and-ci.md)

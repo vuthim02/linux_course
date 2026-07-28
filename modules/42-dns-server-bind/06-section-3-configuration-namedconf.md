@@ -109,10 +109,8 @@ logging {
 sudo mkdir -p /var/log/named && sudo chown bind:bind /var/log/named && sudo chmod 750 /var/log/named
 ```
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-configuration-zones.md) | [↑ Index](index.md) | [Next →](07-section-4-zones.md)

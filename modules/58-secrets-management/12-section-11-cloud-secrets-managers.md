@@ -40,10 +40,8 @@ az keyvault network-rule add --name my-vault --ip-address 10.0.0.0/24
 | Encryption-as-a-service | Vault |
 | Small team, minimal ops | Cloud native |
 
----
 
 
 
----
 
 [← Previous](11-section-10-sealed-secrets-bitnami.md) | [↑ Index](index.md) | [Next →](13-section-12-best-practices.md)

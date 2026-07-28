@@ -120,10 +120,8 @@
 | `ethtool -S eth0` | Show NIC statistics |
 | `ethtool -s eth0 speed 1000 duplex full` | Set speed and duplex |
 
----
 
 
 
----
 
 [← Previous](19-deep-understanding-how-linux-networking.md) | [↑ Index](index.md) | [Next →](21-whats-coming-in-part-27.md)

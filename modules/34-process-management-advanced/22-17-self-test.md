@@ -66,7 +66,6 @@ c) A priority bitmap  d) A hash table keyed by PID
 Which scheduling class has the highest priority?
 a) `idle_sched_class`  b) `fair_sched_class`  c) `rt_sched_class`  d) `stop_sched_class`
 
----
 
 ### Answer Key
 
@@ -95,10 +94,8 @@ a) `idle_sched_class`  b) `fair_sched_class`  c) `rt_sched_class`  d) `stop_sche
 - 10-11: Review the Deep Understanding section before proceeding.
 - 0-9: Re-read Part 34 and redo the hands-on practices.
 
----
 
 
 
----
 
 [← Previous](21-15-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](23-18-whats-coming-in-part.md)

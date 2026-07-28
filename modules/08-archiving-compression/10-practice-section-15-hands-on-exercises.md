@@ -1,6 +1,5 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### ✅ Practice 1: Create Test Files
 
@@ -27,7 +26,6 @@ done > test_large.txt
 find myproject -type f | sort
 ```
 
----
 
 ### ✅ Practice 2: Create tar Archives
 
@@ -54,7 +52,6 @@ ls -lh myproject.tar.xz
 ls -lh myproject.tar*
 ```
 
----
 
 ### ✅ Practice 3: List Archive Contents
 
@@ -74,7 +71,6 @@ tar -tf myproject.tar.gz | wc -l
 tar -tf myproject.tar.gz | grep "main.py"
 ```
 
----
 
 ### ✅ Practice 4: Extract Archives
 
@@ -96,7 +92,6 @@ mkdir extract_verbose
 tar -xvf myproject.tar.gz -C extract_verbose
 ```
 
----
 
 ### ✅ Practice 5: Exclude Files When Creating
 
@@ -112,7 +107,6 @@ tar -czf myproject_no_src.tar.gz --exclude="myproject/src" myproject
 tar -tf myproject_no_src.tar.gz
 ```
 
----
 
 ### ✅ Practice 6: Use -C for Relative Paths
 
@@ -130,7 +124,6 @@ tar -tvf relative.tar.gz | head -3
 # Shows: myproject/...
 ```
 
----
 
 ### ✅ Practice 7: Compression Benchmarks
 
@@ -151,7 +144,6 @@ ls -lh test_large.txt test_level*.gz test_large.txt.bz2 test_large.txt.xz
 rm -f test_level*.gz test_large.txt.bz2 test_large.txt.xz
 ```
 
----
 
 ### ✅ Practice 8: Standalone gzip
 
@@ -176,7 +168,6 @@ ls -lh compress_me.txt compress_me.txt.gz
 gzip -l compress_me.txt.gz
 ```
 
----
 
 ### ✅ Practice 9: zgrep and zcat
 
@@ -196,7 +187,6 @@ zgrep "WARNING" myproject/logs/app.log.gz
 zcat myproject/logs/app.log.gz | wc -l
 ```
 
----
 
 ### ✅ Practice 10: zip
 
@@ -223,7 +213,6 @@ zip -e -r secret.zip myproject/docs
 unzip -t myproject.zip
 ```
 
----
 
 ### ✅ Practice 11: Split Archives
 
@@ -242,7 +231,6 @@ tar -tf reassembled.tar.gz | head -5
 rm -f myarchive_part_* reassembled.tar.gz
 ```
 
----
 
 ### ✅ Practice 12: Add and Update Files in tar
 
@@ -267,7 +255,6 @@ tar -f editable.tar --delete newfile.txt
 tar -tf editable.tar
 ```
 
----
 
 ### ✅ Practice 13: Real Backup Script
 
@@ -319,7 +306,6 @@ chmod +x backup_tool.sh
 ls -lh /tmp/backup_test/
 ```
 
----
 
 ### ✅ Practice 14: Extract Specific File Patterns
 
@@ -347,7 +333,6 @@ tar -xf multifile.tar.gz -C extract_txt --wildcards '*.txt'
 find extract_txt -type f
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Log Archival
 
@@ -408,10 +393,8 @@ chmod +x rotate_and_archive.sh
 tar -tvf /tmp/log_archive_practice/archive/logs_*.tar.gz
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-8-splitting-large-archives.md) | [↑ Index](index.md) | [Next →](11-deep-understanding-how-compression-works.md)

@@ -125,12 +125,10 @@
 | `mktime(ts)` | Make timestamp |
 | `systime()` | Current epoch time |
 
----
 
 
 
 
 
----
 
 [← Previous](19-14-deep-understanding.md) | [↑ Index](index.md) | [Next →](21-16-self-test.md)

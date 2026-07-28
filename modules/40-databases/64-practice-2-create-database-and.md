@@ -38,6 +38,5 @@ mysql -u invapp -pinventory_pass -e "SELECT * FROM inventory.items;"
 
 
 
----
 
 [← Previous](63-practice-1-secure-mariadb-installation.md) | [↑ Index](index.md) | [Next →](65-practice-3-mysqldump-backup-and.md)

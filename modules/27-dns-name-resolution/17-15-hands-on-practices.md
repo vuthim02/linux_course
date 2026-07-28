@@ -1,6 +1,5 @@
 ## 🛠️ 15 Hands-On Practices
 
----
 
 ### 📘 Level 1 Practices: DNS Fundamentals and Local Resolution
 
@@ -26,7 +25,6 @@ grep -c "received" trace_output.txt
 grep "root-servers.net" trace_output.txt
 ```
 
----
 
 ### ✅ Practice 2: Create Local Hostname Overrides in /etc/hosts
 
@@ -49,7 +47,6 @@ dig +short mytest.local
 sudo sed -i '/mytest.local/d' /etc/hosts
 ```
 
----
 
 ### ✅ Practice 3: Experiment with /etc/resolv.conf
 
@@ -75,9 +72,7 @@ time dig google.com +short
 cp resolv.conf.backup /etc/resolv.conf 2>/dev/null || true
 ```
 
----
 
----
 
 ### 📘 Level 2 Practices: Resolution Configuration, Caching, and Troubleshooting
 
@@ -107,7 +102,6 @@ time dig @8.8.8.8 server.lab.example.com +short
 time dig @8.8.8.8 server.prod.example.com +short
 ```
 
----
 
 ### ✅ Practice 5: Query Every DNS Record Type
 
@@ -129,7 +123,6 @@ done
 cat dns_records_report.txt
 ```
 
----
 
 ### ✅ Practice 6: Compare Resolvers — Google, Cloudflare, Quad9
 
@@ -154,7 +147,6 @@ done > resolver_comparison.txt
 cat resolver_comparison.txt
 ```
 
----
 
 ### ✅ Practice 7: Perform a Reverse DNS Lookup
 
@@ -180,7 +172,6 @@ if [ -n "$rev_name" ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 8: Set Up nscd and Observe Caching
 
@@ -212,7 +203,6 @@ sudo nscd -g | head -20
 sudo nscd -g | grep -A 10 "hosts cache"
 ```
 
----
 
 ### ✅ Practice 9: Flush Caches and Verify
 
@@ -233,7 +223,6 @@ echo "nscd stats after flush:"
 sudo nscd -g | grep -i "cache\|hits\|misses" | head -10
 ```
 
----
 
 ### ✅ Practice 10: Debug Resolution with strace
 
@@ -260,7 +249,6 @@ echo "=== Full trace ==="
 cat strace_resolve.log
 ```
 
----
 
 ### ✅ Practice 11: Test mDNS with Avahi
 
@@ -283,11 +271,9 @@ fi
 dpkg -l libnss-mdns 2>/dev/null || rpm -q libnss-mdns 2>/dev/null || echo "libnss-mdns not installed"
 ```
 
----
 
 ### ✅ Practice 12: Modify /etc/nsswitch.conf and Observe Behavior Change
 
----
 
 ### 📘 Level 3 Practices: Advanced Analysis and Integration
 
@@ -321,7 +307,6 @@ echo "dig bypasses nsswitch entirely."
 sudo sed -i '/testnss.local/d' /etc/hosts
 ```
 
----
 
 ### ✅ Practice 13: Analyze a Domain's Full DNS Configuration
 
@@ -374,7 +359,6 @@ done
 cat dns_analysis.txt
 ```
 
----
 
 ### ✅ Practice 14: Set Up a Local DNS Cache with Unbound
 
@@ -420,7 +404,6 @@ echo "Third query (cached):"
 time dig @127.0.0.1 -p 5353 google.com +short
 ```
 
----
 
 ### ✅ Practice 15: Real-World Integration — DNS Health Report
 
@@ -537,10 +520,8 @@ chmod +x dns_health_report.sh
 ./dns_health_report.sh
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-12-custom-hostname-resolution.md) | [↑ Index](index.md) | [Next →](18-deep-understanding-how-dns-resolution.md)

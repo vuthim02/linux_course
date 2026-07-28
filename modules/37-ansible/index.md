@@ -1,5 +1,6 @@
 # 37-ansible
 
+**Prerequisites:** Complete [Part 36 - advanced-shell-scripting](../36-advanced-shell-scripting/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

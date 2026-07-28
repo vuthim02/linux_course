@@ -92,10 +92,8 @@ curl -sI http://example.com | grep -i via
 # (no Via header)
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-forward-proxy-vs.md) | [↑ Index](index.md) | [Next →](05-section-3-squid-access-control.md)

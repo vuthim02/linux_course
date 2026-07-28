@@ -60,10 +60,8 @@ sudo sysctl --system
 sysctl vm.swappiness
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-5-network-tuning.md) | [↑ Index](index.md) | [Next →](09-section-7-tuned-automated-performance.md)

@@ -1,5 +1,6 @@
 # 56-observability
 
+**Prerequisites:** Complete [Part 55 - immutable-infrastructure](../55-immutable-infrastructure/) before this module.
 ## Sections
 
 - [1 Three Pillars Of Observability](01-1-three-pillars-of-observability.md)

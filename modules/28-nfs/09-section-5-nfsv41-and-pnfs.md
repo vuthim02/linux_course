@@ -78,10 +78,8 @@ Multiple connections between client and server for better throughput:
 cat /proc/net/rpc/use-gss-proxy 2>/dev/null
 ```
 
----
 
 
 
----
 
 [← Previous](08-level-3-advanced-performance-internals.md) | [↑ Index](index.md) | [Next →](10-section-6-autofs-automatic-nfs.md)

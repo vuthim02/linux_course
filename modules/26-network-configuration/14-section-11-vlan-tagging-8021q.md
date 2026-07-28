@@ -133,10 +133,8 @@ sudo sysctl -w net.ipv4.ip_forward=1
 echo "net.ipv4.ip_forward=1" | sudo tee /etc/sysctl.d/99-router.conf
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-10-bonding-and-bridging.md) | [↑ Index](index.md) | [Next →](15-level-3-advanced-performance-tuning.md)

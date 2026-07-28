@@ -22,10 +22,8 @@ ls -la ~/.vim/swap/   # If you set backupdir
 rm ~/.vim/swap/*      # Clean old swap files
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-9-vim-configuration-vimrc.md) | [↑ Index](index.md) | [Next →](14-level-3-advanced-professional-editor.md)

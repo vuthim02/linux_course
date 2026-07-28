@@ -33,10 +33,8 @@ $ glances --docker
 
 Shows per-container CPU, memory, network, and I/O.
 
----
 
 
 
----
 
 [← Previous](14-10-nmon-all-in-one-ncurses-monitor.md) | [↑ Index](index.md) | [Next →](16-14-log-based-monitoring.md)

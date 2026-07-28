@@ -10,10 +10,11 @@ You will learn:
 - Setting variables system-wide vs per-user
 - 15 hands-on practices
 
----
+### Why This Matters
+Environment variables control how every program on your system behaves. Mastering them lets you debug path issues, customize shell workflows, and configure services reliably across reboots.
 
 
 
----
+
 
 [← Previous](16-summary-command-reference-for-part.md) | [↑ Index](index.md) | [Next →](18-self-test-can-you-answer-these.md)

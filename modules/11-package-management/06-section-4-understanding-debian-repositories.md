@@ -71,10 +71,8 @@ echo "deb https://example.com/ubuntu jammy main" | sudo tee /etc/apt/sources.lis
 wget -O- https://example.com/key.gpg | sudo apt-key add -
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-3-dpkg-the-low-level.md) | [↑ Index](index.md) | [Next →](07-level-2-intermediary-rpm-and.md)

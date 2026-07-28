@@ -62,10 +62,8 @@ which yum    # /usr/bin/dnf
 sudo dnf install -y nginx
 ```
 
----
 
 
 
----
 
 [← Previous](07-level-2-intermediary-rpm-and.md) | [↑ Index](index.md) | [Next →](09-section-6-rpm-the-low-level.md)

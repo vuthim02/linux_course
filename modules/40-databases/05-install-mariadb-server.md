@@ -20,6 +20,5 @@ mariadb --version   # same binary
 
 
 
----
 
 [← Previous](04-sql-structured-query-language.md) | [↑ Index](index.md) | [Next →](06-run-the-secure-installation-script.md)

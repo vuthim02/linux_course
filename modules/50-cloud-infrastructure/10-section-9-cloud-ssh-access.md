@@ -129,10 +129,8 @@ az vm boot-diagnostics enable \
 # Serial console access is via Azure Portal only
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-8-iam-identity-and.md) | [↑ Index](index.md) | [Next →](11-section-10-cloud-cost-management.md)

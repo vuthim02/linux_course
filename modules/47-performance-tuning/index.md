@@ -1,5 +1,7 @@
 # 47-performance-tuning
 
+**Prerequisites:** Complete [Part 46 - monitoring-alerting](../46-monitoring-alerting/) before this module.
+
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

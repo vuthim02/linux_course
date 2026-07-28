@@ -56,10 +56,8 @@ export MYVAR="hello"
 MYVAR="hello" ./script.sh
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-3-scheduling-scripts-with.md) | [↑ Index](index.md) | [Next →](17-level-3-practices.md)

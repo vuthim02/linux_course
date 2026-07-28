@@ -35,7 +35,6 @@
 
 **Score:** 12/15 correct = ready for Part 66.
 
----
 
 *Linux SysAdmin Course | Part 65 of ∞ | Reverse Engineering Approach*
 *Previous → Part 64: Linux Namespaces*
@@ -44,6 +43,5 @@
 [← Previous](part64.md) | [Next →](part66.md)
 
 
----
 
 [← Previous](14-whats-coming-in-part-66.md) | [↑ Index](index.md)

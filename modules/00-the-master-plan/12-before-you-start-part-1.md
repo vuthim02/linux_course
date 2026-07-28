@@ -33,10 +33,8 @@ sudo apt update && sudo apt install -y curl wget git vim tree htop
 
 If all commands above ran without errors, you are **ready for Part 1**.
 
----
 
 
 
----
 
 [← Previous](11-master-topic-index-all-60.md) | [↑ Index](index.md) | [Next →](13-final-words-before-you-start.md)

@@ -53,10 +53,8 @@ di(     # Delete everything inside ( )
 da(     # Delete everything including ( )
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-vim-navigation-moving.md) | [↑ Index](index.md) | [Next →](10-section-7-vim-search-and.md)

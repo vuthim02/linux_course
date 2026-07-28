@@ -94,10 +94,8 @@ set +x                  # Disable trace
 export PS4='+ ${BASH_SOURCE}:${LINENO}: ${FUNCNAME[0]:+${FUNCNAME[0]}(): }'
 ```
 
----
 
 
 
----
 
 [← Previous](19-15-deep-understanding.md) | [↑ Index](index.md) | [Next →](21-14-15-hands-on-practices.md)

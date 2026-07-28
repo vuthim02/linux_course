@@ -42,10 +42,8 @@ overrides:
 - **Head-based:** Decision at SDK. `OTEL_TRACES_SAMPLER=parentbased_traceidratio OTEL_TRACES_SAMPLER_ARG=0.1`
 - **Tail-based:** Decision in Tempo after seeing all spans. Policies: `status_code` (keep errors), `latency` (keep slow), `probabilistic`.
 
----
 
 
 
----
 
 [← Previous](11-11-logql.md) | [↑ Index](index.md) | [Next →](13-13-opentelemetry-otel.md)

@@ -49,6 +49,5 @@ host    all         all         192.168.1.0/24   scram-sha-256
 
 
 
----
 
 [← Previous](29-initial-configuration.md) | [↑ Index](index.md) | [Next →](31-authentication-methods.md)

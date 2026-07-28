@@ -74,10 +74,8 @@ echo "=== Test Complete ===" >> "$LOG"
 | Monthly archive | Quarterly |
 | DR plan | Annually (bare-metal) |
 
----
 
 
 
----
 
 [← Previous](18-section-11-offsite-and-remote.md) | [↑ Index](index.md) | [Next →](20-section-13-disaster-recovery-planning.md)

@@ -121,10 +121,8 @@ ip addr show eth0 | grep 192.168.1.100
 systemctl start haproxy
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-10-keepalived-vrrp.md) | [↑ Index](index.md) | [Next →](13-section-12-drbd-distributed-replicated.md)

@@ -69,10 +69,8 @@ AuthenticationMethods publickey
 
 **15.** Priority order: (1) Harden SSH — disable root login, require keys; (2) Set up firewall — deny all inbound except ports 80, 443, 22; (3) Enable automatic security updates; (4) Enable auditd and AIDE to detect and log changes; (5) Apply kernel hardening parameters (ASLR, kptr_restrict, etc.) and SELinux/AppArmor enforcing.
 
----
 
 
 
----
 
 [← Previous](19-whats-coming-in-part-50.md) | [↑ Index](index.md) | [Next →](21-course-progress-whats-ahead.md)

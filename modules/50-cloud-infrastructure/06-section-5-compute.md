@@ -396,10 +396,8 @@ az vm run-command invoke \
   --scripts "uptime && df -h"
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-4-azure-cli-az.md) | [↑ Index](index.md) | [Next →](07-section-6-storage.md)

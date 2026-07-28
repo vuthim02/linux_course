@@ -43,10 +43,8 @@ sudo dnf install p7zip         # Fedora
 7z l archive.7z
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-5-zip-cross-platform-archiving.md) | [↑ Index](index.md) | [Next →](08-section-7-real-backup-patterns.md)

@@ -91,10 +91,8 @@
 
 > 🔍 **Reverse Engineering Insight:** Security is not a state — it's a process. The most hardened server in the world becomes vulnerable the moment a new CVE is published. That's why defense in depth matters: when one layer fails (an unpatched vulnerability), the next layer (auditd detecting suspicious behavior) catches the anomaly, and the layer after that (fail2ban banning the attacker) stops the damage.
 
----
 
 
 
----
 
 [← Previous](12-hands-on-practices.md) | [↑ Index](index.md) | [Next →](14-command-reference.md)

@@ -4,7 +4,6 @@
 
 **Goal:** Create, format, and destroy the basic RAID levels (0, 1, 5, 10) using `mdadm`.
 
----
 
 ### Practice 1: Create and Destroy RAID 0
 
@@ -115,7 +114,6 @@ for i in {1..4}; do losetup -d /dev/loop$i; rm -f /tmp/disk$i.img; done
 
 **Goal:** Handle real-world RAID operations — disk failures, hot spares, array growth, level migration, and monitoring.
 
----
 
 ### Practice 5: Simulate Disk Failure and Rebuild (RAID 5)
 
@@ -316,7 +314,6 @@ rm -f /tmp/disk1.img /tmp/disk2.img
 
 **Goal:** Master advanced RAID operations — LVM integration, benchmarking, bitmap tuning, resync control, and production-grade deployment.
 
----
 
 ### Practice 11: RAID with LVM Integration
 
@@ -673,10 +670,8 @@ rm -f /tmp/prod_checksums.txt /root/raid_recovery_report.txt
 echo "=== All practice artifacts cleaned up ==="
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-12-comparing-raid-levels.md) | [↑ Index](index.md) | [Next →](18-level-3-deep-understanding-how.md)

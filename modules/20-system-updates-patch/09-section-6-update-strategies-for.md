@@ -65,10 +65,8 @@ systemctl --failed
 # 5. Document what was updated and why
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-4-unattended-upgrades.md) | [↑ Index](index.md) | [Next →](10-section-7-kernel-updates.md)

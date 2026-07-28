@@ -108,10 +108,8 @@ sudo mount -o remount,noatime,nodiratime,relatime /data
 
 **Warning:** Never disable barriers on production databases. The performance gain is not worth the corruption risk.
 
----
 
 
 
----
 
 [← Previous](05-section-3-memory-tuning.md) | [↑ Index](index.md) | [Next →](07-section-5-network-tuning.md)

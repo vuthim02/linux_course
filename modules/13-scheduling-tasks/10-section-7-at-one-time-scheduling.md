@@ -76,10 +76,8 @@ at> /usr/local/bin/cpu-heavy-task.sh
 at> <Ctrl+D>
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-security-cronallow-and.md) | [↑ Index](index.md) | [Next →](11-section-8-systemd-timers-review.md)

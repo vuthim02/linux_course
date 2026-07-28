@@ -31,10 +31,8 @@ sudo lvremove vg_data/lv_linear
 sudo lvrename vg_data/lv_stripe_new lv_linear
 ```
 
----
 
 
 
----
 
 [← Previous](16-level-3-advanced-lvm-internals.md) | [↑ Index](index.md) | [Next →](18-section-10-lvm-raid.md)

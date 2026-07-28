@@ -71,10 +71,8 @@ htop
 - Scroll through all processes
 - Vertical and horizontal scrolling
 
----
 
 
 
----
 
 [← Previous](03-section-2-ps-snapshot-of.md) | [↑ Index](index.md) | [Next →](05-section-4-signals-how-to.md)

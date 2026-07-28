@@ -92,10 +92,8 @@ ldapmodify -Y EXTERNAL -H ldapi:/// -f logging.ldif
 sudo journalctl -u slapd -f
 ```
 
----
 
 
 
----
 
 [← Previous](04-level-2-intermediary-configuring-and.md) | [↑ Index](index.md) | [Next →](06-section-4-ldap-data-interchange.md)

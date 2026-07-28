@@ -133,10 +133,8 @@ auth optional pam_logind.so
 
 > 🔍 **Reverse Engineering Insight:** When SSSD joins a domain, it creates a machine account in LDAP/AD. This account has a Kerberos keytab stored in `/etc/sss/sssd.keytab`. If this keytab is lost or corrupted, SSSD cannot authenticate against the directory server. You can regenerate it with `adcli update --computer-password-lifetime=0` (AD) or re-joining the domain.
 
----
 
 
 
----
 
 [← Previous](08-7-authselect-managing-pam-profiles.md) | [↑ Index](index.md) | [Next →](10-9-pam-security.md)

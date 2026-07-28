@@ -71,10 +71,8 @@ sudo grep named /var/log/syslog | grep -i denied
 
 Place zone files in `/var/cache/bind/` to avoid AppArmor issues, or update the profile.
 
----
 
 
 
----
 
 [← Previous](03-section-1-bind-overview.md) | [↑ Index](index.md) | [Next →](05-level-2-intermediary-configuration-zones.md)

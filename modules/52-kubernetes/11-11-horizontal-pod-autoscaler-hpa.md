@@ -110,10 +110,8 @@ kubectl run load-generator --image=busybox --rm -it -- sh -c "while true; do wge
 - **policies**: Limits on how fast to scale (absolute pods or percentage per period).
 - **selectPolicy**: `Max` (least restrictive), `Min` (most restrictive), `Disabled` (block direction).
 
----
 
 
 
----
 
 [← Previous](10-10-rbac-role-based-access-control.md) | [↑ Index](index.md) | [Next →](12-12-logging-and-debugging.md)

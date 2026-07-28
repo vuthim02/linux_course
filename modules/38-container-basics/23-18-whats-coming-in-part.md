@@ -12,10 +12,8 @@ We'll cover:
 - Monitoring — access logs, error logs, metrics
 - Reverse engineering: how Apache's prefork/worker/event MPMs work at the kernel level
 
----
+### How Part 38 Connects
+Web servers are one of the most common containerized applications. Understanding both containers and web server configuration lets you deploy Nginx in Docker with proper volume mounts, networking, and reverse proxy configurations.
 
-
-
----
 
 [← Previous](22-17-command-reference.md) | [↑ Index](index.md) | [Next →](24-19-self-test.md)

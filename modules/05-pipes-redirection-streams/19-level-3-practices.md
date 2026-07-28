@@ -16,7 +16,6 @@ echo "Confs in /etc/nginx: $(ls /etc/nginx/*.conf 2>/dev/null | wc -l)"
 diff <(ps aux | sort) <(ps aux | sort)  # Should show no difference
 ```
 
----
 
 ### ✅ Practice 2: File Descriptors
 
@@ -41,7 +40,6 @@ cat fd3_output.txt
 cat fd4_output.txt
 ```
 
----
 
 ### ✅ Practice 3: Real SysAdmin Scenario — Build a System Report
 
@@ -86,10 +84,8 @@ less system_report_*.txt
 # mail -s "System Report $(hostname) $(date)" admin@example.com < system_report_*.txt
 ```
 
----
 
 
 
----
 
 [← Previous](18-deep-understanding-how-streams-really.md) | [↑ Index](index.md) | [Next →](20-summary-complete-command-reference.md)

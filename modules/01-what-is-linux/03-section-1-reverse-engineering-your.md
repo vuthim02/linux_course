@@ -20,10 +20,6 @@ Most beginners ignore this line. But an expert reads it like a map:
 
 > 💡 **Reverse Engineering Insight:** The prompt tells you WHO you are, WHERE you are, and HOW MUCH POWER you have — all in one line.
 
----
 
-
-
----
 
 [← Previous](02-level-1-basic-linux-foundations.md) | [↑ Index](index.md) | [Next →](04-section-2-what-is-linux.md)

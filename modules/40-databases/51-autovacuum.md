@@ -30,6 +30,5 @@ SELECT * FROM pg_stat_progress_vacuum;
 
 
 
----
 
 [← Previous](50-key-configuration-parameters.md) | [↑ Index](index.md) | [Next →](52-index-types-in-postgresql.md)

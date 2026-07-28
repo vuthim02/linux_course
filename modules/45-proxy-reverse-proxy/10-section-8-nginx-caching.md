@@ -115,10 +115,8 @@ curl -sI -H "Cache-Control: no-cache" http://app.example.com/ | grep X-Cache-Sta
 # X-Cache-Status: BYPASS
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-7-nginx-as-reverse.md) | [↑ Index](index.md) | [Next →](11-section-9-nginx-as-load.md)

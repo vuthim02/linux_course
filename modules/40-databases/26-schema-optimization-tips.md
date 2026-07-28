@@ -27,6 +27,5 @@ CREATE INDEX idx_dept_salary ON employees(department_id, salary);
 
 
 
----
 
 [← Previous](25-query-cache-deprecated.md) | [↑ Index](index.md) | [Next →](27-indexing-types-in-mariadbmysql.md)

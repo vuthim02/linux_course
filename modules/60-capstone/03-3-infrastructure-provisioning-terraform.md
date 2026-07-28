@@ -564,10 +564,8 @@ output "oidc_provider_arn" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](02-2-architecture-design.md) | [↑ Index](index.md) | [Next →](04-4-kubernetes-cluster-setup.md)

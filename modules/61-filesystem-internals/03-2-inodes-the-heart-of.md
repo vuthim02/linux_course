@@ -85,10 +85,8 @@ sudo mkfs.ext4 -i 8192 /dev/sdb1    # 1 inode per 8KB (more inodes)
 sudo mkfs.ext4 -i 65536 /dev/sdb1   # 1 inode per 64KB (fewer inodes)
 ```
 
----
 
 
 
----
 
 [← Previous](02-1-filesystem-architecture-what-lives.md) | [↑ Index](index.md) | [Next →](04-3-block-groups-and-allocation.md)

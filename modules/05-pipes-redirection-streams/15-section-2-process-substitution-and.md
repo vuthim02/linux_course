@@ -20,10 +20,8 @@ wc -l <(find /etc -name "*.conf" 2>/dev/null)
 diff <(ls -la /etc) <(ls -la /etc/default)
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-1-exec-redirecting-streams.md) | [↑ Index](index.md) | [Next →](16-section-3-file-descriptors-more.md)

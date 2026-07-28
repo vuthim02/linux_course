@@ -92,10 +92,8 @@ echo "debug message" >&3
 exec 3>&-                 # Close FD 3
 ```
 
----
 
 
 
----
 
 [← Previous](11-7-functions.md) | [↑ Index](index.md) | [Next →](13-9-error-handling.md)

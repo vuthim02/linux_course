@@ -52,10 +52,8 @@
 | `dnssec-dsfromkey` | Generate DS from DNSKEY | `dnssec-dsfromkey Kexample.com.+008+*.key` |
 | `dnssec-verify` | Verify signed zone | `dnssec-verify -o example.com db.example.com.signed` |
 
----
 
 
 
----
 
 [← Previous](16-section-12-troubleshooting.md) | [↑ Index](index.md) | [Next →](18-section-14-15-hands-on-practices.md)

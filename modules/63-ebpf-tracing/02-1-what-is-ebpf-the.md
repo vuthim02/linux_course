@@ -79,10 +79,8 @@ sudo bpftool map dump id <ID>   # Show map contents
 
 ⚠️ **Warning:** Most production tracing tools require kernel 4.15+ and ideally 5.4+. Check with `uname -r` first.
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve.md) | [↑ Index](index.md) | [Next →](03-2-bcc-tools-instant-production-observability.md)

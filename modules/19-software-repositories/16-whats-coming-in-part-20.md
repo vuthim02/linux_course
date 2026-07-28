@@ -11,10 +11,11 @@ You will learn:
 - Rollback strategies for failed updates
 - 15 hands-on practices
 
----
+### Why This Matters
+Unpatched systems are a top security risk. Understanding the update lifecycle and automation tools keeps your servers secure and reliable without constant manual intervention.
 
 
 
----
+
 
 [← Previous](15-summary-command-reference-for-part.md) | [↑ Index](index.md) | [Next →](17-self-test-can-you-answer-these.md)

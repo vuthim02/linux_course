@@ -51,10 +51,8 @@ profile::app::db_password: >
   ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIB...]
 ```
 
----
 
 
 
----
 
 [← Previous](04-4-puppet-modules-and-forge.md) | [↑ Index](index.md) | [Next →](06-6-saltstack-architecture.md)

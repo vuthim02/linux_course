@@ -412,10 +412,8 @@ NFSv3 recovery (simpler, stateless):
          Only locks need recovery (via statd/lockd)
 ```
 
----
 
 
 
----
 
 [← Previous](16-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](18-summary-complete-command-reference-for.md)

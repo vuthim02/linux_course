@@ -155,10 +155,8 @@ kubectl logs failing-pod --previous
 kubectl get events --field-selector involvedObject.name=failing-pod
 ```
 
----
 
 
 
----
 
 [← Previous](04-4-kubectl-essentials.md) | [↑ Index](index.md) | [Next →](06-6-workloads.md)

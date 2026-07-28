@@ -65,10 +65,8 @@ sudo systemctl daemon-reload
 systemctl cat nginx
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-creating-a-custom.md) | [↑ Index](index.md) | [Next →](09-section-6-targets-the-modern.md)

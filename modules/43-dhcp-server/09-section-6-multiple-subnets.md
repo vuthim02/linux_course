@@ -54,10 +54,8 @@ subnet 192.168.1.0 netmask 255.255.255.0 {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-dhcp-options.md) | [↑ Index](index.md) | [Next →](10-section-7-dhcp-relay.md)

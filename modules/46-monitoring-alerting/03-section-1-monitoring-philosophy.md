@@ -69,10 +69,8 @@ Visualize:Grafana, Zabbix frontend, Nagios UI
 Alert:    Alertmanager, Zabbix actions, Nagios notifications
 ```
 
----
 
 
 
----
 
 [← Previous](02-prerequisites.md) | [↑ Index](index.md) | [Next →](04-section-2-nagios-core.md)

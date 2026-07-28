@@ -19,7 +19,6 @@ You are given a Kubernetes cluster that is broken. Diagnose and fix it using onl
 
 **What you should have learned:** Troubleshooting Kubernetes requires understanding the chain: API server → kubelet → container runtime → CNI. Break the chain at any point, and the cluster fails silently. The tools are `journalctl`, `crictl`, `kubectl`, and `systemctl`. No magic. Just systematic elimination.
 
----
 
 ```
 *Linux SysAdmin Course | Part 52 of ∞ | Reverse Engineering Approach*
@@ -30,6 +29,5 @@ You are given a Kubernetes cluster that is broken. Diagnose and fix it using onl
 [← Previous](part51.md) | [Next →](part53.md)
 
 
----
 
 [← Previous](18-self-test.md) | [↑ Index](index.md)

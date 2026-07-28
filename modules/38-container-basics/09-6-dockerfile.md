@@ -102,10 +102,8 @@ node_modules/
 dist/
 ```
 
----
 
 
 
----
 
 [← Previous](08-5-images.md) | [↑ Index](index.md) | [Next →](10-7-containers.md)

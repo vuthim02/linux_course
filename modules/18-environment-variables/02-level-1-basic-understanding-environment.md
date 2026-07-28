@@ -5,10 +5,15 @@
 
 > **Level 1 Goal:** Understand what environment variables are, how they are inherited by child processes, and know the critical variables that control your working environment.
 
----
+### What You'll Cover
+- What environment variables are and how they differ from shell variables
+- Exporting variables so child processes can see them
+- Key variables: `PATH`, `HOME`, `USER`, `LANG`, `TERM`, `SHELL`
+- Viewing all variables with `env` and `printenv`
+- Using `$VARIABLE` syntax and `${VARIABLE:-default}` defaults
 
 
 
----
+
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-1-what-are-environment.md)

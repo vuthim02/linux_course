@@ -107,7 +107,6 @@ What does the `-I {}` option in `xargs` do?
 - C) Enables interactive mode
 - D) Uses null separators
 
----
 
 ### Answer Key
 
@@ -137,7 +136,6 @@ What does the `-I {}` option in `xargs` do?
 | 10-11/15 | Review weak areas |
 | <10/15 | Re-read Part 36 before continuing |
 
----
 
 *Previous → Part 35: Shell Scripting for System Administrators*
 *Next → Part 37: Automation with Ansible*
@@ -145,6 +143,5 @@ What does the `-I {}` option in `xargs` do?
 [← Previous](part35.md) | [Next →](part37.md)
 
 
----
 
 [← Previous](20-15-command-reference.md) | [↑ Index](index.md)

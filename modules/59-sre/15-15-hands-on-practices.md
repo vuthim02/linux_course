@@ -487,10 +487,8 @@ capacity: { forecasting: "python capacity_forecast.py", review: quarterly }
 
 ✅ **Expected**: Complete real-world SRE practice integrating all components.
 
----
 
 
 
----
 
 [← Previous](14-13-sre-in-practice.md) | [↑ Index](index.md) | [Next →](16-deep-understanding.md)

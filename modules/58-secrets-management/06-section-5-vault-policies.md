@@ -36,10 +36,8 @@ vault token capabilities <token> secret/data/production/db
 
 Multiple policies: most permissive wins unless `deny` is present (deny takes precedence).
 
----
 
 
 
----
 
 [← Previous](05-section-4-vault-secret-engines.md) | [↑ Index](index.md) | [Next →](07-section-6-vault-in-production.md)

@@ -33,10 +33,8 @@
 | Install bpftrace | `sudo apt install bpftrace` |
 | Install perf | `sudo apt install linux-tools-$(uname -r)` |
 
----
 
 
 
----
 
 [← Previous](12-deep-understanding.md) | [↑ Index](index.md) | [Next →](14-whats-coming-in-part-64.md)

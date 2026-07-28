@@ -2,7 +2,6 @@
 
 ### ✅ Level 1: Basic Practices
 
----
 
 ### ✅ Practice 1: Check Your Boot Mode
 
@@ -14,7 +13,6 @@ ls /sys/firmware/efi 2>/dev/null && echo "UEFI" || echo "BIOS"
 sudo fdisk -l /dev/sda 2>/dev/null | head -5
 ```
 
----
 
 ### ✅ Practice 2: Explore Kernel Info
 
@@ -34,7 +32,6 @@ ls -lh /boot/initramfs-$(uname -r)* 2>/dev/null
 ls /lib/modules/$(uname -r)/
 ```
 
----
 
 ### ✅ Practice 3: View Kernel Parameters
 
@@ -50,7 +47,6 @@ cat /proc/cmdline
 # splash          — Boot splash screen
 ```
 
----
 
 ### ✅ Practice 6: Explore systemd Targets
 
@@ -68,11 +64,9 @@ systemctl list-units --type=target --state=active
 # sudo systemctl isolate multi-user.target
 ```
 
----
 
 ### ✅ Level 2: Intermediary Practices
 
----
 
 ### ✅ Practice 4: Read Boot Messages
 
@@ -93,7 +87,6 @@ dmesg | grep -i "memory\|mem"
 dmesg | wc -l
 ```
 
----
 
 ### ✅ Practice 5: systemd Boot Analysis
 
@@ -111,7 +104,6 @@ systemd-analyze critical-chain
 systemd-analyze blame
 ```
 
----
 
 ### ✅ Practice 7: View /etc/fstab
 
@@ -132,7 +124,6 @@ echo "In fstab:"
 grep -v "^#" /etc/fstab | grep -v "^$" | awk '{print $1, $2}'
 ```
 
----
 
 ### ✅ Practice 8: Explore initramfs
 
@@ -148,7 +139,6 @@ xzcat /boot/initrd.img-$(uname -r) 2>/dev/null | cpio -idm 2>/dev/null
 ls -la
 ```
 
----
 
 ### ✅ Practice 9: Check Boot Logs With journalctl
 
@@ -166,7 +156,6 @@ journalctl -b -k --no-pager | tail -20
 journalctl -b -1 -p err --no-pager 2>/dev/null || echo "No previous boot logs"
 ```
 
----
 
 ### ✅ Practice 10: GRUB Configuration
 
@@ -182,7 +171,6 @@ head -50 /boot/grub2/grub.cfg 2>/dev/null
 ls /boot/vmlinuz-*
 ```
 
----
 
 ### ✅ Practice 11: Boot Performance Timeline
 
@@ -195,7 +183,6 @@ echo "Boot plot generated"
 systemd-analyze critical-chain
 ```
 
----
 
 ### ✅ Practice 12: Check Startup Services
 
@@ -213,11 +200,9 @@ echo "Enabled services: $(systemctl list-unit-files --type=service --state=enabl
 echo "Disabled services: $(systemctl list-unit-files --type=service --state=disabled --no-legend | wc -l)"
 ```
 
----
 
 ### ✅ Level 3: Advanced Practices
 
----
 
 ### ✅ Practice 13: Simulate Boot Problem — Missing Root
 
@@ -234,7 +219,6 @@ echo ""
 echo "Fix: At GRUB, press 'e', find the linux line, check root= parameter"
 ```
 
----
 
 ### ✅ Practice 14: Live USB Boot Simulation
 
@@ -286,7 +270,6 @@ chmod +x recovery_steps.sh
 ./recovery_steps.sh
 ```
 
----
 
 ### ✅ Practice 15: Create a Boot Information Report
 
@@ -380,10 +363,8 @@ chmod +x boot_report.sh
 ./boot_report.sh
 ```
 
----
 
 
 
----
 
 [← Previous](15-deep-understanding-the-initramfs-and.md) | [↑ Index](index.md) | [Next →](17-summary-complete-command-reference-for.md)

@@ -53,10 +53,8 @@ sudo bpftool net list
 sudo ip link set dev lo xdp off
 ```
 
----
 
 
 
----
 
 [← Previous](06-5-perf-the-profiling-powerhouse.md) | [↑ Index](index.md) | [Next →](08-7-filesystem-tracing-know-every.md)

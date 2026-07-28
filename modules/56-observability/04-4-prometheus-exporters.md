@@ -90,10 +90,8 @@ echo "custom_users_logged_in $(who | wc -l)"
 ```
 Output to `/var/lib/node_exporter/textfile_collector/custom.prom` via cron. Enable with `--collector.textfile.directory=/var/lib/node_exporter/textfile_collector`.
 
----
 
 
 
----
 
 [← Previous](03-3-advanced-promql.md) | [↑ Index](index.md) | [Next →](05-5-prometheus-service-discovery-and.md)

@@ -54,10 +54,8 @@ N            # Previous match
 :%s/$/SUFFIX/
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-vim-editing-cut.md) | [↑ Index](index.md) | [Next →](11-section-8-vim-visual-mode.md)

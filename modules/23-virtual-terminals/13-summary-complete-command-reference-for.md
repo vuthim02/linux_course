@@ -31,10 +31,8 @@
 | `sudo systemctl emergency` | Emergency shell |
 | `script session.log` | Record terminal session |
 
----
 
 
 
----
 
 [← Previous](12-deep-understanding-tty-internals-and.md) | [↑ Index](index.md) | [Next →](14-whats-coming-in-part-24.md)

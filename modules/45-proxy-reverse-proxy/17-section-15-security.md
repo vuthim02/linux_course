@@ -102,10 +102,8 @@ option forwardfor header X-Forwarded-For
 # (not built-in HAProxy; use accept-proxy with proxy protocol instead)
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-14-proxy-protocol.md) | [↑ Index](index.md) | [Next →](18-15-hands-on-practices.md)

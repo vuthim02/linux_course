@@ -78,10 +78,8 @@ Metadata locations:
   └─ Archive: /etc/lvm/archive/ (every change creates a versioned copy)
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-lvm-fundamentals.md) | [↑ Index](index.md) | [Next →](04-section-2-physical-volumes.md)

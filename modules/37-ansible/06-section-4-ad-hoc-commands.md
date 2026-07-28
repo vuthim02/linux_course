@@ -60,10 +60,8 @@ ansible all -m setup -a "filter=ansible_default_ipv4"
 }
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-3-inventory.md) | [↑ Index](index.md) | [Next →](07-section-5-playbooks.md)

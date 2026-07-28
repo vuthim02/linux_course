@@ -1,6 +1,5 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### ✅ Practice 1: Configure AWS CLI with IAM User Credentials
 
@@ -43,7 +42,6 @@ echo "=== ~/.aws/credentials ==="
 cat ~/.aws/credentials
 ```
 
----
 
 ### ✅ Practice 2: Launch an EC2 Instance with Userdata Script
 
@@ -123,7 +121,6 @@ curl http://$IP
 aws ec2 terminate-instances --instance-ids $INSTANCE_ID
 ```
 
----
 
 ### ✅ Practice 3: Create an S3 Bucket with Versioning and Lifecycle Policy
 
@@ -210,7 +207,6 @@ fi
 aws s3 rb s3://$BUCKET_NAME
 ```
 
----
 
 ### ✅ Practice 4: Configure a VPC with Public and Private Subnets, NAT Gateway
 
@@ -322,7 +318,6 @@ aws ec2 delete-subnet --subnet-id $PUBLIC_SN
 aws ec2 delete-vpc --vpc-id $VPC_ID
 ```
 
----
 
 ### ✅ Practice 5: Create an IAM Role and Attach to an EC2 Instance
 
@@ -399,7 +394,6 @@ aws iam detach-role-policy \
 aws iam delete-role --role-name S3ReadOnlyRole
 ```
 
----
 
 ### ✅ Practice 6: Use AWS SSM Session Manager to Connect (No SSH Key)
 
@@ -492,7 +486,6 @@ aws iam detach-role-policy \
 aws iam delete-role --role-name SSM-Role
 ```
 
----
 
 ### ✅ Practice 7: Configure gcloud and Create a GCE Instance with Startup Script
 
@@ -554,7 +547,6 @@ gcloud compute instances delete course-instance --quiet
 gcloud compute firewall-rules delete allow-http --quiet
 ```
 
----
 
 ### ✅ Practice 8: Set Up GCS Bucket with Object Lifecycle Management
 
@@ -617,7 +609,6 @@ gsutil acl ch -u AllUsers:R gs://$BUCKET_NAME/hello.txt
 gsutil rm -r gs://$BUCKET_NAME/
 ```
 
----
 
 ### ✅ Practice 9: Create GCP VPC with Firewall Rules and Cloud NAT
 
@@ -693,7 +684,6 @@ gcloud compute networks subnets delete public-subnet private-subnet --region=us-
 gcloud compute networks delete course-vpc --quiet
 ```
 
----
 
 ### ✅ Practice 10: Configure GCP IAM Service Account and Grant Permissions
 
@@ -744,7 +734,6 @@ gcloud iam roles delete courseInstanceViewer --project=$(gcloud config get proje
 rm -f course-sa-key.json
 ```
 
----
 
 ### ✅ Practice 11: Configure Azure CLI and Create a VM with Custom Data
 
@@ -815,7 +804,6 @@ az vm delete --resource-group CourseRG --name CourseVM --yes
 az group delete --name CourseRG --yes --no-wait
 ```
 
----
 
 ### ✅ Practice 12: Create Azure Blob Storage with SAS Token
 
@@ -902,7 +890,6 @@ cat downloaded.txt
 az group delete --name CourseStorageRG --yes --no-wait
 ```
 
----
 
 ### ✅ Practice 13: Configure Azure VNet with NSG Rules
 
@@ -1022,7 +1009,6 @@ az network nsg rule list \
 az group delete --name CourseNetRG --yes --no-wait
 ```
 
----
 
 ### ✅ Practice 14: Set Up Cloud Billing Alerts on All Three Providers
 
@@ -1109,7 +1095,6 @@ echo "Edit budget.json with your email, then run:"
 echo "aws budgets create-budget --account-id \$(aws sts get-caller-identity --query Account --output text) --budget file://budget.json"
 ```
 
----
 
 ### ✅ Practice 15: Real-World Integration — Multi-Cloud Inventory Script
 
@@ -1225,10 +1210,8 @@ echo "NOTE: This script requires valid credentials for at least one cloud provid
 echo "Run each cloud CLI's auth command first, then this script."
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-11-multi-cloud-comparison.md) | [↑ Index](index.md) | [Next →](14-deep-understanding-how-cloud-infrastructure.md)

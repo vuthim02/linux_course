@@ -38,12 +38,10 @@ INSERT INTO products (name, price, stock) VALUES
 SELECT * FROM products;
 ```
 
----
 
 # 4. MariaDB User Management — Deep Dive
 
 
 
----
 
 [← Previous](12-show-commands.md) | [↑ Index](index.md) | [Next →](14-authentication-plugins.md)

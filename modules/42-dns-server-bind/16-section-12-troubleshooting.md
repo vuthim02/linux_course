@@ -79,10 +79,8 @@ sudo rndc retransfer example.com    # Force zone transfer
 sudo rndc notify example.com        # Send NOTIFY
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-11-tuning-and-performance.md) | [↑ Index](index.md) | [Next →](17-section-13-command-reference.md)

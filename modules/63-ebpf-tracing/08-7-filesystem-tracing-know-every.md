@@ -31,10 +31,8 @@ kretprobe:vfs_fsync_range /@start[tid]/ {
 
 > 🔍 **Reverse Engineering Insight:** When a database is "slow," the answer is almost always in the I/O path. ext4slower/xfsslower instantly show WHICH files are slow and by HOW MUCH — something `iostat` and `iotop` cannot tell you.
 
----
 
 
 
----
 
 [← Previous](07-6-network-tracing-packets-connections.md) | [↑ Index](index.md) | [Next →](09-8-real-world-debugging-scenarios.md)

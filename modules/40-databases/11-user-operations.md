@@ -31,6 +31,5 @@ ALTER USER 'appuser'@'localhost' IDENTIFIED BY 'new_password';
 
 
 
----
 
 [← Previous](10-database-operations.md) | [↑ Index](index.md) | [Next →](12-show-commands.md)

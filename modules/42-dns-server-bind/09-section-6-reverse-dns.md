@@ -60,10 +60,8 @@ host 192.168.1.100
 $GENERATE 1-254 $ IN PTR host-10-0-0-$.example.com.
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-zone-files.md) | [↑ Index](index.md) | [Next →](10-section-7-slavesecondary-dns.md)

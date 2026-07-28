@@ -98,10 +98,8 @@
 | `:!command` | Run shell command from Vim |
 | `:r !command` | Insert command output into file |
 
----
 
 
 
----
 
 [← Previous](19-deep-understanding-how-terminal-editors.md) | [↑ Index](index.md) | [Next →](21-whats-coming-in-part-5.md)

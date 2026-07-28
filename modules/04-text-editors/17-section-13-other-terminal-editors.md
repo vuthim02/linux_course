@@ -14,10 +14,14 @@ echo -e "a\nHello, World\n.\nw\nq" | ed file.txt
 # This appends "Hello, World" to file.txt
 ```
 
----
+### Key Takeaways
+- `vi` (not Vim) exists on every Unix system — learn it as a fallback
+- `neovim` is the modern choice if you want a Vim fork with better plugins
+- `micro` is great for newcomers who want mouse support and modern keybindings
+- `ed` is niche but invaluable in scripts where you need a non-interactive editor
 
 
 
----
+
 
 [← Previous](16-section-12-nano-vs-vim.md) | [↑ Index](index.md) | [Next →](18-practice-section-15-hands-on-exercises.md)

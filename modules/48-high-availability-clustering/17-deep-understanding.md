@@ -152,10 +152,8 @@ Latency: max(local, remote) + RTT
 Risk: zero data loss
 ```
 
----
 
 
 
----
 
 [← Previous](16-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](18-command-reference.md)

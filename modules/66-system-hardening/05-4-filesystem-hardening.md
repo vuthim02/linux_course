@@ -86,10 +86,8 @@ chmod 600 /boot/grub/grub.cfg
 chmod 700 /boot/grub
 ```
 
----
 
 
 
----
 
 [← Previous](04-3-kernel-hardening-sysctl-and.md) | [↑ Index](index.md) | [Next →](06-5-auditd-deep-dive-kernel-level.md)

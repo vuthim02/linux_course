@@ -116,10 +116,8 @@ sudo ufw allow from 192.168.1.0/24 to any port 111 proto tcp
 # 10. Monitor with auditd for suspicious access
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-6-autofs-automatic-nfs.md) | [↑ Index](index.md) | [Next →](12-section-8-performance-tuning.md)

@@ -45,10 +45,8 @@ dmesg > boot_messages.txt
 echo "$(date): System rebooted" >> /var/log/reboot_history.log
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-the-three-streams.md) | [↑ Index](index.md) | [Next →](04-section-3-redirecting-stdin-the.md)

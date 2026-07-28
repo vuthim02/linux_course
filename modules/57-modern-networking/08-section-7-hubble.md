@@ -145,10 +145,8 @@ Key metrics:
 - `hubble_http_requests_total` — HTTP request count by method, path, code
 - `hubble_http_duration_seconds` — HTTP latency histogram
 
----
 
 
 
----
 
 [← Previous](07-section-6-cilium-service-mesh.md) | [↑ Index](index.md) | [Next →](09-section-8-wireguard.md)

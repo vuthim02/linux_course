@@ -279,10 +279,8 @@ done 3< "$CSV_FILE"
 log "User creation complete"
 ```
 
----
 
 
 
----
 
 [← Previous](15-11-parsing-command-line-args.md) | [↑ Index](index.md) | [Next →](17-level-3-advanced-security-internals.md)

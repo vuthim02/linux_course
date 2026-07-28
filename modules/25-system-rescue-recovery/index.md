@@ -1,5 +1,6 @@
 # 25-system-rescue-recovery
 
+**Prerequisites:** Complete [Part 24 - kernel-modules](../24-kernel-modules/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

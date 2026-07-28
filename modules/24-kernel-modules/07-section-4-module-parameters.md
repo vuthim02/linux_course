@@ -33,10 +33,8 @@ modinfo -F parm usb-storage
 # - delay_use (usb-storage): Delay before using USB storage
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-module-dependencies.md) | [↑ Index](index.md) | [Next →](08-level-3-advanced-building-and.md)

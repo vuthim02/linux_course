@@ -4,7 +4,6 @@
 
 ### Level 1 Practices — Basic Navigation & File Operations
 
----
 
 ### ✅ Practice 1: Path Exploration
 
@@ -25,7 +24,6 @@ pwd
 
 **Task:** Write down the absolute path of your home directory.
 
----
 
 ### ✅ Practice 2: Relative Path Navigation
 
@@ -46,7 +44,6 @@ cd -
 pwd    # Should show /var/log
 ```
 
----
 
 ### ✅ Practice 3: Master `ls` Options
 
@@ -77,7 +74,6 @@ ls -ld /etc
 
 **Task:** Find the 3 most recently modified files in `/etc` using `ls`.
 
----
 
 ### ✅ Practice 4: Build a Practice Directory Tree
 
@@ -106,7 +102,6 @@ practice/project1/docs:
 ...
 ```
 
----
 
 ### ✅ Practice 5: Create Files Multiple Ways
 
@@ -135,7 +130,6 @@ EOF
 ls -la src/ tests/ docs/ logs/
 ```
 
----
 
 ### ✅ Practice 6: Read Files Different Ways
 
@@ -162,11 +156,9 @@ tail -f logs/app.log
 # (Press Ctrl+C to stop)
 ```
 
----
 
 ### Level 2 Practices — Wildcards, Finding Files & Links
 
----
 
 ### ✅ Practice 7: Wildcards in Action
 
@@ -200,7 +192,6 @@ rm docs/*.py
 ls docs/
 ```
 
----
 
 ### ✅ Practice 8: Copy Files and Directories
 
@@ -222,7 +213,6 @@ diff project1/docs/README.md project2/docs/README.md
 # No output = files are identical
 ```
 
----
 
 ### ✅ Practice 9: Move and Rename
 
@@ -246,7 +236,6 @@ ls ~/practice/
 ls /tmp/project1_backup/
 ```
 
----
 
 ### ✅ Practice 10: Safe File Deletion Practice
 
@@ -272,7 +261,6 @@ rm -r project1_backup/
 ls /tmp/ | grep project1
 ```
 
----
 
 ### ✅ Practice 11: Hidden Files Exploration
 
@@ -296,7 +284,6 @@ cat ~/.profile
 ls -la ~/.ssh 2>/dev/null || echo "No .ssh directory yet"
 ```
 
----
 
 ### ✅ Practice 12: Create Symlinks
 
@@ -321,7 +308,6 @@ ln -s ~/practice/project1/docs/README.md ~/practice/shared/main_readme.md
 cat ~/practice/shared/main_readme.md
 ```
 
----
 
 ### ✅ Practice 13: Advanced `find` Practice
 
@@ -348,7 +334,6 @@ find /var/log -size +1M -type f 2>/dev/null
 find ~/practice -user $(whoami) -type f
 ```
 
----
 
 ### ✅ Practice 14: Real Sysadmin Scenario — Disk Investigation
 
@@ -371,11 +356,9 @@ find /etc -mtime -1 -type f 2>/dev/null
 
 > 💡 `2>/dev/null` sends error messages (stderr) to the void — suppresses "Permission denied" errors when searching directories you can't read. You'll learn this properly in Part 6 (Redirection).
 
----
 
 ### Level 3 Practices — Real SysAdmin Builds
 
----
 
 ### ✅ Practice 15: Build and Verify a Full Structure
 
@@ -409,10 +392,8 @@ find ~/server_setup -type f | wc -l
 # Should be 5 files
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-10-links-hard-links.md) | [↑ Index](index.md) | [Next →](15-level-3-advanced-storage-internals.md)

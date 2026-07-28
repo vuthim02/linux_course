@@ -372,10 +372,8 @@ case "$cmd" in
 esac
 ```
 
----
 
 
 
----
 
 [← Previous](20-16-command-reference.md) | [↑ Index](index.md) | [Next →](22-17-self-test.md)

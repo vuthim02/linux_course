@@ -65,10 +65,8 @@ sudo apt update && sudo apt upgrade
 # - Install malicious packages from compromised repos
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-11-fixing-common-package.md) | [↑ Index](index.md) | [Next →](17-practice-section-20-hands-on-exercises.md)

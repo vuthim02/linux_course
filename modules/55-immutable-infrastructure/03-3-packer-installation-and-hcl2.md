@@ -157,10 +157,8 @@ environment   = "prod"
 source_ami    = "ami-0abcdef1234567890"
 ```
 
----
 
 
 
----
 
 [← Previous](02-2-packer-overview.md) | [↑ Index](index.md) | [Next →](04-4-builders.md)

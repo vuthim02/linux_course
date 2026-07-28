@@ -126,10 +126,8 @@ groups:
 | Full outage | Very high burn | Very high burn | Yes |
 | Expected traffic surge | Normal | Normal | No |
 
----
 
 
 
----
 
 [← Previous](11-10-release-engineering.md) | [↑ Index](index.md) | [Next →](13-12-chaos-engineering.md)

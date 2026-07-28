@@ -131,10 +131,8 @@ iptables -A INPUT -m limit --limit 5/min -j LOG --log-prefix "iptables-dropped: 
 iptables -A INPUT -j DROP
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-how-linux-firewalling.md) | [↑ Index](index.md) | [Next →](05-level-2-intermediary-managing-firewall.md)

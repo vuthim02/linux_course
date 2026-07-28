@@ -118,10 +118,8 @@ provisioner "shell" {
 # The userdata can be cloud-config YAML or a bash script
 ```
 
----
 
 
 
----
 
 [← Previous](09-9-deployment-strategies-for-immutable.md) | [↑ Index](index.md) | [Next →](11-11-troubleshooting-immutable.md)

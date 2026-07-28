@@ -34,10 +34,8 @@ mail -s "Subject" user@example.com < report.txt
 # mail command reads the message body from stdin
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-2-redirecting-stdout-the.md) | [↑ Index](index.md) | [Next →](05-section-4-pipes-the-heart.md)

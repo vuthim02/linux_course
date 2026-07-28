@@ -103,7 +103,6 @@ type: Opaque                   # default, arbitrary key-value
 data:
   username: YWRtaW4=           # base64(admin)
   password: czNjcmV0           # base64(s3cret)
----
 apiVersion: v1
 kind: Secret
 metadata:
@@ -113,7 +112,6 @@ type: kubernetes.io/tls
 data:
   tls.crt: LS0tLS1CRUdJTiBD...   # base64 of PEM
   tls.key: LS0tLS1CRUdJTiBS...
----
 apiVersion: v1
 kind: Secret
 metadata:
@@ -179,10 +177,8 @@ immutable: true
 
 Immutable resources are not watched for changes (less API server load), and kubelet does not re-sync them. You must delete and recreate to change them.
 
----
 
 
 
----
 
 [← Previous](07-7-services-and-networking.md) | [↑ Index](index.md) | [Next →](09-9-storage.md)

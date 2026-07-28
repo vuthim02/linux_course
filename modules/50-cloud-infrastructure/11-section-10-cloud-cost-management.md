@@ -154,10 +154,8 @@ az advisor recommendation list \
   --category Cost
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-9-cloud-ssh-access.md) | [↑ Index](index.md) | [Next →](12-section-11-multi-cloud-comparison.md)

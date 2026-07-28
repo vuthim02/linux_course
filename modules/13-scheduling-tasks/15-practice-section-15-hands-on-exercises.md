@@ -2,7 +2,6 @@
 
 ### ✅ Level 1: Basic Practices
 
----
 
 ### ✅ Practice 1: Check If cron Is Running
 
@@ -20,7 +19,6 @@ which crontab
 ps aux | grep -E "[c]ron|[c]rond"
 ```
 
----
 
 ### ✅ Practice 2: Create Your First Crontab
 
@@ -47,7 +45,6 @@ crontab -r
 rm mycron
 ```
 
----
 
 ### ✅ Practice 3: List All Crontabs on the System
 
@@ -66,11 +63,9 @@ ls /etc/cron.d/ 2>/dev/null
 ls /etc/cron.daily/ 2>/dev/null
 ```
 
----
 
 ### ✅ Level 2: Intermediary Practices
 
----
 
 ### ✅ Practice 4: Schedule a Daily Backup (Simulated)
 
@@ -100,7 +95,6 @@ crontab -r
 rm backup-cron
 ```
 
----
 
 ### ✅ Practice 5: Use @-Times
 
@@ -124,7 +118,6 @@ crontab -r
 rm cleanup-cron
 ```
 
----
 
 ### ✅ Practice 6: Debug Cron with Logging
 
@@ -158,7 +151,6 @@ crontab -r
 rm debug-cron failing-script.sh
 ```
 
----
 
 ### ✅ Practice 7: Use the at Command
 
@@ -192,7 +184,6 @@ cat at-result.txt 2>/dev/null || echo "at job not yet run"
 atrm $(atq | awk '{print $1}') 2>/dev/null || true
 ```
 
----
 
 ### ✅ Practice 8: Use batch Command
 
@@ -208,7 +199,6 @@ sleep 30
 cat batch-test.txt 2>/dev/null || echo "Batch job waiting for low load"
 ```
 
----
 
 ### ✅ Practice 9: Create a Systemd Timer (One-Shot)
 
@@ -250,7 +240,6 @@ sudo rm /etc/systemd/system/oneshot-task.*
 sudo systemctl daemon-reload
 ```
 
----
 
 ### ✅ Practice 10: Create a Calendar Timer
 
@@ -295,7 +284,6 @@ sudo rm /etc/systemd/system/interval-demo.*
 sudo systemctl daemon-reload
 ```
 
----
 
 ### ✅ Practice 11: Compare Cron and Systemd Timer Logging
 
@@ -349,7 +337,6 @@ sudo rm /etc/systemd/system/compare-demo.*
 sudo systemctl daemon-reload
 ```
 
----
 
 ### ✅ Practice 12: Schedule a Maintenance Window
 
@@ -367,7 +354,6 @@ atq
 echo "Maintenance tasks scheduled. Check later with: atq"
 ```
 
----
 
 ### ✅ Practice 13: Explore cron.daily Structure
 
@@ -391,7 +377,6 @@ which run-parts
 man -P cat run-parts 2>/dev/null | head -30
 ```
 
----
 
 ### ✅ Practice 14: Permission Issues with cron
 
@@ -409,11 +394,9 @@ ls -la /usr/bin/crontab
 crontab -u www-data -l 2>&1 || echo "Cannot access other user's crontab (expected)"
 ```
 
----
 
 ### ✅ Level 3: Advanced Practices
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Scheduled Task Audit
 
@@ -511,10 +494,8 @@ chmod +x scheduled_task_audit.sh
 ./scheduled_task_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](14-deep-understanding-how-scheduling-really.md) | [↑ Index](index.md) | [Next →](16-summary-complete-command-reference-for.md)

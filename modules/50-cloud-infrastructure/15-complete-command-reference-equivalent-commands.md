@@ -64,10 +64,8 @@
 | Logs | CloudWatch Logs | Cloud Logging | Log Analytics |
 | Budgets | `aws budgets create-budget` | `gcloud billing budgets create` | `az consumption budget create` |
 
----
 
 
 
----
 
 [← Previous](14-deep-understanding-how-cloud-infrastructure.md) | [↑ Index](index.md) | [Next →](16-whats-coming-in-part-51.md)

@@ -33,10 +33,8 @@ ls /nonexistent  # This error will be logged too
 echo "Script finished"
 ```
 
----
 
 
 
----
 
 [← Previous](13-level-2-practices.md) | [↑ Index](index.md) | [Next →](15-section-2-process-substitution-and.md)

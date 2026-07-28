@@ -17,10 +17,8 @@
 | Change reserved blocks | `tune2fs -m 1 /dev/sdX` |
 | Benchmark | `fio --name=test --directory=/mnt --rw=randwrite --bs=4k --size=100M` |
 
----
 
 
 
----
 
 [← Previous](12-deep-understanding.md) | [↑ Index](index.md) | [Next →](14-whats-coming-in-part-62.md)

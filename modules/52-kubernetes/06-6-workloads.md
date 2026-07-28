@@ -264,10 +264,8 @@ spec:
 kubectl create job --from=cronjob/backup manual-backup-1
 ```
 
----
 
 
 
----
 
 [← Previous](05-5-pods.md) | [↑ Index](index.md) | [Next →](07-7-services-and-networking.md)

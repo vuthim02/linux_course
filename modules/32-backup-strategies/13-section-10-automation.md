@@ -57,10 +57,8 @@ find /backups/latest/ -type f -exec md5sum {} \; | sort > /tmp/backup.md5
 diff /tmp/source.md5 /tmp/backup.md5 && echo "All checksums match"
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-9-database-backup.md) | [↑ Index](index.md) | [Next →](14-level-3-advanced-deduplication-cloud.md)

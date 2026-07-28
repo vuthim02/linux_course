@@ -49,10 +49,8 @@ Kubernetes solves all of these. It is a **container orchestrator** — a platfor
 
 The **control plane** makes decisions. **Workers** run the actual workloads. All communication flows through the API server — nothing talks to etcd directly except the API server.
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-2-architecture-deep-dive.md)

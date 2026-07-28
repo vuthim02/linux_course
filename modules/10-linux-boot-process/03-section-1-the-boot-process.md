@@ -20,10 +20,8 @@ The Linux boot process has 6 stages:
 | 5. systemd | 5-30s | Starts services, reaches target (multi-user/graphical) |
 | 6. Login | — | Display manager or console login prompt |
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-foundations-of.md) | [↑ Index](index.md) | [Next →](04-section-2-stage-1-power.md)

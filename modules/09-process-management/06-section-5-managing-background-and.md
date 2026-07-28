@@ -42,10 +42,8 @@ find / > output.txt &
 find / > /dev/null 2>&1 &
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-4-signals-how-to.md) | [↑ Index](index.md) | [Next →](07-section-6-nohup-disown-and.md)

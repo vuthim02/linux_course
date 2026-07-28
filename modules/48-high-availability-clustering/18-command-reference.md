@@ -34,10 +34,8 @@
 | `pcs resource create` | Create resource (RHEL style) |
 | `pcs cluster setup` | Set up cluster (RHEL style) |
 
----
 
 
 
----
 
 [← Previous](17-deep-understanding.md) | [↑ Index](index.md) | [Next →](19-whats-coming-in-part-49.md)

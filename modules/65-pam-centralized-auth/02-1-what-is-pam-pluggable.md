@@ -86,10 +86,8 @@ User types password at login prompt
 
 > 🔍 **Reverse Engineering Insight:** PAM is just a library (`libpam.so`), not a daemon. Applications link against it. There is no "PAM service" running — when `sshd` authenticates a user, it calls `pam_authenticate()` in-process, which reads the config file and loads `.so` modules directly into the `sshd` process space.
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve.md) | [↑ Index](index.md) | [Next →](03-2-pam-configuration-etcpamd.md)

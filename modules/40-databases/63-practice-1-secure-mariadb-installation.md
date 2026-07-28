@@ -17,8 +17,34 @@ sudo mysql -e "SHOW DATABASES;" | grep test
 sudo mysql -e "SELECT User, Host FROM mysql.user WHERE User='root' AND Host != 'localhost';"
 ```
 
+### What mysql_secure_installation Does
 
+1. Sets a password for the `root` account
+2. Removes anonymous user accounts
+3. Disallows root login remotely (except `localhost`)
+4. Removes the `test` database
+5. Reloads privilege tables immediately
 
----
+### Expected Output After Completion
+
+```sql
+-- Only root@localhost should remain
++------+-----------+
+| User | Host      |
++------+-----------+
+| root | localhost |
++------+-----------+
+
+-- No test database
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+```
+
 
 [← Previous](62-lock-waits-and-deadlocks.md) | [↑ Index](index.md) | [Next →](64-practice-2-create-database-and.md)

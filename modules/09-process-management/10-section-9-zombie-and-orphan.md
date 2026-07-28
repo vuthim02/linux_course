@@ -26,10 +26,8 @@ When a parent dies before its child, the child becomes an **orphan**. Orphans ar
 # They just get re-parented to PID 1
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-8-proc-the-process.md) | [↑ Index](index.md) | [Next →](11-practice-section-15-hands-on-exercises.md)

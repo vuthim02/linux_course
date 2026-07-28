@@ -53,10 +53,8 @@ apt-mark showhold
 sudo apt-mark unhold nginx
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-checking-for-updates.md) | [↑ Index](index.md) | [Next →](06-section-5-lts-vs-rolling.md)

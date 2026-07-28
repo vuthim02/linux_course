@@ -57,10 +57,8 @@ weekday      0-7 (0=Sunday, 7=Sunday)
 
 ### Level 3: Advanced Commands (No additional commands — see scheduling patterns and deep understanding sections above)
 
----
 
 
 
----
 
 [← Previous](15-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](17-whats-coming-in-part-14.md)

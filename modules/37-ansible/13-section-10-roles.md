@@ -34,7 +34,6 @@ ansible-galaxy init --init-path roles/ nginx
 
 ```yaml
 # roles/nginx/tasks/main.yml
----
 - name: Install Nginx
   ansible.builtin.package:
     name: nginx
@@ -57,7 +56,6 @@ ansible-galaxy init --init-path roles/ nginx
 
 ```yaml
 # roles/nginx/defaults/main.yml
----
 nginx_port: 80
 nginx_user: www-data
 worker_processes: 4
@@ -65,7 +63,6 @@ worker_processes: 4
 
 ```yaml
 # roles/nginx/vars/main.yml
----
 # Overrides defaults — hard to override from playbook
 nginx_conf_path: /etc/nginx/nginx.conf
 ```
@@ -73,7 +70,6 @@ nginx_conf_path: /etc/nginx/nginx.conf
 ### Using Roles in Playbooks
 
 ```yaml
----
 - hosts: webservers
   become: yes
   roles:
@@ -95,7 +91,6 @@ nginx_conf_path: /etc/nginx/nginx.conf
 
 ```yaml
 # roles/wordpress/meta/main.yml
----
 dependencies:
   - role: nginx
     vars:
@@ -121,7 +116,6 @@ ansible-galaxy install -r requirements.yml
 
 ```yaml
 # requirements.yml
----
 roles:
   - name: geerlingguy.nginx
     version: 3.1.4
@@ -129,10 +123,8 @@ roles:
     version: 3.5.0
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-9-conditionals-and-loops.md) | [↑ Index](index.md) | [Next →](14-section-11-handlers.md)

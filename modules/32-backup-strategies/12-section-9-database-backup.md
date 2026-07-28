@@ -67,10 +67,8 @@ sqlite3 /var/lib/mydatabase.db ".backup /backups/mydatabase-$(date +%F).db"
 sqlite3 /var/lib/mydatabase.db ".dump" | gzip > /backups/mydatabase.sql.gz
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-5-dumprestore.md) | [↑ Index](index.md) | [Next →](13-section-10-automation.md)

@@ -20,6 +20,5 @@ done
 
 
 
----
 
 [← Previous](71-practice-9-configure-slow-query.md) | [↑ Index](index.md) | [Next →](73-practice-11-pt-query-digest-percona-toolkit.md)

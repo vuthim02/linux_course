@@ -1,6 +1,5 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### 📘 Level 1 Practices: Rescue Mode Basics and Boot Inspection
 
@@ -26,7 +25,6 @@ echo "=== Rescue service ==="
 systemctl cat rescue.target 2>/dev/null | head -20 || echo "Not available"
 ```
 
----
 
 ### ✅ Practice 2: Check GRUB Configuration
 
@@ -48,7 +46,6 @@ echo "=== GRUB config ==="
 cat /etc/default/grub | grep -v "^#" | grep -v "^$"
 ```
 
----
 
 ### ✅ Practice 3: Check Filesystem for Errors
 
@@ -68,7 +65,6 @@ sudo dumpe2fs -h /dev/sda1 2>/dev/null | grep -i "mount\|check\|count\|interval"
   echo "Not available"
 ```
 
----
 
 ### ✅ Practice 4: Force Filesystem Check on Next Boot
 
@@ -96,11 +92,9 @@ Method 4: From initramfs shell
 EOF
 ```
 
----
 
 ### ✅ Practice 5: SMART Disk Health Check
 
----
 
 ### 📘 Level 2 Practices: GRUB Recovery, chroot, and System Repair
 
@@ -124,7 +118,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 6: Explore GRUB Rescue Commands (Simulated)
 
@@ -150,7 +143,6 @@ GRUB rescue commands (when you see the "grub rescue>" prompt):
 EOF
 ```
 
----
 
 ### ✅ Practice 7: Practice Booting with Kernel Parameters
 
@@ -182,7 +174,6 @@ Adding kernel parameters at boot:
 EOF
 ```
 
----
 
 ### ✅ Practice 8: chroot Simulation
 
@@ -211,7 +202,6 @@ echo "chroot guide written to chroot_guide.txt"
 cat chroot_guide.txt
 ```
 
----
 
 ### ✅ Practice 9: Check Initramfs
 
@@ -238,7 +228,6 @@ lsinitramfs /boot/initrd.img-$(uname -r) 2>/dev/null | head -20 || \
   echo "Cannot list initramfs contents"
 ```
 
----
 
 ### ✅ Practice 10: Check Boot Partition
 
@@ -262,7 +251,6 @@ echo "=== Disk layout ==="
 lsblk 2>/dev/null | grep -E "boot|BOOT" || echo "No separate boot partition"
 ```
 
----
 
 ### ✅ Practice 11: Simulate Root Password Recovery
 
@@ -298,11 +286,9 @@ METHOD 3: Live USB + chroot
 EOF
 ```
 
----
 
 ### ✅ Practice 12: System Recovery Tools Inventory
 
----
 
 ### 📘 Level 3 Practices: Advanced Boot Analysis and Recovery Planning
 
@@ -323,7 +309,6 @@ for tool in fsck smartctl ddrescue grub-install update-grub chroot \
 done
 ```
 
----
 
 ### ✅ Practice 13: Boot Log Analysis
 
@@ -347,7 +332,6 @@ echo "=== Kernel boot messages ==="
 dmesg | grep -i "error\|fail\|panic" | tail -10 || echo "No kernel errors"
 ```
 
----
 
 ### ✅ Practice 14: Create a Boot Recovery USB Plan
 
@@ -388,7 +372,6 @@ EOF
 echo "Recovery USB plan written to recovery_usb_plan.txt"
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Recovery Plan
 
@@ -486,10 +469,8 @@ chmod +x recovery_plan.sh
 ./recovery_plan.sh
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-specific-recovery-scenarios.md) | [↑ Index](index.md) | [Next →](12-level-3-advanced-boot-process.md)

@@ -65,10 +65,8 @@ command 2>&1 > file
 # Result: stderr goes to screen, stdout goes to file (not what you wanted)
 ```
 
----
 
 
 
----
 
 [← Previous](07-level-1-practices.md) | [↑ Index](index.md) | [Next →](09-section-2-tee-split-output.md)

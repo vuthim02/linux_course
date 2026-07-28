@@ -98,10 +98,8 @@ game_day:
 | Block DB port 5432 | Circuit breakers | Circuit opens, cached results served |
 | DNS failure 5 min | DNS caching | Cache serves requests |
 
----
 
 
 
----
 
 [← Previous](12-11-monitoring-for-sres.md) | [↑ Index](index.md) | [Next →](14-13-sre-in-practice.md)

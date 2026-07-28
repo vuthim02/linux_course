@@ -195,10 +195,8 @@ sudo bpftool map dump id <map_id>
 sudo bpftool map update id <map_id> key 0x00 0x00 0x00 0x01 value 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x0a
 ```
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-bpftrace.md)

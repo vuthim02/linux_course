@@ -48,10 +48,8 @@ G       End of file
 e        (1 press)
 ```
 
----
 
 
 
----
 
 [← Previous](07-level-2-intermediary-efficient-editing.md) | [↑ Index](index.md) | [Next →](09-section-6-vim-editing-cut.md)

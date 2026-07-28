@@ -26,6 +26,5 @@ sudo tail /var/log/postgresql/postgresql-16-main.log
 
 
 
----
 
 [← Previous](70-practice-8-set-up-postgresql.md) | [↑ Index](index.md) | [Next →](72-practice-10-monitor-connections.md)

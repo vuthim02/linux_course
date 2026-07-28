@@ -80,10 +80,8 @@ BOUND ──T1 (50%)──> RENEWING ──T2 (87.5%)──> REBINDING ──exp
 | **VoIP phones** | DHCP provides TFTP server for phone configs |
 | **Data center** | Servers boot via DHCP/PXE with zero-touch provisioning |
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-dhcp-concepts.md) | [↑ Index](index.md) | [Next →](04-level-2-intermediary-dhcp-server.md)

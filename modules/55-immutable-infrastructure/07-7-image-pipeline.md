@@ -236,10 +236,8 @@ az sig image-version list \
                     └──────────┘
 ```
 
----
 
 
 
----
 
 [← Previous](06-6-cloud-init.md) | [↑ Index](index.md) | [Next →](08-8-security-hardening-in-images.md)

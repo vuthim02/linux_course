@@ -145,10 +145,8 @@ helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-d
 helm upgrade --install aws-ebs-csi-driver aws-ebs-csi-driver/aws-ebs-csi-driver --namespace kube-system
 ```
 
----
 
 
 
----
 
 [← Previous](08-8-configmaps-and-secrets.md) | [↑ Index](index.md) | [Next →](10-10-rbac-role-based-access-control.md)

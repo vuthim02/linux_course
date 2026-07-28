@@ -14,7 +14,6 @@ ls -la /etc/bind/
 
 **Verify:** `sudo systemctl is-active named` → `active`
 
----
 
 ### ⭐ Level 2: Intermediary Practices
 
@@ -39,7 +38,6 @@ sudo named-checkconf && sudo systemctl reload named
 dig @192.168.1.10 www.google.com +short
 ```
 
----
 
 #### Practice 3: Create Primary Zone for example.com
 
@@ -73,7 +71,6 @@ sudo named-checkconf && sudo systemctl reload named
 dig @192.168.1.10 www.example.com +short
 ```
 
----
 
 #### Practice 4: Add DNS Records
 
@@ -97,7 +94,6 @@ dig @192.168.1.10 blog.example.com CNAME +short
 dig @192.168.1.10 _sip._tcp.example.com SRV +short
 ```
 
----
 
 #### Practice 5: Create Reverse Zone
 
@@ -128,7 +124,6 @@ sudo systemctl reload named
 dig -x 192.168.1.100 +short
 ```
 
----
 
 #### Practice 6: Set Up Slave DNS
 
@@ -173,7 +168,6 @@ ls -la /var/cache/bind/db.example.com
 dig @192.168.1.20 www.example.com +short
 ```
 
----
 
 #### Practice 7: TSIG Key for Zone Transfers
 
@@ -209,7 +203,6 @@ sudo systemctl reload named
 dig @192.168.1.10 example.com AXFR +short
 ```
 
----
 
 #### Practice 8: Enable Query Logging
 
@@ -231,7 +224,6 @@ sudo named-checkconf && sudo systemctl reload named
 sudo tail -f /var/log/named/queries.log
 ```
 
----
 
 #### Practice 9: Use dig and delv
 
@@ -245,7 +237,6 @@ delv www.example.com +short
 dig www.example.com +noall +flags   # Check AD flag
 ```
 
----
 
 ### ⭐ Level 3: Advanced Practices
 
@@ -273,7 +264,6 @@ dig @192.168.1.10 www.example.com +dnssec +multi | grep RRSIG
 cat /etc/bind/dsset-example.com.
 ```
 
----
 
 #### Practice 11: Split DNS with Views
 
@@ -324,7 +314,6 @@ sudo named-checkconf && sudo systemctl reload named
 dig @192.168.1.10 www.example.com +short   # 192.168.1.100
 ```
 
----
 
 #### Practice 12: Rate Limiting
 
@@ -342,7 +331,6 @@ sudo named-checkconf && sudo systemctl reload named
 # Test with rapid queries: for i in $(seq 1 100); do dig @127.0.0.1 example.com +short & done
 ```
 
----
 
 #### Practice 13: Zone Transfer Troubleshooting
 
@@ -362,7 +350,6 @@ sudo journalctl -u named -n 20 | grep -i "xfer"
 sudo rndc retransfer example.com
 ```
 
----
 
 #### Practice 14: DNSSEC Validation Debugging
 
@@ -386,7 +373,6 @@ sudo rndc validation-status
 sudo journalctl -u named | grep -i "dnssec\|validation"
 ```
 
----
 
 #### Practice 15: Real-World Integration — Full Authoritative DNS with DNSSEC and Slave
 
@@ -518,10 +504,8 @@ SCRIPT
 sudo chmod +x /usr/local/bin/dns-check.sh
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-13-command-reference.md) | [↑ Index](index.md) | [Next →](19-deep-understanding.md)

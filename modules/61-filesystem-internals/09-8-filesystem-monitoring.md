@@ -61,10 +61,8 @@ sudo smartctl -t short /dev/sda
 sudo smartctl -l selftest /dev/sda
 ```
 
----
 
 
 
----
 
 [← Previous](08-7-filesystem-performance-tuning.md) | [↑ Index](index.md) | [Next →](10-9-practical-recovery-scenarios.md)

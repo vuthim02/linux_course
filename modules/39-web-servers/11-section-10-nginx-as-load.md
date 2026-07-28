@@ -70,10 +70,8 @@ location / {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-9-nginx-as-reverse.md) | [↑ Index](index.md) | [Next →](12-section-11-tlsssl-lets-encrypt.md)

@@ -96,10 +96,8 @@
 | `setfacl -R -m u:user:rwx dir` | Recursively apply ACL |
 | `setfacl -dm g:group:rwx dir` | Set default ACL for new files |
 
----
 
 
 
----
 
 [← Previous](20-deep-understanding-how-permissions-really.md) | [↑ Index](index.md) | [Next →](22-whats-coming-in-part-4.md)

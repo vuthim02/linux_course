@@ -32,10 +32,8 @@
 | | `opentelemetry-instrument python app.py` | Python |
 | | `node --require @opentelemetry/auto-instrumentations-node/register app.js` | Node.js |
 
----
 
 
 
----
 
 [← Previous](17-observability-maturity-model.md) | [↑ Index](index.md) | [Next →](19-whats-coming-in-part-57.md)

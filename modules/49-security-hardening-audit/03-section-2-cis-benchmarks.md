@@ -48,10 +48,8 @@ sudo oscap xccdf eval \
   /usr/share/xml/scap/ssg/content/ssg-rhel9-ds.xml
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-security-philosophy.md) | [↑ Index](index.md) | [Next →](04-section-3-lynis.md)

@@ -90,10 +90,8 @@ kubectl get pods -n production -o wide --sort-by=.spec.nodeName
 kubectl get pods -n production -o jsonpath='{range .items[*]}{.metadata.name}{"\t"}{.spec.nodeName}{"\n"}{end}'
 ```
 
----
 
 
 
----
 
 [← Previous](09-9-observability-stack.md) | [↑ Index](index.md) | [Next →](11-11-security-hardening.md)

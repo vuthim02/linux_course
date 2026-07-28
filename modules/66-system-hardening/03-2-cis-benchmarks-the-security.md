@@ -111,10 +111,8 @@ oscap xccdf eval \
 echo "Open /tmp/cis-report.html in a browser"
 ```
 
----
 
 
 
----
 
 [← Previous](02-1-defense-in-depth-the.md) | [↑ Index](index.md) | [Next →](04-3-kernel-hardening-sysctl-and.md)

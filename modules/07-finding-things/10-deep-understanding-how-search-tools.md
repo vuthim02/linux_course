@@ -55,10 +55,8 @@ Speed tips:
   rg "pattern"                           # ripgrep is smarter
 ```
 
----
 
 
 
----
 
 [← Previous](09-practice-section-18-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](11-summary-complete-command-reference-for.md)

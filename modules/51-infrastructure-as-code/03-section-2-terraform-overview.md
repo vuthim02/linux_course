@@ -79,10 +79,8 @@ terraform {
 
 `required_version` enforces a minimum Terraform version. The `~>` operator means "allow patch updates but not minor version bumps" (e.g., `~> 5.0` allows 5.0.x but not 5.1).
 
----
 
 
 
----
 
 [← Previous](02-section-1-what-is-infrastructure.md) | [↑ Index](index.md) | [Next →](04-section-3-installation.md)

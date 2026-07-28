@@ -163,10 +163,8 @@ sudo chown nobody:nogroup /srv/samba/public
 sudo chmod 2775 /srv/samba/public
 ```
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-file-serving.md) | [↑ Index](index.md) | [Next →](07-section-4-samba-as-domain.md)

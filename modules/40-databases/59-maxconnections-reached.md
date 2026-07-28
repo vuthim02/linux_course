@@ -27,6 +27,5 @@ SELECT count(*) FROM pg_stat_activity;
 
 
 
----
 
 [← Previous](58-connection-refused.md) | [↑ Index](index.md) | [Next →](60-disk-full-wal-growth.md)

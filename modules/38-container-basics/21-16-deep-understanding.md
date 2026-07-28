@@ -234,10 +234,8 @@ fuse-overlayfs implements overlay in userspace via FUSE.
 podman info | grep overlay
 ```
 
----
 
 
 
----
 
 [← Previous](20-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](22-17-command-reference.md)

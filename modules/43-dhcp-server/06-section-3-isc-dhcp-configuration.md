@@ -77,10 +77,8 @@ subnet 172.16.0.0 netmask 255.255.255.0 {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-2-isc-dhcp-server.md) | [↑ Index](index.md) | [Next →](07-section-4-static-assignments-reservations.md)

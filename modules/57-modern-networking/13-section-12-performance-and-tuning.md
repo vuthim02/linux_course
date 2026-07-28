@@ -145,10 +145,8 @@ cilium config set bpf-map-dynamic-size-ratio 0.0025
 sysctl -w net.core.wmem_max=8388608
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-11-building-overlays-vxlan.md) | [↑ Index](index.md) | [Next →](14-15-hands-on-practices.md)

@@ -75,10 +75,8 @@ Node B: "Node A is dead, I'll mount the filesystem"
 
 The solution is **fencing** (STONITH) — forcibly removing a node from the cluster so it cannot corrupt shared data.
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-pacemaker-corosync-architecture.md)

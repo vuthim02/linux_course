@@ -146,10 +146,8 @@ echo "--- Resolver Statistics ---"
 command -v resolvectl >/dev/null 2>&1 && resolvectl statistics || echo "resolvectl not available"
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-9-llmnr-link-local-multicast.md) | [↑ Index](index.md) | [Next →](14-level-3-advanced-resolution-internals.md)

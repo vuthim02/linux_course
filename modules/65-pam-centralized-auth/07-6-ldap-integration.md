@@ -145,10 +145,8 @@ EOF
 
 > 🔍 **Reverse Engineering Insight:** When SSSD queries LDAP, it doesn't use `ldapsearch` — it uses the `libldap` C library directly. The LDAP filter it generates depends on `ldap_user_object_class` and `ldap_user_name` in `sssd.conf`. If these are wrong, you'll see zero results even though LDAP itself works fine.
 
----
 
 
 
----
 
 [← Previous](06-5-sssd-architecture.md) | [↑ Index](index.md) | [Next →](08-7-authselect-managing-pam-profiles.md)

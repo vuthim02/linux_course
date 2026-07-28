@@ -104,10 +104,8 @@ sudo cp /usr/lib/PXELINUX/pxelinux.0 /srv/tftp/
 sudo systemctl enable --now tftpd-hpa
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-11-dhcpv6.md) | [↑ Index](index.md) | [Next →](17-section-13-15-hands-on-practices.md)

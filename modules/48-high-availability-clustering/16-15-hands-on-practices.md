@@ -469,10 +469,8 @@ crm node online node1
 crm status
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-14-disaster-recovery.md) | [↑ Index](index.md) | [Next →](17-deep-understanding.md)

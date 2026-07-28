@@ -75,10 +75,8 @@ sudo hwclock -w
 sudo hwclock -s
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-how-ntp-works.md) | [↑ Index](index.md) | [Next →](06-level-2-intermediary-chrony-configuration.md)

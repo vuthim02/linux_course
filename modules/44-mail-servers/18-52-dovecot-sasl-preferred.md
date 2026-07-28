@@ -24,6 +24,5 @@ unix_listener /var/spool/postfix/private/auth {
 
 
 
----
 
 [← Previous](17-51-why-sasl.md) | [↑ Index](index.md) | [Next →](19-53-cyrus-sasl-legacy.md)

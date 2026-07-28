@@ -86,12 +86,10 @@ CREATE SUBSCRIPTION mysub CONNECTION 'host=192.168.1.10 dbname=company user=repl
 PUBLICATION mypub;
 ```
 
----
 
 # 13. Database Monitoring
 
 
 
----
 
 [← Previous](53-mariadb-replication.md) | [↑ Index](index.md) | [Next →](55-mariadb-monitoring.md)

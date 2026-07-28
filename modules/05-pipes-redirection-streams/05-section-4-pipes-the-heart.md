@@ -76,10 +76,8 @@ ss -tlnp | awk 'NR>1 {print $4, $7}' | sort
 du -sh /* 2>/dev/null | sort -rh | head -10
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-redirecting-stdin-the.md) | [↑ Index](index.md) | [Next →](06-common-pipe-patterns-every-sysadmin.md)

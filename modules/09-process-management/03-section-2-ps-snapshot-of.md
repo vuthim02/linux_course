@@ -87,10 +87,8 @@ ps -e -o pid,user,%cpu,comm --sort=-%cpu | awk '$3 > 10'
 ps -e -o pid --no-headers
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-what-is-a.md) | [↑ Index](index.md) | [Next →](04-section-3-top-real-time-process.md)

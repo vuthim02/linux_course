@@ -1,5 +1,6 @@
 # 43-dhcp-server
 
+**Prerequisites:** Complete [Part 42 - dns-server-bind](../42-dns-server-bind/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

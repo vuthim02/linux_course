@@ -88,10 +88,8 @@ $ top -b -n 5 -d 2 > top.log # 5 snapshots, 2s apart, to file
 $ top -b -n 1 -p 1234        # Single process only
 ```
 
----
 
 
 
----
 
 [← Previous](05-2-proc-and-sys-the.md) | [↑ Index](index.md) | [Next →](07-7-free-memory-usage-reality.md)

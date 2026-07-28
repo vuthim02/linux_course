@@ -52,10 +52,8 @@ PATH=/usr/bin:/bin:/usr/local/bin
 0 3 * * * tar -czf /backup/www.tar.gz /var/www
 ```
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-scheduling-workflows.md) | [↑ Index](index.md) | [Next →](07-section-4-cron-output-and.md)

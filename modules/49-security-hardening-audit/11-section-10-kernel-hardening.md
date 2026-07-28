@@ -94,10 +94,8 @@ Without ASLR:                     With ASLR:
 grep -i pax /proc/config.gz 2>/dev/null || zcat /proc/config.gz 2>/dev/null | grep -i PAX
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-9-network-security.md) | [↑ Index](index.md) | [Next →](12-section-11-apparmor-selinux.md)

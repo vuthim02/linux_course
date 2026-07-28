@@ -1,5 +1,6 @@
 # 18-environment-variables
 
+**Prerequisites:** Complete [Part 17 - selinux-apparmor](../17-selinux-apparmor/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

@@ -120,10 +120,8 @@ ARRAY /dev/md1 metadata=1.2 UUID=a1b2c3d4:e5f6a7b8:c9d0e1f2:a3b4c5d6 name=host:1
 
 This tells mdadm exactly which drives belong to which array by UUID. The alternative is auto-assembly, which the kernel does by scanning all drives for superblocks.
 
----
 
 
 
----
 
 [← Previous](04-section-2-mdadm-the-linux.md) | [↑ Index](index.md) | [Next →](06-level-2-intermediary-daily-raid.md)

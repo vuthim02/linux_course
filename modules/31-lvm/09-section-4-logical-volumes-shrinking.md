@@ -50,10 +50,8 @@ Pos 8: Zero (z=zero, -=non-zero)
 Pos 9: Health (p=partial, X=inconsistent, m=MISSING, R=refresh)
 ```
 
----
 
 
 
----
 
 [← Previous](08-level-2-intermediary-lvm-in.md) | [↑ Index](index.md) | [Next →](10-section-5-filesystem-alignment-for.md)

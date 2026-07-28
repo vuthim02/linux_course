@@ -46,10 +46,8 @@ which python3     # /usr/bin/python3
 which -a ssh      # All ssh binaries in PATH
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-6-modern-alternatives-rg.md) | [↑ Index](index.md) | [Next →](09-practice-section-18-hands-on-exercises.md)

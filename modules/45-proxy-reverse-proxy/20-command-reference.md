@@ -66,10 +66,8 @@
 | `ss -tlnp \| grep -E "(squid|nginx|haproxy)"` | Check listening ports |
 | `nc -vz 127.0.0.1 3128` | Test TCP connectivity to proxy |
 
----
 
 
 
----
 
 [← Previous](19-deep-understanding.md) | [↑ Index](index.md) | [Next →](21-whats-coming-in-part-46.md)

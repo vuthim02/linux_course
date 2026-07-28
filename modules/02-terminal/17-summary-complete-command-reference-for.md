@@ -73,10 +73,8 @@
 | `ln -s src dest` | Create symbolic link |
 | `ln src dest` | Create hard link |
 
----
 
 
 
----
 
 [← Previous](16-section-11-deep-understanding-how.md) | [↑ Index](index.md) | [Next →](18-whats-coming-in-part-3.md)

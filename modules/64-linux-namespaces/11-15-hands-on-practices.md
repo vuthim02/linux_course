@@ -526,10 +526,8 @@ sudo ./ns_dashboard.sh $CONTAINER_PID
 
 ✅ **Expected**: Complete namespace overview for any process or container.
 
----
 
 
 
----
 
 [← Previous](10-9-namespace-security.md) | [↑ Index](index.md) | [Next →](12-deep-understanding.md)

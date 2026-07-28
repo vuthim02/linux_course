@@ -148,10 +148,8 @@ echo "$(date +%s),$(grep hardening_index /var/log/lynis-report.dat | cut -d= -f2
 
 > 🔍 **Reverse Engineering Insight:** Lynis doesn't actually fix anything — it only identifies issues. That's by design. Automated fixes can break production systems. Use Lynis as a diagnostic tool, then apply targeted remediation with your change management process.
 
----
 
 
 
----
 
 [← Previous](08-6-fail2ban-automated-intrusion-prevention.md) | [↑ Index](index.md) | [Next →](10-8-aide-file-integrity-monitoring.md)

@@ -47,10 +47,8 @@ http://archive.ubuntu.com/ubuntu/
                     └── nginx_1.18.0-0ubuntu1_amd64.deb
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-repository-architecture.md) | [↑ Index](index.md) | [Next →](04-section-2-debianubuntu-repositories-sourceslist.md)

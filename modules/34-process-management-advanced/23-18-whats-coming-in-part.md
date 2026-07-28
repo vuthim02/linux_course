@@ -17,7 +17,9 @@ Topics covered:
 - Real-world script templates: backup, log rotator, health check
 - ShellCheck and best practices
 
----
+### How Part 34 Connects
+Every process management task you learned — killing runaway processes, monitoring OOM, checking ulimits — can be automated with shell scripts. Part 35 turns your manual sysadmin skills into repeatable automation. A script that kills runaway processes when CPU exceeds 90% is more valuable than knowing how to kill one manually.
+
 
 *Previous → [Part 33: System Monitoring](part33.md)*
 *Next → [Part 35: Shell Scripting for System Administrators](part35.md)*
@@ -25,6 +27,5 @@ Topics covered:
 [← Previous](part33.md) | [Next →](part35.md)
 
 
----
 
 [← Previous](22-17-self-test.md) | [↑ Index](index.md)

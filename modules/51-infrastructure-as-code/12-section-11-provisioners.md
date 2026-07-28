@@ -124,10 +124,8 @@ provisioner "remote-exec" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-10-workspaces.md) | [↑ Index](index.md) | [Next →](13-section-12-terraform-cloud-enterprise.md)

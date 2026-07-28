@@ -34,10 +34,8 @@ $ systemd-analyze blame
           ...
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-journald-systemds-logging.md) | [↑ Index](index.md) | [Next →](12-section-9-systemd-timers-modern.md)

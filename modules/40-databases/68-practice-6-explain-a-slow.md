@@ -30,6 +30,5 @@ EXPLAIN ANALYZE SELECT * FROM items WHERE quantity > 500 ORDER BY price;
 
 
 
----
 
 [← Previous](67-practice-5-pgdumppgrestore.md) | [↑ Index](index.md) | [Next →](69-practice-7-tune-buffer-sizes.md)

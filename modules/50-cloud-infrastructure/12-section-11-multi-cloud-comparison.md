@@ -70,10 +70,8 @@ Mitigation Strategies:
   - Abstract cloud SDK calls behind your own interfaces
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-10-cloud-cost-management.md) | [↑ Index](index.md) | [Next →](13-practice-section-15-hands-on-exercises.md)

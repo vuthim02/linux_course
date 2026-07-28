@@ -1,5 +1,6 @@
 # 63-ebpf-tracing
 
+**Prerequisites:** Complete [Part 62 - memory-management](../62-memory-management/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

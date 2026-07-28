@@ -88,6 +88,5 @@ ORDER BY seq_scan DESC;
 
 
 
----
 
 [← Previous](55-mariadb-monitoring.md) | [↑ Index](index.md) | [Next →](57-monitoring-tools.md)

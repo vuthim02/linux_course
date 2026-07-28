@@ -154,10 +154,8 @@ with tracer.start_as_current_span("process_payment") as span:
 
 **Sampling:** Head-based (decision at SDK per trace, propagates via W3C trace-context) vs tail-based (decision in collector after seeing all spans — keeps ALL errors, ALL slow, 10% of rest).
 
----
 
 
 
----
 
 [← Previous](12-12-tempo.md) | [↑ Index](index.md) | [Next →](14-14-unified-observability.md)

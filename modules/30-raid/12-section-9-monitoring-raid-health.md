@@ -113,10 +113,8 @@ fi
 rm -f "$TMPFILE"
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-8-raid-failure-simulation.md) | [↑ Index](index.md) | [Next →](13-section-10-raid-and-lvm.md)

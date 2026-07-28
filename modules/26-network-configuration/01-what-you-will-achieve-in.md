@@ -8,10 +8,15 @@
 
 Complete **15 hands-on practices** across all levels.
 
----
+### By the End of This Part You Will Be Able To
+- Identify and configure network interfaces using `ip`, `nmcli`, and Netplan
+- Set up bonding, bridging, and VLANs for advanced network topologies
+- Configure hostname resolution with `/etc/hosts` and `/etc/hostname`
+- Troubleshoot connectivity with `ping`, `traceroute`, `tcpdump`, and `ss`
+- Tune network performance with `ethtool`, MTU, and offloading settings
 
 
 
----
+
 
 [↑ Index](index.md) | [Next →](02-level-1-basic-network-interface.md)

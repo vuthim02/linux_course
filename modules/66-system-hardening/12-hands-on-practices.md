@@ -20,7 +20,6 @@ sysctl -p /etc/sysctl.d/99-hardening.conf
 
 ✅ Expected: `sysctl` outputs each setting without errors; `cat /proc/sys/kernel/randomize_va_space` shows `2`
 
----
 
 ### Practice 2: Mount /tmp on tmpfs with Restrictions
 
@@ -32,7 +31,6 @@ mount | grep /tmp
 
 ✅ Expected: `/tmp` shows `tmpfs` type with `noexec,nosuid,nodev` options; `touch /tmp/test && chmod +x /tmp/test && /tmp/test` fails with "Permission denied"
 
----
 
 ### Practice 3: Configure and Test auditd
 
@@ -53,7 +51,6 @@ auditctl -d -w /etc/passwd -p wa -k identity_test
 
 ✅ Expected: `ausearch` shows the write event to `/etc/passwd` with timestamp, user, and command
 
----
 
 ### Practice 4: Deploy fail2ban with SSH Jail
 
@@ -82,7 +79,6 @@ iptables -L f2b-sshd -n
 
 ✅ Expected: After 3 failures, `fail2ban-client status sshd` shows `Currently banned: 1` and the IP appears in iptables
 
----
 
 ### Practice 5: Run a Lynis Audit and Interpret Results
 
@@ -103,7 +99,6 @@ grep "\[SUGGESTION\]" /tmp/lynis-full.log | head -20
 
 ✅ Expected: Score displayed (30-80 depending on current state); warnings show specific issues; suggestions provide actionable fixes
 
----
 
 ### Practice 6: Initialize AIDE Baseline
 
@@ -123,7 +118,6 @@ aide --check
 
 ✅ Expected: `aide --init` completes without error; `aide --check` reports "AIDE found no differences between database and filesystem"
 
----
 
 ### Practice 7: Detect Changes with AIDE
 
@@ -143,7 +137,6 @@ cp /var/lib/aide/aide.db.new /var/lib/aide/aide.db
 
 ✅ Expected: AIDE reports `/etc/malicious.conf` as ADDED and `/etc/malicious.conf` permissions as CHANGED
 
----
 
 ### Practice 8: CIS Quick Wins — Disable Unused Filesystems
 
@@ -161,7 +154,6 @@ done
 
 ✅ Expected: Each `modprobe` returns "Operation not permitted" or "Required key not available", confirming modules are blocked
 
----
 
 ### Practice 9: Set Immutable Attributes on Critical Files
 
@@ -181,7 +173,6 @@ echo "test" >> /etc/passwd  # Should fail
 
 ✅ Expected: `lsattr` shows the `i` flag; echo append fails with "Operation not permitted"
 
----
 
 ### Practice 10: Build a Complete Audit Rules File
 
@@ -209,7 +200,6 @@ auditctl -l
 
 ✅ Expected: `auditctl -l` shows all rules; `auditctl -s` shows "enabled 1" and "failure 1" (printk mode)
 
----
 
 ### Practice 11: fail2ban Custom Filter for Nginx
 
@@ -238,7 +228,6 @@ fail2ban-regex /var/log/nginx/access.log /etc/fail2ban/filter.d/nginx-auth.conf
 
 ✅ Expected: `fail2ban-regex` shows "matched" count; `fail2ban-client status nginx-auth` shows the jail is active
 
----
 
 ### Practice 12: OpenSCAP Quick Scan
 
@@ -260,7 +249,6 @@ head -30 /tmp/scap-fix.sh
 
 ✅ Expected: HTML report generated; remediation script contains bash commands to fix non-compliant settings
 
----
 
 ### Practice 13: Automated Daily Hardening Check Script
 
@@ -299,7 +287,6 @@ echo "0 6 * * * root /usr/local/bin/daily-security-check.sh" > /etc/cron.d/secur
 
 ✅ Expected: Script runs and generates `/var/log/security-check-YYYYMMDD.txt` containing status from all tools
 
----
 
 ### Practice 14: Ansible Hardening Dry Run
 
@@ -320,7 +307,6 @@ ansible-galaxy role install dev-sec.os-hardening
 
 # Create playbook
 cat > test-hardening.yml << 'YML'
----
 - hosts: webserver
   become: true
   roles:
@@ -340,7 +326,6 @@ ansible-playbook -i inventory.ini test-hardening.yml --check --diff
 
 ✅ Expected: Ansible shows "changed" or "ok" for each task; `--check` mode applies nothing but reports what would change
 
----
 
 ### Practice 15: Full Hardening Workflow End-to-End
 
@@ -372,10 +357,8 @@ echo "After:  $(cat /tmp/after-score.txt)"
 
 ✅ Expected: Lynis score increases by 10-30 points; auditd has rules loaded; fail2ban is running; AIDE baseline is active
 
----
 
 
 
----
 
 [← Previous](11-9-automated-compliance-openscap-and.md) | [↑ Index](index.md) | [Next →](13-deep-understanding.md)

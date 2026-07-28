@@ -63,10 +63,8 @@ for ip in $(cat /tmp/cn.zone); do ipset add china $ip; done
 iptables -A INPUT -m set --match-set china src -j DROP
 ```
 
----
 
 
 
----
 
 [← Previous](09-level-3-advanced-filtering-patterns.md) | [↑ Index](index.md) | [Next →](11-section-7-troubleshooting-firewalls.md)

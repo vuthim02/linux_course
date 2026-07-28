@@ -131,10 +131,8 @@ Token lost = consensus protocol triggered:
 "Remove node3 from ring"
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-2-pacemaker-corosync-architecture.md) | [↑ Index](index.md) | [Next →](05-section-4-pacemaker-configuration.md)

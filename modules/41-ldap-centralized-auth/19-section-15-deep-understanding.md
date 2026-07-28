@@ -238,10 +238,8 @@ Clients can follow referrals automatically:
 ldapsearch -x -b dc=example,dc=com -E 'chaining=resolve' '(uid=alice)'
 ```
 
----
 
 
 
----
 
 [← Previous](18-section-14-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](20-section-16-command-reference.md)

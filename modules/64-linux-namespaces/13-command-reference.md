@@ -26,10 +26,8 @@
 | Container namespace info | `docker inspect --format '{{.State.Pid}}' <container>` |
 | Decode capabilities | `capsh --decode=<hex>` |
 
----
 
 
 
----
 
 [← Previous](12-deep-understanding.md) | [↑ Index](index.md) | [Next →](14-whats-coming-in-part-65.md)

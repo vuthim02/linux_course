@@ -46,10 +46,8 @@ sudo losetup -P /dev/loop0 /backups/sda-image.dd
 sudo mount /dev/loop0p1 /mnt/restore
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-3-rsync-remote-sync.md) | [↑ Index](index.md) | [Next →](07-level-2-intermediary-incremental-backups.md)

@@ -63,10 +63,8 @@ sudo restore -if /backups/sda1-l0.dump
 - XFS uses `xfsdump`/`xfsrestore`
 - Btrfs uses `btrfs send`/`receive`
 
----
 
 
 
----
 
 [← Previous](10-section-4-ddrescue-failing-drive.md) | [↑ Index](index.md) | [Next →](12-section-9-database-backup.md)

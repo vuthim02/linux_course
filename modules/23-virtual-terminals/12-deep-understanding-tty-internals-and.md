@@ -60,10 +60,8 @@ reboot
 # This tells you exactly which service failed
 ```
 
----
 
 
 
----
 
 [← Previous](11-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](13-summary-complete-command-reference-for.md)

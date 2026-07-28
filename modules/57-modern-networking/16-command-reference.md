@@ -107,10 +107,8 @@
 | `iperf3 -c HOST -t 30 -P 4` | Benchmark throughput |
 | `ping -M do -s 1472 HOST` | Test MTU |
 
----
 
 
 
----
 
 [← Previous](15-deep-understanding.md) | [↑ Index](index.md) | [Next →](17-whats-coming-in-part-58.md)

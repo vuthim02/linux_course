@@ -17,7 +17,6 @@ metadata:
   name: my-sa
   namespace: production
 automountServiceAccountToken: true    # auto-mount API token in pods
----
 apiVersion: v1
 kind: Pod
 metadata:
@@ -176,10 +175,8 @@ kubectl describe clusterrole cluster-admin
 - **Enable RBAC** (it is on by default in 1.6+).
 - **Never bind `cluster-admin` to a user unless absolutely necessary.**
 
----
 
 
 
----
 
 [← Previous](09-9-storage.md) | [↑ Index](index.md) | [Next →](11-11-horizontal-pod-autoscaler-hpa.md)

@@ -99,7 +99,6 @@ spec:
     - name: http
       protocol: HTTP
       port: 80
----
 apiVersion: gateway.networking.k8s.io/v1
 kind: HTTPRoute
 metadata:
@@ -144,10 +143,8 @@ cilium clustermesh connect --context cluster-1 --destination-context cluster-2
 cilium clustermesh status --context cluster-1
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-5-cilium-network-policies.md) | [↑ Index](index.md) | [Next →](08-section-7-hubble.md)

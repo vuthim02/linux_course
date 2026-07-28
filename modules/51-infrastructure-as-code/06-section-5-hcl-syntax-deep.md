@@ -158,10 +158,8 @@ resource "aws_instance" "servers" {
 
 Use **for_each** when you need stable, meaningful keys. Use **count** when you need a simple numbered list.
 
----
 
 
 
----
 
 [← Previous](05-section-4-core-concepts.md) | [↑ Index](index.md) | [Next →](07-section-6-variables-and-outputs.md)

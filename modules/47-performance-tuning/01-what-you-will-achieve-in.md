@@ -11,10 +11,8 @@ By the end of this part, you will:
 - **Benchmark** systems properly with stress-ng, fio, iperf3, sysbench
 - **Write a full performance audit report**
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-prerequisites.md)

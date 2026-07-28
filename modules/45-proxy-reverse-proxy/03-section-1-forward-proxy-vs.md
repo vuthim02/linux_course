@@ -75,10 +75,8 @@ Reverse Proxy:
 | `Via` | Added by proxies (RFC 7230) | Added by proxies |
 | `Forwarded` | Modern standardized header (RFC 7239) | Same |
 
----
 
 
 
----
 
 [← Previous](02-prerequisites.md) | [↑ Index](index.md) | [Next →](04-section-2-squid-forward-proxy.md)

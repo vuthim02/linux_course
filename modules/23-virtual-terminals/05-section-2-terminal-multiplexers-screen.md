@@ -103,10 +103,8 @@ bindkey -k k2 select 2    # F2 -> window 2
 | `Ctrl+A Q` | Remove all splits |
 | `Ctrl+A [` | Enter copy/scroll mode |
 
----
 
 
 
----
 
 [← Previous](04-level-2-intermediary-terminal-multiplexers.md) | [↑ Index](index.md) | [Next →](06-section-3-terminal-multiplexers-tmux.md)

@@ -241,10 +241,8 @@ sudo ausearch -m AVC -ts today | audit2allow -M mymodule
 | **Policy language** | Profile syntax (simple) | TE (Type Enforcement) |
 | **MLS/MCS** | Limited | Full support |
 
----
 
 
 
----
 
 [← Previous](11-section-10-kernel-hardening.md) | [↑ Index](index.md) | [Next →](13-section-12-ssh-hardening.md)

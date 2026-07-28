@@ -27,6 +27,5 @@ Application Data:
 ```markdown
 
 
----
 
 [← Previous](19-section-12-restore-testing.md) | [↑ Index](index.md) | [Next →](21-schedule.md)

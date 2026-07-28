@@ -209,10 +209,8 @@ PrivateKey = ...
 MTU = 1420  # 1500 - 60 - 20 (for PPPoE: 1492 - 60 - 8 = 1424)
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-hubble.md) | [↑ Index](index.md) | [Next →](10-section-9-wireguard-in-practice.md)

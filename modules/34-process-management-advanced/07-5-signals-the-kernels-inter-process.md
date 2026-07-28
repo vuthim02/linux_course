@@ -31,10 +31,8 @@ Signals 32-63 are **real-time signals**: guaranteed ordering, multiple instances
 $ kill -l   # list all signals on this system
 ```
 
----
 
 
 
----
 
 [← Previous](06-3-pstree-visualizing-process-hierarchy.md) | [↑ Index](index.md) | [Next →](08-6-kill-killall-sending-signals.md)

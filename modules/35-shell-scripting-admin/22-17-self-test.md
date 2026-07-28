@@ -78,10 +78,8 @@
 | 8-11/15 | Review sections 3-8 and retry |
 | 0-7/15 | Re-read this part before moving on |
 
----
 
 
 
----
 
 [← Previous](21-14-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](23-18-whats-coming-in-part.md)

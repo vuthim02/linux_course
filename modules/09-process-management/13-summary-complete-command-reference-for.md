@@ -65,10 +65,8 @@
 | `lsof -i` | List network connections |
 | `pidof command` | Find PID of command |
 
----
 
 
 
----
 
 [← Previous](12-deep-understanding-how-the-scheduler.md) | [↑ Index](index.md) | [Next →](14-whats-coming-in-part-10.md)

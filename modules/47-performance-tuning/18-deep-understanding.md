@@ -56,7 +56,6 @@ if (wakeup_task.vruntime < running_task.vruntime - wakeup_granularity)
 | `kernel.sched_migration_cost_ns` | 500000 (0.5 ms) | Time after a task wakes before it's considered cache-hot |
 | `kernel.sched_nr_migrate` | 32 | Max tasks to migrate in a single balance pass |
 
----
 
 ### How Memory Management Works
 
@@ -131,7 +130,6 @@ cat /proc/meminfo | grep -E "(Active|Inactive)"
 - High refault rate = reclaim is too aggressive
 - This is how the kernel detects *thrashing*
 
----
 
 ### How the Network Stack Processes Packets
 
@@ -244,7 +242,6 @@ watch -n 1 cat /proc/softirqs
 └─────────────────────────────────────────────────┘
 ```
 
----
 
 ### How NVMe/SSDs Differ from HDDs for Tuning
 
@@ -272,10 +269,8 @@ watch -n 1 cat /proc/softirqs
 
 6. **Direct I/O:** Bypassing the page cache (`O_DIRECT`) makes sense for databases on NVMe. On HDDs, the page cache is critical for performance.
 
----
 
 
 
----
 
 [← Previous](17-date-date.md) | [↑ Index](index.md) | [Next →](19-command-reference.md)

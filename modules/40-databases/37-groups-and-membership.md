@@ -15,12 +15,10 @@ GRANT developers TO bob;
 \du+
 ```
 
----
 
 # 9. PostgreSQL User Management — Deep Dive
 
 
 
----
 
 [← Previous](36-role-user-operations.md) | [↑ Index](index.md) | [Next →](38-role-attributes.md)

@@ -171,12 +171,10 @@ sudo /usr/local/bin/db_ops.sh
 sudo cat /var/backups/databases/backup.log
 ```
 
----
 
 # 🔬 Deep Understanding
 
 
 
----
 
 [← Previous](76-practice-14-point-in-time-recovery.md) | [↑ Index](index.md) | [Next →](78-how-storage-engines-work-innodb.md)

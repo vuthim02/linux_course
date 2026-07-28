@@ -1,10 +1,8 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### Level 1 Practices: LVM Fundamentals
 
----
 
 ### ✅ Practice 1: Create PVs, VG, and LV
 
@@ -31,7 +29,6 @@ sudo lvs
 ls -la /dev/vg_lab/lv_first
 ```
 
----
 
 ### ✅ Practice 2: Extend an LV
 
@@ -49,7 +46,6 @@ df -h /mnt/lv_first
 sudo umount /mnt/lv_first
 ```
 
----
 
 ### ✅ Practice 3: Reduce an LV
 
@@ -72,11 +68,9 @@ sudo umount /mnt/lv_shrink
 sudo lvremove -f vg_lab/lv_shrink
 ```
 
----
 
 ### Level 2 Practices: Snapshots, Thin Provisioning, Cache
 
----
 
 ### ✅ Practice 4: Snapshot and Rollback
 
@@ -108,7 +102,6 @@ sudo umount /mnt/lv_origin
 sudo lvremove -f vg_lab/lv_origin
 ```
 
----
 
 ### ✅ Practice 5: Thin Pool and Thin LV
 
@@ -132,7 +125,6 @@ sudo umount /mnt/thin1 /mnt/thin2
 sudo lvremove -f vg_lab/thin_lv_1 vg_lab/thin_lv_2 vg_lab/thin_pool
 ```
 
----
 
 ### ✅ Practice 6: Thin Snapshots
 
@@ -156,7 +148,6 @@ sudo umount /mnt/thin_orig /mnt/thin_snap
 sudo lvremove -f vg_lab/thin_orig vg_lab/thin_snap vg_lab/pool
 ```
 
----
 
 ### ✅ Practice 7: LVM Cache
 
@@ -191,7 +182,6 @@ sudo vgremove -f vg_cache && sudo pvremove $SLOW $FAST
 sudo losetup -d $SLOW $FAST && rm -f slow.img fast.img
 ```
 
----
 
 ### ✅ Practice 8: Striped LV
 
@@ -214,11 +204,9 @@ sudo umount /mnt/stripe
 sudo lvremove -f vg_lab/lv_stripe
 ```
 
----
 
 ### Level 3 Practices: RAID, Recovery, and Integration
 
----
 
 ### ✅ Practice 9: LVM RAID 1
 
@@ -236,7 +224,6 @@ sudo umount /mnt/mirror
 sudo lvremove -f vg_lab/lv_mirror
 ```
 
----
 
 ### ✅ Practice 10: LVM RAID 5
 
@@ -253,7 +240,6 @@ sudo umount /mnt/raid5
 sudo lvremove -f vg_lab/lv_raid5
 ```
 
----
 
 ### ✅ Practice 11: Missing PV Recovery
 
@@ -280,7 +266,6 @@ sudo umount /mnt/recover
 sudo lvremove -f vg_lab/lv_recover
 ```
 
----
 
 ### ✅ Practice 12: Metadata Backup and Restore
 
@@ -300,7 +285,6 @@ sudo vgcfgrestore -t -f /etc/lvm/archive/vg_lab_00001.vg vg_lab 2>&1 || true
 sudo lvremove -f vg_lab/lv_meta vg_lab/lv_meta2
 ```
 
----
 
 ### ✅ Practice 13: lvm.conf Filters
 
@@ -314,7 +298,6 @@ echo "Loop devices should be hidden above"
 sudo pvs  # All devices visible
 ```
 
----
 
 ### ✅ Practice 14: pvck and dmsetup
 
@@ -330,7 +313,6 @@ sudo dmsetup deps vg_lab-lv_first
 sudo dmsetup info -c | head -5
 ```
 
----
 
 ### ✅ Practice 15: Real-World Integration — Multi-Disk Thin Pool + Snapshot + RAID
 
@@ -404,10 +386,8 @@ rm -f int_disk*.img
 echo "Integration practice complete!"
 ```
 
----
 
 
 
----
 
 [← Previous](20-deep-understanding-how-lvm-really.md) | [↑ Index](index.md) | [Next →](22-summary-complete-command-reference-for.md)

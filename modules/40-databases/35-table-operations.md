@@ -22,6 +22,5 @@ DROP TABLE employees;
 
 
 
----
 
 [← Previous](34-database-operations.md) | [↑ Index](index.md) | [Next →](36-role-user-operations.md)

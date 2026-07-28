@@ -11,10 +11,8 @@ In addition to the course modules, this repository includes a **24-week internsh
 
 → See [internships/](../internships/) directory for full details.
 
----
 
 
 
----
 
 [← Previous](08-the-3-books-every-sysadmin.md) | [↑ Index](index.md) | [Next →](10-the-goal-what-a-linux.md)

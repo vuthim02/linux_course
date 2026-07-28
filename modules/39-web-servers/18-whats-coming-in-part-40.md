@@ -13,10 +13,8 @@ You will learn:
 - 10 hands-on practices
 - Deep understanding: ACID, MVCC, indexing internals, query planning
 
----
 
 
 
----
 
 [← Previous](17-command-reference.md) | [↑ Index](index.md) | [Next →](19-self-test-can-you-answer-these.md)

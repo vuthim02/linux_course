@@ -34,10 +34,8 @@ while [ "$#" -gt 0 ]; do
 done
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-conditionals-making-decisions.md) | [↑ Index](index.md) | [Next →](06-level-1-practices.md)

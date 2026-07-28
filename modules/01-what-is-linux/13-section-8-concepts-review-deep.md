@@ -39,10 +39,8 @@ cat /proc/uptime
 
 This is what "everything is a file" means in practice — even live system data is accessed like a file.
 
----
 
 
 
----
 
 [← Previous](12-level-3-advanced-how-linux.md) | [↑ Index](index.md) | [Next →](14-summary-what-you-learned-in.md)

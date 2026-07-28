@@ -75,10 +75,8 @@ bpftrace -e 'interval:s:5 { print(@hits); }'
 
 ⚠️ **Warning:** Poorly written bpftrace programs can consume significant CPU. Start minimal, add complexity gradually, and monitor with `top`.
 
----
 
 
 
----
 
 [← Previous](03-2-bcc-tools-instant-production-observability.md) | [↑ Index](index.md) | [Next →](05-4-strace-deep-dive-the.md)

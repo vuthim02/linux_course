@@ -88,10 +88,8 @@ gcloud compute regions list
 az account list-locations -o table
 ```
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-aws-cli.md)

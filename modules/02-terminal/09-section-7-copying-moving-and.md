@@ -55,10 +55,8 @@ rm *.tmp                            # Delete all .tmp files
 > rm -r /tmp/old_project/ # Now delete it
 > ```
 
----
 
 
 
----
 
 [← Previous](08-section-6-reading-file-contents.md) | [↑ Index](index.md) | [Next →](10-level-2-intermediary-advanced-file.md)

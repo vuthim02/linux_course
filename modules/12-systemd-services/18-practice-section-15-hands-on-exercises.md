@@ -2,7 +2,6 @@
 
 ### ✅ Level 1: Basic Practices
 
----
 
 ### ✅ Practice 1: Explore Your Init System
 
@@ -21,7 +20,6 @@ systemctl --version
 systemd-analyze
 ```
 
----
 
 ### ✅ Practice 2: Service Status Deep Dive
 
@@ -40,7 +38,6 @@ systemctl status cron
 systemctl status cron > service_status.txt
 ```
 
----
 
 ### ✅ Practice 3: Start, Stop, Restart
 
@@ -59,7 +56,6 @@ systemctl status cron    # Should show active again
 sudo systemctl enable --now cron
 ```
 
----
 
 ### ✅ Practice 4: Enable and Disable
 
@@ -76,11 +72,9 @@ sudo systemctl enable cron
 systemctl is-enabled cron
 ```
 
----
 
 ### ✅ Level 2: Intermediary Practices
 
----
 
 ### ✅ Practice 5: List All Services
 
@@ -101,7 +95,6 @@ systemctl list-units --type=service --state=failed | grep -c failed
 systemctl list-unit-files --type=service --state=enabled | head -30
 ```
 
----
 
 ### ✅ Practice 6: Create a Custom Service
 
@@ -146,7 +139,6 @@ systemctl status hello-daemon
 journalctl -u hello-daemon -n 5
 ```
 
----
 
 ### ✅ Practice 7: Enable/Disable Your Custom Service
 
@@ -160,7 +152,6 @@ systemctl is-enabled hello-daemon
 systemctl list-unit-files | grep hello
 ```
 
----
 
 ### ✅ Practice 8: Stop and Remove the Service
 
@@ -180,7 +171,6 @@ sudo systemctl daemon-reload
 sudo rm /usr/local/bin/hello-daemon.sh
 ```
 
----
 
 ### ✅ Practice 9: Explore Targets
 
@@ -200,7 +190,6 @@ systemctl list-dependencies graphical.target | head -20
 # See the difference (graphical adds display manager)
 ```
 
----
 
 ### ✅ Practice 10: Journalctl Deep Dive
 
@@ -224,7 +213,6 @@ journalctl -u cron -n 10
 timeout 3 journalctl -f || true
 ```
 
----
 
 ### ✅ Practice 11: Filter Journal by Time and Priority
 
@@ -242,7 +230,6 @@ PID=$(systemctl status cron | grep "Main PID" | awk '{print $3}')
 journalctl _PID=$PID -n 10 --no-pager
 ```
 
----
 
 ### ✅ Practice 12: Boot Analysis
 
@@ -261,7 +248,6 @@ systemd-analyze plot > boot_plot.svg 2>/dev/null
 ls -la boot_plot.svg
 ```
 
----
 
 ### ✅ Practice 13: Create a systemd Timer
 
@@ -308,11 +294,9 @@ sudo rm /etc/systemd/system/hello-timer.*
 sudo systemctl daemon-reload
 ```
 
----
 
 ### ✅ Level 3: Advanced Practices
 
----
 
 ### ✅ Practice 14: Investigate Service Dependencies
 
@@ -327,7 +311,6 @@ systemctl list-dependencies --reverse network.target
 systemctl list-dependencies --reverse multi-user.target | head -20
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Service Health Check
 
@@ -395,10 +378,8 @@ chmod +x service_health_check.sh
 ./service_health_check.sh
 ```
 
----
 
 
 
----
 
 [← Previous](17-deep-understanding-how-systemd-really.md) | [↑ Index](index.md) | [Next →](19-summary-complete-command-reference-for.md)

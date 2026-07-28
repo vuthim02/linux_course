@@ -109,10 +109,8 @@ brotli_types text/plain text/css application/javascript application/json image/s
 | `ETag: "abc123"` | Content hash for conditional requests | Hash value |
 | `Last-Modified: ...` | Date-based revalidation | Date |
 
----
 
 
 
----
 
 [← Previous](13-section-12-comparison-apache-vs.md) | [↑ Index](index.md) | [Next →](15-practice-section-15-hands-on-exercises.md)

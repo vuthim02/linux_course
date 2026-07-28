@@ -54,10 +54,8 @@ sudo rsync -av /mnt/home/ user@server:/backup/
 sudo ddrescue /dev/sda /dev/sdb /tmp/ddrescue.log
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-grub-recovery.md) | [↑ Index](index.md) | [Next →](09-section-6-chroot-repair-a.md)

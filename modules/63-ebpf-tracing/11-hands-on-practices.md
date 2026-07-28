@@ -233,10 +233,8 @@ sudo bpftrace /tmp/dashboard.bt
 
 ✅ **Expected**: Multi-probe dashboard showing syscalls, disk ops, and new processes
 
----
 
 
 
----
 
 [← Previous](10-9-when-to-use-which.md) | [↑ Index](index.md) | [Next →](12-deep-understanding.md)

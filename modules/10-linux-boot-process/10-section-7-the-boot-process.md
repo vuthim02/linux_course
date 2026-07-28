@@ -40,10 +40,8 @@ dmesg | grep -E "Detected|Found|initialized"
 [    4.567890] Run /init as init process
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-stage-5-systemd.md) | [↑ Index](index.md) | [Next →](11-section-10-understanding-etcfstab.md)

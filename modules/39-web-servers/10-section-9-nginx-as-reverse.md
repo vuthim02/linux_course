@@ -79,10 +79,8 @@ server {
 
 Backend apps need to be configured to trust these headers, otherwise they log Nginx's IP instead of the real client.
 
----
 
 
 
----
 
 [← Previous](09-section-8-nginx-server-blocks.md) | [↑ Index](index.md) | [Next →](11-section-10-nginx-as-load.md)

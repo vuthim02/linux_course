@@ -60,7 +60,6 @@ deleteoldrdn: 1
 | 464/tcp, 464/udp | kpasswd | Kerberos password change |
 | 123/udp | NTP | Network Time Protocol |
 
----
 
 *Previous → Part 40: Databases*
 *Next → Part 42: DNS Server Administration (BIND)*
@@ -68,6 +67,5 @@ deleteoldrdn: 1
 [← Previous](part40.md) | [Next →](part42.md)
 
 
----
 
 [← Previous](22-section-18-self-test.md) | [↑ Index](index.md)

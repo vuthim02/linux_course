@@ -2,7 +2,6 @@
 
 ### Level 1 Practices: Repository Basics
 
----
 
 ### ✅ Practice 1: Explore Your Current Repositories
 
@@ -37,7 +36,6 @@ if [ -d /etc/yum.repos.d ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 2: Count Available Packages
 
@@ -61,7 +59,6 @@ elif command -v dnf &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 3: Find Your Distribution Codename
 
@@ -81,7 +78,6 @@ echo "=== Release version ==="
 lsb_release -rs
 ```
 
----
 
 ### Level 2 Practices: PPAs, RPM Repos, and EPEL
 
@@ -111,7 +107,6 @@ elif [ -d /etc/pki/rpm-gpg ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 5: Add a Test Repository Entry (Dry Run)
 
@@ -133,7 +128,6 @@ To remove:
 EOF
 ```
 
----
 
 ### ✅ Practice 6: Simulate a PPA Addition
 
@@ -160,7 +154,6 @@ To remove:
 EOF
 ```
 
----
 
 ### ✅ Practice 7: Check RPM Repository Variables
 
@@ -180,7 +173,6 @@ if command -v dnf &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 8: Repository Priority and Pinning (APT)
 
@@ -208,7 +200,6 @@ Check pinning:
 EOF
 ```
 
----
 
 ### ✅ Practice 9: Mock EPEL Installation
 
@@ -237,7 +228,6 @@ Search EPEL packages:
 EOF
 ```
 
----
 
 ### ✅ Practice 10: Check Repository Cache
 
@@ -265,7 +255,6 @@ if command -v apt-cache &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 11: Check for Unused Dependencies
 
@@ -282,7 +271,6 @@ elif command -v dnf &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 12: Repository Mirror Selection
 
@@ -311,7 +299,6 @@ Fedora:
 EOF
 ```
 
----
 
 ### ✅ Practice 13: Check Repository File Format
 
@@ -338,7 +325,6 @@ RPM (.repo files):
 EOF
 ```
 
----
 
 ### Level 3 Practices: Troubleshooting and Auditing
 
@@ -368,7 +354,6 @@ RPM:
 EOF
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Repository Audit
 
@@ -466,10 +451,8 @@ chmod +x repository_audit.sh
 ./repository_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-8-gpg-key-management.md) | [↑ Index](index.md) | [Next →](14-deep-understanding-how-repository-security.md)

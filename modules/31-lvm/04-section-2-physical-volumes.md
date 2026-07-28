@@ -43,10 +43,8 @@ sudo pvchange -x n /dev/sdb    # Prohibit allocation on this PV
 sudo pvchange -x y /dev/sdb    # Allow allocation again
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-what-is-lvm.md) | [↑ Index](index.md) | [Next →](05-section-3-volume-groups.md)

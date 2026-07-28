@@ -22,6 +22,5 @@ psql -U postgres -f /tmp/backup.sql
 
 
 
----
 
 [← Previous](31-authentication-methods.md) | [↑ Index](index.md) | [Next →](33-meta-commands-backslash-commands.md)

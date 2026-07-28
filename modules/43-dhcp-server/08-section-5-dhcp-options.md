@@ -54,10 +54,8 @@ option custom-log-server code 225 = ip-address;
 option custom-log-server 192.168.1.50;
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-static-assignments-reservations.md) | [↑ Index](index.md) | [Next →](09-section-6-multiple-subnets.md)

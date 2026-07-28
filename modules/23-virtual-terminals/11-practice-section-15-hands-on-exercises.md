@@ -1,10 +1,8 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### Level 1 Practices: Virtual Terminal Basics
 
----
 
 ### ✅ Practice 1: Check Your Current TTY
 
@@ -34,7 +32,6 @@ ls -la /dev/tty[1-6] 2>/dev/null || echo "No virtual console devices found"
 ls /dev/pts/ 2>/dev/null && echo "Pseudo-terminals found (SSH/terminal sessions)"
 ```
 
----
 
 ### ✅ Practice 2: Explore Virtual Consoles with chvt
 
@@ -62,7 +59,6 @@ echo "Current virtual console:"
 cat /sys/class/tty/tty0/active 2>/dev/null || echo "Cannot determine"
 ```
 
----
 
 ### ✅ Practice 3: Configure Console Environment
 
@@ -87,7 +83,6 @@ echo "=== Console Font ==="
 cat /etc/default/console-setup 2>/dev/null || echo "No console-setup config"
 ```
 
----
 
 ### ✅ Practice 5: Kernel Messages and Console
 
@@ -117,7 +112,6 @@ echo "  dmesg"
 echo "  journalctl -k"
 ```
 
----
 
 ### ✅ Practice 7: Console Login Simulation
 
@@ -150,7 +144,6 @@ To switch back to GUI: Ctrl+Alt+F1 (or F7)
 EOF
 ```
 
----
 
 ### ✅ Practice 12: Reset a Garbled Terminal
 
@@ -186,11 +179,9 @@ When a terminal becomes garbled (binary output, wrong encoding):
 EOF
 ```
 
----
 
 ### Level 2 Practices: Terminal Multiplexers and Serial Console
 
----
 
 ### ✅ Practice 4: Explore screen
 
@@ -221,7 +212,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 6: Explore tmux
 
@@ -253,7 +243,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 8: Create a screen Session with Multiple Windows
 
@@ -298,7 +287,6 @@ chmod +x screen_demo.sh
 ./screen_demo.sh
 ```
 
----
 
 ### ✅ Practice 9: Create a tmux Session with Panes
 
@@ -341,7 +329,6 @@ chmod +x tmux_demo.sh
 ./tmux_demo.sh
 ```
 
----
 
 ### ✅ Practice 10: List Active Sessions and Windows
 
@@ -368,7 +355,6 @@ echo "=== TTY processes ==="
 ps -t tty1,tty2,tty3,tty4,tty5,tty6 2>/dev/null | head -20 || echo "No virtual console processes"
 ```
 
----
 
 ### ✅ Practice 11: Serial Console Detection
 
@@ -398,7 +384,6 @@ echo "  sudo systemctl enable serial-getty@ttyS0.service"
 echo "  sudo systemctl start serial-getty@ttyS0.service"
 ```
 
----
 
 ### ✅ Practice 13: Create a Persistent Session
 
@@ -433,7 +418,6 @@ echo ""
 echo "  [Persistence is the #1 reason sysadmins use tmux/screen]"
 ```
 
----
 
 ### ✅ Practice 14: Log Terminal Output
 
@@ -466,11 +450,9 @@ echo "  Or use pipe:"
 echo "    tmux pipe-pane -o 'cat >> tmux_log.txt'"
 ```
 
----
 
 ### Level 3 Practices: Advanced Console Management
 
----
 
 ### ✅ Practice 15: Console Management Script
 
@@ -542,10 +524,8 @@ chmod +x console_manager.sh
 ./console_manager.sh
 ```
 
----
 
 
 
----
 
 [← Previous](10-deep-understanding-tty-subsystem-and.md) | [↑ Index](index.md) | [Next →](12-deep-understanding-tty-internals-and.md)

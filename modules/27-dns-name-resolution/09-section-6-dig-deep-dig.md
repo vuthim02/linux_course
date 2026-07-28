@@ -168,10 +168,8 @@ nslookup google.com 8.8.8.8
 | Batch queries | Yes (-f) | No | No |
 | Scripting | Excellent | Good | Poor |
 
----
 
 
 
----
 
 [← Previous](08-section-5-systemd-resolved-the-modern.md) | [↑ Index](index.md) | [Next →](10-section-7-dns-caching.md)

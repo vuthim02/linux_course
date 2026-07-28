@@ -100,10 +100,8 @@ auth required pam_faillock.so deny=5 unlock_time=0
 
 > ⚠️ **Warning:** A misconfigured PAM stack can lock you out of the entire system. Before making PAM changes, always: (1) keep a root shell open, (2) create a backup with `authselect backup`, (3) test with `su - testuser` before closing the root shell.
 
----
 
 
 
----
 
 [← Previous](09-8-centralized-auth-in-practice.md) | [↑ Index](index.md) | [Next →](11-hands-on-practices.md)

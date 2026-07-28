@@ -115,10 +115,8 @@ withCredentials([
 }
 ```
 
----
 
 
 
----
 
 [← Previous](05-5-gitlab-ci-advanced.md) | [↑ Index](index.md) | [Next →](07-7-jenkins-pipeline.md)

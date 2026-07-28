@@ -62,10 +62,8 @@ Thanos Components:
   Compactor — Downsamples and compacts data
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-13-uptime-and-certificate.md) | [↑ Index](index.md) | [Next →](17-15-hands-on-practices.md)

@@ -74,10 +74,8 @@ docker run --hostname mycontainer alpine cat /etc/hosts
 # 172.17.0.2  mycontainer
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-what-is-dns.md) | [↑ Index](index.md) | [Next →](05-section-3-etcresolvconf-the-resolver.md)

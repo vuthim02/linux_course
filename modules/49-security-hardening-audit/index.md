@@ -1,5 +1,6 @@
 # 49-security-hardening-audit
 
+**Prerequisites:** Complete [Part 48 - high-availability-clustering](../48-high-availability-clustering/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

@@ -28,10 +28,8 @@ ls /dev/sd[a-z]             # Match sda, sdb, sdc... (all physical disks)
 > When you type `ls *.txt`, bash doesn't pass `*.txt` to `ls`. It first expands `*.txt` into the actual list of matching files, THEN runs `ls file1.txt file2.txt file3.txt`.
 > This is why wildcards work with ANY command.
 
----
 
 
 
----
 
 [← Previous](10-level-2-intermediary-advanced-file.md) | [↑ Index](index.md) | [Next →](12-section-9-finding-files-find.md)

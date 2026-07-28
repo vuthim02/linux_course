@@ -22,12 +22,10 @@ sudo postmap /etc/postfix/sasl_passwd
 sudo chmod 600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
 ```
 
----
 
 # 6. TLS/SSL
 
 
 
----
 
 [← Previous](19-53-cyrus-sasl-legacy.md) | [↑ Index](index.md) | [Next →](21-61-server-inbound-tls.md)

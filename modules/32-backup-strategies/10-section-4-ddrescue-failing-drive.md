@@ -19,10 +19,8 @@ sudo ddrescue -d -r3 -R /dev/sda /backups/recovery.dd /backups/mapfile.log
 ddrescuelog --list-bad /backups/mapfile.log
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-3-rsync-advanced.md) | [↑ Index](index.md) | [Next →](11-section-5-dumprestore.md)

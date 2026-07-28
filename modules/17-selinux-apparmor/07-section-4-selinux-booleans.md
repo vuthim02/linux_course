@@ -43,10 +43,8 @@ sudo setsebool -P nfs_export_all_rw on
 sudo setsebool -P daemons_use_tty on
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-selinux-contexts.md) | [↑ Index](index.md) | [Next →](08-level-3-advanced-troubleshooting-denials.md)

@@ -53,10 +53,8 @@ StandardInput=socket
 StandardOutput=socket
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-10-debugging-failed-services.md) | [↑ Index](index.md) | [Next →](16-section-12-resource-control-with.md)

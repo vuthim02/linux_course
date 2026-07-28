@@ -138,10 +138,8 @@ java -Xms4g -Xmx4g \              # min and max heap (same = no resizing)
 | Microservices | 256 MB - 1 GB | G1GC or Shenandoah | Fast startup |
 | Monolith | 8-32 GB | G1GC | Watch for long GC pauses |
 
----
 
 
 
----
 
 [← Previous](13-section-11-benchmarking.md) | [↑ Index](index.md) | [Next →](15-section-13-capacity-planning.md)

@@ -41,6 +41,5 @@ psql -h localhost -U appuser -d company -c "SELECT 1;"
 
 
 
----
 
 [← Previous](57-monitoring-tools.md) | [↑ Index](index.md) | [Next →](59-maxconnections-reached.md)

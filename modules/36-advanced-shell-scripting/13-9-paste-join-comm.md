@@ -69,10 +69,8 @@ comm -3 pkgs_1.txt pkgs_2.txt      # differences
 comm -12 pkgs_1.txt pkgs_2.txt     # common packages
 ```
 
----
 
 
 
----
 
 [← Previous](12-8-cut-sort-uniq-wc.md) | [↑ Index](index.md) | [Next →](14-10-xargs-building-command-lines.md)

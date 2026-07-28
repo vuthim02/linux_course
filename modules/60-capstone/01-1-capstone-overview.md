@@ -30,10 +30,8 @@ You will build and deploy a **multi-tier microservice platform** on Kubernetes i
 - kubectl, helm, terraform, docker, gh CLI installed locally
 - Part 59 (SRE) concepts: SLOs, error budgets, SLIs
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-2-architecture-design.md)

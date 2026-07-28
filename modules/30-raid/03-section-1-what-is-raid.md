@@ -110,10 +110,8 @@ Filesystem (ext4, xfs, btrfs)
 
 The md driver exposes `/dev/mdX` devices that work like any block device. The kernel handles all the striping, mirroring, and parity calculations transparently.
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-raid-fundamentals.md) | [↑ Index](index.md) | [Next →](04-section-2-mdadm-the-linux.md)

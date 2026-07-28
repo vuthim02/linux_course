@@ -13,10 +13,10 @@ You will learn:
 - Real scenarios: setting up a shared server directory
 - 15 hands-on practices
 
----
+> **Tip:** Understanding permissions is critical for security. A single wrong `chmod` can lock you out of a server or expose sensitive data.
 
 
 
----
+
 
 [← Previous](17-summary-complete-command-reference-for.md) | [↑ Index](index.md) | [Next →](19-self-test-can-you-answer-these.md)

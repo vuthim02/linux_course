@@ -50,10 +50,8 @@ Install A → automatically installs B and C
 Remove A → automatically removes B and C (if nothing else needs them)
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-debian-packaging.md) | [↑ Index](index.md) | [Next →](04-section-2-the-debianubuntu-package.md)

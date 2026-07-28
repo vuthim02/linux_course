@@ -222,10 +222,8 @@ For large files, `sendfile()` with `directio` can bypass the page cache entirely
 | Performance | Slower, higher memory | Faster, lower memory, scalable |
 | Compatibility | Widest (all PHP apps work) | Nearly all PHP apps work |
 
----
 
 
 
----
 
 [← Previous](15-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](17-command-reference.md)

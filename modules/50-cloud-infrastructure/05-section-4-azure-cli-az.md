@@ -100,10 +100,8 @@ Management Group (Root)
             └── Network Security Group
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-gcp-cli-gcloud.md) | [↑ Index](index.md) | [Next →](06-section-5-compute.md)

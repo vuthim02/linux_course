@@ -160,10 +160,8 @@ else
 fi
 ```
 
----
 
 
 
----
 
 [← Previous](06-6-cicd-pipeline.md) | [↑ Index](index.md) | [Next →](08-8-secrets-and-configuration.md)

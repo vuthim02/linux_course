@@ -100,10 +100,8 @@ netstat -tulnp
 - `netstat` is slow on systems with many connections
 - All use the older `ioctl` system call instead of Netlink sockets
 
----
 
 
 
----
 
 [← Previous](05-section-2-the-ip-command.md) | [↑ Index](index.md) | [Next →](07-section-4-networkmanager-nmcli-nmtui.md)

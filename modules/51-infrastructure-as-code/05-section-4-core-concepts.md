@@ -138,10 +138,8 @@ module "vpc" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-installation.md) | [↑ Index](index.md) | [Next →](06-section-5-hcl-syntax-deep.md)

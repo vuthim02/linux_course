@@ -141,10 +141,8 @@ http_access deny !allowed_ports
 http_access deny all
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-squid-forward-proxy.md) | [↑ Index](index.md) | [Next →](06-section-4-squid-caching.md)

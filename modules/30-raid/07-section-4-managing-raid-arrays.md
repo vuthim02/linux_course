@@ -122,10 +122,8 @@ echo 200000 > /proc/sys/dev/raid/speed_limit_max
 
 Typical values: min=1000 (1 MB/s), max=200000 (200 MB/s). Lower max during production hours to minimize performance impact; raise it during maintenance windows.
 
----
 
 
 
----
 
 [← Previous](06-level-2-intermediary-daily-raid.md) | [↑ Index](index.md) | [Next →](08-section-5-spare-disks-hot.md)

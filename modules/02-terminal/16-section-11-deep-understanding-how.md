@@ -30,10 +30,8 @@ This is why:
 - Forensic tools can sometimes recover deleted files (data not overwritten yet)
 - SSD "secure erase" is a different, explicit process
 
----
 
 
 
----
 
 [← Previous](15-level-3-advanced-storage-internals.md) | [↑ Index](index.md) | [Next →](17-summary-complete-command-reference-for.md)

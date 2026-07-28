@@ -60,10 +60,8 @@ not the Live USB. This is how you fix it.
 6. DOCUMENT           — What you did, so you can repeat or avoid
 ```
 
----
 
 
 
----
 
 [← Previous](12-level-3-advanced-boot-process.md) | [↑ Index](index.md) | [Next →](14-summary-complete-command-reference-for.md)

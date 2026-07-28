@@ -4,7 +4,6 @@
 
 ### Level 1 Practices — Permission Fundamentals
 
----
 
 ### ✅ Practice 1: Read Permission Strings
 
@@ -29,7 +28,6 @@ ls -la
 # - What can others do?
 ```
 
----
 
 ### ✅ Practice 2: Experiment with Permissions
 
@@ -50,7 +48,6 @@ ls dir1              # Can you list it?
 cd dir1              # Can you enter it?
 ```
 
----
 
 ### ✅ Practice 3: Permission Conversion Drills
 
@@ -73,7 +70,6 @@ chmod 751 test_perm
 ls -l test_perm
 ```
 
----
 
 ### ✅ Practice 4: Directory vs File Permissions
 
@@ -98,7 +94,6 @@ cat dir_test/secret.txt  # Works now?
 # Conclusion: x on directory is essential
 ```
 
----
 
 ### ✅ Practice 5: Create Practice Users
 
@@ -116,7 +111,6 @@ id student1
 id student2
 ```
 
----
 
 ### ✅ Practice 6: Test File Isolation
 
@@ -137,7 +131,6 @@ sudo -u student2 bash -c 'cat /tmp/student1_file.txt'
 # Should work now
 ```
 
----
 
 ### ✅ Practice 7: Read /etc/passwd and /etc/shadow
 
@@ -159,7 +152,6 @@ cat /etc/shadow    # Permission denied
 sudo head -5 /etc/shadow
 ```
 
----
 
 ### ✅ Practice 8: Explore /etc/skel
 
@@ -176,11 +168,9 @@ ls -la /home/testuser/
 sudo userdel -r testuser
 ```
 
----
 
 ### Level 2 Practices — User & Group Administration
 
----
 
 ### ✅ Practice 9: Create Users with Specific Settings
 
@@ -197,7 +187,6 @@ grep johnd /etc/passwd
 grep johnd /etc/shadow
 ```
 
----
 
 ### ✅ Practice 10: Lock and Unlock Users
 
@@ -219,7 +208,6 @@ sudo passwd -u johnd
 sudo -u johnd whoami
 ```
 
----
 
 ### ✅ Practice 11: Force Password Change on Next Login
 
@@ -233,7 +221,6 @@ sudo passwd -S johnd
 # When johnd logs in next, they will be forced to change password
 ```
 
----
 
 ### ✅ Practice 12: Modify a User
 
@@ -252,7 +239,6 @@ sudo usermod -s /bin/zsh johnd
 grep johnd /etc/passwd
 ```
 
----
 
 ### ✅ Practice 13: Group Management
 
@@ -275,7 +261,6 @@ groups student1
 groups student2
 ```
 
----
 
 ### ✅ Practice 14: Explore chown and chgrp
 
@@ -299,11 +284,9 @@ sudo chown student2 owned_by_me.txt
 ls -l owned_by_me.txt
 ```
 
----
 
 ### Level 3 Practices — Advanced Access Control
 
----
 
 ### ✅ Practice 15: SUID Exploration
 
@@ -321,7 +304,6 @@ echo "My uid is: $(id -u)"
 # The SUID bit makes this possible
 ```
 
----
 
 ### ✅ Practice 16: SGID on Directories
 
@@ -344,7 +326,6 @@ sudo -u student2 touch sgid_test/file_from_student2.txt
 ls -l sgid_test/
 ```
 
----
 
 ### ✅ Practice 17: Sticky Bit Demo
 
@@ -374,7 +355,6 @@ sudo -u student2 rm withsticky/student1.txt
 # This FAILS — sticky bit protects it
 ```
 
----
 
 ### ✅ Practice 18: umask Experiments
 
@@ -401,7 +381,6 @@ ls -l shared.txt
 umask 0022
 ```
 
----
 
 ### ✅ Practice 19: ACL Practice
 
@@ -425,7 +404,6 @@ sudo -u student1 bash -c 'echo "ACL works!" >> /tmp/perm_practice/acl_test.txt'
 sudo -u student1 bash -c 'cat /tmp/perm_practice/acl_test.txt'
 ```
 
----
 
 ### ✅ Practice 20: Real SysAdmin Scenario — Setting Up a Shared Project Directory
 
@@ -456,10 +434,8 @@ sudo -u student1 touch /srv/projects/alpha/src/test.txt
 sudo -u student2 ls /srv/projects/alpha/src
 ```
 
----
 
 
 
----
 
 [← Previous](18-section-14-the-complete-permission.md) | [↑ Index](index.md) | [Next →](20-deep-understanding-how-permissions-really.md)

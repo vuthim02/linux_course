@@ -101,10 +101,8 @@ Masking is stronger than disabling:
 - Disable: prevents auto-start, but can still be started manually
 - Mask: creates symlink to /dev/null — cannot be started at all
 
----
 
 
 
----
 
 [← Previous](03-section-1-what-is-systemd.md) | [↑ Index](index.md) | [Next →](05-level-2-intermediary-service-creation.md)

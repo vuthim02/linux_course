@@ -68,10 +68,8 @@ sudo btrfs inspect-internal dump-super /dev/sda1
 
 > 🔍 **Reverse Engineering Insight:** The superblock is written LAST during filesystem creation. If it's corrupted, the entire filesystem is lost. That's why ext4 keeps backup superblocks in every block group — you can restore from any of them.
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve.md) | [↑ Index](index.md) | [Next →](03-2-inodes-the-heart-of.md)

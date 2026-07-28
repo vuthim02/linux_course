@@ -49,10 +49,8 @@ Apply changes without restarting:
 :so %      # Source (reload) the current file
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-8-vim-visual-mode.md) | [↑ Index](index.md) | [Next →](13-section-10-vim-crash-recovery.md)

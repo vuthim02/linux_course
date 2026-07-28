@@ -1,5 +1,6 @@
 # 29-samba-windows
 
+**Prerequisites:** Complete [Part 28 - nfs](../28-nfs/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

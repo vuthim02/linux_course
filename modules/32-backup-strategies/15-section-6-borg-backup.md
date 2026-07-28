@@ -94,10 +94,8 @@ borg init --encryption=repokey --append-only /backups/borg-repo
 command="borg serve --append-only /backups/borg-repo" ssh-ed25519 AAA...
 ```
 
----
 
 
 
----
 
 [← Previous](14-level-3-advanced-deduplication-cloud.md) | [↑ Index](index.md) | [Next →](16-section-7-restic.md)

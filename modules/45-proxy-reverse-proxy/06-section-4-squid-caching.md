@@ -108,10 +108,8 @@ sudo squidclient -h 127.0.0.1 -p 3128 mgr:storedir | grep -E "(Files|Space)"
 | 50–80% | Good — effective caching | Monitor for drop-off |
 | 80–100% | Excellent — cache working well | Ensure freshness policies are correct |
 
----
 
 
 
----
 
 [← Previous](05-section-3-squid-access-control.md) | [↑ Index](index.md) | [Next →](07-section-5-squid-logging.md)

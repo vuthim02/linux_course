@@ -413,10 +413,8 @@ Control Repo (GitLab) → r10k deploy → Puppet Enterprise
 - **HA**: 3 compile masters behind HAProxy. PuppetDB with Patroni PostgreSQL HA.
 - **Migration to containers**: Phase 1 — Puppet manages base OS + Docker. Phase 2 — stateless apps to K8s. Phase 3 — Puppet only for stateful DBs + compliance.
 
----
 
 
 
----
 
 [← Previous](13-13-modern-era.md) | [↑ Index](index.md) | [Next →](15-deep-understanding.md)

@@ -26,7 +26,6 @@
 | `cmd < file` | Read input from a file |
 | `{ cmd1; cmd2; } > file` | Group output of multiple commands |
 
----
 
 ### Level 2: Intermediary Commands
 
@@ -71,7 +70,6 @@
 | `cmd \| tee log` | Watch output live and log it |
 | `cmd \| sort \| uniq -c \| sort -rn` | Count and rank occurrences |
 
----
 
 ### Level 3: Advanced Commands
 
@@ -99,10 +97,8 @@
 | `cmd > file 2>&1` | Save all output including errors |
 | `cmd > /dev/null 2>&1` | Completely silence a command |
 
----
 
 
 
----
 
 [← Previous](19-level-3-practices.md) | [↑ Index](index.md) | [Next →](21-whats-coming-in-part-6.md)

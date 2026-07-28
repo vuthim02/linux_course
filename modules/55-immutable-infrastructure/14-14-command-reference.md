@@ -91,10 +91,8 @@ packer plugins install github.com/hashicorp/amazon v1.3.0
 5. Environment variables (`PKR_VAR_name`)
 6. `packer build -var "name=value"`
 
----
 
 
 
----
 
 [← Previous](13-13-deep-understanding.md) | [↑ Index](index.md) | [Next →](15-15-self-test.md)

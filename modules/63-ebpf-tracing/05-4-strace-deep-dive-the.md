@@ -70,10 +70,8 @@ strace -o trace.log -ff -f command   # Creates trace.log.<pid> files
 
 ⚠️ **Warning:** `strace -p <pid>` on a production process causes noticeable latency spikes. Use with time limits.
 
----
 
 
 
----
 
 [← Previous](04-3-bpftrace-the-tracing-power.md) | [↑ Index](index.md) | [Next →](06-5-perf-the-profiling-powerhouse.md)

@@ -113,10 +113,8 @@ Organization (example.com)
             └── IAM policies
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-2-aws-cli.md) | [↑ Index](index.md) | [Next →](05-section-4-azure-cli-az.md)

@@ -14,12 +14,10 @@ smtpd_recipient_restrictions =
 sudo apt install postgrey
 ```
 
----
 
 # 11. Queue Management
 
 
 
----
 
 [← Previous](34-103-anvil-rate-limiting-built-in.md) | [↑ Index](index.md) | [Next →](36-111-viewing-the-queue.md)

@@ -50,10 +50,8 @@
 | Microsoft VSCode | Add repo + GPG key via script | Code editor |
 | NodeSource | curl script or manual `sources.list.d` | Latest Node.js |
 
----
 
 
 
----
 
 [← Previous](14-deep-understanding-how-repository-security.md) | [↑ Index](index.md) | [Next →](16-whats-coming-in-part-20.md)

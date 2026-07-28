@@ -118,10 +118,8 @@ sysbench fileio --file-test-mode=rndrw run
 sysbench fileio --file-test-mode=rndrw cleanup
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-10-systemtap-and-bpftrace.md) | [↑ Index](index.md) | [Next →](14-section-12-application-tuning.md)

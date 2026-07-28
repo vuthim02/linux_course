@@ -1,5 +1,6 @@
 # 54-config-management
 
+**Prerequisites:** Complete [Part 53 - cicd-pipelines](../53-cicd-pipelines/) before this module.
 ## Sections
 
 - [1 Configuration Management Paradigms](01-1-configuration-management-paradigms.md)

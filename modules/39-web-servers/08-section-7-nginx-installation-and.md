@@ -94,10 +94,8 @@ http {                         # Global HTTP configuration
 
 Nginx inheritance: `http` → `server` → `location`. Directives in inner blocks override outer ones.
 
----
 
 
 
----
 
 [← Previous](07-section-6-apache-logging.md) | [↑ Index](index.md) | [Next →](09-section-8-nginx-server-blocks.md)

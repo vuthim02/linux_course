@@ -78,10 +78,8 @@ sudo smbcontrol smbd close-share shared
 sudo smbcontrol smbd shutdown 12345  # by PID
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-8-smbclient-the-interactive.md) | [↑ Index](index.md) | [Next →](14-section-10-winbind-integrating-windows.md)

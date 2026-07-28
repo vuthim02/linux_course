@@ -78,10 +78,8 @@ subnet6 2001:db8:0::/48 {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-10-kea-the-modern.md) | [↑ Index](index.md) | [Next →](16-section-12-pxe-booting.md)

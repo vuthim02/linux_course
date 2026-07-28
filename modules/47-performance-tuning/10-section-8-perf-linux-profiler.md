@@ -111,10 +111,8 @@ cd FlameGraph
 # Open perf.svg in browser
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-7-tuned-automated-performance.md) | [↑ Index](index.md) | [Next →](11-section-9-strace-and-ltrace.md)

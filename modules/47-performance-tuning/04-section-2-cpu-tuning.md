@@ -129,10 +129,8 @@ top # look for %steal column
 mpstat -P ALL 1 | grep steal
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-performance-tuning-methodology.md) | [↑ Index](index.md) | [Next →](05-section-3-memory-tuning.md)

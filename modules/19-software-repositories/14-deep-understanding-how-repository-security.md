@@ -48,10 +48,8 @@ Package signature (optional, maintained by packager)
 # 3. DNF picks one and verifies the content
 ```
 
----
 
 
 
----
 
 [← Previous](13-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](15-summary-command-reference-for-part.md)

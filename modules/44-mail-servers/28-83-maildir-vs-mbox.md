@@ -15,7 +15,6 @@
 mail_location = maildir:/var/mail/vhosts/%d/%n
 ```
 
----
 
 # ⭐ Level 3: Advanced — Content Filtering, Access Control, and Troubleshooting
 
@@ -23,6 +22,5 @@ mail_location = maildir:/var/mail/vhosts/%d/%n
 
 
 
----
 
 [← Previous](27-82-configuration.md) | [↑ Index](index.md) | [Next →](29-91-before-queue-vs-after-queue.md)

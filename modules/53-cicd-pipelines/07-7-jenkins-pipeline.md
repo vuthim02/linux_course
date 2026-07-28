@@ -167,10 +167,8 @@ post {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](06-6-jenkins.md) | [↑ Index](index.md) | [Next →](08-8-artifact-management.md)

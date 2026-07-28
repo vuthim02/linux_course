@@ -141,10 +141,8 @@ ForwardToSyslog=yes
 sudo systemctl restart systemd-journald
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-3-rsyslog-configuration.md) | [↑ Index](index.md) | [Next →](09-section-6-log-rotation-with.md)

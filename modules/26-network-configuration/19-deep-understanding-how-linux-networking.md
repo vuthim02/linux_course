@@ -259,10 +259,8 @@ Every layer of the Linux network stack is modular and replaceable:
 
 Understanding this stack is what separates a sysadmin who blindly copies commands from one who truly knows how Linux networks work.
 
----
 
 
 
----
 
 [← Previous](18-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](20-command-reference.md)

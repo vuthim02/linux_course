@@ -67,7 +67,6 @@ ansible-galaxy collection install devsec.hardening
 
 # Playbook: full system hardening
 cat > harden.yml << 'PLAYBOOK'
----
 - name: System Hardening Playbook
   hosts: all
   become: true
@@ -192,10 +191,8 @@ ansible-playbook -i inventory.ini harden.yml            # Apply
 └─────────────────────────────────────────────────────────────┘
 ```
 
----
 
 
 
----
 
 [← Previous](10-8-aide-file-integrity-monitoring.md) | [↑ Index](index.md) | [Next →](12-hands-on-practices.md)

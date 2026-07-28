@@ -46,10 +46,8 @@ echo "umask 0027" >> ~/.profile
 
 > 💡 On shared systems, set `umask 0027` to prevent other users from reading your files by default.
 
----
 
 
 
----
 
 [← Previous](15-section-11-special-permissions-suid.md) | [↑ Index](index.md) | [Next →](17-section-13-access-control-lists.md)

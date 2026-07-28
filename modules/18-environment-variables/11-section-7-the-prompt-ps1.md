@@ -58,10 +58,8 @@ export PS1='\u@\h:\w$(__git_ps1 "(%s)")\$ '
 export PS1='\[$(tput bold)\]\[$(tput setaf 2)\]\u@\h\[$(tput sgr0)\]:\w\$ '
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-6-shell-functions.md) | [↑ Index](index.md) | [Next →](12-practice-section-15-hands-on-exercises.md)

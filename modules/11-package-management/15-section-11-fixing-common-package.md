@@ -69,10 +69,8 @@ apt search package_name
 # Fedora: dnf config-manager --set-enabled
 ```
 
----
 
 
 
----
 
 [← Previous](14-level-3-advanced-package-troubleshooting.md) | [↑ Index](index.md) | [Next →](16-deep-understanding-how-package-management.md)

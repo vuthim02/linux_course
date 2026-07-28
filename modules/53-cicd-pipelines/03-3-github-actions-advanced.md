@@ -183,10 +183,8 @@ jobs:
     steps: [run: npm run test:integration]
 ```
 
----
 
 
 
----
 
 [← Previous](02-2-github-actions.md) | [↑ Index](index.md) | [Next →](04-4-gitlab-ci.md)

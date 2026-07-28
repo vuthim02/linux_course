@@ -1,5 +1,6 @@
 # 26-network-configuration
 
+**Prerequisites:** Complete [Part 25 - system-rescue-recovery](../25-system-rescue-recovery/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

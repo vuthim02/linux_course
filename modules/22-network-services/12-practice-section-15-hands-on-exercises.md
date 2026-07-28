@@ -1,10 +1,8 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### Level 1 Practices: DHCP and HTTP
 
----
 
 ### ✅ Practice 1: Install and Configure DHCP Server (Simulated)
 
@@ -45,7 +43,6 @@ echo "Range: 192.168.1.100-200"
 echo "Static: webserver (.10), printer (.20)"
 ```
 
----
 
 ### ✅ Practice 2: Set Up a Test HTTP Server
 
@@ -77,7 +74,6 @@ echo ""
 echo "Test server stopped."
 ```
 
----
 
 ### ✅ Practice 3: Explore Apache Configuration
 
@@ -118,7 +114,6 @@ EOF
 fi
 ```
 
----
 
 ### ✅ Practice 5: Verify Apache Web Root
 
@@ -138,7 +133,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 7: Create a Virtual Host Config
 
@@ -174,11 +168,9 @@ echo "  ErrorLog:     Error log location"
 echo "  Directory:    Access permissions for this path"
 ```
 
----
 
 ### Level 2 Practices: SSH and Service Management
 
----
 
 ### ✅ Practice 4: Explore SSH Server Configuration
 
@@ -197,7 +189,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 6: Generate SSH Key Pair
 
@@ -222,7 +213,6 @@ ssh-keygen -l -f ssh_key_test/test_key
 rm -rf ssh_key_test
 ```
 
----
 
 ### ✅ Practice 8: Harden SSH Configuration
 
@@ -263,7 +253,6 @@ echo "4. User whitelist (only specific users)"
 echo "5. Login grace time reduced to 60s"
 ```
 
----
 
 ### ✅ Practice 9: Service Management with systemd
 
@@ -288,7 +277,6 @@ echo "=== Listening sockets ==="
 ss -tlnp 2>/dev/null | head -10
 ```
 
----
 
 ### ✅ Practice 10: Firewall Rules Exploration
 
@@ -316,7 +304,6 @@ echo "  DHCP:      67/udp, 68/udp"
 echo "  DNS:       53/udp, 53/tcp"
 ```
 
----
 
 ### ✅ Practice 11: Create a Service Monitoring Script
 
@@ -356,7 +343,6 @@ chmod +x check_services.sh
 ./check_services.sh
 ```
 
----
 
 ### ✅ Practice 13: Secure Copy with SCP
 
@@ -387,7 +373,6 @@ echo "scp -i ~/.ssh/id_ed25519 scp_test.txt user@server:/home/user/"
 rm scp_test.txt
 ```
 
----
 
 ### ✅ Practice 14: Test SSH Connection with Verbose Mode
 
@@ -421,11 +406,9 @@ echo "  Network issue or wrong IP address"
 echo "  Check: nc -zv server-ip 22"
 ```
 
----
 
 ### Level 3 Practices: Advanced Troubleshooting
 
----
 
 ### ✅ Practice 12: Diagnose Service Failure — Scenario
 
@@ -480,7 +463,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 15: Comprehensive Network Services Audit
 
@@ -554,10 +536,8 @@ chmod +x network_audit.sh
 ./network_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-troubleshooting-network-services.md) | [↑ Index](index.md) | [Next →](13-deep-understanding-network-services-internals.md)

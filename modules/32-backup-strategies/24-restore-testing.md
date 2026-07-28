@@ -35,10 +35,8 @@
 #   - Simulate: "all files encrypted, restore from backup"
 ```
 
----
 
 
 
----
 
 [← Previous](23-storage.md) | [↑ Index](index.md) | [Next →](25-deep-understanding.md)

@@ -133,10 +133,8 @@ Requests/sec: 1.06 - Bytes/sec: 16.7 KB/sec
 
 Key fields: `_W_` (waiting/idle), `_S_` (starting), `_R_` (reading request), `_W_` (sending response), `_K_` (keepalive), `_D_` (DNS lookup).
 
----
 
 
 
----
 
 [← Previous](05-section-4-apache-modules.md) | [↑ Index](index.md) | [Next →](07-section-6-apache-logging.md)

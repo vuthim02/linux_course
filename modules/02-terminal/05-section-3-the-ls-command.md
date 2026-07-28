@@ -54,10 +54,8 @@ The first character tells you the **type**:
 | `p` | Named pipe |
 | `s` | Socket |
 
----
 
 
 
----
 
 [← Previous](04-section-2-paths-the-address.md) | [↑ Index](index.md) | [Next →](06-section-4-hidden-files-linuxs.md)

@@ -60,10 +60,8 @@ sudo chmod +x /etc/cron.daily/daily-backup.sh
 
 These are managed by `run-parts` — a utility that runs all scripts in a directory.
 
----
 
 
 
----
 
 [← Previous](03-section-1-cron-the-classic.md) | [↑ Index](index.md) | [Next →](05-level-2-intermediary-scheduling-workflows.md)

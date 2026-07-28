@@ -98,10 +98,8 @@ free -h
 
 > 🔍 **Reverse Engineering Insight:** The `available` column in `free` is what matters, not `free`. Linux aggressively uses free memory for page cache because unused RAM is wasted RAM. When an application needs memory, Linux evicts clean cache pages instantly. Only memory pressure (not low `free`) indicates a problem.
 
----
 
 
 
----
 
 [← Previous](02-1-linux-memory-architecture-physical.md) | [↑ Index](index.md) | [Next →](04-3-swap-architecture-when-ram.md)

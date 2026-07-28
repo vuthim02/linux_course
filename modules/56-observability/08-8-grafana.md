@@ -76,10 +76,8 @@ Usage: `rate(http_requests_total{instance="$instance"}[$interval])`
 
 **Transformations:** Reduce (min/max/avg/last), Filter by value, Group by, Merge, Calculate field, Rename by regex, Organize fields, Concatenate.
 
----
 
 
 
----
 
 [← Previous](07-7-alertmanager.md) | [↑ Index](index.md) | [Next →](09-9-grafana-provisioning.md)

@@ -64,10 +64,8 @@ semanage login -l
 semanage login -a -s user_u username
 ```
 
----
 
 
 
----
 
 [← Previous](14-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](16-summary-command-reference-for-part.md)

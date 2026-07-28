@@ -45,10 +45,8 @@ $6$xyz123$abc...def
 
 > 💡 **Practical note:** To lock a user account: `sudo passwd -l username`. To unlock: `sudo passwd -u username`. This places `!` or removes `!` from the shadow file.
 
----
 
 
 
----
 
 [← Previous](08-section-5-etcpasswd-the-user.md) | [↑ Index](index.md) | [Next →](10-section-7-etcgroup-group-database.md)

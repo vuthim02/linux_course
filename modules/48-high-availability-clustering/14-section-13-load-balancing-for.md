@@ -95,10 +95,8 @@ server {
 | Complexity | Higher (session state, data sync) | Lower |
 | Cost | Lower per-request (no idle hardware) | Higher (idle hardware) |
 
----
 
 
 
----
 
 [← Previous](13-section-12-drbd-distributed-replicated.md) | [↑ Index](index.md) | [Next →](15-section-14-disaster-recovery.md)

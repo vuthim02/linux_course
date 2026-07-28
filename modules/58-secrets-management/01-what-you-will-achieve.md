@@ -1,5 +1,9 @@
 ## 🎯 What You Will Achieve
 
+Secrets management is one of the most overlooked aspects of infrastructure security. Hardcoded passwords, plaintext API keys, and certificates stored in Git repos are among the most common causes of data breaches. This part teaches you to manage secrets properly — from local development to production Kubernetes clusters.
+
+By the end, you will:
+
 - Understand the secrets management landscape — encryption at rest, in transit, in use
 - Deploy HashiCorp Vault in dev and production configurations
 - Master seal/unseal including Shamir threshold and auto-unseal
@@ -19,10 +23,8 @@
 - Apply secrets management best practices
 - Complete **15 hands-on practices** including a real-world multi-platform integration
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-section-1-why-secrets-management.md)

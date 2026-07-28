@@ -18,12 +18,10 @@ chmod 600 ~/.my.cnf
 3. **No remote root** — `root` should only connect via socket
 4. **Separate users per application** — easier to audit and revoke
 
----
 
 # 5. MariaDB Backup
 
 
 
----
 
 [← Previous](17-view-effective-privileges.md) | [↑ Index](index.md) | [Next →](19-mysqldump-mariadb-dump.md)

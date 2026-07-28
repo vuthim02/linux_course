@@ -58,10 +58,8 @@ newgrp developers
 # Type 'exit' to go back to original group
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-8-user-management-commands.md) | [↑ Index](index.md) | [Next →](13-section-10-sudo-becoming-root.md)

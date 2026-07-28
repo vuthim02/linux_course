@@ -80,10 +80,8 @@
 | `kea-admin db-init mysql -u kea -p pass -n kea` | Init MySQL DB |
 | `kea-shell --host localhost --port 8000 command config-get` | CLI to control agent |
 
----
 
 
 
----
 
 [← Previous](18-section-14-deep-understanding.md) | [↑ Index](index.md) | [Next →](20-section-16-whats-coming-in.md)

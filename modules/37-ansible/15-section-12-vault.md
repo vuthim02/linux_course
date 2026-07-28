@@ -68,10 +68,8 @@ ansible-playbook site.yml --vault-id prod@~/.vault-pass-prod --vault-id dev@~/.v
     db_password: "{{ vault_db_password }}"
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-11-handlers.md) | [↑ Index](index.md) | [Next →](16-section-13-tags-and-limits.md)

@@ -418,10 +418,8 @@ curl http://localhost:9100/metrics | head -1  # node_exporter
 # Grafana → Explore → Loki → {job="system"}
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-14-distributed-monitoring.md) | [↑ Index](index.md) | [Next →](18-deep-understanding.md)

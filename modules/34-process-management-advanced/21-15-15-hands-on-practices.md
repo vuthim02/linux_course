@@ -281,10 +281,8 @@ Identify:
 - Any processes close to their FD limit
 - The highest OOM score and what process has it
 
----
 
 
 
----
 
 [← Previous](20-14-command-reference.md) | [↑ Index](index.md) | [Next →](22-17-self-test.md)

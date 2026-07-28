@@ -213,10 +213,8 @@ sudo nmcli connection reload
 journalctl -u NetworkManager -n 50 -f
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-legacy-ifconfig-and.md) | [↑ Index](index.md) | [Next →](08-section-5-netplan-modern-ubuntudebian.md)

@@ -64,10 +64,8 @@ Availability  ─── Who can EXECUTE/ACCESS this?
 
 As a sysadmin, every file you create should make you ask: "Who should read this? Who should change this? Who should run this?"
 
----
 
 
 
----
 
 [← Previous](19-practice-section-20-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](21-summary-complete-command-reference-for.md)

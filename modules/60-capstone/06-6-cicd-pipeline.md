@@ -291,10 +291,8 @@ resource "aws_iam_role_policy" "github_actions" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](05-5-application-deployment.md) | [↑ Index](index.md) | [Next →](07-7-database-and-stateful-services.md)

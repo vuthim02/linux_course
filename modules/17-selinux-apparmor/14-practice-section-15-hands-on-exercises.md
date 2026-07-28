@@ -2,7 +2,6 @@
 
 ### Level 1 Practices: MAC Concepts and SELinux Basics
 
----
 
 ### ✅ Practice 1: Check Your MAC System
 
@@ -24,7 +23,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 2: Check SELinux Mode and Status
 
@@ -46,7 +44,6 @@ if command -v getenforce &>/dev/null; then
 fi
 ```
 
----
 
 ### Level 2 Practices: SELinux Contexts, Booleans, and AppArmor
 
@@ -73,7 +70,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 4: SELinux Booleans
 
@@ -96,7 +92,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 5: Test SELinux Permissive Mode
 
@@ -123,7 +118,6 @@ if command -v getenforce &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 6: AppArmor Status
 
@@ -152,7 +146,6 @@ else
 fi
 ```
 
----
 
 ### Level 3 Practices: Troubleshooting, Profiles, and Auditing
 
@@ -175,7 +168,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 8: restorecon — Fix File Contexts
 
@@ -201,7 +193,6 @@ fi
 rm -rf /tmp/selinux-test
 ```
 
----
 
 ### ✅ Practice 9: AppArmor Complain Mode
 
@@ -222,7 +213,6 @@ if command -v aa-complain &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 10: Check MAC Context After File Operations
 
@@ -245,7 +235,6 @@ ls -Z /tmp/mac-test-moved 2>/dev/null || echo "No SELinux context"
 rm -f /tmp/mac-test-*
 ```
 
----
 
 ### ✅ Practice 11: Create a Minimal AppArmor Profile
 
@@ -281,7 +270,6 @@ EOF
 echo "Profile template created at minimal_apparmor_profile.txt"
 ```
 
----
 
 ### ✅ Practice 12: Check SELinux Port Contexts
 
@@ -300,7 +288,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 13: SELinux Troubleshooting Simulation
 
@@ -337,7 +324,6 @@ ALTERNATIVE: Use restorecon directly
 EOF
 ```
 
----
 
 ### ✅ Practice 14: Check if a Specific Service is Confined
 
@@ -364,7 +350,6 @@ if command -v getenforce &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — MAC Security Audit
 
@@ -453,10 +438,8 @@ chmod +x mac_security_audit.sh
 ./mac_security_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-7-selinux-vs-apparmor.md) | [↑ Index](index.md) | [Next →](15-deep-understanding-how-mac-really.md)

@@ -209,10 +209,8 @@ groups:
           summary: "SSL certificate expired for {{ $labels.instance }}"
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-10-grafana.md) | [↑ Index](index.md) | [Next →](14-section-12-log-monitoring.md)

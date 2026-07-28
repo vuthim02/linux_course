@@ -98,10 +98,8 @@
 | 66 | System Hardening — CIS Benchmarks, auditd, and Defense in Depth | Advanced |
 | 67+ | Future Topics — Cloud, Interview Prep, Certification | Advanced |
 
----
 
 
 
----
 
 [← Previous](10-the-goal-what-a-linux.md) | [↑ Index](index.md) | [Next →](12-before-you-start-part-1.md)

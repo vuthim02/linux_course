@@ -154,10 +154,8 @@ auth    required    pam_permit.so
 
 > 🔍 **Reverse Engineering Insight:** PAM modules are shared objects (`.so` files) loaded at runtime. You can see exactly which modules are loaded with: `cat /proc/<sshd_pid>/maps | grep pam_`. This reveals the actual module files linked into a running process.
 
----
 
 
 
----
 
 [← Previous](03-2-pam-configuration-etcpamd.md) | [↑ Index](index.md) | [Next →](05-4-password-policies.md)

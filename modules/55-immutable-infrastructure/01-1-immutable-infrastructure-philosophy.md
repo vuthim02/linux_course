@@ -40,10 +40,8 @@ This is safer than patching in place because:
 - Rollback means deploying the previous image version
 - No partial failures or half-patched servers
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-2-packer-overview.md)

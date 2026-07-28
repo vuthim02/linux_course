@@ -97,10 +97,8 @@ sysctl vm.swappiness=10
 # now change dirty_ratio
 ```
 
----
 
 
 
----
 
 [← Previous](02-prerequisites.md) | [↑ Index](index.md) | [Next →](04-section-2-cpu-tuning.md)

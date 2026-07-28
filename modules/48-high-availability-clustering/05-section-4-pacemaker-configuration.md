@@ -137,10 +137,8 @@ crm history
 crm resource failcount show
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-corosync-configuration.md) | [↑ Index](index.md) | [Next →](06-section-5-resource-agents.md)

@@ -29,12 +29,10 @@ CREATE INDEX idx_active_users ON users(email) WHERE active = true;
 CREATE INDEX idx_emp_dept_salary ON employees(department_id, salary);
 ```
 
----
 
 # 12. Replication
 
 
 
----
 
 [← Previous](51-autovacuum.md) | [↑ Index](index.md) | [Next →](53-mariadb-replication.md)

@@ -73,10 +73,8 @@ exit 1   # Generic error
 exit 127 # Command not found style
 ```
 
----
 
 
 
----
 
 [← Previous](04-1-why-shell-scripting.md) | [↑ Index](index.md) | [Next →](06-3-variables.md)

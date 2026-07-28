@@ -48,10 +48,8 @@
 | `dmesg \| grep -i "error\|panic"` | Check kernel messages |
 | `lsinitramfs /boot/initrd.img-*` | List initramfs contents |
 
----
 
 
 
----
 
 [← Previous](13-deep-understanding-how-system-recovery.md) | [↑ Index](index.md) | [Next →](15-final-self-test-can-you-answer.md)

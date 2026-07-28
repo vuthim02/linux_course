@@ -142,10 +142,8 @@ sudo firewall-cmd --zone=public --list-all
 sudo firewall-cmd --permanent --zone=public --list-all
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-saving-and-restoring.md) | [↑ Index](index.md) | [Next →](08-section-5-nftables-the-modern.md)

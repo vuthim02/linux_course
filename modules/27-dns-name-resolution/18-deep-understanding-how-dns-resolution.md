@@ -175,10 +175,8 @@ Total: 15+ seconds of blocking
 
 The `options timeout:1` and `options attempts:1` can reduce this to 3 seconds.
 
----
 
 
 
----
 
 [← Previous](17-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](19-summary-complete-command-reference-for.md)

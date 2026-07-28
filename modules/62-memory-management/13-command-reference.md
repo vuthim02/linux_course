@@ -23,10 +23,8 @@
 | Monitor page faults | `cat /proc/vmstat \| grep pgfault` |
 | Check swap usage | `swapon --show` |
 
----
 
 
 
----
 
 [← Previous](12-deep-understanding.md) | [↑ Index](index.md) | [Next →](14-whats-coming-in-part-63.md)

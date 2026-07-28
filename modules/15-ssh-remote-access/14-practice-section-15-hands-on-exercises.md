@@ -2,7 +2,6 @@
 
 ### Level 1 Practices: Foundational SSH Skills
 
----
 
 ### ✅ Practice 1: Check Your SSH Setup
 
@@ -20,7 +19,6 @@ ssh -V
 ls -la ~/.ssh/
 ```
 
----
 
 ### ✅ Practice 2: Generate SSH Keys
 
@@ -43,7 +41,6 @@ echo "=== Key fingerprint ==="
 ssh-keygen -l -f ~/.ssh/course_key.pub
 ```
 
----
 
 ### ✅ Practice 3: Connect to Localhost with Key
 
@@ -60,7 +57,6 @@ ssh -i ~/.ssh/course_key localhost "echo 'SSH to localhost works!'"
 # First time will show host key warning — answer "yes"
 ```
 
----
 
 ### ✅ Practice 4: Explore sshd Configuration
 
@@ -79,7 +75,6 @@ sudo sshd -T 2>/dev/null | grep -E "port|permitrootlogin|passwordauthentication|
 ss -tlnp | grep ssh
 ```
 
----
 
 ### Level 2 Practices: Configuration and File Transfers
 
@@ -97,7 +92,6 @@ ssh -i ~/.ssh/course_key localhost "df -h /"
 ssh -i ~/.ssh/course_key localhost "uptime && free -h && df -h"
 ```
 
----
 
 ### ✅ Practice 6: SCP File Transfer
 
@@ -120,7 +114,6 @@ cat remote-file.txt
 rm -f test-scp.txt remote-file.txt
 ```
 
----
 
 ### ✅ Practice 7: rsync Transfer
 
@@ -148,7 +141,6 @@ ls -la retrieved-dir/
 rm -rf test-dir retrieved-dir
 ```
 
----
 
 ### ✅ Practice 8: SFTP Interactive Session
 
@@ -172,7 +164,6 @@ cat downloaded.txt
 rm -f sftp-test.txt downloaded.txt
 ```
 
----
 
 ### ✅ Practice 9: SSH Config File
 
@@ -196,7 +187,6 @@ chmod 600 ~/.ssh/config
 ssh local-course "echo 'SSH config shortcut works!'"
 ```
 
----
 
 ### Level 3 Practices: Tunneling, Hardening, and Automation
 
@@ -226,7 +216,6 @@ kill $HTTP_PID 2>/dev/null
 pkill -f "ssh.*-L 9999" 2>/dev/null || true
 ```
 
----
 
 ### ✅ Practice 11: SSH Agent
 
@@ -252,7 +241,6 @@ ssh-add -l
 ssh-agent -k
 ```
 
----
 
 ### ✅ Practice 12: Server Hardening (Simulated)
 
@@ -281,7 +269,6 @@ LoginGraceTime 60
 EOF
 ```
 
----
 
 ### ✅ Practice 13: fail2ban Overview
 
@@ -310,7 +297,6 @@ fail2ban monitoring flow:
 EOF
 ```
 
----
 
 ### ✅ Practice 14: Test SSH Connection Debugging
 
@@ -328,7 +314,6 @@ echo "=== Known hosts ==="
 cat ~/.ssh/known_hosts
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — SSH Audit Script
 
@@ -420,10 +405,8 @@ chmod +x ssh_audit.sh
 ./ssh_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-9-troubleshooting-ssh.md) | [↑ Index](index.md) | [Next →](15-deep-understanding-how-ssh-encryption.md)

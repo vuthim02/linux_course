@@ -92,10 +92,8 @@ Terraform maintains a **state file** (`terraform.tfstate`) that maps your config
 | **Audit trail** | `git log` shows who changed what and why |
 | **Cost tracking** | Tag resources, see what you're spending |
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-terraform-overview.md)

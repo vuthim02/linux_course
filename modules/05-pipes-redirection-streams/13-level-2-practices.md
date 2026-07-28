@@ -18,7 +18,6 @@ cat errors.txt
 find / -name "hosts" 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 2: Separate stdout and stderr
 
@@ -35,7 +34,6 @@ echo "=== Errors ==="
 wc -l errors.txt
 ```
 
----
 
 ### ✅ Practice 3: Redirect both streams together
 
@@ -52,7 +50,6 @@ find / -name "hosts" &> all2.txt
 diff all.txt all2.txt
 ```
 
----
 
 ### ✅ Practice 4: tee — See and Save
 
@@ -73,7 +70,6 @@ date | tee -a update_log.txt
 sudo apt update 2>&1 | tee -a update_log.txt
 ```
 
----
 
 ### ✅ Practice 5: Create a Named Pipe
 
@@ -93,7 +89,6 @@ cat < my_pipe
 rm my_pipe
 ```
 
----
 
 ### ✅ Practice 6: Heredoc
 
@@ -118,7 +113,6 @@ EOF
 cat literal.txt
 ```
 
----
 
 ### ✅ Practice 7: Send Queries With Heredoc
 
@@ -140,7 +134,6 @@ cat query_example.sql
 # - Multi-line messages in scripts
 ```
 
----
 
 ### ✅ Practice 8: Herestring
 
@@ -157,7 +150,6 @@ tr 'a-z' 'A-Z' <<< "make this uppercase"
 grep -o '[0-9]\+' <<< "Order 42 has 15 items and costs $99"
 ```
 
----
 
 # ⭐ Level 3: Advanced — File Descriptors, exec, and Process Substitution
 
@@ -168,6 +160,5 @@ grep -o '[0-9]\+' <<< "Order 42 has 15 items and costs $99"
 
 
 
----
 
 [← Previous](12-more-pipe-patterns.md) | [↑ Index](index.md) | [Next →](14-section-1-exec-redirecting-streams.md)

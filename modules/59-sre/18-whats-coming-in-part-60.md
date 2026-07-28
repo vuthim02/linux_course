@@ -17,10 +17,8 @@
 └─────────────────────────────────────────────────────────┘
 ```
 
----
 
 
 
----
 
 [← Previous](17-command-reference.md) | [↑ Index](index.md) | [Next →](19-self-test.md)

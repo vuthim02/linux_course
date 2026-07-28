@@ -66,10 +66,8 @@
  (manifest, vagrant, push)
 ```
 
----
 
 
 
----
 
 [← Previous](01-1-immutable-infrastructure-philosophy.md) | [↑ Index](index.md) | [Next →](03-3-packer-installation-and-hcl2.md)

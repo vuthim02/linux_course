@@ -70,10 +70,8 @@ echo "Inode usage:"
 df -i "$1"
 ```
 
----
 
 
 
----
 
 [← Previous](06-5-filesystem-repair-when-things.md) | [↑ Index](index.md) | [Next →](08-7-filesystem-performance-tuning.md)

@@ -42,10 +42,8 @@ metric_relabel_configs:
     action: drop
 ```
 
----
 
 
 
----
 
 [← Previous](04-4-prometheus-exporters.md) | [↑ Index](index.md) | [Next →](06-6-prometheus-storage.md)

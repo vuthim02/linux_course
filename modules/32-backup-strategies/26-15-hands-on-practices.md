@@ -2,7 +2,6 @@
 
 ### Level 1 Practices: tar, rsync, dd Basics
 
----
 
 ### Practice 1: tar Archive with Compression
 
@@ -94,11 +93,9 @@ sudo umount /mnt
 sudo losetup -d "$LOOP" "$LOOP2"
 ```
 
----
 
 ### Level 2 Practices: ddrescue, Databases, Automation
 
----
 
 ### Practice 5: ddrescue Recovery
 
@@ -260,11 +257,9 @@ tar xzf ~/backup-lab/diff-tue.tar.gz -C ~/backup-lab/diff-restore/
 find ~/backup-lab/diff-restore -type f -exec echo "Restored: {}" \;
 ```
 
----
 
 ### Level 3 Practices: Borg, Restic, Full Integration
 
----
 
 ### Practice 6: Borg Backup — Init, Backup, Prune
 
@@ -386,10 +381,8 @@ bash ~/backup-lab/full-backup-strategy.sh
 tail -5 ~/backup-lab/backups/backup-*.log
 ```
 
----
 
 
 
----
 
 [← Previous](25-deep-understanding.md) | [↑ Index](index.md) | [Next →](27-command-reference.md)

@@ -31,10 +31,8 @@ rpm -V nginx
 rpm2cpio package.rpm | cpio -idmv
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-the-fedorarhel-package.md) | [↑ Index](index.md) | [Next →](10-section-7-understanding-rpm-repositories.md)

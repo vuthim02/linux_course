@@ -19,10 +19,8 @@ sudo iptables-save > /etc/iptables-backup.rules
 sudo iptables-restore < /etc/iptables-backup.rules
 ```
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-managing-firewall.md) | [↑ Index](index.md) | [Next →](07-section-4-firewalld.md)

@@ -130,10 +130,8 @@ cilium bpf service list
 #                   10.0.2.8:8080 (1)
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-xdp-express-data.md) | [↑ Index](index.md) | [Next →](06-section-5-cilium-network-policies.md)

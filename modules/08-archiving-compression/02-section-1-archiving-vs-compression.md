@@ -45,10 +45,8 @@ ls -lh text.tar text.tar.gz
 # text.tar.gz: ~100 bytes (much smaller!)
 ```
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-tar-the-tape.md)

@@ -122,10 +122,8 @@ mount | grep cgroup
 
 > 🔍 **Reverse Engineering Insight:** Docker's `--memory` flag maps directly to `memory.max` in cgroup v2. `--cpus` maps to `cpu.max`. `--pids-limit` maps to `pids.max`. When you set `docker run --memory=512m --cpus=2`, you're writing cgroup files behind the scenes.
 
----
 
 
 
----
 
 [← Previous](06-5-uts-ipc-and-user.md) | [↑ Index](index.md) | [Next →](08-7-unshare-and-nsenter.md)

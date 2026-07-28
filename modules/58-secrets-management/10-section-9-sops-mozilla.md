@@ -67,10 +67,8 @@ creation_rules:
 - run: sops --decrypt secrets/terraform.tfvars.enc > terraform/terraform.tfvars
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-8-external-secrets-operator.md) | [↑ Index](index.md) | [Next →](11-section-10-sealed-secrets-bitnami.md)

@@ -86,10 +86,8 @@ case "$1" in
 esac
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-2-variables-storing-data.md) | [↑ Index](index.md) | [Next →](05-section-4-arguments-and-parameters.md)

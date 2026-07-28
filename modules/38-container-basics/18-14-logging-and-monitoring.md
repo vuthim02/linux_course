@@ -82,10 +82,8 @@ docker run -d \
 # Open http://localhost:8080
 ```
 
----
 
 
 
----
 
 [← Previous](17-13-security.md) | [↑ Index](index.md) | [Next →](19-level-3-advanced-practices-internals.md)

@@ -35,7 +35,6 @@
 
 **Score:** 12/15 correct = ready for Part 67.
 
----
 
 *Linux SysAdmin Course | Part 66 of ∞ | Reverse Engineering Approach*
 *Previous → Part 65: PAM & Centralized Auth*
@@ -44,6 +43,5 @@
 [← Previous](part65.md) | [Next →](part67.md)
 
 
----
 
 [← Previous](15-whats-coming-in-part-67.md) | [↑ Index](index.md)

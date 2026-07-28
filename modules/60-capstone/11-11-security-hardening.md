@@ -27,7 +27,6 @@ spec:
   podSelector: {}
   policyTypes:
     - Ingress
----
 # Allow API traffic from ingress controller only
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
@@ -48,7 +47,6 @@ spec:
               app.kubernetes.io/component: controller
       ports:
         - port: 8000
----
 # Allow database access only from app pods
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
@@ -66,7 +64,6 @@ spec:
               app.kubernetes.io/name: capstone-api
       ports:
         - port: 5432
----
 # Cilium L7 policy — allow only GET /api/v1/items
 apiVersion: cilium.io/v2
 kind: CiliumNetworkPolicy
@@ -133,7 +130,6 @@ spec:
                   limits:
                     memory: "?*"
                     cpu: "?*"
----
 # Disallow latest tag
 apiVersion: kyverno.io/v1
 kind: ClusterPolicy
@@ -167,7 +163,6 @@ metadata:
   namespace: production
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::ACCOUNT_ID:role/capstone-api-role
----
 apiVersion: v1
 kind: Pod
 metadata:
@@ -225,10 +220,8 @@ kubectl run trivy-scan --rm -it --restart=Never \
   --command -- trivy image ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/capstone-api:latest
 ```
 
----
 
 
 
----
 
 [← Previous](10-10-scaling-and-resilience.md) | [↑ Index](index.md) | [Next →](12-12-day-2-operations.md)

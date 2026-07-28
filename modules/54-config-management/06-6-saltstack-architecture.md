@@ -34,10 +34,8 @@ salt-key -A          # Accept all unaccepted
 salt-key -d web01    # Delete
 ```
 
----
 
 
 
----
 
 [← Previous](05-5-puppet-in-practice-roles.md) | [↑ Index](index.md) | [Next →](07-7-saltstack-states.md)

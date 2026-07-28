@@ -137,10 +137,8 @@ sudo samba-tool domain provision \
    --adminpass='P@ssw0rd!'
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-5-samba-as-nt4-style.md) | [↑ Index](index.md) | [Next →](11-section-7-linux-mounting-cifs.md)

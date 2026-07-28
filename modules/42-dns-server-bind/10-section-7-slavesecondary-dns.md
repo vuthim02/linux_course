@@ -81,10 +81,8 @@ dig @192.168.1.20 www.example.com +short     # Should return 192.168.1.100
 sudo rndc retransfer example.com             # Force transfer on slave
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-reverse-dns.md) | [↑ Index](index.md) | [Next →](11-level-3-advanced-dnssec-access.md)

@@ -1,5 +1,6 @@
 # 39-web-servers
 
+**Prerequisites:** Complete [Part 38 - container-basics](../38-container-basics/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

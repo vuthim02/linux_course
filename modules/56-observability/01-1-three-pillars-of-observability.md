@@ -27,10 +27,8 @@ TraceID: abc123
 
 **vs Traditional Monitoring:** Nagios/Zabbix check-based (OK/WARN/CRIT, no history, no trends). Observability collects everything, stores it, queries ad-hoc. Question changes from "is it up?" to "how is it behaving?"
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-2-prometheus-architecture.md)

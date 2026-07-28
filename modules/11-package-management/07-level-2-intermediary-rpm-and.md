@@ -5,10 +5,15 @@
 
 > **Level 2 Goal:** Master dnf/yum for Red Hat-based systems, use rpm for low-level operations, configure RPM repositories, and work with universal package formats (Snap, Flatpak) and cache management.
 
----
+### What You'll Cover
+- `dnf`/`yum` commands and configuration
+- `rpm` for low-level query, install, verify
+- RPM repository management and GPG keys
+- Snap and Flatpak: universal packages compared
+- Package cache cleanup and maintenance
 
 
 
----
+
 
 [← Previous](06-section-4-understanding-debian-repositories.md) | [↑ Index](index.md) | [Next →](08-section-5-the-fedorarhel-package.md)

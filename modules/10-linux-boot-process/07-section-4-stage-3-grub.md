@@ -83,10 +83,8 @@ sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 grub-install --version
 ```
 
----
 
 
 
----
 
 [← Previous](06-level-2-intermediary-boot-configuration.md) | [↑ Index](index.md) | [Next →](08-section-5-stage-4-kernel.md)

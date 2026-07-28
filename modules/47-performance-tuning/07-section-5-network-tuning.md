@@ -115,10 +115,8 @@ echo 4096 | sudo tee /sys/class/net/eth0/queues/rx-0/rps_flow_cnt
 echo f | sudo tee /sys/class/net/eth0/queues/tx-0/xps_cpus
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-4-disk-io-tuning.md) | [↑ Index](index.md) | [Next →](08-section-6-kernel-parameters.md)

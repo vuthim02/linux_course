@@ -124,10 +124,8 @@ mysql -e "FLUSH TABLES WITH READ LOCK;"
 mysql -e "UNLOCK TABLES;"
 ```
 
----
 
 
 
----
 
 [← Previous](24-restore-testing.md) | [↑ Index](index.md) | [Next →](26-15-hands-on-practices.md)

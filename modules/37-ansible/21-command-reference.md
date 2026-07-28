@@ -73,10 +73,8 @@
 | `selinux` | Manage SELinux settings |
 | `ufw` | Manage UFW firewall |
 
----
 
 
 
----
 
 [← Previous](20-deep-understanding.md) | [↑ Index](index.md) | [Next →](22-whats-coming-in-part-38.md)

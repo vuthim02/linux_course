@@ -74,10 +74,8 @@ sudo tcplife-bpfcc
 
 > 🔍 **Reverse Engineering Insight:** bcc-tools are your first line of defense. The 80/20 rule applies: execsnoop, opensnoop, biolatency, cachestat, and tcplife solve 80% of production debugging problems without writing any code.
 
----
 
 
 
----
 
 [← Previous](02-1-what-is-ebpf-the.md) | [↑ Index](index.md) | [Next →](04-3-bpftrace-the-tracing-power.md)

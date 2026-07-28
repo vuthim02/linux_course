@@ -80,10 +80,8 @@ awk -F: '$3 >= 1000 {print $1, $3}' /etc/passwd | sort -k2 -n
 find . -type f | awk -F. '{print $NF}' | sort | uniq -c | sort -rn
 ```
 
----
 
 
 
----
 
 [← Previous](11-7-combining-tools.md) | [↑ Index](index.md) | [Next →](13-9-paste-join-comm.md)

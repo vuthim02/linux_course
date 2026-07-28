@@ -61,10 +61,8 @@ log_message "INFO" "System started"
 log_message "ERROR" "Disk full"
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-2-exit-codes-success.md) | [↑ Index](index.md) | [Next →](10-section-4-arrays-multiple-values.md)

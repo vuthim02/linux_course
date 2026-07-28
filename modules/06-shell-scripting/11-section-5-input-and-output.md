@@ -58,10 +58,8 @@ exec > script.log 2>&1
 echo "Everything goes to the log file"
 ```
 
----
 
 
 
----
 
-[← Previous](10-section-4-arrays-multiple-values.md) | [↑ Index](index.md) | [Next →](12-level-2-practices.md)
+[← Previous](10-section-4-arrays-multiple-values.md) | [↑ Index](index.md) | [Next →](12-section-1-error-handling-writing.md)

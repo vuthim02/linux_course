@@ -85,10 +85,8 @@ The combination of VXLAN + EVPN with anycast gateways enables:
 - Active-active load balancing across multiple VTEPs
 - Subnet extension across the entire fabric
 
----
 
 
 
----
 
 [← Previous](11-section-10-vxlan.md) | [↑ Index](index.md) | [Next →](13-section-12-performance-and-tuning.md)

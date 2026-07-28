@@ -143,10 +143,8 @@ ping -c 1 google.com   # Will ping 127.0.0.1, not the real Google
 sudo sed -i '/google.com/d' /etc/hosts
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-8-etchosts-and-etchostname.md) | [↑ Index](index.md) | [Next →](13-section-10-bonding-and-bridging.md)

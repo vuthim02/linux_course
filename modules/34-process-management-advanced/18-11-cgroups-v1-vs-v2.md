@@ -106,10 +106,8 @@ TasksMax=500
 | I/O weight | `blkio.weight` | `io.weight` |
 | PID limit | — | `pids.max` |
 
----
 
 
 
----
 
 [← Previous](17-level-3-advanced-cgroups-cfs.md) | [↑ Index](index.md) | [Next →](19-16-deep-understanding.md)

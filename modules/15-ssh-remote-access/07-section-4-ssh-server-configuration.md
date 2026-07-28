@@ -72,10 +72,8 @@ sudo systemctl restart sshd
 # Keep a second terminal open just in case.
 ```
 
----
 
 
 
----
 
 [← Previous](06-level-2-intermediary-configuring-ssh.md) | [↑ Index](index.md) | [Next →](08-section-5-file-transfer-scp.md)

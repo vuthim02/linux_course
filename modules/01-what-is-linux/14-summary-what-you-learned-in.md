@@ -24,10 +24,8 @@
 | Command Path | Shell → PATH search → kernel loads program → output |
 | Everything Is a File | Even live kernel data is accessed like a file |
 
----
 
 
 
----
 
 [← Previous](13-section-8-concepts-review-deep.md) | [↑ Index](index.md) | [Next →](15-whats-coming-in-part-2.md)

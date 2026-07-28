@@ -67,10 +67,8 @@ def ensure_package_installed(name="nginx", state="present"):
 
 Running it once installs Nginx. Running it again does nothing — the state already matches.
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-foundations.md) | [↑ Index](index.md) | [Next →](04-section-2-installation.md)

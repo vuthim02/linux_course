@@ -52,10 +52,8 @@ echo "alias ll='ls -la'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-setting-variables.md) | [↑ Index](index.md) | [Next →](09-level-3-advanced-shell-functions.md)

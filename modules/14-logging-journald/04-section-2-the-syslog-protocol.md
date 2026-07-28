@@ -45,10 +45,8 @@ Jan 15 10:30:45 server sshd[12345]: Failed password for root from 192.168.1.100 
  timestamp    host   prog[PID]           message
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-the-linux-logging.md) | [↑ Index](index.md) | [Next →](05-section-4-key-log-files.md)

@@ -28,7 +28,6 @@ sysbench cpu run
 
 **Observation:** performance governor should show higher throughput (at the cost of power and heat).
 
----
 
 ### Practice 2: taskset CPU Affinity
 
@@ -52,7 +51,6 @@ time taskset -c 0 sysbench cpu run
 time sysbench cpu run   # compare
 ```
 
----
 
 ### Practice 3: Tune Swappiness
 
@@ -78,7 +76,6 @@ sudo sysctl vm.swappiness=10
 # 7. Repeat — compare swap in/out columns from vmstat
 ```
 
----
 
 ### Practice 4: Benchmarking with sysbench
 
@@ -105,7 +102,6 @@ sysbench fileio --file-total-size=2G cleanup
 
 **Deliverable:** A table with benchmark name, throughput, and latency values.
 
----
 
 ### Practice 5: Tune I/O Scheduler
 
@@ -128,7 +124,6 @@ echo none | sudo tee /sys/block/nvme0n1/queue/scheduler
 grep -A5 '"iops"' result_*.json
 ```
 
----
 
 ### Practice 6: Analyze with perf record/report
 
@@ -156,7 +151,6 @@ perf report -g
 # In perf report, select a function and press 'a' for annotation
 ```
 
----
 
 ### Practice 7: strace a Slow Command
 
@@ -179,7 +173,6 @@ strace -c find /usr -name "*.txt"
 # Look for syscalls with high total time or high count
 ```
 
----
 
 ### Practice 8: bpftrace One-Liner for Block I/O Latency
 
@@ -202,7 +195,6 @@ dd if=/dev/zero of=/tmp/test bs=1M count=1000 oflag=direct
 fio --name=realtest --ioengine=libaio --direct=1 --rw=randread --bs=4K --size=1G --runtime=30
 ```
 
----
 
 ### Practice 9: fio Benchmark
 
@@ -226,7 +218,6 @@ fio --name=latency --ioengine=libaio --direct=1 --rw=randread --bs=4K --size=1G 
 jq '.jobs[0].read.clat.percentile' latency.json
 ```
 
----
 
 ### Practice 10: iperf3 Network Test
 
@@ -250,7 +241,6 @@ sudo sysctl net.ipv4.tcp_rmem="4096 87380 134217728"
 sudo sysctl net.ipv4.tcp_wmem="4096 65536 134217728"
 ```
 
----
 
 ### Practice 11: stress-ng Test
 
@@ -276,7 +266,6 @@ echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governo
 stress-ng --cpu 4 --timeout 30 --metrics-brief
 ```
 
----
 
 ### Practice 12: NUMA Binding with numactl
 
@@ -299,7 +288,6 @@ numactl --interleave=all sysbench memory run
 # (Remote memory access is typically 1.5-2x slower)
 ```
 
----
 
 ### Practice 13: Tune Network Kernel Parameters
 
@@ -328,7 +316,6 @@ iperf3 -c 192.168.1.100 -t 30 -P 4 > /tmp/tuned.txt
 grep "SUM" /tmp/baseline.txt /tmp/tuned.txt
 ```
 
----
 
 ### Practice 14: Capacity Planning Simulation
 
@@ -365,7 +352,6 @@ EOF
 echo "Action: Upgrade CPU by ${months} months"
 ```
 
----
 
 ### Practice 15: Full System Performance Audit
 
@@ -448,6 +434,5 @@ echo "Now review the findings and write recommendations."
 # Performance Audit Report: $(hostname)
 
 
----
 
 [← Previous](15-section-13-capacity-planning.md) | [↑ Index](index.md) | [Next →](17-date-date.md)

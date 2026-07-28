@@ -73,10 +73,8 @@ Pitfall 5: Ignoring perf report overhead percentages
 
 > 🔍 **Reverse Engineering Insight:** Use tracepoints for production (stable, fast). Use kprobes for kernel functions without tracepoints. Use uprobes for userspace. Use profile for CPU sampling. Tracepoints are your safe default.
 
----
 
 
 
----
 
 [← Previous](11-hands-on-practices.md) | [↑ Index](index.md) | [Next →](13-command-reference.md)

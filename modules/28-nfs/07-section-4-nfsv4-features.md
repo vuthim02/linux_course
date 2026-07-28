@@ -138,10 +138,8 @@ NFSv4 combines multiple operations into a single RPC:
 # This dramatically reduces latency for metadata-heavy workloads
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-nfs-client-setup.md) | [↑ Index](index.md) | [Next →](08-level-3-advanced-performance-internals.md)

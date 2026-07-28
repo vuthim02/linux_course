@@ -61,10 +61,8 @@ Key differences to remember:
 5. Docker uses `dockerd` daemon; Podman forks directly
 6. Podman supports `--pod` flag to run containers in a pod
 
----
 
 
 
----
 
 [← Previous](21-16-deep-understanding.md) | [↑ Index](index.md) | [Next →](23-18-whats-coming-in-part.md)

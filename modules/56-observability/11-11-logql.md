@@ -47,10 +47,8 @@ topk(5, sum(count_over_time({job="nginx"} |= "error" | json [1h])) by (path))
 {namespace="production"} | logfmt | trace_id != "" | line_format "trace={{.trace_id}} {{.message}}"
 ```
 
----
 
 
 
----
 
 [← Previous](10-10-loki.md) | [↑ Index](index.md) | [Next →](12-12-tempo.md)

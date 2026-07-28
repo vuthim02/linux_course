@@ -139,10 +139,8 @@ groups:
           / node_filesystem_size_bytes{mountpoint!=""} * 100
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-7-prometheus.md) | [↑ Index](index.md) | [Next →](11-section-9-prometheus-exporters.md)

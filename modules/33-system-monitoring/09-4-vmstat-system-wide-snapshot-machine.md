@@ -65,10 +65,8 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
 
 **Conclusion:** CPU-bound workload with too many runnable threads for available cores.
 
----
 
 
 
----
 
 [← Previous](08-level-2-intermediary-diagnosing-bottlenecks.md) | [↑ Index](index.md) | [Next →](10-5-iostat-per-disk-io-deep.md)

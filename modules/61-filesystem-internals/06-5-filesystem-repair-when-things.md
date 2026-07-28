@@ -76,10 +76,8 @@ sudo btrfs restore /dev/sda1 /recovery/
 sudo testdisk /dev/sda
 ```
 
----
 
 
 
----
 
 [← Previous](05-4-journaling-how-linux-prevents.md) | [↑ Index](index.md) | [Next →](07-6-diagnosing-df-vs-du.md)

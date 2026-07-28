@@ -43,10 +43,8 @@
 | `ssh -G user@host` | Show effective SSH config |
 | `sudo sshd -T` | Show active SSH daemon settings |
 
----
 
 
 
----
 
 [← Previous](15-deep-understanding-how-ssh-encryption.md) | [↑ Index](index.md) | [Next →](17-whats-coming-in-part-16.md)

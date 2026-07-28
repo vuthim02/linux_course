@@ -39,10 +39,8 @@ $ nice -n 19 tar czf backup.tar.gz /data
 $ sudo renice -n -5 -u postgres
 ```
 
----
 
 
 
----
 
 [← Previous](08-6-kill-killall-sending-signals.md) | [↑ Index](index.md) | [Next →](10-12-background-foreground-jobs.md)

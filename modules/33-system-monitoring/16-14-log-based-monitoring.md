@@ -41,10 +41,8 @@ $ journalctl -k -f                   # Kernel messages, follow
 $ journalctl -o json-pretty          # JSON output for parsing
 ```
 
----
 
 
 
----
 
 [← Previous](15-11-glances-python-power-monitor.md) | [↑ Index](index.md) | [Next →](17-15-ncdu-ncurses-disk-usage.md)

@@ -78,10 +78,8 @@ $ sudo systemctl start grafana-server
 
 Access at http://localhost:3000. Import dashboard ID `1860` (Node Exporter Full).
 
----
 
 
 
----
 
 [← Previous](20-level-3-advanced-smart-prometheus.md) | [↑ Index](index.md) | [Next →](22-13-disk-health-monitoring.md)

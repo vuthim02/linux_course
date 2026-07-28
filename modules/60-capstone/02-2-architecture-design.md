@@ -64,10 +64,8 @@
 | Backup | Velero + RDS snapshots | Disaster recovery |
 | Cost | Kubecost | Cloud cost monitoring |
 
----
 
 
 
----
 
 [← Previous](01-1-capstone-overview.md) | [↑ Index](index.md) | [Next →](03-3-infrastructure-provisioning-terraform.md)

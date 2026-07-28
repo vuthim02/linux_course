@@ -63,10 +63,8 @@
 | `set -x` / `set +x` | Enable/disable debug trace in script |
 | `strace -e process CMD` | Trace process execution (advanced debug) |
 
----
 
 
 
----
 
 [← Previous](13-deep-understanding-how-the-shell.md) | [↑ Index](index.md) | [Next →](15-whats-coming-in-part-19.md)

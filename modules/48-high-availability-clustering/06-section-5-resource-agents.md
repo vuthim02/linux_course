@@ -64,10 +64,8 @@ crm ra list stonith
 crm ra info stonith:fence_ipmilan
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-4-pacemaker-configuration.md) | [↑ Index](index.md) | [Next →](07-section-6-stonith-shoot-the.md)

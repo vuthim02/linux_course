@@ -161,10 +161,8 @@ WantedBy=multi-user.target
 sudo systemctl enable mnt-data.mount
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-2-nfs-server-setup.md) | [↑ Index](index.md) | [Next →](07-section-4-nfsv4-features.md)

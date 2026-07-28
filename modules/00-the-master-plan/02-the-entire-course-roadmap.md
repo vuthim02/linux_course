@@ -42,10 +42,8 @@
 
 Every part builds on the previous. **Do not skip** unless you can pass the self-test.
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-by.md) | [↑ Index](index.md) | [Next →](03-the-reverse-engineering-method-how.md)

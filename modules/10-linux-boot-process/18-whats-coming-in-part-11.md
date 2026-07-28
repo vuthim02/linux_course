@@ -12,10 +12,10 @@ You will learn:
 - Adding repositories and PPAs
 - 15 hands-on practices
 
----
+> **Tip:** Every Linux distribution uses a package manager. Knowing apt AND dnf makes you effective across the two biggest server families.
 
 
 
----
+
 
 [← Previous](17-summary-complete-command-reference-for.md) | [↑ Index](index.md) | [Next →](19-self-test-can-you-answer-these.md)

@@ -48,10 +48,8 @@ ps -eo pid,ni,comm
 # In top, press 'r' to renice, or sort by NI with '<' and '>'
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-6-nohup-disown-and.md) | [↑ Index](index.md) | [Next →](09-section-8-proc-the-process.md)

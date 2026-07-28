@@ -82,10 +82,8 @@ Growth (50-200) → central SRE (3-5)
 Scale (>200)   → embedded + platform (8-15)
 ```
 
----
 
 
 
----
 
 [← Previous](15-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](17-command-reference.md)

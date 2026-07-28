@@ -46,10 +46,8 @@ $ ss -t state close-wait
 - **TIME-WAIT** — Normal for short-lived connections. Many is fine but can exhaust port ranges.
 - **CLOSE-WAIT** — The remote peer closed, but local app hasn't called `close()`. This is a **socket leak**.
 
----
 
 
 
----
 
 [← Previous](11-6-mpstat-per-cpu-breakdown.md) | [↑ Index](index.md) | [Next →](13-9-dstat-versatile-real-time-aggregator.md)

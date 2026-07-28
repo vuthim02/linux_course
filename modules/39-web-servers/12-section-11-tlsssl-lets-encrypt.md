@@ -139,10 +139,8 @@ add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; prelo
 
 > **Warning:** Once you set HSTS with a long `max-age`, browsers will refuse HTTP connections to your domain for that duration. Test with short values first (e.g., 300 seconds).
 
----
 
 
 
----
 
 [← Previous](11-section-10-nginx-as-load.md) | [↑ Index](index.md) | [Next →](13-section-12-comparison-apache-vs.md)

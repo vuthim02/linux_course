@@ -1,5 +1,7 @@
 # 45-proxy-reverse-proxy
 
+**Prerequisites:** Complete [Part 44 - mail-servers](../44-mail-servers/) before this module.
+
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

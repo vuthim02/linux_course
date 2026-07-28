@@ -43,10 +43,8 @@ Your System (apt update / apt upgrade)
 | Kernel update | 6.1 → 6.2 | Medium (requires reboot) |
 | Library update | libssl 1.1 → 3.0 | HIGH (may break apps) |
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-package-management.md) | [↑ Index](index.md) | [Next →](04-section-2-checking-for-updates.md)

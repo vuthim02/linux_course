@@ -33,10 +33,8 @@
 | Check kernel ASLR | `cat /proc/sys/kernel/randomize_va_space` |
 | List running services | `systemctl list-units --type=service --state=running` |
 
----
 
 
 
----
 
 [← Previous](13-deep-understanding.md) | [↑ Index](index.md) | [Next →](15-whats-coming-in-part-67.md)

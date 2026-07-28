@@ -67,10 +67,8 @@ sysctl vm.overcommit_memory
 2 = don't overcommit (sum of RSS + swap)
 ```
 
----
 
 
 
----
 
 [← Previous](14-8-ulimit-per-process-resource-limits.md) | [↑ Index](index.md) | [Next →](16-10-proc-filesystem-the-kernels.md)

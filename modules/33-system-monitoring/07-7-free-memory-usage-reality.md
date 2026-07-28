@@ -43,10 +43,8 @@ SwapTotal:       8388604 kB
 SwapFree:        7588604 kB
 ```
 
----
 
 
 
----
 
 [← Previous](06-3-top-htop-interactive-process.md) | [↑ Index](index.md) | [Next →](08-level-2-intermediary-diagnosing-bottlenecks.md)

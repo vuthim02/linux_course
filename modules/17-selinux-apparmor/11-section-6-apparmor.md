@@ -130,10 +130,8 @@ sudo journalctl -kf | grep apparmor
 #   denied_mask="r" fsuid=33 ouid=0
 ```
 
----
 
 
 
----
 
 [← Previous](10-level-2-intermediary-apparmor-profiles.md) | [↑ Index](index.md) | [Next →](12-level-3-advanced-comparing-selinux.md)

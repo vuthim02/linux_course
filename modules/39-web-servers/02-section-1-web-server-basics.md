@@ -75,10 +75,8 @@ Client ── HTTPS ──► Nginx ── HTTP ──► Backend
 
 Apache and Nginx excel at static files. Dynamic content is handed off to application servers (PHP-FPM, Gunicorn, Node.js).
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-apache-installation-and.md)

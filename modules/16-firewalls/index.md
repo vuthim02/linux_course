@@ -1,5 +1,6 @@
 # 16-firewalls
 
+**Prerequisites:** Complete [Part 15 - ssh-remote-access](../15-ssh-remote-access/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

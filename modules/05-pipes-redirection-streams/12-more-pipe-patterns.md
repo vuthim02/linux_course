@@ -24,10 +24,8 @@ history | awk '{print $2}' | sort | uniq -c | sort -rn | head -10
 tail -f /var/log/syslog | grep --line-buffered "ERROR" | tee /tmp/errors.log
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-4-heredocs-and-herestrings.md) | [↑ Index](index.md) | [Next →](13-level-2-practices.md)

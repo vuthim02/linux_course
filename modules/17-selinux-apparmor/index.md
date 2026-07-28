@@ -1,5 +1,6 @@
 # 17-selinux-apparmor
 
+**Prerequisites:** Complete [Part 16 - firewalls](../16-firewalls/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

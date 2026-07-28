@@ -51,7 +51,6 @@ $ sudo perccli /c0 show    # Dell PERC controllers
 $ sudo hpssacli ctrl all show config  # HP SmartArray
 ```
 
----
 
 ### `/proc/diskstats` — Per-Disk I/O (Advanced)
 
@@ -123,10 +122,8 @@ $ echo f > /proc/irq/129/smp_affinity
 
 Modern systems use `irqbalance` daemon to distribute interrupts automatically.
 
----
 
 
 
----
 
 [← Previous](21-12-prometheus-nodeexporter-modern-metrics.md) | [↑ Index](index.md) | [Next →](23-18-command-reference.md)

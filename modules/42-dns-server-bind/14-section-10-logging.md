@@ -48,10 +48,8 @@ sudo rndc stats             # Dump statistics
 sudo journalctl -u named -f # Follow live logs
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-9-access-control.md) | [↑ Index](index.md) | [Next →](15-section-11-tuning-and-performance.md)

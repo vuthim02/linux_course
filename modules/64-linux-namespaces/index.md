@@ -1,5 +1,6 @@
 # 64-linux-namespaces
 
+**Prerequisites:** Complete [Part 63 - ebpf-tracing](../63-ebpf-tracing/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

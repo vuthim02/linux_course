@@ -54,10 +54,8 @@ timeout = 30
 log_path = /var/log/ansible.log
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-what-is-ansible.md) | [↑ Index](index.md) | [Next →](05-section-3-inventory.md)

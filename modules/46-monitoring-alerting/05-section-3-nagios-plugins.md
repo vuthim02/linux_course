@@ -182,10 +182,8 @@ sudo ss -tlnp | grep 5666
 # NRPE v4.0.3
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-nagios-core.md) | [↑ Index](index.md) | [Next →](06-section-4-nagios-dependencies-and.md)

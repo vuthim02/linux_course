@@ -16,10 +16,16 @@
 
 **OTEL Collector pipeline:** Receivers (OTLP, hostmetrics, filelog) → Processors (batch for efficiency, memory_limiter to prevent OOM, filter to drop data, attributes to add metadata, tail_sampling to keep important traces) → Exporters (OTLP to backends, Prometheus HTTP, debug). Connectors link pipelines (spanmetrics creates metrics from traces). Fan-out sends data to multiple exporters. Queued retry provides at-least-once delivery. Tail-based sampling decisions: wait 30s for all spans, then keep ALL errors + ALL slow traces + 10% of rest.
 
----
+### Key Takeaways
+
+- **Cardinality is the #1 Prometheus killer** — choose label values carefully; never use unbounded strings (user IDs, request IDs, URLs)
+- **Pull vs push** is a philosophical choice, not a technical one — Prometheus pull is simpler for most on-prem/cloud setups; push wins for serverless and batch jobs
+- **VictoriaMetrics** is often a drop-in replacement that saves 50-70% on storage costs
+- **Loki's cost advantage** comes from indexing only labels — if you need full-text search, Elasticsearch is better but 10-50x more expensive
+- **OTEL tail-based sampling** gives you the best of both worlds: full data in object storage, only important traces in your backend
 
 
 
----
+
 
 [← Previous](15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](17-observability-maturity-model.md)

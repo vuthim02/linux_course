@@ -1,10 +1,8 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### Level 1 Practices: Package Management Basics
 
----
 
 ### ✅ Practice 1: Check Current System State
 
@@ -29,7 +27,6 @@ if [ -f /var/log/apt/history.log ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 2: Check Available Updates
 
@@ -55,7 +52,6 @@ if command -v apt &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 3: Check if Reboot Is Required
 
@@ -82,7 +78,6 @@ if [ "$INSTALLED_KERNELS" != "$RUNNING_KERNEL" ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 4: Hold and Unhold Packages
 
@@ -106,7 +101,6 @@ sudo apt-mark unhold nano 2>/dev/null
 apt-mark showhold
 ```
 
----
 
 ### ✅ Practice 5: Simulate an Upgrade
 
@@ -123,7 +117,6 @@ elif command -v dnf &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 6: Check Update History
 
@@ -141,7 +134,6 @@ elif [ -f /var/log/dnf.log ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 8: View Package Changelog
 
@@ -157,7 +149,6 @@ elif command -v dnf &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 10: Check Disk Space for Updates
 
@@ -181,7 +172,6 @@ echo "=== APT cache size ==="
 du -sh /var/cache/apt/archives/ 2>/dev/null || echo "N/A"
 ```
 
----
 
 ### ✅ Practice 14: Compare Installed vs Available Versions
 
@@ -212,11 +202,9 @@ for pkg in bash openssl nginx sshd; do
 done
 ```
 
----
 
 ### Level 2 Practices: Automation and Strategy
 
----
 
 ### ✅ Practice 7: Check Kernel Update Status
 
@@ -241,7 +229,6 @@ elif command -v dnf &>/dev/null; then
 fi
 ```
 
----
 
 ### ✅ Practice 9: Configure Unattended-Upgrades (Simulated)
 
@@ -267,7 +254,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 12: Understand Package Pinning
 
@@ -297,7 +283,6 @@ Check current pinning:
 EOF
 ```
 
----
 
 ### ✅ Practice 13: Plan a Maintenance Window
 
@@ -345,7 +330,6 @@ EOF
 echo "Maintenance plan template created"
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Update Report
 
@@ -437,11 +421,9 @@ chmod +x update_report.sh
 ./update_report.sh
 ```
 
----
 
 ### Level 3 Practices: Rollback and Recovery
 
----
 
 ### ✅ Practice 11: Learn DNF History Rollback
 
@@ -475,10 +457,8 @@ EOF
 fi
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-8-rollback-strategies.md) | [↑ Index](index.md) | [Next →](14-deep-understanding-how-updates-work.md)

@@ -27,10 +27,8 @@ split -n 5 file part_        # Split into 5 equal parts
 cat part_* > original_file
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-real-backup-patterns.md) | [↑ Index](index.md) | [Next →](10-practice-section-15-hands-on-exercises.md)

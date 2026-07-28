@@ -21,6 +21,5 @@ SQL
 
 
 
----
 
 [← Previous](74-practice-12-troubleshoot-a-stuck.md) | [↑ Index](index.md) | [Next →](76-practice-14-point-in-time-recovery.md)

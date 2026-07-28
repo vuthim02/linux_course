@@ -1,5 +1,9 @@
 ## 🎯 What You Will Achieve
 
+Every file on a Linux system is backed by on-disk structures — inodes, block groups, journals, and superblocks. When something goes wrong (corruption, full disks, data loss), understanding these internals is the difference between a quick fix and a catastrophic recovery. This part gives you the knowledge to diagnose, repair, and tune Linux filesystems at the lowest level.
+
+You will:
+
 - Understand inode structure, number allocation, and why you can run out of inodes
 - Explain superblock, block groups, and filesystem layout on disk
 - Trace writes through journaling (ext4 journal, XFS log, Btrfs CoW)
@@ -9,10 +13,8 @@
 - Tune filesystem parameters for performance and reliability
 - Monitor filesystem health proactively
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-1-filesystem-architecture-what-lives.md)

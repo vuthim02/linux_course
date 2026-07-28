@@ -2,7 +2,6 @@
 
 ### Level 1 Practices: Environment Basics
 
----
 
 ### ✅ Practice 1: Explore Your Current Environment
 
@@ -23,7 +22,6 @@ for var in PATH HOME USER SHELL LANG TERM EDITOR PAGER; do
 done
 ```
 
----
 
 ### ✅ Practice 2: PATH Exploration
 
@@ -45,7 +43,6 @@ for cmd in ls cp mv cat less grep; do
 done
 ```
 
----
 
 ### Level 2 Practices: Configuration, Startup Files, and Aliases
 
@@ -69,7 +66,6 @@ echo "In child shell (after export):"
 bash -c 'echo "MYNAME = $MYNAME"'
 ```
 
----
 
 ### ✅ Practice 4: Set Variable for One Command
 
@@ -86,7 +82,6 @@ echo "LANGUAGE = ${LANGUAGE:-NOT SET}"
 LANG=fr_FR.UTF-8 LC_TIME=fr_FR.UTF-8 date
 ```
 
----
 
 ### ✅ Practice 5: Explore Shell Startup Files
 
@@ -118,7 +113,6 @@ echo "=== /etc/profile.d scripts ==="
 ls /etc/profile.d/ 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 6: Read Your .bashrc
 
@@ -159,7 +153,6 @@ EOF
 fi
 ```
 
----
 
 ### ✅ Practice 7: Create Useful Aliases
 
@@ -187,7 +180,6 @@ alias | grep -E "ll|lt|dfh|dus|myip"
 unalias ll lt dfh dus myip
 ```
 
----
 
 ### Level 3 Practices: Functions, Prompt, Debugging, and Auditing
 
@@ -235,7 +227,6 @@ extract() {
 rm -f /tmp/testfile.txt /tmp/testfile*.bak
 ```
 
----
 
 ### ✅ Practice 9: Customize Your Prompt
 
@@ -257,7 +248,6 @@ echo "Or multi-line: PS1='\u@\h:\n\$ '"
 PS1="$OLD_PS1"
 ```
 
----
 
 ### ✅ Practice 10: Environment Inheritance
 
@@ -280,7 +270,6 @@ unset COURSE_VAR
 bash -c 'echo "After unset: COURSE_VAR=${COURSE_VAR:-NOT SET}"'
 ```
 
----
 
 ### ✅ Practice 11: Locale Settings
 
@@ -305,7 +294,6 @@ LANG=fr_FR.UTF-8 date
 LANG=ja_JP.UTF-8 date
 ```
 
----
 
 ### ✅ Practice 12: Add to PATH Temporarily
 
@@ -335,7 +323,6 @@ which hello-course
 rm ~/bin/hello-course
 ```
 
----
 
 ### ✅ Practice 13: Debug Shell Configuration
 
@@ -354,7 +341,6 @@ env | wc -c
 echo "bytes"
 ```
 
----
 
 ### ✅ Practice 14: .bash_logout
 
@@ -379,7 +365,6 @@ EOF
 fi
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Environment Audit
 
@@ -458,10 +443,8 @@ chmod +x environment_audit.sh
 ./environment_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-the-prompt-ps1.md) | [↑ Index](index.md) | [Next →](13-deep-understanding-how-the-shell.md)

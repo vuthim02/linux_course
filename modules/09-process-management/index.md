@@ -1,5 +1,6 @@
 # 09-process-management
 
+**Prerequisites:** Complete [Part 8 - archiving-compression](../08-archiving-compression/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

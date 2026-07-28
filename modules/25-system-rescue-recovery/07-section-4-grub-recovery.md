@@ -91,10 +91,8 @@ GRUB_CMDLINE_LINUX=""    # Kernel parameters
 sudo update-grub
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-filesystem-repair-fsck.md) | [↑ Index](index.md) | [Next →](08-section-5-using-a-live.md)

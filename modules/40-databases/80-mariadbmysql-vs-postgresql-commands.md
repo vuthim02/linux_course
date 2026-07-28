@@ -45,7 +45,6 @@
 | **Replication** | Async, semi-sync, GTID | Streaming, logical, synchronous |
 | **Docker image** | `mariadb:latest` | `postgres:latest` |
 
----
 
 # 🔮 What's Coming in Part 41
 
@@ -61,7 +60,6 @@ We'll cover:
 - SSSD and Active Directory integration
 - FreeIPA overview
 
----
 
 # ✅ Self-Test
 
@@ -129,7 +127,6 @@ We'll cover:
 
 **15.** `pg_restore -U postgres -d mydb -j 4 /tmp/db.dump`
 
----
 
 # 📚 Footer
 
@@ -138,13 +135,11 @@ Previous → Part 39: Web Servers
 Next → Part 41: LDAP and Centralized Authentication
 ```
 
----
 
 *"A database is only as reliable as its backup strategy, and only as fast as its slowest query."*
 
 [← Previous](part39.md) | [Next →](part41.md)
 
 
----
 
 [← Previous](79-postgresql-process-architecture.md) | [↑ Index](index.md)

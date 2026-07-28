@@ -44,10 +44,8 @@ $ dstat --list
 
 Plugins include `dstat-freespace`, `dstat-mysql`, `dstat-nginx`, `dstat-sendmail`, `dstat-thermal`, `dstat-top-oom`.
 
----
 
 
 
----
 
 [← Previous](12-8-ss-socket-statistics-modern.md) | [↑ Index](index.md) | [Next →](14-10-nmon-all-in-one-ncurses-monitor.md)

@@ -199,10 +199,8 @@ spec:
 kubectl describe cep my-pod-xxxxx | grep Policy
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-4-cilium.md) | [↑ Index](index.md) | [Next →](07-section-6-cilium-service-mesh.md)

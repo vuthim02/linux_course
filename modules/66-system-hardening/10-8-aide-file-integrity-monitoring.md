@@ -205,10 +205,8 @@ chattr +i /var/lib/aide/aide.db
 cp /var/lib/aide/aide.db /backup/aide/aide.db.$(date +%Y%m%d)
 ```
 
----
 
 
 
----
 
 [← Previous](09-7-lynis-security-auditing-and.md) | [↑ Index](index.md) | [Next →](11-9-automated-compliance-openscap-and.md)

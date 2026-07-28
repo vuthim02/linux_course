@@ -80,10 +80,8 @@ nr_switches                        :              12345
 prio                               :                  120
 ```
 
----
 
 
 
----
 
 [← Previous](15-9-oom-killer-out-of-memory-resolution.md) | [↑ Index](index.md) | [Next →](17-level-3-advanced-cgroups-cfs.md)

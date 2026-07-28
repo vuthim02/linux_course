@@ -106,7 +106,6 @@ runc run mycontainer
 # needs a bundle directory with config.json and rootfs
 ```
 
----
 
 ![Docker architecture — client, daemon, registries, and container runtime](https://upload.wikimedia.org/wikipedia/commons/2/21/ArquiteturaDocker.png)
 
@@ -114,6 +113,5 @@ runc run mycontainer
 
 
 
----
 
 [← Previous](03-level-1-basic-foundations.md) | [↑ Index](index.md) | [Next →](05-2-docker-vs-podman.md)

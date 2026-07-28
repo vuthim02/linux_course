@@ -166,10 +166,8 @@ deleteoldrdn: 1
 newsuperior: ou=Contractors,dc=example,dc=com
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-3-openldap-configuration-cnconfig.md) | [↑ Index](index.md) | [Next →](07-section-5-ldap-schemas.md)

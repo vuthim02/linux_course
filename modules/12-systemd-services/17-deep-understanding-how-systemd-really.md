@@ -73,10 +73,8 @@ systemctl show -p ControlGroup nginx
 # - Clean accounting of CPU/memory/IO
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-12-resource-control-with.md) | [↑ Index](index.md) | [Next →](18-practice-section-15-hands-on-exercises.md)

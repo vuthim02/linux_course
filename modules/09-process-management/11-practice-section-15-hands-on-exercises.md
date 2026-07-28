@@ -1,6 +1,5 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### ✅ Practice 1: Explore ps
 
@@ -21,7 +20,6 @@ echo "Total processes: $(ps -e --no-headers | wc -l)"
 echo "Your processes: $(ps -u $(whoami) --no-headers | wc -l)"
 ```
 
----
 
 ### ✅ Practice 2: Process Tree
 
@@ -36,7 +34,6 @@ pstree -p | head -30
 ps -p 1 -o pid,comm
 ```
 
----
 
 ### ✅ Practice 3: Custom ps Output
 
@@ -51,7 +48,6 @@ ps -e -o pid,user,%mem,comm --sort=-%mem | head -6
 ps -e -o pid,user,rss,comm --sort=-rss | awk 'NR==1 || $3 > 51200'
 ```
 
----
 
 ### ✅ Practice 4: Explore top
 
@@ -63,7 +59,6 @@ top -b -n 3 | head -30
 top -u $(whoami) -b -n 1 | head -20
 ```
 
----
 
 ### ✅ Practice 5: Background Jobs
 
@@ -84,7 +79,6 @@ disown %1
 # Now it's detached from shell
 ```
 
----
 
 ### ✅ Practice 6: Send Signals
 
@@ -103,7 +97,6 @@ sleep 1
 ps -p $PID &>/dev/null && echo "Still running" || echo "Terminated"
 ```
 
----
 
 ### ✅ Practice 7: Practice kill Signals
 
@@ -124,7 +117,6 @@ pkill sleep
 ps -C sleep
 ```
 
----
 
 ### ✅ Practice 8: Signal Handling
 
@@ -161,7 +153,6 @@ echo "Run: ./signal_demo.sh"
 echo "In another terminal: kill -TERM <PID>"
 ```
 
----
 
 ### ✅ Practice 9: nohup
 
@@ -190,7 +181,6 @@ cat nohup.out
 nohup ./long_task.sh > my_task.log 2>&1 &
 ```
 
----
 
 ### ✅ Practice 10: Process Priority
 
@@ -213,7 +203,6 @@ sudo renice -n 5 -p $PID
 ps -o pid,ni,comm -p $PID
 ```
 
----
 
 ### ✅ Practice 11: Explore /proc
 
@@ -235,7 +224,6 @@ ls -la /proc/$$/fd/
 ls -la /proc/$$/cwd
 ```
 
----
 
 ### ✅ Practice 12: lsof
 
@@ -250,7 +238,6 @@ sudo lsof -i 2>/dev/null | head -10
 lsof /var/log/syslog 2>/dev/null || echo "Cannot access syslog"
 ```
 
----
 
 ### ✅ Practice 13: Monitor a Process
 
@@ -279,7 +266,6 @@ chmod +x cpu_consumer.sh
 # top -u $(whoami)
 ```
 
----
 
 ### ✅ Practice 14: Find and Handle Issues
 
@@ -301,7 +287,6 @@ echo "Processes per user:"
 ps -e -o user --no-headers | sort | uniq -c | sort -rn
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Process Investigation
 
@@ -361,10 +346,8 @@ chmod +x process_investigator.sh
 ./process_investigator.sh
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-9-zombie-and-orphan.md) | [↑ Index](index.md) | [Next →](12-deep-understanding-how-the-scheduler.md)

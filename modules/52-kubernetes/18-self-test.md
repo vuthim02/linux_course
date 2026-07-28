@@ -32,7 +32,6 @@
 
 **Question 15:** A user runs `kubectl auth can-i delete pods` and gets `no`. What does this mean?
 
----
 
 ### Answer Key
 
@@ -74,10 +73,8 @@
 
 **Score:** _____ / 15 correct = ready for Part 53.
 
----
 
 
 
----
 
 [← Previous](17-whats-coming-in-part-53.md) | [↑ Index](index.md) | [Next →](19-reverse-engineering-challenge.md)

@@ -53,10 +53,8 @@ sudo lvcreate -L 50G -n lv_data vg_encrypted
 sudo mkfs.ext4 /dev/vg_encrypted/lv_data
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-8-lvm-cache.md) | [↑ Index](index.md) | [Next →](15-section-12-troubleshooting-basic.md)

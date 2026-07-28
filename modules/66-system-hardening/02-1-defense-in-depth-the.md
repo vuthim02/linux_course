@@ -85,10 +85,8 @@ lsmod | wc -l
 | Lateral movement | Network segmentation, firewall |
 | Supply chain | Image scanning, signed packages |
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve.md) | [↑ Index](index.md) | [Next →](03-2-cis-benchmarks-the-security.md)

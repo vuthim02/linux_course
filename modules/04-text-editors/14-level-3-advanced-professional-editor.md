@@ -5,10 +5,14 @@
 
 > **Level 3 Goal:** Master professional workflows — edit multiple files simultaneously, use split windows and tabs, diff files from within Vim, and execute shell commands without leaving the editor.
 
----
+### What You'll Cover
+- Multi-file editing with `:e`, buffers, and arglists
+- Split windows (`:sp`) and tabs (`:tabnew`)
+- Diff mode (`vimdiff`) for comparing files
+- Running shell commands with `:!` and `:r !`
 
 
 
----
+
 
 [← Previous](13-section-10-vim-crash-recovery.md) | [↑ Index](index.md) | [Next →](15-section-11-advanced-vim-for.md)

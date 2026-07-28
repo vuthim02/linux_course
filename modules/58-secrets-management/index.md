@@ -1,5 +1,6 @@
 # 58-secrets-management
 
+**Prerequisites:** Complete [Part 57 - modern-networking](../57-modern-networking/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

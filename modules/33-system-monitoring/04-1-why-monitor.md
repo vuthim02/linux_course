@@ -32,10 +32,8 @@ Monitoring is the act of collecting, analyzing, and acting on system metrics. It
 
 This part covers the **System** layer. You monitor hardware to detect impending failure, system resources to detect exhaustion, and applications to detect logic bugs.
 
----
 
 
 
----
 
 [← Previous](03-level-1-basic-using-built-in.md) | [↑ Index](index.md) | [Next →](05-2-proc-and-sys-the.md)

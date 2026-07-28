@@ -39,10 +39,8 @@ flatpak uninstall org.gimp.GIMP
 | Auto-update | Yes (mandatory) | Configurable |
 | CLI support | Excellent | Desktop only |
 
----
 
 
 
----
 
 [← Previous](11-section-8-snap-universal-linux.md) | [↑ Index](index.md) | [Next →](13-section-10-package-cache-and.md)

@@ -30,10 +30,8 @@ server ntp.internal.example.com iburst
 pool 2.debian.pool.ntp.org iburst
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-chrony.md) | [↑ Index](index.md) | [Next →](09-section-6-systemd-timesyncd.md)

@@ -199,10 +199,8 @@ sudo aa-status | grep nfsd
 sudo aa-complain /usr/sbin/rpc.mountd  # Set to complain mode
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-8-performance-tuning.md) | [↑ Index](index.md) | [Next →](14-section-10-nfs-vs-other.md)

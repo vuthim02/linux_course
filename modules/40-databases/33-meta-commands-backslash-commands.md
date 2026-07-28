@@ -53,6 +53,5 @@
 
 
 
----
 
 [← Previous](32-the-psql-cli.md) | [↑ Index](index.md) | [Next →](34-database-operations.md)

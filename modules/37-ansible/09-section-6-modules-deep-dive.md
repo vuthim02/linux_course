@@ -162,10 +162,8 @@
     flat: no
 ```
 
----
 
 
 
----
 
 [← Previous](08-level-2-intermediary-daily-administration.md) | [↑ Index](index.md) | [Next →](10-section-7-variables-and-facts.md)

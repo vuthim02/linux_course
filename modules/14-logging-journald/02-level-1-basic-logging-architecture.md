@@ -5,10 +5,15 @@
 
 > **Level 1 Goal:** Understand the Linux dual logging architecture (journald + rsyslog), learn the syslog protocol with facilities and severities, and know where key log files live.
 
----
+### What You'll Cover
+- The dual logging architecture: journald vs rsyslog
+- Syslog protocol (RFC 5424) — facilities, severities, and message format
+- Key log files: `/var/log/syslog`, `/var/log/messages`, `/var/log/auth.log`
+- How `systemd-journald` collects kernel and service logs
+- Basic `journalctl` usage for reading logs
 
 
 
----
+
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-1-the-linux-logging.md)

@@ -5,10 +5,14 @@
 
 > **Level 2 Goal:** Use wildcards to batch-operate on files, master the `find` command for powerful searches, and understand symbolic and hard links.
 
----
+### What You'll Cover
+- Glob wildcards: `*`, `?`, `[]`, `{}`
+- The `find` command with `-name`, `-type`, `-mtime`, `-exec`
+- Symbolic links vs hard links and when to use each
+- Practical batch operations on multiple files
 
 
 
----
+
 
 [← Previous](09-section-7-copying-moving-and.md) | [↑ Index](index.md) | [Next →](11-section-8-wildcards-work-on.md)

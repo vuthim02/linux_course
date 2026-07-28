@@ -83,10 +83,8 @@ registries = ["192.168.1.100:5000"]
 registries = []
 ```
 
----
 
 
 
----
 
 [← Previous](13-9-networking.md) | [↑ Index](index.md) | [Next →](15-11-docker-compose.md)

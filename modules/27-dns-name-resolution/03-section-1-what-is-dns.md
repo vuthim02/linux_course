@@ -112,10 +112,8 @@ dig +short MX google.com
 dig @8.8.8.8 google.com
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-dns-fundamentals.md) | [↑ Index](index.md) | [Next →](04-section-2-etchosts-local-hostname.md)

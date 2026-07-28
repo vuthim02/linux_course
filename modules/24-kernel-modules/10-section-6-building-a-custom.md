@@ -80,10 +80,8 @@ dmesg | tail -5
 # Should see: Goodbye, kernel module unloaded!
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-5-troubleshooting-kernel-modules.md) | [↑ Index](index.md) | [Next →](11-section-7-device-drivers-and.md)

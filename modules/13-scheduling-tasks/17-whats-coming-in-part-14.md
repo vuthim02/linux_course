@@ -11,10 +11,10 @@ You will learn:
 - Log security and retention
 - 15 hands-on practices
 
----
+> **Tip:** Logging is your first line of defense in troubleshooting. Mastering `journalctl` and logrotate means you'll always find the evidence you need.
 
 
 
----
+
 
 [← Previous](16-summary-complete-command-reference-for.md) | [↑ Index](index.md) | [Next →](18-self-test-can-you-answer-these.md)

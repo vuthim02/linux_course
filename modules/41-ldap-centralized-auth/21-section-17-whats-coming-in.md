@@ -18,10 +18,8 @@ Previous → Part 40: Databases
 Next → Part 42: DNS Server Administration (BIND)
 ```
 
----
 
 
 
----
 
 [← Previous](20-section-16-command-reference.md) | [↑ Index](index.md) | [Next →](22-section-18-self-test.md)

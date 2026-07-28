@@ -49,10 +49,8 @@
 #   CephFS:    ~1000-3000
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-9-troubleshooting.md) | [↑ Index](index.md) | [Next →](15-section-11-locking-in-nfs.md)

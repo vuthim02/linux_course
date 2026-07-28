@@ -97,6 +97,5 @@ auditctl -w /var/spool/cron/ -p wa -k cron_changes
 cat > /etc/audit/rules.d/hardening.rules << 'RULES'
 
 
----
 
 [← Previous](05-4-filesystem-hardening.md) | [↑ Index](index.md) | [Next →](07-cis-hardening-audit-rules.md)

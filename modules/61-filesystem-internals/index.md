@@ -1,5 +1,6 @@
 # 61-filesystem-internals
 
+**Prerequisites:** Complete [Part 60 - capstone](../60-capstone/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

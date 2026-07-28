@@ -2,7 +2,6 @@
 
 ### Level 1 Practices — Getting Started with Terminal Editors
 
----
 
 ### ✅ Practice 1: Create a Practice Directory
 
@@ -14,7 +13,6 @@ echo "Line 2" >> test.txt
 echo "Line 3" >> test.txt
 ```
 
----
 
 ### ✅ Practice 2: Nano Basics
 
@@ -31,7 +29,6 @@ nano test.txt
 cat test.txt
 ```
 
----
 
 ### ✅ Practice 3: Create a Config File With Nano
 
@@ -47,7 +44,6 @@ nano ~/linux-course/part4/app.conf
 # Save and exit. You just created a config file as a sysadmin would.
 ```
 
----
 
 ### ✅ Practice 4: Open Vim and Quit Without Panic
 
@@ -62,7 +58,6 @@ vim ~/linux-course/part4/test.txt
 # You just quit Vim. Congratulations.
 ```
 
----
 
 ### ✅ Practice 5: Vim Navigation Drills
 
@@ -85,7 +80,6 @@ vim ~/linux-course/part4/lines.txt
 # 10. Beginning of line → 0
 ```
 
----
 
 ### ✅ Practice 6: Vim Insert Mode Practice
 
@@ -99,11 +93,9 @@ vim ~/linux-course/part4/test.txt
 # 5. Type :wq and press Enter
 ```
 
----
 
 ### Level 2 Practices — Efficient Editing
 
----
 
 ### ✅ Practice 7: Cut, Copy, Paste
 
@@ -125,7 +117,6 @@ vim ~/linux-course/part4/lines.txt
 # p    (paste)
 ```
 
----
 
 ### ✅ Practice 8: Search and Replace
 
@@ -143,7 +134,6 @@ vim ~/linux-course/part4/lines.txt
 # Press y to confirm each, n to skip
 ```
 
----
 
 ### ✅ Practice 9: Visual Block Mode
 
@@ -160,7 +150,6 @@ vim ~/linux-course/part4/lines.txt
 # Verify with :w and then :q
 ```
 
----
 
 ### ✅ Practice 10: Create a .vimrc
 
@@ -199,7 +188,6 @@ vim ~/linux-course/part4/test.txt
 # You should see line numbers and syntax highlighting
 ```
 
----
 
 ### ✅ Practice 11: Edit Multiple Files in Vim
 
@@ -219,7 +207,6 @@ vim fileA.txt fileB.txt
 :files         # List all buffers
 ```
 
----
 
 ### ✅ Practice 12: Split Windows
 
@@ -239,7 +226,6 @@ vim ~/linux-course/part4/lines.txt
 :q
 ```
 
----
 
 ### ✅ Practice 13: Diff Two Files
 
@@ -258,7 +244,6 @@ vim -d lines.txt lines_modified.txt
 # :q  → quit
 ```
 
----
 
 ### ✅ Practice 14: Run Shell Commands From Vim
 
@@ -279,11 +264,9 @@ vim
 # Inserts list of home directories
 ```
 
----
 
 ### Level 3 Practices — Professional Editor Workflows
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Edit a Config File
 
@@ -312,10 +295,8 @@ vim ~/linux-course/part4/sshd_config
 grep -E "Port|PermitRootLogin|PasswordAuthentication" ~/linux-course/part4/sshd_config
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-13-other-terminal-editors.md) | [↑ Index](index.md) | [Next →](19-deep-understanding-how-terminal-editors.md)

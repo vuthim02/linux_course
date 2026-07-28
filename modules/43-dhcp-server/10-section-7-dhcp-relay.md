@@ -57,10 +57,8 @@ SERVERS="192.168.1.10 192.168.1.11"
 sudo dhcrelay -d 192.168.1.10
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-multiple-subnets.md) | [↑ Index](index.md) | [Next →](11-section-8-dhcp-logging.md)

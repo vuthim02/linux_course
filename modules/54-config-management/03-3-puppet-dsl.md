@@ -138,10 +138,8 @@ ntp::servers: [0.pool.ntp.org, 1.pool.ntp.org]
 10. Agent sends report → PuppetDB
 ```
 
----
 
 
 
----
 
 [← Previous](02-2-puppet-architecture.md) | [↑ Index](index.md) | [Next →](04-4-puppet-modules-and-forge.md)

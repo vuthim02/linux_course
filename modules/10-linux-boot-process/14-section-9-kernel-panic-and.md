@@ -46,10 +46,8 @@ A **kernel panic** is the kernel's way of saying "I cannot recover from this err
 # Boot from USB, mount root, chroot, fix the problem
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-8-grub-rescue-and.md) | [↑ Index](index.md) | [Next →](15-deep-understanding-the-initramfs-and.md)

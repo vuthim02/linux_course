@@ -101,10 +101,8 @@ $ ps -eo pid,state,comm | grep -w Z
 $ ps -eo pid,ppid,user,stat,comm --stat Z
 ```
 
----
 
 
 
----
 
 [← Previous](04-1-processes-vs-threads-pid.md) | [↑ Index](index.md) | [Next →](06-3-pstree-visualizing-process-hierarchy.md)

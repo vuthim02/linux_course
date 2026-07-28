@@ -32,10 +32,8 @@ Junior SysAdmin (0-2 years)
                           └─ Or: Infrastructure Manager
 ```
 
----
 
 
 
----
 
 [← Previous](09-internship-program-real-world-projects.md) | [↑ Index](index.md) | [Next →](11-master-topic-index-all-60.md)

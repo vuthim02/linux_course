@@ -52,10 +52,8 @@ sudo udevadm control --reload
 # /etc/systemd/network/10-rename.link
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-6-building-a-custom.md) | [↑ Index](index.md) | [Next →](12-practice-section-15-hands-on-exercises.md)

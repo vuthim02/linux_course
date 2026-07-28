@@ -58,7 +58,6 @@ ansible all -m setup -a "filter=ansible_os_family"
 
 ```yaml
 # install-nginx.yml
----
 - name: Install and configure Nginx
   hosts: webservers
   become: yes
@@ -95,7 +94,6 @@ ansible-playbook install-nginx.yml
 
 ```yaml
 # create-user.yml
----
 - name: Create deploy user with SSH access
   hosts: all
   become: yes
@@ -148,7 +146,6 @@ server {
 
 ```yaml
 # template-demo.yml
----
 - name: Deploy templated Nginx config
   hosts: webservers
   become: yes
@@ -192,7 +189,6 @@ ansible-galaxy init --init-path roles/ lamp
 
 ```yaml
 # roles/lamp/tasks/main.yml
----
 - name: Install Apache
   ansible.builtin.package:
     name: "{{ apache_package }}"
@@ -222,7 +218,6 @@ ansible-galaxy init --init-path roles/ lamp
 
 ```yaml
 # roles/lamp/defaults/main.yml
----
 apache_package: apache2
 apache_service: apache2
 doc_root: /var/www/html
@@ -234,7 +229,6 @@ php_packages:
 
 ```yaml
 # roles/lamp/vars/main.yml
----
 # Override for RHEL
 apache_package: httpd
 apache_service: httpd
@@ -242,7 +236,6 @@ apache_service: httpd
 
 ```yaml
 # site.yml
----
 - hosts: all
   roles:
     - lamp
@@ -263,7 +256,6 @@ vault_api_key: sk-live-abc123
 
 ```yaml
 # playbook.yml
----
 - hosts: all
   vars_files:
     - group_vars/all/vault.yml
@@ -282,7 +274,6 @@ ansible-playbook playbook.yml --ask-vault-pass
 
 ```yaml
 # tagged-playbook.yml
----
 - hosts: all
   become: yes
   tasks:
@@ -326,7 +317,6 @@ ansible-playbook tagged-playbook.yml --skip-tags "restart,verify"
 
 ```yaml
 # error-handling.yml
----
 - hosts: all
   become: yes
   tasks:
@@ -371,7 +361,6 @@ ansible-playbook tagged-playbook.yml --skip-tags "restart,verify"
 
 ```yaml
 # facts-demo.yml
----
 - hosts: all
   tasks:
     - name: Show distribution info
@@ -433,7 +422,6 @@ ansible all -i inventory_script.py -m ping
 
 ```yaml
 # async-demo.yml
----
 - hosts: all
   tasks:
     - name: Run long task asynchronously
@@ -453,7 +441,6 @@ ansible all -i inventory_script.py -m ping
 #### Practice 14: Use Connection Plugins
 
 ```yaml
----
 - name: Manage local machine
   hosts: localhost
   connection: local
@@ -479,7 +466,6 @@ ansible all -i inventory_script.py -m ping
 
 ```yaml
 # provision-server.yml
----
 - name: Bootstrap — Install Python (for minimal systems)
   hosts: all
   gather_facts: no
@@ -602,10 +588,8 @@ ansible all -i inventory_script.py -m ping
 ansible-playbook provision-server.yml -i production.yml --ask-vault-pass --limit webservers --tags "base,nginx"
 ```
 
----
 
 
 
----
 
 [← Previous](18-level-3-advanced-practices-internals.md) | [↑ Index](index.md) | [Next →](20-deep-understanding.md)

@@ -50,10 +50,8 @@ sudo update-initramfs -u
 sudo dracut --force
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-9-kernel-panic-and.md) | [↑ Index](index.md) | [Next →](16-practice-section-15-hands-on-exercises.md)

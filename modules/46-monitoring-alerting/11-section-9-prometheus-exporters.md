@@ -171,10 +171,8 @@ sudo chmod +x /usr/local/bin/custom_metrics.sh
 echo "*/5 * * * * root /usr/local/bin/custom_metrics.sh" | sudo tee /etc/cron.d/custom-metrics
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-8-promql-prometheus-query.md) | [↑ Index](index.md) | [Next →](12-section-10-grafana.md)

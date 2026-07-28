@@ -198,10 +198,8 @@ spec:
 kubectl run test --image=busybox --rm -it -- wget --timeout=2 http://postgres.production:5432
 ```
 
----
 
 
 
----
 
 [← Previous](06-6-workloads.md) | [↑ Index](index.md) | [Next →](08-8-configmaps-and-secrets.md)

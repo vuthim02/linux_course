@@ -84,10 +84,8 @@ echo 50000 > /sys/block/md0/md/sync_speed_max
 | `hpssacli ctrl slot=0 ld all show` | HP Smart Array: list logical drives |
 | `hpssacli ctrl slot=0 pd all show` | HP Smart Array: list physical drives |
 
----
 
 
 
----
 
 [← Previous](18-level-3-deep-understanding-how.md) | [↑ Index](index.md) | [Next →](20-whats-coming-in-part-31.md)

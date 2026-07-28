@@ -109,10 +109,8 @@ cat /proc/fs/cifs/Stats
 cat /proc/fs/cifs/DebugData
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-6-samba-as-active.md) | [↑ Index](index.md) | [Next →](12-section-8-smbclient-the-interactive.md)

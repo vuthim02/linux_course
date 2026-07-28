@@ -1,5 +1,6 @@
 # 38-container-basics
 
+**Prerequisites:** Complete [Part 37 - ansible](../37-ansible/) before this module.
 ## Sections
 
 - [Table Of Contents](01-table-of-contents.md)

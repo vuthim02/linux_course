@@ -1,5 +1,6 @@
 # 21-time-synchronization
 
+**Prerequisites:** Complete [Part 20 - system-updates-patch](../20-system-updates-patch/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

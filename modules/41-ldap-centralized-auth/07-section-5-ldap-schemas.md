@@ -108,10 +108,8 @@ Every attribute and objectClass needs a globally unique **Object Identifier (OID
 - Use a private OID range under `1.3.6.1.4.1.<your-enterprise-number>`
 - Use OIDs from your national OID authority
 
----
 
 
 
----
 
 [← Previous](06-section-4-ldap-data-interchange.md) | [↑ Index](index.md) | [Next →](08-section-6-ldap-authentication-pam.md)

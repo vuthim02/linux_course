@@ -72,10 +72,8 @@ Providers selected via `defaultfor :operatingsystem => :ubuntu` (Puppet), grains
 
 **Chef**: `load_current_resource` loads state → compares with desired. `converge_by` blocks for idempotency. `--why-run` for dry-run.
 
----
 
 
 
----
 
 [← Previous](14-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](16-command-reference.md)

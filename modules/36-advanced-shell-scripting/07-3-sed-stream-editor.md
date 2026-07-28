@@ -144,10 +144,8 @@ sed -i -e 's/foo/bar/' -e 's/baz/qux/' file.txt
 sed -i -f commands.sed file.txt
 ```
 
----
 
 
 
----
 
 [← Previous](06-level-2-intermediary-tools-scripts.md) | [↑ Index](index.md) | [Next →](08-4-sed-admin-patterns.md)

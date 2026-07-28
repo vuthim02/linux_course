@@ -50,10 +50,8 @@ groups:
     labels: { severity: critical }
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-11-cloud-secrets-managers.md) | [↑ Index](index.md) | [Next →](14-15-hands-on-practices.md)

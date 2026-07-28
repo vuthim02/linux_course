@@ -1,5 +1,6 @@
 # 19-software-repositories
 
+**Prerequisites:** Complete [Part 18 - environment-variables](../18-environment-variables/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

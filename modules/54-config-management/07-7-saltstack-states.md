@@ -164,10 +164,8 @@ verify-services:
 salt-run state.orchestrate orch.update_all
 ```
 
----
 
 
 
----
 
 [← Previous](06-6-saltstack-architecture.md) | [↑ Index](index.md) | [Next →](08-8-saltstack-advanced.md)

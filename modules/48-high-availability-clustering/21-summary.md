@@ -13,7 +13,6 @@ High Availability and Clustering is what separates a hobbyist Linux setup from a
 
 The key insight: *High availability is not about preventing failures—it's about recovering from them automatically and transparently.*
 
----
 
 *Previous → Part 47: Performance Tuning*
 *Next → Part 49: Security Hardening and Auditing*
@@ -21,6 +20,5 @@ The key insight: *High availability is not about preventing failures—it's abou
 [← Previous](part47.md) | [Next →](part49.md)
 
 
----
 
 [← Previous](20-self-test-15-questions.md) | [↑ Index](index.md)

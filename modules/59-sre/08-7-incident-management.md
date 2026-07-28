@@ -40,10 +40,8 @@ escalation_policy:
     - engineering_manager (15 min)
 ```
 
----
 
 
 
----
 
 [← Previous](07-6-toil-reduction.md) | [↑ Index](index.md) | [Next →](09-8-blameless-postmortems.md)

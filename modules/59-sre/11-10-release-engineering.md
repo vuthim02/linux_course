@@ -72,10 +72,8 @@ kubernetes_rollback:
   - "kubectl rollout status deployment/checkout-api"
 ```
 
----
 
 
 
----
 
 [← Previous](10-9-capacity-planning.md) | [↑ Index](index.md) | [Next →](12-11-monitoring-for-sres.md)

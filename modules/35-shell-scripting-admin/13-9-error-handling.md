@@ -128,10 +128,8 @@ warn "Disk is 85% full"
 error "Failed to connect to database"
 ```
 
----
 
 
 
----
 
 [← Previous](12-8-inputoutput.md) | [↑ Index](index.md) | [Next →](14-10-arrays.md)

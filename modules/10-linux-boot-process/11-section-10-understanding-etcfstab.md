@@ -52,10 +52,8 @@ sudo blkid
 # UUID format: UUID="abc12345-6789-def0-1234-56789abcdef0"
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-the-boot-process.md) | [↑ Index](index.md) | [Next →](12-level-3-advanced-boot-recovery.md)

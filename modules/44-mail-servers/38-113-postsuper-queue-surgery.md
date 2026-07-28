@@ -22,6 +22,5 @@ postsuper -H ABCDEF1234
 
 
 
----
 
 [← Previous](37-112-flushing-the-queue.md) | [↑ Index](index.md) | [Next →](39-114-queue-lifecycle-monitoring.md)

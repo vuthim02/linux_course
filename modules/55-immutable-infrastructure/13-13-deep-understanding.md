@@ -141,10 +141,8 @@ No SSH access to production:
 - Immutable means no persistent compromise — terminate the instance, the malware is gone
 - Audit trail — every change goes through the image pipeline
 
----
 
 
 
----
 
 [← Previous](12-12-hands-on-practices-115.md) | [↑ Index](index.md) | [Next →](14-14-command-reference.md)

@@ -19,10 +19,8 @@ sudo dpkg-reconfigure postfix
 postconf -n | grep relayhost
 ```
 
----
 
 
 
----
 
 [← Previous](51-144-dovecot-sasl-for-postfix.md) | [↑ Index](index.md) | [Next →](53-level-2-intermediary-practices.md)

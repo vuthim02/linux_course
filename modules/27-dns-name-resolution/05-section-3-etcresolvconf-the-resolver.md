@@ -114,10 +114,8 @@ cat /etc/resolv.conf
 cat /run/systemd/resolve/resolv.conf
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-etchosts-local-hostname.md) | [↑ Index](index.md) | [Next →](06-level-2-intermediary-resolution-configuration.md)

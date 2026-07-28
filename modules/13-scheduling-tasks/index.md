@@ -1,5 +1,6 @@
 # 13-scheduling-tasks
 
+**Prerequisites:** Complete [Part 12 - systemd-services](../12-systemd-services/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

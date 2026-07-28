@@ -75,10 +75,8 @@ modinfo ext4 | grep vermagic
 └─────────────┴──────────────────────────────────────┘
 ```
 
----
 
 
 
----
 
 [← Previous](12-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](14-summary-complete-command-reference-for.md)

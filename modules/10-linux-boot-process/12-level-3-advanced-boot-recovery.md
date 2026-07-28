@@ -5,10 +5,14 @@
 
 > **Level 3 Goal:** Recover from GRUB failures and kernel panics, repair the bootloader from a Live USB environment, and understand the initramfs internals and why it exists.
 
----
+### What You'll Cover
+- GRUB rescue mode and recovery techniques
+- Kernel panic diagnosis and resolution
+- Live USB repair workflows
+- initramfs internals and rebuilding
 
 
 
----
+
 
 [← Previous](11-section-10-understanding-etcfstab.md) | [↑ Index](index.md) | [Next →](13-section-8-grub-rescue-and.md)

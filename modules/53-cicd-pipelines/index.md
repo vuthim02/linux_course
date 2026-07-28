@@ -1,5 +1,6 @@
 # 53-cicd-pipelines
 
+**Prerequisites:** Complete [Part 52 - kubernetes](../52-kubernetes/) before this module.
 ## Sections
 
 - [1 Cicd Concepts](01-1-cicd-concepts.md)

@@ -30,10 +30,8 @@ lastb             # Shows failed logins (reads /var/log/btmp)
 lastlog           # Shows last login for each user
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-the-syslog-protocol.md) | [↑ Index](index.md) | [Next →](06-level-2-intermediary-configuration-and.md)

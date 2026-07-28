@@ -47,10 +47,8 @@ node_load1 / node_cpu_cores_total
 rate(node_disk_io_time_seconds_total{device=~"sd.*"}[5m])
 ```
 
----
 
 
 
----
 
 [← Previous](05-4-error-budgets.md) | [↑ Index](index.md) | [Next →](07-6-toil-reduction.md)

@@ -42,6 +42,5 @@ SELECT pg_wal_lsn_diff(pg_last_wal_receive_lsn(), pg_last_wal_replay_lsn()) AS l
 
 
 
----
 
 [← Previous](60-disk-full-wal-growth.md) | [↑ Index](index.md) | [Next →](62-lock-waits-and-deadlocks.md)

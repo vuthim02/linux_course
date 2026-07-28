@@ -18,7 +18,6 @@ chmod +x hello.sh
 ./hello.sh
 ```
 
----
 
 ### ✅ Practice 2: Variables
 
@@ -41,7 +40,6 @@ chmod +x variables.sh
 ./variables.sh
 ```
 
----
 
 ### ✅ Practice 3: User Input
 
@@ -61,7 +59,6 @@ chmod +x greet.sh
 ./greet.sh
 ```
 
----
 
 ### ✅ Practice 4: Conditionals
 
@@ -98,7 +95,6 @@ chmod +x check_file.sh
 ./check_file.sh /nonexistent
 ```
 
----
 
 ### ✅ Practice 5: Command-Line Arguments
 
@@ -127,7 +123,6 @@ chmod +x args_demo.sh
 ./args_demo.sh one two three four
 ```
 
----
 
 # ⭐ Level 2: Intermediary — Control Flow and Data Structures
 
@@ -138,6 +133,5 @@ chmod +x args_demo.sh
 
 
 
----
 
 [← Previous](05-section-4-arguments-and-parameters.md) | [↑ Index](index.md) | [Next →](07-section-1-loops-doing-things.md)

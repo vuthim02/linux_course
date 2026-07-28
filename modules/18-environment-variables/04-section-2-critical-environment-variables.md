@@ -68,10 +68,8 @@ date          # Shows date in French
 export LANG=en_US.UTF-8
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-what-are-environment.md) | [↑ Index](index.md) | [Next →](05-level-2-intermediary-configuring-your.md)

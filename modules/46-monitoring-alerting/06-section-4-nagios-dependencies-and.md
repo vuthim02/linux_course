@@ -83,10 +83,8 @@ define command {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-3-nagios-plugins.md) | [↑ Index](index.md) | [Next →](07-section-5-zabbix.md)

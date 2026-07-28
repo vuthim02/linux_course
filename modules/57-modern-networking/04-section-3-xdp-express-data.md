@@ -194,10 +194,8 @@ sudo ip link set dev eth0 xdp obj xdpsock_kern.o
 # Then use xdpsock_user to receive zero-copy
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-2-bpftrace.md) | [↑ Index](index.md) | [Next →](05-section-4-cilium.md)

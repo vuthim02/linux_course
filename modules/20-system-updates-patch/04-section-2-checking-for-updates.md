@@ -54,10 +54,8 @@ less /var/log/dnf.log
 grep "Start-Date" /var/log/apt/history.log | tail -1
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-the-update-lifecycle.md) | [↑ Index](index.md) | [Next →](05-section-3-applying-updates.md)

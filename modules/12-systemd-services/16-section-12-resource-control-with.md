@@ -38,10 +38,8 @@ systemctl status nginx
 # Look at the CGroup section
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-11-systemd-sockets-activation.md) | [↑ Index](index.md) | [Next →](17-deep-understanding-how-systemd-really.md)

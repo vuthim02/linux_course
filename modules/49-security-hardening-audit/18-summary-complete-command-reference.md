@@ -102,10 +102,8 @@
 | `w` | Who is logged in | `w` |
 | `journalctl -p err -b` | System errors since boot | `journalctl -p err -b` |
 
----
 
 
 
----
 
 [← Previous](17-deep-understanding.md) | [↑ Index](index.md) | [Next →](19-whats-coming-in-part-50.md)

@@ -115,10 +115,8 @@ docker run -d -p 8080:80/tcp -p 8080:80/udp nginx
 docker port web
 ```
 
----
 
 
 
----
 
 [← Previous](09-6-dockerfile.md) | [↑ Index](index.md) | [Next →](11-level-2-intermediary-daily-administration.md)

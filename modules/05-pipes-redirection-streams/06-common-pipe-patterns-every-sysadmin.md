@@ -44,10 +44,8 @@ ps aux | less
 dmesg | grep "error" | less
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-4-pipes-the-heart.md) | [↑ Index](index.md) | [Next →](07-level-1-practices.md)

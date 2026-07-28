@@ -83,10 +83,8 @@ sudo rsyslogd -N1
 sudo systemctl restart rsyslog
 ```
 
----
 
 
 
----
 
 [← Previous](06-level-2-intermediary-configuration-and.md) | [↑ Index](index.md) | [Next →](08-section-5-journald-deep-dive.md)

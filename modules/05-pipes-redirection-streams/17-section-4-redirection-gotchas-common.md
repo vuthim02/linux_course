@@ -69,10 +69,8 @@ EOF
 # This prints "$(date)" literally
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-3-file-descriptors-more.md) | [↑ Index](index.md) | [Next →](18-deep-understanding-how-streams-really.md)

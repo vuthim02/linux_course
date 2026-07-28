@@ -114,10 +114,8 @@ terraform init -migrate
 #   Enter a value: yes
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-state-management.md) | [↑ Index](index.md) | [Next →](10-section-9-modules.md)

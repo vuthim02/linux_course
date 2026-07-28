@@ -198,10 +198,8 @@ rpc_duration_seconds_sum              450.0
 rpc_duration_seconds_count            1000
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-6-zabbix-auto-discovery.md) | [↑ Index](index.md) | [Next →](10-section-8-promql-prometheus-query.md)

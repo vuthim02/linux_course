@@ -120,10 +120,8 @@ DNS resolver queries /etc/resolv.conf for nameservers
 Return error or fall back to myhostname
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-rhelcentosfedora-network-configuration.md) | [↑ Index](index.md) | [Next →](12-section-9-etcresolvconf-and-dns.md)

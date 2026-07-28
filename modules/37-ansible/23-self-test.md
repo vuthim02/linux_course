@@ -80,7 +80,6 @@ upstream backend {
 
 **Score:** 12/15 correct = ready for Part 38.
 
----
 
 *Previous → Part 36: Advanced Shell Scripting*
 *Next → Part 38: Container Basics — Docker and Podman*
@@ -88,6 +87,5 @@ upstream backend {
 [← Previous](part36.md) | [Next →](part38.md)
 
 
----
 
 [← Previous](22-whats-coming-in-part-38.md) | [↑ Index](index.md)

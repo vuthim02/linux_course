@@ -9,10 +9,11 @@ You will learn:
 - Serial console setup
 - 15 hands-on practices
 
----
+### Why This Matters
+Virtual terminals let you manage a server even when SSH drops. Terminal multiplexers like tmux keep sessions alive across disconnects — essential skills for remote server administration.
 
 
 
----
+
 
 [← Previous](14-summary-complete-command-reference-for.md) | [↑ Index](index.md) | [Next →](16-self-test-can-you-answer-these.md)

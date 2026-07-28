@@ -86,10 +86,8 @@ do                      # "diff obtain" — get changes from other file
 # Inserts directory listing
 ```
 
----
 
 
 
----
 
 [← Previous](14-level-3-advanced-professional-editor.md) | [↑ Index](index.md) | [Next →](16-section-12-nano-vs-vim.md)

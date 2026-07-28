@@ -45,10 +45,8 @@ sudo apt update
 sudo apt install code
 ```
 
----
 
 
 
----
 
 [← Previous](10-level-3-advanced-third-party-repositories.md) | [↑ Index](index.md) | [Next →](12-section-8-gpg-key-management.md)

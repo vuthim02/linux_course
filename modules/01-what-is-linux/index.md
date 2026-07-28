@@ -1,5 +1,6 @@
 # 01-what-is-linux
 
+**Prerequisites:** None — this is the first module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

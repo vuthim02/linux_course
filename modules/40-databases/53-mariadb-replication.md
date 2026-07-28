@@ -99,6 +99,5 @@ START SLAVE;
 
 
 
----
 
 [← Previous](52-index-types-in-postgresql.md) | [↑ Index](index.md) | [Next →](54-postgresql-streaming-replication.md)

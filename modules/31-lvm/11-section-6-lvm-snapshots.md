@@ -50,10 +50,8 @@ lvs -a -o lv_name,snap_percent,data_percent,lv_size,origin,origin_size
 sudo lvextend -L +5G /dev/vg_data/lv_data_snap
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-5-filesystem-alignment-for.md) | [↑ Index](index.md) | [Next →](12-section-7-thin-provisioning.md)

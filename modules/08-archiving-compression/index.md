@@ -1,5 +1,6 @@
 # 08-archiving-compression
 
+**Prerequisites:** Complete [Part 7 - finding-things](../07-finding-things/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

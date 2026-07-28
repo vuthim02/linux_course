@@ -92,10 +92,8 @@ echo "Top 10 users by bandwidth:"
 awk '{print $3, $6, $8}' /var/log/squid/access.log | awk '{sum[$1]+=$3} END {for (u in sum) print sum[u], u}' | sort -rn | head -10
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-4-squid-caching.md) | [↑ Index](index.md) | [Next →](08-section-6-squid-reverse-proxy.md)

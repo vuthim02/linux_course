@@ -45,10 +45,8 @@ aws s3api put-object-legal-hold --bucket my-bucket \
     --key backups/data.tar.gz --legal-hold Status=ON
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-8-backup-to-cloud.md) | [↑ Index](index.md) | [Next →](19-section-12-restore-testing.md)

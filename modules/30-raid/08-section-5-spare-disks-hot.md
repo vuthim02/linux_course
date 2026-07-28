@@ -83,10 +83,8 @@ mdadm --add /dev/md0 /dev/sde
 mdadm --add /dev/md1 /dev/sde
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-managing-raid-arrays.md) | [↑ Index](index.md) | [Next →](09-section-6-raid-56-parity.md)

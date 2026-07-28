@@ -92,14 +92,11 @@
 - C) The node with the most resources survives
 - D) Quorum is recalculated every minute
 
----
 
 **Answers:** 1-B, 2-B, 3-C, 4-B, 5-B, 6-B, 7-B, 8-B, 9-B, 10-B, 11-C, 12-B, 13-B, 14-B, 15-B
 
----
 
 
 
----
 
 [← Previous](19-whats-coming-in-part-49.md) | [↑ Index](index.md) | [Next →](21-summary.md)

@@ -32,10 +32,8 @@ Full automation — every passing commit deploys to production. No human gate. R
 | Complexity | Low | High |
 | Best for | SaaS, DevOps-mature teams | Enterprise, regulated, release-train |
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-2-github-actions.md)

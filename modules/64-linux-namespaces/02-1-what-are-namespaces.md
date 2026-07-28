@@ -74,10 +74,8 @@ readlink /proc/1/ns/pid /proc/self/ns/pid
 # If output differs, they are in different PID namespaces
 ```
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve.md) | [↑ Index](index.md) | [Next →](03-2-pid-namespace.md)

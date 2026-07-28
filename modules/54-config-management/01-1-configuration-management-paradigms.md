@@ -40,10 +40,8 @@ package { 'nginx': ensure => installed }
 
 On Ubuntu: `apt-get install nginx`. On RHEL: `yum install nginx`. On FreeBSD: `pkg install nginx`. The provider handles platform details. The resource declaration is identical.
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-2-puppet-architecture.md)

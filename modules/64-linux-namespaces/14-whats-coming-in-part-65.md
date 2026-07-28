@@ -20,10 +20,8 @@
 └─────────────────────────────────────────────────────────┘
 ```
 
----
 
 
 
----
 
 [← Previous](13-command-reference.md) | [↑ Index](index.md) | [Next →](15-self-test.md)

@@ -353,10 +353,8 @@ static struct udp_tunnel_ops vxlan_udp_tunnel_ops = {
 };
 ```
 
----
 
 
 
----
 
 [← Previous](14-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](16-command-reference.md)

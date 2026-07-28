@@ -19,12 +19,10 @@ grep "client=" /var/log/mail.log | sed 's/.*client=//' | sort | uniq -c | sort -
 grep "relay=" /var/log/mail.log | sed 's/.*relay=//' | cut -d'[' -f1 | sort | uniq -c | sort -rn
 ```
 
----
 
 # 14. Dovecot Integration
 
 
 
----
 
 [← Previous](46-134-common-problems.md) | [↑ Index](index.md) | [Next →](48-141-installing-dovecot.md)

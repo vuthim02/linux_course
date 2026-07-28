@@ -147,10 +147,8 @@ watch -n 10 'grep -E "Cached|Active|Inactive" /proc/meminfo'
 
 > 🔍 **Reverse Engineering Insight:** The most common cause of "memory leaks" in production is actually page cache growth, not actual memory leaks. When a process reads many files, the page cache grows until the kernel reclaims it. If you see RSS staying constant but `buff/cache` growing, that's normal cache behavior — not a leak. True leaks show RSS growing continuously over hours/days.
 
----
 
 
 
----
 
 [← Previous](08-7-memory-overcommit-the-kernels.md) | [↑ Index](index.md) | [Next →](10-9-tuning-for-applications.md)

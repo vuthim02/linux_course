@@ -103,12 +103,9 @@ lvconvert --repair vg_data/lv_mirror
 
 The advantage is that LVM handles all the md configuration. The disadvantage is that you lose some fine-grained mdadm control.
 
----
-
----
 
 
 
----
+
 
 [← Previous](12-section-9-monitoring-raid-health.md) | [↑ Index](index.md) | [Next →](14-level-3-advanced-raid-internals.md)

@@ -387,10 +387,8 @@ sudo auditctl -l 2>/dev/null | grep -i "pam\|sssd" || echo "  (no PAM audit rule
 
 ✅ **Expected**: Complete security audit showing PAM configuration, password policies, and potential vulnerabilities
 
----
 
 
 
----
 
 [← Previous](10-9-pam-security.md) | [↑ Index](index.md) | [Next →](12-deep-understanding.md)

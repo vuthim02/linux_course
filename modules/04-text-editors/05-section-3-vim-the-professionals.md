@@ -44,10 +44,8 @@ Press `i` to enter. Now keys type characters like a normal editor.
 
 Press `:` to enter. Now you type commands like `w` (save), `q` (quit), or `/searchterm`.
 
----
 
 
 
----
 
 [← Previous](04-section-2-nano-the-simple.md) | [↑ Index](index.md) | [Next →](06-section-4-vim-survival-guide.md)

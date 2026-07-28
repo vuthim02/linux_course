@@ -20,10 +20,8 @@ Site Reliability Engineering is what happens when you ask a software engineer to
 
 > "The primary payoff of SRE is keeping the service running while maximizing the velocity of feature development." — Google SRE Book
 
----
 
 
 
----
 
 [← Previous](01-reverse-engineering-approach.md) | [↑ Index](index.md) | [Next →](03-2-service-level-indicators-slis.md)

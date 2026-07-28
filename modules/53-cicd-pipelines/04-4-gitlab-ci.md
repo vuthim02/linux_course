@@ -338,10 +338,8 @@ build-b ──→ test-b ──┤
           └──→ test-integration ──┘
 ```
 
----
 
 
 
----
 
 [← Previous](03-3-github-actions-advanced.md) | [↑ Index](index.md) | [Next →](05-5-gitlab-ci-advanced.md)

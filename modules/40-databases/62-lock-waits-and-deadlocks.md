@@ -38,12 +38,10 @@ sudo tail -f /var/log/postgresql/postgresql-16-main.log
 -- Search for "deadlock detected"
 ```
 
----
 
 # 15. Hands-On Practices
 
 
 
----
 
 [← Previous](61-stale-replication.md) | [↑ Index](index.md) | [Next →](63-practice-1-secure-mariadb-installation.md)

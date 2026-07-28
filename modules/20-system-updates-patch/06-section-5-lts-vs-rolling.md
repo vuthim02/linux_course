@@ -49,10 +49,8 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.12
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-3-applying-updates.md) | [↑ Index](index.md) | [Next →](07-level-2-intermediary-automation-and.md)

@@ -92,7 +92,6 @@
 - C) `sudo fdisk -l /dev/sdb`
 - D) `sudo smartctl -t long /dev/sdb`
 
----
 
 **Answer Key:**
 
@@ -119,10 +118,8 @@
 - **9–11 correct:** Review sections 2–8 (kernel interfaces, vmstat, iostat, ss), then retry.
 - **0–8 correct:** Re-read the entire part; focus on running each command interactively.
 
----
 
 
 
----
 
 [← Previous](24-19-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](26-whats-coming-in-part-34.md)

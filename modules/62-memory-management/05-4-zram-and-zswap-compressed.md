@@ -105,10 +105,8 @@ sudo modprobe -r zram
 
 > 🔍 **Reverse Engineering Insight:** On modern servers with SSDs, zswap is often preferred over zram. zswap intercepts swap writes before they hit the SSD, reducing write amplification and extending SSD lifespan. zram is better when you have NO disk for swap at all (containers, embedded systems, Android).
 
----
 
 
 
----
 
 [← Previous](04-3-swap-architecture-when-ram.md) | [↑ Index](index.md) | [Next →](06-5-numa-topology-memory-where.md)

@@ -81,10 +81,8 @@ AuthenticationMethods publickey,keyboard-interactive
 # Now users need: SSH key + TOTP code
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-ssh-tunneling-port.md) | [↑ Index](index.md) | [Next →](13-section-9-troubleshooting-ssh.md)

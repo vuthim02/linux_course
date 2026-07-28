@@ -75,10 +75,8 @@ server {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-8-nginx-caching.md) | [↑ Index](index.md) | [Next →](12-section-10-haproxy-installation-and.md)

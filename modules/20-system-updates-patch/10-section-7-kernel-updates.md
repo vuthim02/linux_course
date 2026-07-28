@@ -62,10 +62,8 @@ sudo dnf remove kernel-5.14.0-362
 # 5. Remove or hold the broken kernel
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-update-strategies-for.md) | [↑ Index](index.md) | [Next →](11-level-3-advanced-rollback-and.md)

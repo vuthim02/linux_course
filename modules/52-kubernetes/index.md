@@ -1,5 +1,6 @@
 # 52-kubernetes
 
+**Prerequisites:** Complete [Part 51 - infrastructure-as-code](../51-infrastructure-as-code/) before this module.
 ## Sections
 
 - [1 Why Kubernetes](01-1-why-kubernetes.md)

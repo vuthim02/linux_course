@@ -12,10 +12,8 @@ By the end of this part, you will:
 - Understand **cluster filesystems** (GFS2, OCFS2) and **disaster recovery** patterns
 - Complete **15 hands-on practices** building real high-availability clusters
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-section-1-what-is-high.md)

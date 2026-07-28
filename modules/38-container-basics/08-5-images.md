@@ -81,10 +81,8 @@ docker export my_container -o container.tar
 docker import container.tar myapp:imported
 ```
 
----
 
 
 
----
 
 [← Previous](07-4-installing-podman.md) | [↑ Index](index.md) | [Next →](09-6-dockerfile.md)

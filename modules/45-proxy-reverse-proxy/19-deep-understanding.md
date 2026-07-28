@@ -180,10 +180,8 @@ After receiving PROXY header:
 
 This works because PROXY protocol is at the **transport layer** — there is no concept of "HTTP request" in PROXY v1/v2. It is simply a preamble before the real connection data, regardless of whether the connection carries HTTP, SMTP, MySQL, or raw TCP.
 
----
 
 
 
----
 
 [← Previous](18-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](20-command-reference.md)

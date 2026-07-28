@@ -31,10 +31,8 @@ A typical microservice uses: database passwords, cloud access keys, TLS certs, A
 
 Dynamic secrets are generated on-demand with a short TTL and auto-revoked. A leaked dynamic DB password is valid for minutes, not years.
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve.md) | [↑ Index](index.md) | [Next →](03-section-2-hashicorp-vault-architecture.md)

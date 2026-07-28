@@ -23,12 +23,10 @@ systemctl reload postfix
 sudo chmod +x /etc/letsencrypt/renewal-hooks/postfix/systemctl-reload-postfix.sh
 ```
 
----
 
 # 7. Virtual Domains and Aliases
 
 
 
----
 
 [← Previous](22-62-client-outbound-tls.md) | [↑ Index](index.md) | [Next →](24-71-email-aliases.md)

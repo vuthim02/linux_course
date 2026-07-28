@@ -30,10 +30,8 @@
 | `tcpdump -i eth0 port 67` | Capture DHCP traffic |
 | `sudo strace -p PID` | Trace service system calls |
 
----
 
 
 
----
 
 [← Previous](13-deep-understanding-network-services-internals.md) | [↑ Index](index.md) | [Next →](15-whats-coming-in-part-23.md)

@@ -6,7 +6,6 @@
 | ⭐ **Level 2: Intermediary** | Redirect errors separately from normal output. Combine multiple streams into one. Use `tee` to see output AND save it simultaneously. Understand named pipes (FIFOs) for inter-process communication. Use heredocs and herestrings for multi-line input. |
 | ⭐ **Level 3: Advanced** | Use `exec` to redirect streams for the entire shell. Master process substitution `<()` and `>()`. Create custom file descriptors beyond 0/1/2. Understand how streams work in the kernel. Build professional system reports with advanced redirection. |
 
----
 
 # ⭐ Level 1: Basic — Understanding the Three Streams
 
@@ -17,6 +16,5 @@
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-section-1-the-three-streams.md)

@@ -181,10 +181,8 @@ AllowKey=custom.app.*
 #   Message: Problem resolved on {HOST.NAME}: {TRIGGER.NAME}
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-4-nagios-dependencies-and.md) | [↑ Index](index.md) | [Next →](08-section-6-zabbix-auto-discovery.md)

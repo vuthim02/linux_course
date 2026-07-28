@@ -66,10 +66,8 @@ autossh -M 0 -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" \
   -L 3306:localhost:3306 user@server.example.com
 ```
 
----
 
 
 
----
 
 [← Previous](10-level-3-advanced-tunneling-hardening.md) | [↑ Index](index.md) | [Next →](12-section-8-hardening-ssh-security.md)

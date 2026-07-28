@@ -57,10 +57,8 @@ sudo fdisk -l /dev/sda | grep "Disklabel"
 # "dos" = MBR (usually BIOS)
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-stage-1-power.md) | [↑ Index](index.md) | [Next →](06-level-2-intermediary-boot-configuration.md)

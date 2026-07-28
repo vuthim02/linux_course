@@ -28,6 +28,5 @@ pg_dump -U postgres --exclude-table=logs company > company.sql
 
 
 
----
 
 [← Previous](41-password-encryption.md) | [↑ Index](index.md) | [Next →](43-pgdumpall-all-databases-and-globals.md)

@@ -46,10 +46,8 @@ sudo ss -tulpn | grep :67        # Check port 67
 sudo aa-status | grep dhcp       # AppArmor
 ```
 
----
 
 
 
----
 
 [← Previous](04-level-2-intermediary-dhcp-server.md) | [↑ Index](index.md) | [Next →](06-section-3-isc-dhcp-configuration.md)

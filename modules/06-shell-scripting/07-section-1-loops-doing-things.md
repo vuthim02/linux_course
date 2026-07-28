@@ -66,10 +66,8 @@ continue    # Skip to next iteration
 break 2     # Exit 2 levels of nested loops
 ```
 
----
 
 
 
----
 
 [← Previous](06-level-1-practices.md) | [↑ Index](index.md) | [Next →](08-section-2-exit-codes-success.md)

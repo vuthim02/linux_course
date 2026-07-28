@@ -147,10 +147,8 @@ sudo sysctl --system
                └────┘
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-8-filesystem-security.md) | [↑ Index](index.md) | [Next →](11-section-10-kernel-hardening.md)

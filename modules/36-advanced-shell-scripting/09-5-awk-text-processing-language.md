@@ -220,10 +220,8 @@ function max(a, b) {
 # }
 ```
 
----
 
 
 
----
 
 [← Previous](08-4-sed-admin-patterns.md) | [↑ Index](index.md) | [Next →](10-6-awk-admin-patterns.md)

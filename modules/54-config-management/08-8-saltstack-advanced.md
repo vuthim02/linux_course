@@ -74,10 +74,8 @@ beacons:
     - services: { nginx: { onchangeonly: true } }
 ```
 
----
 
 
 
----
 
 [← Previous](07-7-saltstack-states.md) | [↑ Index](index.md) | [Next →](09-9-chef-architecture.md)

@@ -16,10 +16,15 @@
 
 **CI vs CD Infrastructure:** CI = build servers, test runners, caches — CPU-heavy, short-lived, auto-scalable. CD = deployment agents, orchestrators, load balancers — need network access to targets, secrets, rollback. CI *produces* artifacts; CD *consumes* them in environments. Network topology: CI in isolated build network; CD has controlled production access via bastions/VPN/service mesh.
 
----
+### Key Takeaways
+
+- **Webhooks beat polling** for most setups — instant triggers, no wasted API calls. Use polling only when firewall rules block inbound webhooks.
+- **Jenkins CPS serialization** is why pipeline code must be `Serializable` — every variable, every closure, every map must be serializable to disk.
+- **Kubernetes pod runners** give you ephemeral, isolated build environments — but cold start times (pulling images, starting pods) add 30-60s per job.
+- **CI and CD have different security profiles** — CI runs untrusted code (pull requests), CD needs production secrets. Keep them in separate networks.
 
 
 
----
+
 
 [← Previous](13-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](15-command-reference.md)

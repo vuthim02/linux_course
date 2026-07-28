@@ -158,10 +158,8 @@ terraform-apply:
   rules: [{ if: $CI_COMMIT_BRANCH == "main", when: manual }]
 ```
 
----
 
 
 
----
 
 [← Previous](10-10-testing-in-ci.md) | [↑ Index](index.md) | [Next →](12-12-monitoring-pipelines.md)

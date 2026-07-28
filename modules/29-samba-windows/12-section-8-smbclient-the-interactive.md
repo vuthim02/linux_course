@@ -71,10 +71,8 @@ smbclient -k //dc01/netlogon -c ls
 smbclient -k //dc01/netlogon -c ls --use-kerberos=required
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-linux-mounting-cifs.md) | [↑ Index](index.md) | [Next →](13-section-9-smbstatus-view-active.md)

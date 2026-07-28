@@ -1,5 +1,6 @@
 # 50-cloud-infrastructure
 
+**Prerequisites:** Complete [Part 49 - security-hardening-audit](../49-security-hardening-audit/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

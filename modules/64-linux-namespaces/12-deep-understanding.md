@@ -120,10 +120,8 @@ Application
 11. nginx serves requests, containerd monitors
 ```
 
----
 
 
 
----
 
 [← Previous](11-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](13-command-reference.md)

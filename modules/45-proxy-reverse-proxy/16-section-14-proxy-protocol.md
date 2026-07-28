@@ -72,10 +72,8 @@ Nginx — receives PROXY, forwards to backend:
 Result: Backend sees real client IP via X-Real-IP header.
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-13-proxy-chaining-and.md) | [↑ Index](index.md) | [Next →](17-section-15-security.md)

@@ -110,10 +110,8 @@ docker run --add-host db.local:10.0.0.5 nginx
 docker run --dns-search example.com nginx
 ```
 
----
 
 
 
----
 
 [← Previous](12-8-volumes-and-bind-mounts.md) | [↑ Index](index.md) | [Next →](14-10-registry.md)

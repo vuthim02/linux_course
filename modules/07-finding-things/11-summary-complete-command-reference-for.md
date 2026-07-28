@@ -71,10 +71,8 @@
 | `which command` | Path of executable |
 | `rg pattern` | ripgrep (fast, modern) |
 
----
 
 
 
----
 
 [← Previous](10-deep-understanding-how-search-tools.md) | [↑ Index](index.md) | [Next →](12-whats-coming-in-part-8.md)

@@ -152,10 +152,8 @@ sudo a2enmod evasive
 </IfModule>
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-apache-virtual-hosts.md) | [↑ Index](index.md) | [Next →](06-section-5-apache-performance-mpm.md)

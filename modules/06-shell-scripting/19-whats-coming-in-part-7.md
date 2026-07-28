@@ -11,10 +11,10 @@ You will learn:
 - Combining search tools in pipelines
 - 15 hands-on practices
 
----
+> **Tip:** Searching is half of sysadmin work. When a service fails, knowing how to grep logs quickly is what separates good admins from great ones.
 
 
 
----
+
 
 [← Previous](18-summary-complete-command-reference.md) | [↑ Index](index.md) | [Next →](20-self-test-can-you-answer-these.md)

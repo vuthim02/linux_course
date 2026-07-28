@@ -247,10 +247,8 @@ Azure LRS = 3 replicas within a single datacenter (LRS)
 Azure GRS = 3 replicas + 3 replicas in paired region
 ```
 
----
 
 
 
----
 
 [← Previous](13-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](15-complete-command-reference-equivalent-commands.md)

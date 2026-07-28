@@ -52,10 +52,8 @@ xdg-open /tmp/flamegraph.svg
 
 ⚠️ **Warning:** `perf record -F 99` adds ~1-3% CPU. For production, use `-F 49` or lower. High frequency (`-F 999`) causes 5-10% overhead.
 
----
 
 
 
----
 
 [← Previous](05-4-strace-deep-dive-the.md) | [↑ Index](index.md) | [Next →](07-6-network-tracing-packets-connections.md)

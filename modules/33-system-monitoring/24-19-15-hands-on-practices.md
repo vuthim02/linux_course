@@ -381,10 +381,8 @@ $ sudo crontab -e
 0 6 * * * /usr/local/bin/system-health-report.sh
 ```
 
----
 
 
 
----
 
 [← Previous](23-18-command-reference.md) | [↑ Index](index.md) | [Next →](25-20-self-test.md)

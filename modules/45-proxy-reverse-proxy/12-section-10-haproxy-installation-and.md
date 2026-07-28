@@ -100,10 +100,8 @@ backend web_back
     server web3 10.0.0.12:80 check
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-9-nginx-as-load.md) | [↑ Index](index.md) | [Next →](13-section-11-haproxy-load-balancing.md)

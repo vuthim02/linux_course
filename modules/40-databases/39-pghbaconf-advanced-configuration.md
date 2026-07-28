@@ -24,6 +24,5 @@ hostssl  all         all           0.0.0.0/0         cert clientcert=1
 
 
 
----
 
 [← Previous](38-role-attributes.md) | [↑ Index](index.md) | [Next →](40-pgidentconf-user-mapping.md)

@@ -117,10 +117,8 @@ sudo systemctl enable --now nftables
 # Or load config at boot via /etc/nftables.conf
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-firewalld.md) | [↑ Index](index.md) | [Next →](09-level-3-advanced-filtering-patterns.md)

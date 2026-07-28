@@ -72,10 +72,8 @@ echo "Loading: /etc/profile" | tee -a /tmp/profile-trace
 cat /tmp/profile-trace
 ```
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-configuring-your.md) | [↑ Index](index.md) | [Next →](07-section-4-setting-variables.md)

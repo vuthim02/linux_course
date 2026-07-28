@@ -124,10 +124,8 @@ find /tmp -name "*.txt" -print0 | while IFS= read -r -d '' file; do
 done
 ```
 
----
 
 
 
----
 
 [← Previous](17-level-3-advanced-security-internals.md) | [↑ Index](index.md) | [Next →](19-15-deep-understanding.md)

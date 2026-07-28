@@ -154,10 +154,8 @@ sudo lvmconfig --type diff
 sudo lvmconfig --type current
 ```
 
----
 
 
 
----
 
 [← Previous](19-section-12-troubleshooting-advanced.md) | [↑ Index](index.md) | [Next →](21-practice-section-15-hands-on-exercises.md)

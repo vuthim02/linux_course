@@ -21,6 +21,5 @@ Body (empty line + content):
 
 
 
----
 
 [← Previous](03-12-message-flow.md) | [↑ Index](index.md) | [Next →](05-14-message-format-rfc-5322.md)

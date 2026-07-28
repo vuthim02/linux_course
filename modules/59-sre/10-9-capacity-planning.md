@@ -119,10 +119,8 @@ sum(rate(http_requests_total[5m])) > expected_capacity * 0.7
 avg(rabbitmq_queue_messages_ready{queue="checkout"}[5m]) > 1000
 ```
 
----
 
 
 
----
 
 [← Previous](09-8-blameless-postmortems.md) | [↑ Index](index.md) | [Next →](11-10-release-engineering.md)

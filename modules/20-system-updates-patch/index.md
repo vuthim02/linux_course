@@ -1,5 +1,6 @@
 # 20-system-updates-patch
 
+**Prerequisites:** Complete [Part 19 - software-repositories](../19-software-repositories/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

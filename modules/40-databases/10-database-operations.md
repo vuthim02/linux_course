@@ -38,6 +38,5 @@ DROP DATABASE company;
 
 
 
----
 
 [← Previous](09-the-mysql-cli.md) | [↑ Index](index.md) | [Next →](11-user-operations.md)

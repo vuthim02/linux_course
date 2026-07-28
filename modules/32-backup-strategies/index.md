@@ -1,5 +1,6 @@
 # 32-backup-strategies
 
+**Prerequisites:** Complete [Part 31 - lvm](../31-lvm/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

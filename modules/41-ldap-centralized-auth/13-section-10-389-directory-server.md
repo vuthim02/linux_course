@@ -95,10 +95,8 @@ sudo systemctl enable --now cockpit.socket
 # Click "389 Directory Server" in the admin menu
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-9-openldap-replication.md) | [↑ Index](index.md) | [Next →](14-section-11-sssd-system-security.md)

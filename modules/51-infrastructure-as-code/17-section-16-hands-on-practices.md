@@ -1078,10 +1078,8 @@ terraform workspace new prod
 terraform apply -var-file=environments/prod.tfvars -auto-approve
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-15-deep-understanding.md) | [↑ Index](index.md) | [Next →](18-command-reference.md)

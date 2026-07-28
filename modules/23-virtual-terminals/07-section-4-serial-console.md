@@ -56,10 +56,8 @@ minicom -b 115200 -D /dev/ttyS0
 cu -l /dev/ttyS0 -s 115200
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-terminal-multiplexers-tmux.md) | [↑ Index](index.md) | [Next →](08-section-5-console-management.md)

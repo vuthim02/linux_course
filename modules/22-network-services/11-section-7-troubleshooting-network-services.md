@@ -112,10 +112,8 @@ nc -zv server 22           # Check basic connectivity
 telnet server 22           # Check raw socket
 ```
 
----
 
 
 
----
 
 [← Previous](10-level-3-advanced-troubleshooting-and.md) | [↑ Index](index.md) | [Next →](12-practice-section-15-hands-on-exercises.md)

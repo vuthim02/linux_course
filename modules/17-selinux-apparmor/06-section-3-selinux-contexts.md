@@ -67,10 +67,8 @@ sudo restorecon -Rv /var/www/html
 sudo chcon -t httpd_sys_content_t /var/www/html/index.html
 ```
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-selinux-contexts.md) | [↑ Index](index.md) | [Next →](07-section-4-selinux-booleans.md)

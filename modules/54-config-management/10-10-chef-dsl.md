@@ -200,10 +200,8 @@ search(:node, 'role:web_server', filter_result: { 'name' => ['name'], 'ip' => ['
 
 Search queries Chef Server's Solr/ES index, updated after every chef-client run.
 
----
 
 
 
----
 
 [← Previous](09-9-chef-architecture.md) | [↑ Index](index.md) | [Next →](11-11-chef-in-practice.md)

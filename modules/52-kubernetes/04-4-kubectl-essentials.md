@@ -92,10 +92,8 @@ kubectl cluster-info
 kubectl get events -A --sort-by='.lastTimestamp'
 ```
 
----
 
 
 
----
 
 [← Previous](03-3-installation.md) | [↑ Index](index.md) | [Next →](05-5-pods.md)

@@ -37,6 +37,5 @@ DROP ROLE appuser;
 
 
 
----
 
 [← Previous](35-table-operations.md) | [↑ Index](index.md) | [Next →](37-groups-and-membership.md)

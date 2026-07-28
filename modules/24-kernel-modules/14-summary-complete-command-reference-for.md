@@ -31,10 +31,8 @@
 | `sudo udevadm monitor` | Monitor udev events |
 | `make -C /lib/modules/...` | Build kernel modules |
 
----
 
 
 
----
 
 [← Previous](13-deep-understanding-kernel-module-internals.md) | [↑ Index](index.md) | [Next →](15-whats-next.md)

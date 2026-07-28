@@ -57,10 +57,8 @@ Note: `/sbin/init` is a symlink to `systemd` on modern systems.
 | Arch Linux | 2012 |
 | openSUSE | 12.1 (2011) |
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-systemd-fundamentals.md) | [↑ Index](index.md) | [Next →](04-section-2-systemctl-the-main.md)

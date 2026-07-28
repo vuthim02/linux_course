@@ -90,10 +90,8 @@ root        14  0.0  0.0      0     0 ?        S    09:15   0:00 [migration/0]
          └──────────┘
 ```
 
----
 
 
 
----
 
 [← Previous](03-level-1-basic-processes-signals.md) | [↑ Index](index.md) | [Next →](05-2-ps-snapshot-of-the.md)

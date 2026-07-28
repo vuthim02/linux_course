@@ -161,10 +161,8 @@ sudo authconfig --enableldap \
   --updateall
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-5-ldap-schemas.md) | [↑ Index](index.md) | [Next →](09-section-7-ldap-over-tls.md)

@@ -63,10 +63,8 @@ ulimit -a | grep pipe
 # This means 8 * 512 = 4096 bytes default pipe size
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-4-redirection-gotchas-common.md) | [↑ Index](index.md) | [Next →](19-level-3-practices.md)

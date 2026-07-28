@@ -39,12 +39,10 @@ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=example.com;
   b=...
 ```
 
----
 
 # Command Reference
 
 
 
----
 
 [← Previous](59-smtp-protocol-state-machine.md) | [↑ Index](index.md) | [Next →](61-level-1-basic-commands.md)

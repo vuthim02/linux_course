@@ -81,10 +81,8 @@ sudo journalctl -u chrony | grep -i "step\|slew"
 ntpdate -q pool.ntp.org
 ```
 
----
 
 
 
----
 
 [← Previous](10-level-3-advanced-troubleshooting-and.md) | [↑ Index](index.md) | [Next →](12-practice-section-15-hands-on-exercises.md)

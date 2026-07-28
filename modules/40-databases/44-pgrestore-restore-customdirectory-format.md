@@ -23,6 +23,5 @@ pg_restore -U postgres -d company --clean company_backup.dump
 
 
 
----
 
 [← Previous](43-pgdumpall-all-databases-and-globals.md) | [↑ Index](index.md) | [Next →](45-restore-plain-sql.md)

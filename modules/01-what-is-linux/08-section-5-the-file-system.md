@@ -48,10 +48,8 @@ Linux organizes all files in a single **tree** starting from `/` (called "root")
 | `/dev` | Hardware devices. Disks are `/dev/sda`, `/dev/sdb`, etc. |
 | `/tmp` | Temporary. Never store important things here. |
 
----
 
 
 
----
 
 [← Previous](07-level-2-intermediary-navigating-the.md) | [↑ Index](index.md) | [Next →](09-section-6-users-and-permissions.md)

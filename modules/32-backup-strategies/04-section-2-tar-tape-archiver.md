@@ -44,10 +44,8 @@ tar df backup.tar                     # diff against filesystem
 tar tzf backup.tar.gz > /dev/null     # test structural integrity
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-backup-philosophy.md) | [↑ Index](index.md) | [Next →](05-section-3-rsync-remote-sync.md)

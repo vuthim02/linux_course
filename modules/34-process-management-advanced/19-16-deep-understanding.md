@@ -156,10 +156,8 @@ Since kernel 5.3, you can open a file descriptor to a process via `pidfd_open()`
 
 Used by systemd for reliable service management and by container runtimes.
 
----
 
 
 
----
 
 [← Previous](18-11-cgroups-v1-vs-v2.md) | [↑ Index](index.md) | [Next →](20-14-command-reference.md)

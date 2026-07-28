@@ -160,10 +160,8 @@ case "$2" in
 esac
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-9-cluster-filesystems.md) | [↑ Index](index.md) | [Next →](12-section-11-keepalived-haproxy-integration.md)

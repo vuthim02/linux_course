@@ -19,10 +19,8 @@ Different groups package the kernel differently:
 
 > 💡 As a **Linux System Administrator**, you will mostly work with **Ubuntu**, **Debian**, or **RHEL/CentOS**. This course focuses on these.
 
----
 
 
 
----
 
 [← Previous](05-section-3-the-anatomy-of.md) | [↑ Index](index.md) | [Next →](07-level-2-intermediary-navigating-the.md)

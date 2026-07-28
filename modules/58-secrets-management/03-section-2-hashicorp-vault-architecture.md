@@ -58,10 +58,8 @@ Pod ┌────────────────────────�
               ▼ Vault Server
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-why-secrets-management.md) | [↑ Index](index.md) | [Next →](04-section-3-vault-auth-methods.md)

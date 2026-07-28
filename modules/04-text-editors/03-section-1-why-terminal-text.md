@@ -18,10 +18,8 @@ In all these scenarios, a **terminal text editor** is your only option.
 
 > 💡 Learn **both**. Use Nano when you need to change one line in a config file. Use Vim when you need to write a script or edit for more than 30 seconds.
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-getting-started.md) | [↑ Index](index.md) | [Next →](04-section-2-nano-the-simple.md)

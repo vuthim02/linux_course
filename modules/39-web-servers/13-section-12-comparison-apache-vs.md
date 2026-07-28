@@ -57,10 +57,8 @@ Nginx event:      O(1) memory per connection, handles 10K-100K+
 | Microservices API gateway | Nginx |
 | Need both .htaccess and high performance | Nginx reverse proxy → Apache backend |
 
----
 
 
 
----
 
 [← Previous](12-section-11-tlsssl-lets-encrypt.md) | [↑ Index](index.md) | [Next →](14-section-13-static-file-serving.md)

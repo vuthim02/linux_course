@@ -76,10 +76,8 @@ sudo umount -R /mnt
 sudo reboot
 ```
 
----
 
 
 
----
 
 [← Previous](12-level-3-advanced-boot-recovery.md) | [↑ Index](index.md) | [Next →](14-section-9-kernel-panic-and.md)

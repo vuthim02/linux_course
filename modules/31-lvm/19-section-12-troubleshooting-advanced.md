@@ -38,10 +38,8 @@ sudo vgcfgrestore -f /etc/lvm/archive/vg_data_00005.vg vg_data  # Restore
 sudo pvs --config 'devices { filter = [ "r|loop.*|", "a|.*|" ] }'
 ```
 
----
 
 
 
----
 
 [← Previous](18-section-10-lvm-raid.md) | [↑ Index](index.md) | [Next →](20-deep-understanding-how-lvm-really.md)

@@ -101,10 +101,8 @@ ls /sys/module/ | grep ext4
 cat /sys/module/ext4/parameters/errors
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-kernel-module.md) | [↑ Index](index.md) | [Next →](04-level-2-intermediary-module-management.md)

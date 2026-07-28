@@ -103,10 +103,8 @@ ldapsearch -Y EXTERNAL -H ldapi:/// -b cn=config 'olcTLS*'
 LDAPDEBUG=1 ldapsearch -x -H ldap://ldap.example.com -ZZ
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-6-ldap-authentication-pam.md) | [↑ Index](index.md) | [Next →](10-section-8-ldap-browser-tools.md)

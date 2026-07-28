@@ -273,10 +273,8 @@ echo "Parallel analysis of $# files..."
 printf "%s\0" "$@" | xargs -0 -P "$(nproc)" -I {} bash -c 'analyze_file "$@"' _ {}
 ```
 
----
 
 
 
----
 
 [← Previous](15-11-diff-and-patch.md) | [↑ Index](index.md) | [Next →](17-level-3-advanced-practices-internals.md)

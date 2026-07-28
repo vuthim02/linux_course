@@ -50,10 +50,8 @@
 
 ### Level 3: Advanced Commands (See troubleshooting and centralized logging sections above — no additional commands)
 
----
 
 
 
----
 
 [← Previous](15-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](17-whats-coming-in-part-15.md)

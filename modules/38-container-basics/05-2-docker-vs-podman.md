@@ -55,10 +55,8 @@ pip install podman-compose
 podman-compose up -d
 ```
 
----
 
 
 
----
 
 [← Previous](04-1-what-are-containers.md) | [↑ Index](index.md) | [Next →](06-3-installing-docker.md)

@@ -115,10 +115,8 @@ grep -E "^\s*$" file
 grep -E "^[a-z_][a-z0-9_-]*$" file
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-grep-search-file.md) | [↑ Index](index.md) | [Next →](04-section-3-grep-in-practice.md)

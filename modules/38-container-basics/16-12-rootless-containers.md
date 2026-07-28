@@ -97,10 +97,8 @@ cat /sys/fs/cgroup/cgroup.controllers
 # systemd.unified_cgroup_hierarchy=1
 ```
 
----
 
 
 
----
 
 [← Previous](15-11-docker-compose.md) | [↑ Index](index.md) | [Next →](17-13-security.md)

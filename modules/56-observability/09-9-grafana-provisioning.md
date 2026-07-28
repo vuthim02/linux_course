@@ -105,10 +105,8 @@ policies:
     group_wait: 30s
 ```
 
----
 
 
 
----
 
 [← Previous](08-8-grafana.md) | [↑ Index](index.md) | [Next →](10-10-loki.md)

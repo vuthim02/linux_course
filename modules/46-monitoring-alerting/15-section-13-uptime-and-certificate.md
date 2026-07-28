@@ -27,10 +27,8 @@ sudo apt install monitoring-plugins-standard -y
 | **Icinga2** | On-premise | Nagios fork, modern config DSL, distributed |
 | **StatusCake** | SaaS | Uptime, SSL, domain expiry monitoring |
 
----
 
 
 
----
 
 [← Previous](14-section-12-log-monitoring.md) | [↑ Index](index.md) | [Next →](16-section-14-distributed-monitoring.md)

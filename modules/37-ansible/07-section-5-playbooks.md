@@ -5,7 +5,6 @@ A **playbook** is a YAML file containing one or more plays. Each play targets a 
 ### Structure
 
 ```yaml
----
 - name: Configure Web Servers
   hosts: webservers
   become: yes
@@ -79,10 +78,8 @@ Facts are system information gathered from managed hosts automatically.
   when: ansible_facts['os_family'] == "RedHat"
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-4-ad-hoc-commands.md) | [↑ Index](index.md) | [Next →](08-level-2-intermediary-daily-administration.md)

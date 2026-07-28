@@ -113,10 +113,8 @@
 | `sudo certbot delete --cert-name example.com` | Delete a certificate |
 | `sudo systemctl status certbot.timer` | Check auto-renewal timer |
 
----
 
 
 
----
 
 [← Previous](16-deep-understanding.md) | [↑ Index](index.md) | [Next →](18-whats-coming-in-part-40.md)

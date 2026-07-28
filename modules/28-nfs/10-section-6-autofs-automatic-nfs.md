@@ -142,10 +142,8 @@ journalctl -u autofs -f
 mount | grep autofs
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-5-nfsv41-and-pnfs.md) | [↑ Index](index.md) | [Next →](11-section-7-security.md)

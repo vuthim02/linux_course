@@ -35,10 +35,8 @@
 
 **Chef**: ✅ Ruby DSL expressive, Ohai richest introspection, Search API makes dynamic config natural, best testing story. ❌ Ruby requires real programming, Chef Server complex (Erlang/Solr), attribute precedence confusing, slower converge times.
 
----
 
 
 
----
 
 [← Previous](11-11-chef-in-practice.md) | [↑ Index](index.md) | [Next →](13-13-modern-era.md)

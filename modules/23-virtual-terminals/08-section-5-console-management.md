@@ -60,10 +60,8 @@ sudo localectl set-x11-keymap us
 sudo localectl set-keymap us
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-serial-console.md) | [↑ Index](index.md) | [Next →](09-level-3-advanced-console-internals.md)

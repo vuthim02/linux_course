@@ -62,10 +62,8 @@ Restore: full + latest diff only (simpler chain)
 
 A backup that cannot be restored is not a backup. The most important metric is RTO measured during actual restore testing — not estimates.
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-backup-philosophy.md) | [↑ Index](index.md) | [Next →](04-section-2-tar-tape-archiver.md)

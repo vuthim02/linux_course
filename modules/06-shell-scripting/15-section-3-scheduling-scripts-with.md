@@ -67,10 +67,8 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # Use absolute paths for EVERYTHING in cron
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-2-professional-script-template.md) | [↑ Index](index.md) | [Next →](16-deep-understanding-how-scripts-execute.md)

@@ -67,10 +67,8 @@ GitLab verified commits: Settings → Repository → Push rules → **Reject uns
 
 SLSA 1–4 framework: build documented → version control + signed provenance → non-falsifiable provenance → two-person review. Use `slsa-framework/slsa-github-generator` for SLSA 3 provenance in GitHub Actions.
 
----
 
 
 
----
 
 [← Previous](08-8-artifact-management.md) | [↑ Index](index.md) | [Next →](10-10-testing-in-ci.md)

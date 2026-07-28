@@ -5,13 +5,11 @@
 | `postfix check` | Validate configuration |
 | `postfix flush` | Force delivery attempt of all queued mail |
 
----
 
 # What's Coming in Part 45
 
 **Part 45: Proxy and Reverse Proxy** — We will cover the theory and implementation of forward proxies, reverse proxies, and load balancers using Nginx, HAProxy, and Squid. Topics include: proxy protocols (HTTP CONNECT, SOCKS5), caching reverse proxies, TLS termination, load-balancing algorithms (round-robin, least connections, IP hash), health checks, WebSocket proxying, gRPC proxying, and ACL configuration. We will also discuss proxy chaining and transparent proxying with iptables.
 
----
 
 # Self-Test
 
@@ -137,7 +135,6 @@ What is the purpose of DKIM, and what DNS record must be published to support it
 DKIM (DomainKeys Identified Mail) allows the sending domain to cryptographically sign outgoing mail. Receiving MTAs verify the signature using the public key published in DNS at `{selector}._domainkey.{domain}` as a TXT record containing the DKIM key data (`v=DKIM1; p=...`).
 </details>
 
----
 
 ### Scoring
 
@@ -147,7 +144,6 @@ DKIM (DomainKeys Identified Mail) allows the sending domain to cryptographically
   0–7 correct → 🔴 Re-read this part, do the hands-on practices
 ```
 
----
 
 *Previous → Part 43: DHCP Server*
 *Next → Part 45: Proxy and Reverse Proxy*
@@ -155,6 +151,5 @@ DKIM (DomainKeys Identified Mail) allows the sending domain to cryptographically
 [← Previous](part43.md) | [Next →](part45.md)
 
 
----
 
 [← Previous](62-level-2-intermediary-commands.md) | [↑ Index](index.md)

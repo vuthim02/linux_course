@@ -69,10 +69,8 @@ sudo -u username /usr/local/bin/command
 tail -f /var/log/syslog | grep CRON
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-cron-output-and.md) | [↑ Index](index.md) | [Next →](09-section-6-security-cronallow-and.md)

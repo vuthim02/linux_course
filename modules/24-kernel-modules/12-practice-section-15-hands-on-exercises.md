@@ -1,10 +1,8 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### Level 1 Practices: Kernel Module Basics
 
----
 
 ### ✅ Practice 1: List All Loaded Modules
 
@@ -20,7 +18,6 @@ echo "Total modules loaded: $(lsmod | wc -l)"
 echo "Total memory used by modules: $(lsmod | awk 'NR>1 {sum+=$2} END {print sum}') bytes"
 ```
 
----
 
 ### ✅ Practice 2: Get Detailed Info on a Module
 
@@ -37,7 +34,6 @@ echo "=== All parameters for this module ==="
 modinfo -p $FIRST_MOD 2>/dev/null || echo "No parameters"
 ```
 
----
 
 ### ✅ Practice 3: Explore Module Directories
 
@@ -65,7 +61,6 @@ echo "=== Filesystem modules ==="
 ls /lib/modules/$(uname -r)/kernel/fs/
 ```
 
----
 
 ### ✅ Practice 5: Find Module for a Hardware Device
 
@@ -93,7 +88,6 @@ for iface in /sys/class/net/*/device/driver; do
 done 2>/dev/null || echo "Cannot read driver info"
 ```
 
----
 
 ### ✅ Practice 7: Show Module Dependencies
 
@@ -114,11 +108,9 @@ echo "=== Dependency tree example: ext4 ==="
 modprobe --show-depends ext4 2>/dev/null | head -10
 ```
 
----
 
 ### Level 2 Practices: Module Management
 
----
 
 ### ✅ Practice 4: Test Loading and Unloading a Module
 
@@ -159,7 +151,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 6: Blacklist a Module (Simulated)
 
@@ -195,7 +186,6 @@ EOF
 cat blacklist_sim.txt
 ```
 
----
 
 ### ✅ Practice 8: View and Modify Module Parameters
 
@@ -224,7 +214,6 @@ echo "  2. In config file: /etc/modprobe.d/*.conf"
 echo "  3. Via sysfs (if writable): echo value > /sys/module/MODULE/parameters/param"
 ```
 
----
 
 ### ✅ Practice 9: Module Configuration Files
 
@@ -260,7 +249,6 @@ EOF
 sudo rm -f /etc/modprobe.d/course-example.conf 2>/dev/null || true
 ```
 
----
 
 ### ✅ Practice 10: Module Autoload Configuration
 
@@ -298,7 +286,6 @@ echo "=== Legacy /etc/modules ==="
 cat /etc/modules 2>/dev/null || echo "(not present on this system)"
 ```
 
----
 
 ### ✅ Practice 11: Module Dependency Map
 
@@ -317,7 +304,6 @@ echo "=== Check if modules.dep is up to date ==="
 echo "To rebuild: sudo depmod -a"
 ```
 
----
 
 ### ✅ Practice 13: Find Module by Device
 
@@ -345,11 +331,9 @@ echo "--- Driver mapping ---"
 lspci -k 2>/dev/null | grep -B1 "Kernel driver in use" | grep -v "^--$"
 ```
 
----
 
 ### Level 3 Practices: Building and Troubleshooting
 
----
 
 ### ✅ Practice 12: Build a Simple Kernel Module (if build tools available)
 
@@ -429,7 +413,6 @@ echo "To view:  dmesg | tail"
 echo "To unload: sudo rmmod hello"
 ```
 
----
 
 ### ✅ Practice 14: Module Troubleshooting Simulation
 
@@ -477,7 +460,6 @@ EOF
 cat troubleshoot_scenario.txt
 ```
 
----
 
 ### ✅ Practice 15: Comprehensive Kernel Audit
 
@@ -547,10 +529,8 @@ chmod +x kernel_audit.sh
 ./kernel_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-device-drivers-and.md) | [↑ Index](index.md) | [Next →](13-deep-understanding-kernel-module-internals.md)

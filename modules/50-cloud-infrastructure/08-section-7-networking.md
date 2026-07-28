@@ -368,10 +368,8 @@ az network firewall network-rule create \
   --destination-ports 53
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-6-storage.md) | [↑ Index](index.md) | [Next →](09-section-8-iam-identity-and.md)

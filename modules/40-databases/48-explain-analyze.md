@@ -38,6 +38,5 @@ Execution Time: 0.500 ms
 
 
 
----
 
 [← Previous](47-pgbackrest-modern-backup-tool.md) | [↑ Index](index.md) | [Next →](49-pgstatstatements-query-statistics.md)

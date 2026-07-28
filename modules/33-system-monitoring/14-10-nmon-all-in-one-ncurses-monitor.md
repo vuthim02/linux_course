@@ -29,10 +29,8 @@ $ nmon -f -s 5 -c 120
 
 Captures data every 5 seconds for 10 minutes, writing to a `.nmon` file.
 
----
 
 
 
----
 
 [← Previous](13-9-dstat-versatile-real-time-aggregator.md) | [↑ Index](index.md) | [Next →](15-11-glances-python-power-monitor.md)

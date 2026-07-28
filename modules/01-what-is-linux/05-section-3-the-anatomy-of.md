@@ -15,7 +15,7 @@ Think of Linux like an **onion**. Each layer wraps around the one inside it.
 │           HARDWARE                      │  ← CPU, RAM, Disk, etc.
 └─────────────────────────────────────────┘
 ```
-
+![](../assets/figure2.jpg)
 ### Layer 1 — The Kernel (The Brain)
 
 The **kernel** is the core of Linux. It is the actual Linux that Linus Torvalds wrote.
@@ -49,6 +49,43 @@ The **C Library (glibc)** and other system libraries give programs ready-made fu
 
 You don't use these directly either. But every program you run uses them constantly.
 
+#### See which libraries a program uses
+
+```bash
+ldd /bin/ls
+```
+Example output:
+```
+linux-vdso.so.1 (0x00007ffc...)
+libselinux.so.1 => /lib/x86_64-linux-gnu/libselinux.so.1
+libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6
+```
+
+#### Check your system's C library version
+
+```bash
+/lib/x86_64-linux-gnu/libc.so.6
+```
+Output shows glibc version and build info.
+
+#### Find where a library is installed
+
+```bash
+ldconfig -p | grep libssl
+```
+Example output:
+```
+libssl.so.3 (libc6,x86-64) => /lib/x86_64-linux-gnu/libssl.so.3
+```
+
+#### List all installed libraries
+
+```bash
+ldconfig -p | wc -l
+```
+
+> 💡 Every command you run — `ls`, `cp`, `ssh`, `curl` — calls system libraries behind the scenes. That's why they all behave similarly (flags, output formats). They share the same toolkit.
+
 ### Layer 3 — The Shell (Your Translator)
 
 This is where YOU interact with Linux.
@@ -73,10 +110,8 @@ ls
 
 You sit at the top. You give commands in human-readable text. The shell and kernel handle everything below.
 
----
 
 
 
----
 
 [← Previous](04-section-2-what-is-linux.md) | [↑ Index](index.md) | [Next →](06-section-4-linux-distributions-why.md)

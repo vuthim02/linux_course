@@ -44,10 +44,8 @@ $ pkill -SIGSTOP -f "make"     # STOP all make processes
 
 `pkill -f` is powerful and dangerous — it matches the entire command line. Always test with `pgrep -l -f <pattern>` first.
 
----
 
 
 
----
 
 [← Previous](12-level-2-intermediary-finding-processes.md) | [↑ Index](index.md) | [Next →](14-8-ulimit-per-process-resource-limits.md)

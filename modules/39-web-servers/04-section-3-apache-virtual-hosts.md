@@ -94,10 +94,8 @@ AddDefaultCharset UTF-8
 
 The vast majority of setups are name-based.
 
----
 
 
 
----
 
 [← Previous](03-section-2-apache-installation-and.md) | [↑ Index](index.md) | [Next →](05-section-4-apache-modules.md)

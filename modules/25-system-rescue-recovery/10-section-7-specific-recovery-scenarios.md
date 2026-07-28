@@ -115,10 +115,8 @@ sudo update-grub
 #    - Reinstall GRUB
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-chroot-repair-a.md) | [↑ Index](index.md) | [Next →](11-practice-section-15-hands-on-exercises.md)

@@ -44,10 +44,8 @@ tar czf - /home/user/data/ | ssh user@backup-server "cat > /backups/data-$(date 
 ssh user@server "tar czf - /home/user/data/" > backup.tar.gz
 ```
 
----
 
 
 
----
 
 [← Previous](07-level-2-intermediary-incremental-backups.md) | [↑ Index](index.md) | [Next →](09-section-3-rsync-advanced.md)

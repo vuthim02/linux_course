@@ -344,10 +344,8 @@ build {
 - `boot_command` — keystrokes for automated OS install
 - `http_directory` — serve files for cloud-init/preseed
 
----
 
 
 
----
 
 [← Previous](03-3-packer-installation-and-hcl2.md) | [↑ Index](index.md) | [Next →](05-5-provisioners.md)

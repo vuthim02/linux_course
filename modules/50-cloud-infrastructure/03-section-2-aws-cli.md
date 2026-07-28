@@ -117,10 +117,8 @@ aws sts get-caller-identity  # Uses env vars
 export AWS_SESSION_TOKEN=...  # For temporary credentials (STS)
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-cloud-computing-models.md) | [↑ Index](index.md) | [Next →](04-section-3-gcp-cli-gcloud.md)

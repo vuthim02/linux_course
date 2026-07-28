@@ -85,10 +85,8 @@ server {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-12-haproxy-advanced-features.md) | [↑ Index](index.md) | [Next →](16-section-14-proxy-protocol.md)

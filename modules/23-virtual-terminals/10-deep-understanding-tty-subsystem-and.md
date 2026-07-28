@@ -40,10 +40,8 @@ Userspace
    - No display, just TX/RX lines
 ```
 
----
 
 
 
----
 
 [← Previous](09-level-3-advanced-console-internals.md) | [↑ Index](index.md) | [Next →](11-practice-section-15-hands-on-exercises.md)

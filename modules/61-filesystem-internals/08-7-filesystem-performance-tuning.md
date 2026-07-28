@@ -54,10 +54,8 @@ sudo btrfs property set /mnt compression zlib
 sudo btrfs filesystem defragment -r -czstd /mnt
 ```
 
----
 
 
 
----
 
 [← Previous](07-6-diagnosing-df-vs-du.md) | [↑ Index](index.md) | [Next →](09-8-filesystem-monitoring.md)

@@ -164,10 +164,8 @@ crictl logs <container-id>
 crictl exec -it <container-id> sh
 ```
 
----
 
 
 
----
 
 [← Previous](01-1-why-kubernetes.md) | [↑ Index](index.md) | [Next →](03-3-installation.md)

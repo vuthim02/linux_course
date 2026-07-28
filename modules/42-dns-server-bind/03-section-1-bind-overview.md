@@ -44,10 +44,8 @@ The BIND daemon is called **`named`** (name daemon). Current major version: **BI
 
 **When to choose alternatives:** High-performance resolver (Unbound), lightweight authoritative (Knot), database-backed DNS (PowerDNS).
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-dns-concepts.md) | [↑ Index](index.md) | [Next →](04-section-2-installation.md)

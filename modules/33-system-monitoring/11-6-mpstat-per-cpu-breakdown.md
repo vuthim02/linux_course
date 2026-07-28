@@ -19,10 +19,8 @@ Linux 6.2.0 (hostname)   2024-01-15  _x86_64_  (4 CPU)
 - CPU 0 handles all hardware interrupts (IRQ affinity by default). It is normal for CPU 0 to have slightly higher `%sys` and `%irq`.
 - **Severe imbalance** (>2x difference between cores) suggests single-threaded bottleneck, IRQ affinity misconfiguration, or NUMA imbalance.
 
----
 
 
 
----
 
 [← Previous](10-5-iostat-per-disk-io-deep.md) | [↑ Index](index.md) | [Next →](12-8-ss-socket-statistics-modern.md)

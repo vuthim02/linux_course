@@ -1,6 +1,5 @@
 ## 💻 PRACTICE SECTION — 18 Hands-On Exercises
 
----
 
 ### ✅ Practice 1: Basic grep
 
@@ -31,7 +30,6 @@ grep -c "ERROR" app.log
 grep -n "ERROR" app.log
 ```
 
----
 
 ### ✅ Practice 2: grep Options
 
@@ -57,7 +55,6 @@ echo "ERROR: $(grep -c 'ERROR' app.log)"
 echo "CRITICAL: $(grep -c 'CRITICAL' app.log)"
 ```
 
----
 
 ### ✅ Practice 3: Recursive grep
 
@@ -81,7 +78,6 @@ grep -rl "port" configs/
 grep -rc "port" configs/
 ```
 
----
 
 ### ✅ Practice 4: Regular Expressions — Basics
 
@@ -104,7 +100,6 @@ grep -E "INFO|WARNING" app.log
 grep -oE "\bC\w+" app.log
 ```
 
----
 
 ### ✅ Practice 5: Regex — IP Addresses
 
@@ -128,7 +123,6 @@ grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" ips.txt
 grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" ips.txt | sort -u
 ```
 
----
 
 ### ✅ Practice 6: Regex — Emails and URLs
 
@@ -151,7 +145,6 @@ grep -oE "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b" data.txt
 grep -oE "https?://[^\s]+" data.txt
 ```
 
----
 
 ### ✅ Practice 7: find by Name
 
@@ -179,7 +172,6 @@ find . -name "*.md" -o -name "*.txt"
 find . -not -name "*.py"
 ```
 
----
 
 ### ✅ Practice 8: find by Type and Size
 
@@ -205,7 +197,6 @@ touch empty.txt
 find . -empty -type f
 ```
 
----
 
 ### ✅ Practice 9: find by Time
 
@@ -225,7 +216,6 @@ find find_test/ -mtime +365 -type f
 find /etc -mtime -1 -type f 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 10: find by Permission
 
@@ -249,7 +239,6 @@ find /usr/bin -perm -4000 -type f 2>/dev/null
 find . -perm 644 -type f
 ```
 
----
 
 ### ✅ Practice 11: find -exec
 
@@ -270,7 +259,6 @@ find . -name "*.bin" -exec gzip {} \;
 ls -la
 ```
 
----
 
 ### ✅ Practice 12: find with xargs
 
@@ -287,7 +275,6 @@ find . -name "file*.txt" -print | xargs rm
 find . -type f -name "*.py" -print | xargs grep -l "main" 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 13: locate
 
@@ -308,7 +295,6 @@ echo "Total .conf files: $(locate -c '*.conf')"
 locate -i "Readme"
 ```
 
----
 
 ### ✅ Practice 14: grep in Logs
 
@@ -328,7 +314,6 @@ sudo grep "Failed password" /var/log/auth.log 2>/dev/null | \
 grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" | sort -u
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin — Find Large Files
 
@@ -346,7 +331,6 @@ du -sh /home/* 2>/dev/null | sort -rh | head -10
 find /home -type f -atime -1 2>/dev/null | head -20
 ```
 
----
 
 ### ✅ Practice 16: Real SysAdmin — Find SUID and Security Issues
 
@@ -365,7 +349,6 @@ echo "World-writable files in /etc found."
 find / -user nobody -type f 2>/dev/null | head -10
 ```
 
----
 
 ### ✅ Practice 17: Real SysAdmin — Log Analysis Pipeline
 
@@ -386,7 +369,6 @@ if [ -f /var/log/syslog ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 18: Real SysAdmin — Find and Archive Old Logs
 
@@ -433,10 +415,8 @@ chmod +x archive_old_logs.sh
 ./archive_old_logs.sh /var/log 365
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-looking-at-files.md) | [↑ Index](index.md) | [Next →](10-deep-understanding-how-search-tools.md)

@@ -114,10 +114,8 @@ server {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-nginx-installation-and.md) | [↑ Index](index.md) | [Next →](10-section-9-nginx-as-reverse.md)

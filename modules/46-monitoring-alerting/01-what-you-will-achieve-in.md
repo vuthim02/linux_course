@@ -13,10 +13,8 @@ By the end of this part, you will:
 - **Deploy Loki + Promtail** for log aggregation
 - **Build a complete monitoring stack** — Prometheus + node_exporter + Grafana + Alertmanager
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-prerequisites.md)

@@ -173,10 +173,8 @@ showmount -a 192.168.1.100
 showmount -e localhost
 ```
 
----
 
 
 
----
 
 [← Previous](04-level-2-intermediary-nfs-server.md) | [↑ Index](index.md) | [Next →](06-section-3-nfs-client-setup.md)

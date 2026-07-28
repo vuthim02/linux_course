@@ -13,10 +13,8 @@ You will learn:
 - Disaster recovery planning and documentation
 - 15 hands-on practices covering all major backup tools
 
----
+### How Part 31 Connects
+LVM snapshots make database backups nearly zero-downtime: snapshot the LV, mount it read-only, dump the data, then remove the snapshot. Understanding LVM is a prerequisite for the advanced backup techniques in Part 32.
 
-
-
----
 
 [← Previous](22-summary-complete-command-reference-for.md) | [↑ Index](index.md) | [Next →](24-self-test-can-you-answer-these.md)

@@ -140,10 +140,8 @@ sudo bpftrace -e 'tracepoint:exceptions:page_fault_user { @faults[comm] = count(
 sudo bpftrace -e 'kprobe:vfs_read { @start[tid] = nsecs; } kretprobe:vfs_read /@start[tid]/ { @latency = hist(nsecs - @start[tid]); delete(@start[tid]); }'
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-ebpf-fundamentals.md) | [↑ Index](index.md) | [Next →](04-section-3-xdp-express-data.md)

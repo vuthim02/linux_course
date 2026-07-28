@@ -58,10 +58,8 @@ Example: Peak = 1000 req/s, Headroom = 30%
 | Performance consistency | Variable (noisy neighbors) | Predictable (dedicated hardware) |
 | Right-sizing risk | Can downsize | Overprovisioning is permanent |
 
----
 
 
 
----
 
 [← Previous](14-section-12-application-tuning.md) | [↑ Index](index.md) | [Next →](16-hands-on-practices.md)

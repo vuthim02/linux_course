@@ -13,10 +13,9 @@ You will learn:
 - Best practices for production Terraform
 - 15 hands-on practices covering multi-cloud IaC
 
----
+### Why Terraform After Cloud?
 
+Part 50 taught you to manage cloud resources via CLI (`aws`, `gcloud`, `az`). Part 51 takes the next step: managing those same resources **declaratively** with Terraform. Instead of running 50 CLI commands, you write one `.tf` file and run `terraform apply`.
 
-
----
 
 [← Previous](15-complete-command-reference-equivalent-commands.md) | [↑ Index](index.md) | [Next →](17-self-test-can-you-answer-these.md)

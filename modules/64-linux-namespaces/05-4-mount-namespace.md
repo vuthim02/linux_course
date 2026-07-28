@@ -132,10 +132,8 @@ cat /proc/<container_pid>/mountinfo | head -20
 # 126 123 0:5 / /dev rw,nosuid - devtmpfs devtmpfs rw
 ```
 
----
 
 
 
----
 
 [← Previous](04-3-network-namespace.md) | [↑ Index](index.md) | [Next →](06-5-uts-ipc-and-user.md)

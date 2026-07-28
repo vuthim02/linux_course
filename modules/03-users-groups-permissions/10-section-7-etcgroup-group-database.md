@@ -27,10 +27,8 @@ $ ls -l test.txt
 
 > 🔍 **Reverse Engineering Insight:** By default every user gets a "User Private Group" (UPG) — a group with the same name as the user. This is why `alice` owns both user and group. This prevents the need for a shared "users" group that could accidentally give access.
 
----
 
 
 
----
 
 [← Previous](09-section-6-etcshadow-the-password.md) | [↑ Index](index.md) | [Next →](11-section-8-user-management-commands.md)

@@ -1,6 +1,5 @@
 ## 🛠️ 15 Hands-On Practices
 
----
 
 ### 📘 Level 1 Practices: Interface Basics and Hostname Configuration
 
@@ -33,7 +32,6 @@ done
 echo "Total interfaces: $(ip -o link show | wc -l)"
 ```
 
----
 
 ### 📘 Level 2 Practices: Configuration, Management, and Troubleshooting
 
@@ -65,7 +63,6 @@ cat routing_table.txt
 cat arp_cache.txt
 ```
 
----
 
 ### ✅ Practice 3: Compare `ip` vs `ifconfig` Output
 
@@ -98,7 +95,6 @@ route -n
 # - route shows less routing information
 ```
 
----
 
 ### ✅ Practice 4: Set a Static IP with Netplan
 
@@ -150,7 +146,6 @@ EOF
 # sudo netplan apply
 ```
 
----
 
 ### ✅ Practice 5: Use nmcli to Configure a Connection
 
@@ -181,7 +176,6 @@ sudo cat /etc/NetworkManager/system-connections/practice-dhcp.nmconnection
 nmcli connection delete "practice-dhcp"
 ```
 
----
 
 ### ✅ Practice 6: Configure Hostname and /etc/hosts
 
@@ -215,7 +209,6 @@ sudo sed -i '/web-server/d' /etc/hosts
 sudo hostname $(cat /etc/hostname)
 ```
 
----
 
 ### ✅ Practice 7: DNS Resolution Deep Dive
 
@@ -254,7 +247,6 @@ dig @1.1.1.1 google.com +short
 dig _http._tcp.google.com SRV +short 2>/dev/null || echo "No SRV record"
 ```
 
----
 
 ### ✅ Practice 8: Diagnose the Network with mtr and traceroute
 
@@ -295,7 +287,6 @@ traceroute -n 8.8.8.8 > traceroute_result.txt 2>/dev/null
 echo "Saved traceroute result."
 ```
 
----
 
 ### ✅ Practice 9: Run tcpdump and Analyze Traffic
 
@@ -330,7 +321,6 @@ sudo tcpdump -r capture.pcap -nn 2>/dev/null | awk '{print $3}' | cut -d. -f1 | 
 # curl http://example.com
 ```
 
----
 
 ### ✅ Practice 10: Manage Interface Bonding
 
@@ -392,7 +382,6 @@ sudo ip link delete dummy0
 sudo ip link delete dummy1
 ```
 
----
 
 ### ✅ Practice 11: Create a Linux Bridge
 
@@ -441,7 +430,6 @@ sudo ip link delete veth-a
 sudo ip link delete veth-b
 ```
 
----
 
 ### ✅ Practice 12: Configure a VLAN Interface
 
@@ -489,7 +477,6 @@ ip addr show dummy-vlan.200
 sudo ip link delete dummy-vlan
 ```
 
----
 
 ### 📘 Level 3 Practices: Performance Tuning and Advanced Diagnostics
 
@@ -545,7 +532,6 @@ echo "=== Interface stats ==="
 ip -s link show "$IFACE"
 ```
 
----
 
 ### ✅ Practice 14: Deep Troubleshooting with ss and Socket Analysis
 
@@ -592,7 +578,6 @@ echo "=== Socket memory (top 5) ==="
 ss -t -m | grep -oP 'skmem\([^)]+\)' | head -10
 ```
 
----
 
 ### ✅ Practice 15: Real-World Integration — Multi-Segment Network Mini-Project
 
@@ -759,10 +744,8 @@ echo "Clean up:"
 echo "  sudo ./network-cleanup.sh"
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-13-troubleshooting-ping-traceroute.md) | [↑ Index](index.md) | [Next →](19-deep-understanding-how-linux-networking.md)

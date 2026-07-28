@@ -59,10 +59,8 @@ Key K8s metrics: `kube_pod_status_phase`, `kube_node_status_condition`, `kube_de
 
 **Recommended for 10 hosts / 50 pods:** Prometheus 8GB RAM/30d, Loki 4GB/30d, Tempo 4GB/7d/10% sampling, OTEL Collector 512MB.
 
----
 
 
 
----
 
 [← Previous](13-13-opentelemetry-otel.md) | [↑ Index](index.md) | [Next →](15-hands-on-practices.md)

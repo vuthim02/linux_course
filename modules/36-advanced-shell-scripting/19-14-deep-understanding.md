@@ -126,10 +126,8 @@ Many examples in this course use GNU extensions:
 
 For maximum portability (BSD/macOS), avoid GNU extensions or test on target.
 
----
 
 
 
----
 
 [← Previous](18-13-hands-on-practices-15.md) | [↑ Index](index.md) | [Next →](20-15-command-reference.md)

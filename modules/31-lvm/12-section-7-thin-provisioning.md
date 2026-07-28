@@ -56,10 +56,8 @@ sudo lvchange --monitor y vg_data/thin_pool
 
 If data_percent reaches 100%, ALL thin LVs go read-only. Monitor daily and never run > 80% without auto-extend configured.
 
----
 
 
 
----
 
 [← Previous](11-section-6-lvm-snapshots.md) | [↑ Index](index.md) | [Next →](13-section-8-lvm-cache.md)

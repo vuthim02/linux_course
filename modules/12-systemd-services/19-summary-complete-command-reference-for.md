@@ -65,10 +65,8 @@
 
 ### Level 3: Advanced Commands (No additional commands — see debugging and resource control sections above)
 
----
 
 
 
----
 
 [← Previous](18-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](20-whats-coming-in-part-13.md)

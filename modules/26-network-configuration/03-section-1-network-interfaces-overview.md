@@ -103,10 +103,8 @@ sudo update-grub
 sudo reboot
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-network-interface.md) | [↑ Index](index.md) | [Next →](04-level-2-intermediary-network-configuration.md)

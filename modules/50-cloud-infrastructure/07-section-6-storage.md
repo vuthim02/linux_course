@@ -366,10 +366,8 @@ az storage account generate-sas \
   --expiry $(date -u -d "1 day" '+%Y-%m-%dT%H:%MZ')
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-5-compute.md) | [↑ Index](index.md) | [Next →](08-section-7-networking.md)

@@ -158,10 +158,8 @@ echo ""
 [ "$WEAK" -gt 0 ] && echo "❌ WEAK CIPHERS DETECTED" || echo "✅ No weak ciphers detected"
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-11-apparmor-selinux.md) | [↑ Index](index.md) | [Next →](14-section-13-log-security.md)

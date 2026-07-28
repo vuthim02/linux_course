@@ -122,10 +122,8 @@ left-asymmetric (default): P and Q rotate
 left-symmetric: P and Q rotate with different offsets
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-spare-disks-hot.md) | [↑ Index](index.md) | [Next →](10-section-7-raid-10-stripe.md)

@@ -72,10 +72,8 @@
 | `/etc/hosts.deny` | TCP wrappers — deny rules |
 | `/etc/mdns.allow` | mDNS service whitelist |
 
----
 
 
 
----
 
 [← Previous](18-deep-understanding-how-dns-resolution.md) | [↑ Index](index.md) | [Next →](20-whats-coming-in-part-28.md)

@@ -1,5 +1,6 @@
 # 33-system-monitoring
 
+**Prerequisites:** Complete [Part 32 - backup-strategies](../32-backup-strategies/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

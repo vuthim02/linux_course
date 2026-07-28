@@ -76,10 +76,8 @@ ls /etc/apt/sources.list.d/
 cat /etc/apt/sources.list.d/docker.list
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-repository-architecture.md) | [↑ Index](index.md) | [Next →](05-level-2-intermediary-ppas-rpm.md)

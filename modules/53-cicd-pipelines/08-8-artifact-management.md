@@ -23,10 +23,8 @@
 | Build number | `build-142` | Sequential |
 | Git describe | `1.2.3-5-gabc1234` | Git-derived |
 
----
 
 
 
----
 
 [← Previous](07-7-jenkins-pipeline.md) | [↑ Index](index.md) | [Next →](09-9-pipeline-security.md)

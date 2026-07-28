@@ -119,10 +119,8 @@ stop-review:
   when: manual
 ```
 
----
 
 
 
----
 
 [← Previous](04-4-gitlab-ci.md) | [↑ Index](index.md) | [Next →](06-6-jenkins.md)

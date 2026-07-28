@@ -143,10 +143,8 @@ State files can contain **plaintext secrets** (passwords, keys, tokens). Protect
 4. **Use `sensitive = true`** in variables/outputs (still in state, but hidden from CLI)
 5. **Use a secrets manager** for true secrets (AWS Secrets Manager, Vault)
 
----
 
 
 
----
 
 [← Previous](07-section-6-variables-and-outputs.md) | [↑ Index](index.md) | [Next →](09-section-8-remote-backends.md)

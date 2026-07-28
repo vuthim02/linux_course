@@ -99,10 +99,8 @@
 | `az keyvault secret set --vault-name V --name N --value V` | Set Azure secret |
 | `az keyvault secret show --vault-name V --name N --query value` | Get Azure secret |
 
----
 
 
 
----
 
 [← Previous](15-deep-understanding.md) | [↑ Index](index.md) | [Next →](17-whats-coming-in-part-59.md)

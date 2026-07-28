@@ -101,10 +101,8 @@ vault write transit/decrypt/payment-data ciphertext=vault:v1:abc123...
 vault write -f transit/keys/payment-data/rotate                 # rotate key
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-vault-auth-methods.md) | [↑ Index](index.md) | [Next →](06-section-5-vault-policies.md)

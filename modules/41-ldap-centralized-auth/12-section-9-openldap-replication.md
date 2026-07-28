@@ -105,10 +105,8 @@ ldapsearch -Y EXTERNAL -H ldapi:/// -b 'cn=accesslog'
 ldapsearch -Y EXTERNAL -H ldapi:/// -b 'olcDatabase={0}mdb,cn=config' olcSyncRepl
 ```
 
----
 
 
 
----
 
 [← Previous](11-level-3-advanced-ldap-internals.md) | [↑ Index](index.md) | [Next →](13-section-10-389-directory-server.md)

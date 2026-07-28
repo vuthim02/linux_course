@@ -34,10 +34,8 @@ N              (previous match)
 
 Write these on a sticky note. Refer to them until they become reflex.
 
----
 
 
 
----
 
 [← Previous](05-section-3-vim-the-professionals.md) | [↑ Index](index.md) | [Next →](07-level-2-intermediary-efficient-editing.md)

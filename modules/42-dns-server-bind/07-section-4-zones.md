@@ -47,10 +47,8 @@ zone "." {
 | `hint` | Root hints | Yes (static) | No |
 | `stub` | Copies only NS records | Yes (auto-created) | No |
 
----
 
 
 
----
 
 [← Previous](06-section-3-configuration-namedconf.md) | [↑ Index](index.md) | [Next →](08-section-5-zone-files.md)

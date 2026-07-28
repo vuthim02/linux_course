@@ -1,5 +1,6 @@
 # 03-users-groups-permissions
 
+**Prerequisites:** Complete [Part 2 - terminal](../02-terminal/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

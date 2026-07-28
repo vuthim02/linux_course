@@ -135,10 +135,8 @@ Each query becomes multiple **events** dispatched within a task:
 
 This non-blocking event model allows BIND to handle thousands of concurrent queries with few threads.
 
----
 
 
 
----
 
 [← Previous](18-section-14-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](20-whats-coming-in-part-43.md)

@@ -1,5 +1,6 @@
 # 65-pam-centralized-auth
 
+**Prerequisites:** Complete [Part 64 - linux-namespaces](../64-linux-namespaces/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

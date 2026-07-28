@@ -53,10 +53,8 @@ Scenario:
 Fix: kill process holding file A → blocks freed → df matches du
 ```
 
----
 
 
 
----
 
 [← Previous](11-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](13-command-reference.md)

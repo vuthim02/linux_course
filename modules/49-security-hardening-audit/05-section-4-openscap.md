@@ -97,10 +97,8 @@ oscap oval eval --results oval-results.xml oval-definitions.xml
 oscap cpe scan cpe-dict.xml
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-lynis.md) | [↑ Index](index.md) | [Next →](06-section-5-auditd-linux-audit.md)

@@ -181,10 +181,8 @@ Retention:
    - Template the message using alert data
 ```
 
----
 
 
 
----
 
 [← Previous](17-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](19-command-reference.md)

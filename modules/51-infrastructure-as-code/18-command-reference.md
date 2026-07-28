@@ -49,10 +49,8 @@
 | **terraform-docs** | Doc generator | `brew install terraform-docs` |
 | **hcledit** | HCL manipulation | `brew install hcledit` |
 
----
 
 
 
----
 
 [← Previous](17-section-16-hands-on-practices.md) | [↑ Index](index.md) | [Next →](19-whats-coming-in-part-52.md)

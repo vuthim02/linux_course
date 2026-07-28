@@ -85,10 +85,8 @@ cat /etc/hosts.deny
 # ALL: ALL  (or empty)
 ```
 
----
 
 
 
----
 
 [← Previous](14-level-3-advanced-resolution-internals.md) | [↑ Index](index.md) | [Next →](16-section-12-custom-hostname-resolution.md)

@@ -90,10 +90,8 @@ openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", ...) = 3
 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_dns.so.2", ...) = 3
 ```
 
----
 
 
 
----
 
 [← Previous](06-level-2-intermediary-resolution-configuration.md) | [↑ Index](index.md) | [Next →](08-section-5-systemd-resolved-the-modern.md)

@@ -20,6 +20,5 @@ mysqldumpslow /var/log/mysql/mariadb-slow.log
 
 
 
----
 
 [← Previous](22-explain-query-execution-plan.md) | [↑ Index](index.md) | [Next →](24-innodb-buffer-pool.md)

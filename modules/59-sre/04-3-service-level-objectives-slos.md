@@ -54,10 +54,8 @@ groups:
 
 > "The difference between 99.9% and 99.99% is 10x the engineering cost for 0.09% improvement." — Ben Treynor Sloss
 
----
 
 
 
----
 
 [← Previous](03-2-service-level-indicators-slis.md) | [↑ Index](index.md) | [Next →](05-4-error-budgets.md)

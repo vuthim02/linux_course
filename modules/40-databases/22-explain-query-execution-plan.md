@@ -28,6 +28,5 @@ Output columns:
 
 
 
----
 
 [← Previous](21-mariadb-dump-modern-wrapper.md) | [↑ Index](index.md) | [Next →](23-slow-query-log.md)

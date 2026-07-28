@@ -134,7 +134,6 @@ build {
 
 ```yaml
 # playbooks/webapp.yml
----
 - name: Configure web application
   hosts: all
   become: yes
@@ -1080,10 +1079,8 @@ jobs:
           ./scripts/blue-green-deploy.sh ${{ steps.build.outputs.ami_id }} prod
 ```
 
----
 
 
 
----
 
 [← Previous](11-11-troubleshooting-immutable.md) | [↑ Index](index.md) | [Next →](13-13-deep-understanding.md)

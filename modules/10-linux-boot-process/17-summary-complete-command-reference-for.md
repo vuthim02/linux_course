@@ -44,10 +44,8 @@
 | `sudo update-initramfs -u` | Rebuild initramfs (Debian) |
 | `sudo dracut --force` | Rebuild initramfs (Fedora/RHEL) |
 
----
 
 
 
----
 
 [← Previous](16-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](18-whats-coming-in-part-11.md)

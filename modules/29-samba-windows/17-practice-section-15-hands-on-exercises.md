@@ -1,6 +1,5 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### 📘 Level 1 Practices: Samba Installation and Basic Shares
 
@@ -31,7 +30,6 @@ systemctl list-unit-files | grep nmb
 systemctl list-unit-files | grep winbind
 ```
 
----
 
 ### ✅ Practice 2: Explore Default smb.conf and testparm
 
@@ -60,11 +58,9 @@ testparm -v 2>/dev/null > default_samba_params.txt
 head -50 default_samba_params.txt
 ```
 
----
 
 ### ✅ Practice 3: Create a Simple Standalone Share
 
----
 
 ### 📘 Level 2 Practices: Client Tools, Mounting, Monitoring, and Domain Operations
 
@@ -114,7 +110,6 @@ sudo systemctl restart smbd nmbd
 sudo systemctl status smbd --no-pager -l
 ```
 
----
 
 ### ✅ Practice 4: Connect to Your Share with smbclient
 
@@ -148,7 +143,6 @@ cat README.txt
 cat labhostname.txt 2>/dev/null || echo "Check local directory"
 ```
 
----
 
 ### ✅ Practice 5: Set Up User-Level Security
 
@@ -199,7 +193,6 @@ echo "--- Testing labuser2 (should fail) ---"
 smbclient //127.0.0.1/secure -U labuser2%Pass5678 -c 'ls; exit' 2>&1
 ```
 
----
 
 ### ✅ Practice 6: Mount a CIFS Share on Linux
 
@@ -239,7 +232,6 @@ smbclient //127.0.0.1/secure -U labuser1%Pass1234 -c 'ls; exit'
 sudo umount /mnt/labshare
 ```
 
----
 
 ### ✅ Practice 7: Explore smbstatus and Connection Monitoring
 
@@ -278,7 +270,6 @@ smbstatus -L
 wait
 ```
 
----
 
 ### ✅ Practice 8: Create Multiple Shares with Permission Masks
 
@@ -349,7 +340,6 @@ echo "--- Archive (read-only) ---"
 smbclient //127.0.0.1/archive -U labuser1%Pass1234 -c 'ls; exit'
 ```
 
----
 
 ### ✅ Practice 9: Configure Samba Logging and Debugging
 
@@ -380,11 +370,9 @@ sudo sed -i 's/log level = 3 auth:5/log level = 1/' /etc/samba/smb.conf.d/debug.
 sudo systemctl restart smbd
 ```
 
----
 
 ### ✅ Practice 10: SMB Protocol Version Testing
 
----
 
 ### 📘 Level 3 Practices: Advanced Features, Security, and Performance
 
@@ -424,7 +412,6 @@ ss -tlnp | grep -E ':139|:445'
 echo "Port 139 should not be listening (NetBIOS disabled)"
 ```
 
----
 
 ### ✅ Practice 11: smbclient Advanced Operations
 
@@ -479,7 +466,6 @@ smbclient //127.0.0.1/labshare -N -c '
 '
 ```
 
----
 
 ### ✅ Practice 12: Test File Locking and Oplocks
 
@@ -532,7 +518,6 @@ smbstatus -L
 wait
 ```
 
----
 
 ### ✅ Practice 13: Test SMB Encryption
 
@@ -569,7 +554,6 @@ mount -t cifs
 sudo umount /mnt/labshare
 ```
 
----
 
 ### ✅ Practice 14: Benchmark Samba Transfers
 
@@ -608,7 +592,6 @@ smbclient //127.0.0.1/labshare -N -c '
 rm -f /tmp/benchmark_test.dat
 ```
 
----
 
 ### ✅ Practice 15: Real-World Integration — Mixed Linux/Windows File Server
 
@@ -800,10 +783,8 @@ echo ""
 echo "Practice 15 complete — integration report saved to integration_report.txt"
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-12-performance-tuning.md) | [↑ Index](index.md) | [Next →](18-deep-understanding-how-smbcifs-really.md)

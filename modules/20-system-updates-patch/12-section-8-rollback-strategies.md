@@ -82,10 +82,8 @@ zfs snapshot -r rpool/ROOT@pre-update-2024-01-15
 zfs rollback -r rpool/ROOT@pre-update-2024-01-15
 ```
 
----
 
 
 
----
 
 [← Previous](11-level-3-advanced-rollback-and.md) | [↑ Index](index.md) | [Next →](13-practice-section-15-hands-on-exercises.md)

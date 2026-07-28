@@ -86,10 +86,8 @@ LogLevel                # Verbosity (QUIET, INFO, VERBOSE, DEBUG)
 Compression             # Enable compression (yes/no)
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-file-transfer-scp.md) | [↑ Index](index.md) | [Next →](10-level-3-advanced-tunneling-hardening.md)

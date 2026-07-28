@@ -53,10 +53,8 @@ sudo rpm --import https://example.com/key.gpg
 rpm -q gpg-pubkey
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-third-party-repositories.md) | [↑ Index](index.md) | [Next →](13-practice-section-15-hands-on-exercises.md)

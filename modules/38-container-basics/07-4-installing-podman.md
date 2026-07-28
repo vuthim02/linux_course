@@ -58,10 +58,8 @@ events_logger = "file"
 ~/.config/containers/registries.conf.d/*.conf
 ```
 
----
 
 
 
----
 
 [← Previous](06-3-installing-docker.md) | [↑ Index](index.md) | [Next →](08-5-images.md)

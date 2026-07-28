@@ -344,10 +344,8 @@ async def trigger_error():
 
 Set up alerting from the unified stack: "Error rate > 5%" based on LogQL, Slack notification via Alertmanager, trace link on each alert.
 
----
 
 
 
----
 
 [← Previous](14-14-unified-observability.md) | [↑ Index](index.md) | [Next →](16-deep-understanding.md)

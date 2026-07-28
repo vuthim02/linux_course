@@ -265,10 +265,8 @@ type=SYSCALL msg=audit(1719234567.890:12345):
 | `subj=...` | SELinux context |
 | `key="shadow_read"` | The audit rule key |
 
----
 
 
 
----
 
 [← Previous](05-section-4-openscap.md) | [↑ Index](index.md) | [Next →](07-section-6-file-integrity-monitoring.md)

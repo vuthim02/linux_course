@@ -197,10 +197,8 @@ Benefits:
 └── RDMA support: Direct memory access for ~100 Gbps
 ```
 
----
 
 
 
----
 
 [← Previous](17-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](19-summary-complete-command-reference-for.md)

@@ -19,10 +19,8 @@ sudo dnf install -y \
 # - DVD playback
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-epel-extra-packages.md) | [↑ Index](index.md) | [Next →](10-level-3-advanced-third-party-repositories.md)

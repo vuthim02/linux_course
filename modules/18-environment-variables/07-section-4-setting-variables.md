@@ -42,10 +42,8 @@ EOF
 sudo chmod +x /etc/profile.d/java.sh
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-shell-startup-files.md) | [↑ Index](index.md) | [Next →](08-section-5-aliases.md)

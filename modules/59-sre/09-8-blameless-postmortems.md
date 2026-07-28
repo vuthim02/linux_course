@@ -71,10 +71,8 @@ action_items:
 | "The team forgot to check X" | "The checklist did not include X" |
 | "Nobody monitored Y" | "We did not have an alert for Y" |
 
----
 
 
 
----
 
 [← Previous](08-7-incident-management.md) | [↑ Index](index.md) | [Next →](10-9-capacity-planning.md)

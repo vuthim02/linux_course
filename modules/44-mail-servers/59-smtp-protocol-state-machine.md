@@ -52,6 +52,5 @@ Each state enforces specific checks (HELO hostname validity, sender domain, reci
 
 
 
----
 
 [← Previous](58-how-cleanup-canonicalises-addresses.md) | [↑ Index](index.md) | [Next →](60-dkim-signing-basics-opendkim.md)

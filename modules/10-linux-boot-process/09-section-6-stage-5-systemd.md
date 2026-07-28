@@ -72,10 +72,8 @@ journalctl -b -p warning..emerg
 journalctl -b -1
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-stage-4-kernel.md) | [↑ Index](index.md) | [Next →](10-section-7-the-boot-process.md)

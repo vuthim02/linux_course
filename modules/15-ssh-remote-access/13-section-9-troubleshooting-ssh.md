@@ -91,10 +91,8 @@ ssh-keyscan server.example.com
 sudo sshd -t
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-8-hardening-ssh-security.md) | [↑ Index](index.md) | [Next →](14-practice-section-15-hands-on-exercises.md)

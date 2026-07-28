@@ -27,10 +27,8 @@ Bake AMIs/VM images with everything pre-configured. No mutations at runtime. Cha
 6. **Network devices**: Ansible has strongest network module ecosystem
 7. **Hybrid cloud**: Same CM across on-prem, AWS, Azure, GCP
 
----
 
 
 
----
 
 [← Previous](12-12-comparative-analysis.md) | [↑ Index](index.md) | [Next →](14-15-hands-on-practices.md)

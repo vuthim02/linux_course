@@ -193,10 +193,8 @@ genisoimage -output seed.iso -volid cidata -joliet -rock cloud-init/user-data cl
 mkisofs -o seed.iso -V cidata -r -J cloud-init/user-data cloud-init/meta-data
 ```
 
----
 
 
 
----
 
 [← Previous](05-5-provisioners.md) | [↑ Index](index.md) | [Next →](07-7-image-pipeline.md)

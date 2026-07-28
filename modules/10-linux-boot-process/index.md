@@ -1,5 +1,6 @@
 # 10-linux-boot-process
 
+**Prerequisites:** Complete [Part 9 - process-management](../09-process-management/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

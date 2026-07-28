@@ -161,10 +161,8 @@ sudo chattr -a /var/log/auth.log
 #   password: "${ES_PWD}"
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-12-ssh-hardening.md) | [↑ Index](index.md) | [Next →](15-section-14-security-auditing-procedures.md)

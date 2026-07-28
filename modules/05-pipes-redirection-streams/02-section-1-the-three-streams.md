@@ -35,10 +35,8 @@ find / -name "hosts"
 # Both look the same on screen. But they come from different streams.
 ```
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-redirecting-stdout-the.md)

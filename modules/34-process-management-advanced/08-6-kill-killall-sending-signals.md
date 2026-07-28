@@ -30,10 +30,8 @@ $ killall -w nginx            # wait for processes to die
 
 `killall` matches **process names** (`task->comm`), not command-line args. For that use `pkill -f`.
 
----
 
 
 
----
 
 [← Previous](07-5-signals-the-kernels-inter-process.md) | [↑ Index](index.md) | [Next →](09-7-nice-renice-scheduling-priority.md)

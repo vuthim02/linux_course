@@ -88,10 +88,8 @@ pgrep -f 'node server.js' | xargs kill -9
 awk -F: '$1 == "www-data" {print $6}' /etc/passwd | xargs -I {} chown -R www-data:www-data {}
 ```
 
----
 
 
 
----
 
 [← Previous](13-9-paste-join-comm.md) | [↑ Index](index.md) | [Next →](15-11-diff-and-patch.md)

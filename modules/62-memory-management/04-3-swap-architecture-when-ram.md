@@ -114,10 +114,8 @@ sudo swapon /dev/md0
 
 > 🔍 **Reverse Engineering Insight:** Modern Linux (5.8+) treats `swappiness=0` differently than older kernels. Instead of "never swap," it means "don't proactively swap anonymous pages, but still swap under memory pressure." For true no-swap behavior, use cgroup memory limits or `memory.low` settings.
 
----
 
 
 
----
 
 [← Previous](03-2-page-cache-linuxs-speed.md) | [↑ Index](index.md) | [Next →](05-4-zram-and-zswap-compressed.md)

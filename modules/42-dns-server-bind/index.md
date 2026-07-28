@@ -1,5 +1,6 @@
 # 42-dns-server-bind
 
+**Prerequisites:** Complete [Part 41 - ldap-centralized-auth](../41-ldap-centralized-auth/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

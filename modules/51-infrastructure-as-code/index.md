@@ -1,5 +1,6 @@
 # 51-infrastructure-as-code
 
+**Prerequisites:** Complete [Part 50 - cloud-infrastructure](../50-cloud-infrastructure/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

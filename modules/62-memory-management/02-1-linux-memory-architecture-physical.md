@@ -126,10 +126,8 @@ cat /proc/meminfo | grep Huge
 
 > 🔍 **Reverse Engineering Insight:** TLB misses are one of the most expensive CPU events. Each TLB miss requires a full page table walk (4 memory accesses on x86_64). Huge pages reduce TLB misses by 512x for the same memory range — this is why databases and JVMs benefit enormously from huge pages.
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve.md) | [↑ Index](index.md) | [Next →](03-2-page-cache-linuxs-speed.md)

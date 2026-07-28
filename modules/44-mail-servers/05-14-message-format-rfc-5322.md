@@ -22,12 +22,10 @@ Alice
 
 Each `Received:` header is added by every MTA that handles the message — invaluable for tracing.
 
----
 
 # 2. Postfix Architecture
 
 
 
----
 
 [← Previous](04-13-envelope-vs-header-vs.md) | [↑ Index](index.md) | [Next →](06-21-process-model-pre-fork.md)

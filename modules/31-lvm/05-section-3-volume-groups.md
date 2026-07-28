@@ -41,10 +41,8 @@ sudo vgsplit vg_data vg_split /dev/sdd           # Split
 sudo vgmerge vg_data vg_split                    # Merge (same PE size)
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-physical-volumes.md) | [↑ Index](index.md) | [Next →](06-section-4-logical-volumes-creation.md)

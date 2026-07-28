@@ -23,12 +23,10 @@ sudo -u postgres pgbackrest --stanza=mydb --delta restore
 sudo systemctl start postgresql
 ```
 
----
 
 # 11. PostgreSQL Performance
 
 
 
----
 
 [← Previous](46-wal-archiving-continuous-archiving.md) | [↑ Index](index.md) | [Next →](48-explain-analyze.md)

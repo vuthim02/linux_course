@@ -1,5 +1,9 @@
 ## 🎯 What You Will Achieve
 
+System hardening is the process of reducing attack surface on a Linux system. Every open port, unnecessary service, and loose file permission is a potential entry point. This part teaches you to harden systems using industry-standard benchmarks (CIS, STIG), kernel tuning, filesystem security, intrusion detection, and automated compliance enforcement.
+
+You will:
+
 - Understand defense-in-depth philosophy and attack surface reduction
 - Apply CIS Benchmark recommendations to a running Linux system
 - Harden the kernel with sysctl tuning, ASLR, stack protectors, and kernel lockdown modes
@@ -10,10 +14,8 @@
 - Deploy AIDE for file integrity monitoring with daily baseline checks
 - Combine OpenSCAP and Ansible for automated compliance enforcement
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-1-defense-in-depth-the.md)

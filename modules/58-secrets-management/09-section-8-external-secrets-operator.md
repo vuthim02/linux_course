@@ -27,7 +27,6 @@ spec:
           secretRef:
             name: vault-auth
             key: secret-id
----
 apiVersion: v1
 kind: Secret
 metadata:
@@ -108,10 +107,8 @@ spec:
       property: username
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-vault-agent-and.md) | [↑ Index](index.md) | [Next →](10-section-9-sops-mozilla.md)

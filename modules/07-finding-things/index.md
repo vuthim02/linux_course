@@ -1,5 +1,6 @@
 # 07-finding-things
 
+**Prerequisites:** Complete [Part 6 - shell-scripting](../06-shell-scripting/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

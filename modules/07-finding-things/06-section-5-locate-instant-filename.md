@@ -42,10 +42,8 @@ ls -l /var/lib/mlocate/mlocate.db
 
 > 💡 Use `locate` for quick "where is that file?" questions. Use `find` when you need current data, complex criteria, or actions.
 
----
 
 
 
----
 
 [← Previous](05-section-4-find-advanced-file.md) | [↑ Index](index.md) | [Next →](07-section-6-modern-alternatives-rg.md)

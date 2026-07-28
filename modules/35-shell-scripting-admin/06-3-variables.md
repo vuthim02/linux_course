@@ -51,10 +51,8 @@ echo "Number of args: $#"
 | `$!` | PID of last background process |
 | `$LINENO` | Current line number in script |
 
----
 
 
 
----
 
 [← Previous](05-2-script-basics.md) | [↑ Index](index.md) | [Next →](07-4-string-operations.md)

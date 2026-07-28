@@ -137,10 +137,8 @@ sudo apt install -y kea-hook-lease-cmds kea-hook-statistics kea-hook-flex-id kea
 ]
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-9-isc-dhcp-failover.md) | [↑ Index](index.md) | [Next →](15-section-11-dhcpv6.md)

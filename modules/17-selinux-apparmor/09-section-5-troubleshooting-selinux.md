@@ -100,10 +100,8 @@ sudo mv /home/user/index.html /var/www/html/
 sudo restorecon /var/www/html/index.html
 ```
 
----
 
 
 
----
 
 [← Previous](08-level-3-advanced-troubleshooting-denials.md) | [↑ Index](index.md) | [Next →](10-level-2-intermediary-apparmor-profiles.md)

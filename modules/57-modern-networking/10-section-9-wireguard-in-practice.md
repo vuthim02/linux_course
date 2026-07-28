@@ -159,10 +159,8 @@ AllowedIPs = 10.99.99.0/24
 # wg-dynamic automatically configures the client's IP
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-8-wireguard.md) | [↑ Index](index.md) | [Next →](11-section-10-vxlan.md)

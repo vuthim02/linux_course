@@ -31,6 +31,5 @@ max_connections         = 151
 
 
 
----
 
 [← Previous](06-run-the-secure-installation-script.md) | [↑ Index](index.md) | [Next →](08-test-the-installation.md)

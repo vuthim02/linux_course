@@ -35,7 +35,6 @@
 
 **Score:** 12/15 correct = ready for Part 64.
 
----
 
 *Linux SysAdmin Course | Part 63 of ∞ | Reverse Engineering Approach*
 *Previous → Part 62: Memory Management*
@@ -44,6 +43,5 @@
 [← Previous](part62.md) | [Next →](part64.md)
 
 
----
 
 [← Previous](14-whats-coming-in-part-64.md) | [↑ Index](index.md)

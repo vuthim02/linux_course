@@ -79,10 +79,8 @@ sudo smartctl -l selftest /dev/sda
 sudo smartctl -H /dev/sda
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-2-resetting-a-lost.md) | [↑ Index](index.md) | [Next →](07-section-4-grub-recovery.md)

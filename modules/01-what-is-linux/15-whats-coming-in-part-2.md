@@ -7,12 +7,14 @@ You will learn:
 - Creating, copying, moving, and deleting files
 - Understanding absolute vs relative paths
 - Hidden files and what they mean
+- Hard and symbolic links
+- Wildcards and pattern matching
 - 10 more hands-on practices
 
----
+> **Tip:** Part 2 is where you start building real muscle memory. By the end, navigating the terminal will feel natural.
 
 
 
----
+
 
 [← Previous](14-summary-what-you-learned-in.md) | [↑ Index](index.md) | [Next →](16-self-test-can-you-answer-these.md)

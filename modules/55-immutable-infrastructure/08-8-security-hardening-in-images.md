@@ -194,10 +194,8 @@ post-processor "manifest" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](07-7-image-pipeline.md) | [↑ Index](index.md) | [Next →](09-9-deployment-strategies-for-immutable.md)

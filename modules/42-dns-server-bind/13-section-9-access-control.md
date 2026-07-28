@@ -95,10 +95,8 @@ options {
 dig @YOUR_SERVER_IP www.google.com   # Should fail from external
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-8-dnssec.md) | [↑ Index](index.md) | [Next →](14-section-10-logging.md)

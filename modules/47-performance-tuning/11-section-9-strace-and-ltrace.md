@@ -72,10 +72,8 @@ ltrace -p 1234
 ltrace -e strcmp+ ./myapp
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-8-perf-linux-profiler.md) | [↑ Index](index.md) | [Next →](12-section-10-systemtap-and-bpftrace.md)

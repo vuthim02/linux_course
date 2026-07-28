@@ -69,10 +69,8 @@ StartLimitIntervalSec=10  # Interval in seconds
 sudo systemctl reset-failed nginx
 ```
 
----
 
 
 
----
 
 [← Previous](13-level-3-advanced-debugging-and.md) | [↑ Index](index.md) | [Next →](15-section-11-systemd-sockets-activation.md)

@@ -75,10 +75,8 @@ docker volume create \
   nfs_volume
 ```
 
----
 
 
 
----
 
 [← Previous](11-level-2-intermediary-daily-administration.md) | [↑ Index](index.md) | [Next →](13-9-networking.md)

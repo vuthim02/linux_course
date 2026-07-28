@@ -30,10 +30,8 @@ This course teaches: *"Here is a problem, figure it out, then understand the com
 
 > 💡 **The golden rule:** If you cannot explain it in your own words, you haven't learned it yet. Go back to step 2.
 
----
 
 
 
----
 
 [← Previous](02-the-entire-course-roadmap.md) | [↑ Index](index.md) | [Next →](04-what-you-need-before-starting.md)

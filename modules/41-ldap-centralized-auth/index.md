@@ -1,5 +1,6 @@
 # 41-ldap-centralized-auth
 
+**Prerequisites:** Complete [Part 40 - databases](../40-databases/) before this module.
 ## Sections
 
 - [Level 1 Basic Understanding Ldap](01-level-1-basic-understanding-ldap.md)

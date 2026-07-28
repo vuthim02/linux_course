@@ -1,6 +1,5 @@
 ## 💻 PRACTICE SECTION — 15 Hands-On Exercises
 
----
 
 ### ✅ Practice 1: Install and Configure Apache
 
@@ -23,7 +22,6 @@ curl -I http://localhost
 curl http://localhost
 ```
 
----
 
 ### ✅ Practice 2: Create Apache Virtual Hosts
 
@@ -78,7 +76,6 @@ curl -H "Host: site1.com" http://localhost
 curl -H "Host: site2.org" http://localhost
 ```
 
----
 
 ### ✅ Practice 3: Enable SSL with Certbot
 
@@ -123,7 +120,6 @@ Create a self-signed SSL vhost:
 </VirtualHost>
 ```
 
----
 
 ### ✅ Practice 4: Configure mod_rewrite Rules
 
@@ -158,7 +154,6 @@ curl -I http://site1.com/old-article.html  # Should see 301 redirect
 curl -I http://site1.com/.git/config        # Should see 403 Forbidden
 ```
 
----
 
 ### ✅ Practice 5: Install and Configure Nginx
 
@@ -176,7 +171,6 @@ sudo ss -tlnp | grep 80
 curl http://localhost
 ```
 
----
 
 ### ✅ Practice 6: Create Nginx Server Blocks
 
@@ -229,7 +223,6 @@ curl -H "Host: app1.example" http://localhost
 curl -H "Host: app2.example" http://localhost
 ```
 
----
 
 ### ✅ Practice 7: Configure Nginx Reverse Proxy for a Backend App
 
@@ -284,7 +277,6 @@ curl -H "Host: proxy.example" http://localhost/hello
 
 Expected: `Backend response for /hello`
 
----
 
 ### ✅ Practice 8: Load Balancing with upstream
 
@@ -343,7 +335,6 @@ for i in $(seq 1 6); do curl -s http://lb.example; done
 
 You should see requests distributed across the three backends.
 
----
 
 ### ✅ Practice 9: Configure Gzip/Brotli Compression
 
@@ -384,7 +375,6 @@ sudo systemctl reload apache2
 AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json
 ```
 
----
 
 ### ✅ Practice 10: Apache MPM Tuning
 
@@ -427,7 +417,6 @@ sudo apt install apache2-utils -y
 ab -n 10000 -c 100 http://localhost/
 ```
 
----
 
 ### ✅ Practice 11: Log Analysis
 
@@ -466,7 +455,6 @@ log_format main '$remote_addr - $remote_user [$time_local] "$request" '
 access_log /var/log/nginx/access.log main;
 ```
 
----
 
 ### ✅ Practice 12: Set Up PHP-FPM with Nginx
 
@@ -522,7 +510,6 @@ echo "127.0.0.1 php.example" | sudo tee -a /etc/hosts
 curl http://php.example
 ```
 
----
 
 ### ✅ Practice 13: Nginx Caching (FastCGI Cache)
 
@@ -569,7 +556,6 @@ curl -I http://php.example/ | grep X-Cache
 curl -I http://php.example/ | grep X-Cache
 ```
 
----
 
 ### ✅ Practice 14: Security Hardening
 
@@ -615,7 +601,6 @@ sudo systemctl restart nginx
 curl -I http://localhost | grep Server
 ```
 
----
 
 ### ✅ Practice 15: Real-World Integration — Nginx → Apache Backend
 
@@ -730,10 +715,8 @@ Client ── HTTP:80 ──► Nginx ── proxy_pass ──► Apache:8080
 
 This architecture gives you the best of both: Nginx's fast static serving and connection handling, with Apache's .htaccess and mod_php compatibility for dynamic content.
 
----
 
 
 
----
 
 [← Previous](14-section-13-static-file-serving.md) | [↑ Index](index.md) | [Next →](16-deep-understanding.md)

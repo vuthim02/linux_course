@@ -5,10 +5,15 @@
 
 > **Level 1 Goal:** Understand how the Linux kernel filters packets, and learn the fundamental iptables concepts of tables, chains, rules, and targets.
 
----
+### What You'll Cover
+- How the Linux kernel netfilter subsystem intercepts packets
+- iptables tables: filter, nat, mangle, raw
+- Chains: INPUT, OUTPUT, FORWARD, PREROUTING, POSTROUTING
+- Common targets: ACCEPT, DROP, REJECT, LOG
+- Viewing current rules with `iptables -L -v`
 
 
 
----
+
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-1-how-linux-firewalling.md)

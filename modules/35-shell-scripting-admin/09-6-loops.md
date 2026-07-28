@@ -70,10 +70,8 @@ done
 # Prints: 1 2 3 4 6 7
 ```
 
----
 
 
 
----
 
 [← Previous](08-5-conditionals.md) | [↑ Index](index.md) | [Next →](10-level-2-intermediary-functions-error.md)

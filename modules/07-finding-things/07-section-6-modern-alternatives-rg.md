@@ -53,10 +53,8 @@ ag "pattern"
 ack "pattern"
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-5-locate-instant-filename.md) | [↑ Index](index.md) | [Next →](08-section-7-looking-at-files.md)

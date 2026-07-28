@@ -30,7 +30,6 @@ spec:
         jwt:
           serviceAccountRef:
             name: {{ include "capstone.serviceAccountName" . }}
----
 apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret
 metadata:
@@ -48,7 +47,6 @@ spec:
       remoteRef:
         key: capstone-database-credentials
         property: connection_string
----
 apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret
 metadata:
@@ -87,10 +85,8 @@ data:
   {{- end }}
 ```
 
----
 
 
 
----
 
 [← Previous](07-7-database-and-stateful-services.md) | [↑ Index](index.md) | [Next →](09-9-observability-stack.md)

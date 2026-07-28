@@ -90,10 +90,8 @@ sudo stap -e 'global iotime; probe ioblock.request { iotime[tid()] = gettimeofda
 | Ease of use | One-liners, simple syntax | More complex |
 | Distribution | Limited (needs BTF or debuginfo) | Needs kernel debuginfo |
 
----
 
 
 
----
 
 [← Previous](11-section-9-strace-and-ltrace.md) | [↑ Index](index.md) | [Next →](13-section-11-benchmarking.md)

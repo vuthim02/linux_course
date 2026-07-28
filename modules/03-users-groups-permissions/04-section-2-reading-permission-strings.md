@@ -92,10 +92,8 @@ cd /tmp/test     # FAIL — no x permission
 cat /tmp/test/file.txt  # FAIL — no x permission
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-why-permissions-exist.md) | [↑ Index](index.md) | [Next →](05-section-3-chmod-changing-permissions.md)

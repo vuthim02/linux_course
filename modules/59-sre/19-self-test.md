@@ -35,7 +35,6 @@
 
 **Score:** 12/15 correct = ready for Part 60.
 
----
 
 *Linux SysAdmin Course | Part 59 of ∞ | Reverse Engineering Approach*
 *Previous → Part 58: Secrets Management*
@@ -44,6 +43,5 @@
 [← Previous](part58.md) | [Next →](part60.md)
 
 
----
 
 [← Previous](18-whats-coming-in-part-60.md) | [↑ Index](index.md)

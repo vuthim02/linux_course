@@ -108,10 +108,8 @@ bind - split-window -v
 | `Ctrl+B [` | Enter copy/scroll mode |
 | `Ctrl+B ,` | Rename window |
 
----
 
 
 
----
 
 [← Previous](05-section-2-terminal-multiplexers-screen.md) | [↑ Index](index.md) | [Next →](07-section-4-serial-console.md)

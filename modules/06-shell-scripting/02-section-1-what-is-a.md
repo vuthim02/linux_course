@@ -47,10 +47,8 @@ source script.sh
 # Changes to variables/cd PERSIST after script ends
 ```
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-variables-storing-data.md)

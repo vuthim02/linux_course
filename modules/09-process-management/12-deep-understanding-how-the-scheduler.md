@@ -41,10 +41,8 @@ This takes microseconds, but frequent context switching
 This is why "runaway processes" (fork bombs) can freeze a system.
 ```
 
----
 
 
 
----
 
 [← Previous](11-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](13-summary-complete-command-reference-for.md)

@@ -71,10 +71,8 @@ Fence agents (STONITH) are scripts that power off or isolate a misbehaving node:
 | fence_apc | APC PDU | Power outlet power cycle |
 | fence_amt | Intel AMT | Intel Active Management |
 
----
 
 
 
----
 
 [← Previous](02-section-1-what-is-high.md) | [↑ Index](index.md) | [Next →](04-section-3-corosync-configuration.md)

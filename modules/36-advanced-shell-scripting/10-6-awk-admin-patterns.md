@@ -151,10 +151,8 @@ awk 'NR==FNR { a[$1]=$2; next } $1 in a { print $0, a[$1] }' lookup.txt main.txt
 awk 'NR==FNR { a[$0]=1; next } !($0 in a)' file1 file2   # lines in file2 not in file1
 ```
 
----
 
 
 
----
 
 [← Previous](09-5-awk-text-processing-language.md) | [↑ Index](index.md) | [Next →](11-7-combining-tools.md)

@@ -20,6 +20,5 @@ mysql -u invapp -pinventory_pass -e "SELECT COUNT(*) FROM inventory.items;"
 
 
 
----
 
 [← Previous](64-practice-2-create-database-and.md) | [↑ Index](index.md) | [Next →](66-practice-4-postgresql-role-and.md)

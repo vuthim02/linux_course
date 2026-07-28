@@ -63,10 +63,8 @@ Modern practice:
 - Google uses "leap smear" — spreading the second over the day
 ```
 
----
 
 
 
----
 
 [← Previous](12-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](14-summary-complete-command-reference-for.md)

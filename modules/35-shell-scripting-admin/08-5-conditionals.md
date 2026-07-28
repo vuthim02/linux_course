@@ -96,10 +96,8 @@ case "$1" in
 esac
 ```
 
----
 
 
 
----
 
 [← Previous](07-4-string-operations.md) | [↑ Index](index.md) | [Next →](09-6-loops.md)

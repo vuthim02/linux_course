@@ -129,10 +129,8 @@ Retrieve results later:
 └────────────────────────────────────────────────────────┘
 ```
 
----
 
 
 
----
 
 [← Previous](19-section-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](21-command-reference.md)

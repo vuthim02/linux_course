@@ -48,10 +48,8 @@ Growth (50-200)     → Central SRE (3-5)
 Scale (> 200)       → Embedded + Platform SRE (8-15)
 ```
 
----
 
 
 
----
 
 [← Previous](13-12-chaos-engineering.md) | [↑ Index](index.md) | [Next →](15-15-hands-on-practices.md)

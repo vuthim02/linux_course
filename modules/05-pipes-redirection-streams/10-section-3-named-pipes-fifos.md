@@ -46,10 +46,8 @@ cat /tmp/logpipe | grep "ERROR" | tee errors.log
 | Connection | Connects two running commands | Can connect commands at different times |
 | Scope | Current shell session | Any process on the system |
 
----
 
 
 
----
 
 [← Previous](09-section-2-tee-split-output.md) | [↑ Index](index.md) | [Next →](11-section-4-heredocs-and-herestrings.md)

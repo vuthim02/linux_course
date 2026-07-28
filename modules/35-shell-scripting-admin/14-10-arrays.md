@@ -33,10 +33,8 @@ done
 unset "fruits[1]"      # Removes banana
 ```
 
----
 
 
 
----
 
 [← Previous](13-9-error-handling.md) | [↑ Index](index.md) | [Next →](15-11-parsing-command-line-args.md)

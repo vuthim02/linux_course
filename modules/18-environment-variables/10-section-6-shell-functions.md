@@ -69,10 +69,8 @@ declare -F
 unset -f mydir
 ```
 
----
 
 
 
----
 
 [← Previous](09-level-3-advanced-shell-functions.md) | [↑ Index](index.md) | [Next →](11-section-7-the-prompt-ps1.md)

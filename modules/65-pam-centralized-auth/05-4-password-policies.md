@@ -102,10 +102,8 @@ password  required    pam_deny.so
 
 > 🔍 **Reverse Engineering Insight:** When using SSSD with LDAP/AD, password complexity is often enforced server-side (AD Fine-Grained Password Policy or LDAP `ppolicy` overlay). The local `pam_pwquality` settings only apply to local password changes. If you configure `local_users_only`, SSSD delegates policy to the directory server.
 
----
 
 
 
----
 
 [← Previous](04-3-pam-modules-deep-dive.md) | [↑ Index](index.md) | [Next →](06-5-sssd-architecture.md)

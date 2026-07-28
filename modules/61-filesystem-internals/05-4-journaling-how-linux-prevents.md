@@ -64,10 +64,8 @@ sudo btrfs filesystem show /mnt
 sudo btrfs inspect-internal dump-tree /dev/sda1 | head -50
 ```
 
----
 
 
 
----
 
 [← Previous](04-3-block-groups-and-allocation.md) | [↑ Index](index.md) | [Next →](06-5-filesystem-repair-when-things.md)

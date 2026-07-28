@@ -1,5 +1,6 @@
 # 48-high-availability-clustering
 
+**Prerequisites:** Complete [Part 47 - performance-tuning](../47-performance-tuning/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

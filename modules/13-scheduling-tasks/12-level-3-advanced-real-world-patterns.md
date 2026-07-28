@@ -5,10 +5,14 @@
 
 > **Level 3 Goal:** Implement real-world scheduling patterns (log rotation, backups, health checks), understand cron daemon internals, and master systemd timer states and auditing.
 
----
+### What You'll Cover
+- Real sysadmin scheduling patterns (backups, health checks, log rotation)
+- Cron daemon internals and execution model
+- Systemd timer states: `elapsed`, `active`, `waiting`
+- Auditing scheduled tasks across a fleet of servers
 
 
 
----
+
 
 [← Previous](11-section-8-systemd-timers-review.md) | [↑ Index](index.md) | [Next →](13-section-9-real-sysadmin-scheduling.md)

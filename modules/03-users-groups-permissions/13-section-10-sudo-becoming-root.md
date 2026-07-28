@@ -82,10 +82,8 @@ sudo -e /etc/hosts
 
 > 🚨 **Security Rule:** Grant the least privilege needed. Never give `ALL=(ALL) ALL` to anyone unless absolutely necessary. Use specific commands.
 
----
 
 
 
----
 
 [← Previous](12-section-9-group-management-commands.md) | [↑ Index](index.md) | [Next →](14-level-3-advanced-advanced-access.md)

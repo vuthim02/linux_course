@@ -53,10 +53,8 @@ env DEBUG=1 myapp
 env | sort
 ```
 
----
 
 
 
----
 
 [← Previous](12-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](14-summary-command-reference-for-part.md)

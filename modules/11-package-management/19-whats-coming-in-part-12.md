@@ -12,10 +12,10 @@ You will learn:
 - Troubleshooting failed services
 - 15 hands-on practices
 
----
+> **Tip:** Systemd replaced SysV init on most distributions. If you manage modern Linux servers, systemd skills are non-negotiable.
 
 
 
----
+
 
 [← Previous](18-summary-complete-command-reference-for.md) | [↑ Index](index.md) | [Next →](20-self-test-can-you-answer-these.md)

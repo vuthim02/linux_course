@@ -60,10 +60,8 @@ Modern tar (GNU tar) supports:
   - Incremental backups
 ```
 
----
 
 
 
----
 
 [← Previous](10-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](12-summary-complete-command-reference-for.md)

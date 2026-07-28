@@ -1,5 +1,6 @@
 # 44-mail-servers
 
+**Prerequisites:** Complete [Part 43 - dhcp-server](../43-dhcp-server/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

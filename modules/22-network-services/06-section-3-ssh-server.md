@@ -127,10 +127,8 @@ Host myserver
     IdentityFile ~/.ssh/id_ed25519
 ```
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-ssh-and.md) | [↑ Index](index.md) | [Next →](07-section-4-network-service-management.md)

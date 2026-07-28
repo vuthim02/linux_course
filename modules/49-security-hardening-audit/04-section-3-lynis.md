@@ -118,10 +118,8 @@ sudo lynis audit system --compliance ISO27001
 sudo lynis audit system --compliance HIPAA
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-2-cis-benchmarks.md) | [↑ Index](index.md) | [Next →](05-section-4-openscap.md)

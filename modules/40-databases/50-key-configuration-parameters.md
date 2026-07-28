@@ -22,6 +22,5 @@ max_parallel_workers_per_gather = 4
 
 
 
----
 
 [← Previous](49-pgstatstatements-query-statistics.md) | [↑ Index](index.md) | [Next →](51-autovacuum.md)

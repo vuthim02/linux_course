@@ -62,10 +62,8 @@ mkdir -p ~/.terraform.d/plugin-cache
 
 Now `terraform init` reuses cached plugins instead of downloading them fresh.
 
----
 
 
 
----
 
 [← Previous](03-section-2-terraform-overview.md) | [↑ Index](index.md) | [Next →](05-section-4-core-concepts.md)

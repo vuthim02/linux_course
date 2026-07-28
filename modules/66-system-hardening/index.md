@@ -1,5 +1,6 @@
 # 66-system-hardening
 
+**Prerequisites:** Complete [Part 65 - pam-centralized-auth](../65-pam-centralized-auth/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

@@ -204,10 +204,8 @@ For Maven:
 
 Community and official actions: `actions/checkout`, `actions/setup-node`, `docker/build-push-action`, `aws-actions/configure-aws-credentials`, `azure/login`, `google-github-actions/auth`, `github/codeql-action`, `actions/upload-artifact`, `actions/download-artifact`, `actions/create-release`, `softprops/action-gh-release`.
 
----
 
 
 
----
 
 [← Previous](01-1-cicd-concepts.md) | [↑ Index](index.md) | [Next →](03-3-github-actions-advanced.md)

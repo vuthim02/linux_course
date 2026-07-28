@@ -89,10 +89,8 @@ loginShell: /bin/bash
 
 **Score:** ___/15 correct = ready for Part 42.
 
----
 
 
 
----
 
 [← Previous](21-section-17-whats-coming-in.md) | [↑ Index](index.md) | [Next →](23-quick-reference-cards.md)

@@ -14,12 +14,10 @@ sudo pflogsumm -d yesterday /var/log/mail.log | \
   mail -s "Postfix Stats $(date +%F)" admin@example.com
 ```
 
----
 
 # 13. Troubleshooting
 
 
 
----
 
 [← Previous](41-122-interpreting-log-entries.md) | [↑ Index](index.md) | [Next →](43-131-configuration-verification.md)

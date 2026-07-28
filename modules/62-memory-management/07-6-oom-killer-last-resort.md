@@ -98,10 +98,8 @@ sudo dmesg | grep -i "low memory\|oom\|killed"
 
 > 🔍 **Reverse Engineering Insight:** The OOM Killer uses `oom_score_adj` to influence victim selection. Setting a process to -1000 doesn't prevent the OOM condition — it just protects that specific process. The only way to truly prevent OOM is to have enough memory (physical + swap) or to use cgroup limits that trigger allocation failures before OOM.
 
----
 
 
 
----
 
 [← Previous](06-5-numa-topology-memory-where.md) | [↑ Index](index.md) | [Next →](08-7-memory-overcommit-the-kernels.md)

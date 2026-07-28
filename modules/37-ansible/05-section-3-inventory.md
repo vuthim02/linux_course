@@ -88,10 +88,8 @@ ansible 'webservers:&dbservers' -m ping
 ansible 'webservers:dbservers' -m ping
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-installation.md) | [↑ Index](index.md) | [Next →](06-section-4-ad-hoc-commands.md)

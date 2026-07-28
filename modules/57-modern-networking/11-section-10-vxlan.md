@@ -215,10 +215,8 @@ sudo ip addr add 10.100.2.1/24 dev vxlan1002
 # Each tenant gets its own isolated VNI — traffic never crosses between them
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-9-wireguard-in-practice.md) | [↑ Index](index.md) | [Next →](12-section-11-building-overlays-vxlan.md)

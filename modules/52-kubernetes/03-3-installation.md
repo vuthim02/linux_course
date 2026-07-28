@@ -119,10 +119,8 @@ nodes:
 EOF
 ```
 
----
 
 
 
----
 
 [← Previous](02-2-architecture-deep-dive.md) | [↑ Index](index.md) | [Next →](04-4-kubectl-essentials.md)

@@ -47,10 +47,8 @@ xzless file.xz
 xzgrep "pattern" file.xz
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-compression-tools-compared.md) | [↑ Index](index.md) | [Next →](06-section-5-zip-cross-platform-archiving.md)

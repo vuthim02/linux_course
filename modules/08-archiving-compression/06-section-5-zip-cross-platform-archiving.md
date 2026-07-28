@@ -58,10 +58,8 @@ unzip -t archive.zip
 | Metadata (permissions) | Limited | Preserves Unix permissions |
 | Random access | Yes | No (must decompress sequentially) |
 
----
 
 
 
----
 
 [← Previous](05-section-4-viewing-and-manipulating.md) | [↑ Index](index.md) | [Next →](07-section-6-other-archiving-tools.md)

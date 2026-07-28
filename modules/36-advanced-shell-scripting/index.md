@@ -1,5 +1,6 @@
 # 36-advanced-shell-scripting
 
+**Prerequisites:** Complete [Part 35 - shell-scripting-admin](../35-shell-scripting-admin/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

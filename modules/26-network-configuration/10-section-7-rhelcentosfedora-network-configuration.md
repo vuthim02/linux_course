@@ -215,10 +215,8 @@ ONBOOT=yes
 VLAN=yes
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-6-traditional-etcnetworkinterfaces-debianubuntu.md) | [↑ Index](index.md) | [Next →](11-section-8-etchosts-and-etchostname.md)

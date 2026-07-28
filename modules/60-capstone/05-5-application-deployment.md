@@ -584,10 +584,8 @@ resources:
     memory: 1024Mi
 ```
 
----
 
 
 
----
 
 [← Previous](04-4-kubernetes-cluster-setup.md) | [↑ Index](index.md) | [Next →](06-6-cicd-pipeline.md)

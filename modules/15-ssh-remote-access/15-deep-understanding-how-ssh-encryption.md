@@ -48,10 +48,8 @@ When you authenticate:
 The private key NEVER leaves the agent.
 ```
 
----
 
 
 
----
 
 [← Previous](14-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](16-summary-complete-command-reference-for.md)

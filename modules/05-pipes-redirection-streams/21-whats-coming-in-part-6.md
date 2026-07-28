@@ -11,10 +11,10 @@ You will learn:
 - Writing safe, professional scripts
 - 15 hands-on practices
 
----
+> **Tip:** Shell scripting is where sysadmins go from manual work to automation. Even a 10-line script can save hours per week.
 
 
 
----
+
 
 [← Previous](20-summary-complete-command-reference.md) | [↑ Index](index.md) | [Next →](22-self-test-can-you-answer-these.md)

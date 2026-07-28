@@ -63,10 +63,8 @@ ls /etc/cron.d/certbot
 systemctl list-timers | grep certbot
 ```
 
----
 
 
 
----
 
 [← Previous](12-level-3-advanced-real-world-patterns.md) | [↑ Index](index.md) | [Next →](14-deep-understanding-how-scheduling-really.md)

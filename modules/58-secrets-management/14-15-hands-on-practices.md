@@ -134,7 +134,6 @@ spec:
           secretRef:
             name: vault-auth
             key: secret-id
----
 apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret
 metadata:
@@ -280,10 +279,8 @@ vault audit enable file file_path=/var/log/vault/audit.log
 # Application deployments consume synced K8s Secrets
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-12-best-practices.md) | [↑ Index](index.md) | [Next →](15-deep-understanding.md)

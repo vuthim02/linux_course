@@ -139,10 +139,8 @@ sudo chmod 440 /etc/sudoers.d/webadmin
 ls /lib/x86_64-linux-gnu/security/ | sort
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-6-file-integrity-monitoring.md) | [↑ Index](index.md) | [Next →](09-section-8-filesystem-security.md)

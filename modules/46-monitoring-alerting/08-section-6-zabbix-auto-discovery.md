@@ -70,10 +70,8 @@ Zabbix LLD automatically discovers and monitors dynamic resources:
 UserParameter=docker.discovery,sudo docker ps --format '{"{#CONTAINER_NAME}":"{{.Names}}","{#CONTAINER_ID}":"{{.ID}}"}' | jq -s '{data: .}'
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-5-zabbix.md) | [↑ Index](index.md) | [Next →](09-section-7-prometheus.md)

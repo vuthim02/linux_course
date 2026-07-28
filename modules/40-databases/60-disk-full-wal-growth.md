@@ -41,6 +41,5 @@ mysql -u root -p -e "PURGE BINARY LOGS BEFORE NOW() - INTERVAL 3 DAY;"
 
 
 
----
 
 [← Previous](59-maxconnections-reached.md) | [↑ Index](index.md) | [Next →](61-stale-replication.md)

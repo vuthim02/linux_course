@@ -117,10 +117,8 @@ grep -m 10 'pattern' huge.log
 find . -name '*.log' | xargs -P4 grep 'ERROR'
 ```
 
----
 
 
 
----
 
 [← Previous](04-1-regular-expressions-bre-vs.md) | [↑ Index](index.md) | [Next →](06-level-2-intermediary-tools-scripts.md)

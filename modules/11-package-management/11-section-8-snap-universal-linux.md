@@ -61,10 +61,8 @@ sudo snap install nginx --channel=edge
 | Security | Confined by AppArmor | Some apps break due to confinement |
 | Size | No dependency conflicts | Each snap is 100MB+ |
 
----
 
 
 
----
 
 [← Previous](10-section-7-understanding-rpm-repositories.md) | [↑ Index](index.md) | [Next →](12-section-9-flatpak-universal-desktop.md)

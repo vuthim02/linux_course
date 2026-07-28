@@ -43,10 +43,8 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 dpkg-deb -x package.deb /tmp/extracted
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-the-debianubuntu-package.md) | [↑ Index](index.md) | [Next →](06-section-4-understanding-debian-repositories.md)

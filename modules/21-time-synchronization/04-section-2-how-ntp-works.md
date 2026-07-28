@@ -49,10 +49,8 @@ NTP continuously adjusts the clock:
 | Monitoring | ntpq, ntpstat | chronyc |
 | Default on | Older distros | Newer distros (RHEL 8+, Ubuntu 18.04+, Debian 10+) |
 
----
 
 
 
----
 
 [← Previous](03-section-1-why-time-matters.md) | [↑ Index](index.md) | [Next →](05-section-3-using-timedatectl.md)

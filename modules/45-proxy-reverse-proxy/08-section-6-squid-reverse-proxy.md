@@ -74,10 +74,8 @@ curl -sI http://localhost/index.html
 # Via: 1.1 proxy.lab.local (squid/6.0)
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-5-squid-logging.md) | [↑ Index](index.md) | [Next →](09-section-7-nginx-as-reverse.md)

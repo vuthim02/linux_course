@@ -165,10 +165,8 @@ echo '<tag>text</tag>' | grep -Po '<.*?>'   # matches <tag> only
 [[:digit:]] # locale-aware: digits in Arabic, Devanagari, etc.
 ```
 
----
 
 
 
----
 
 [← Previous](03-level-1-basic-foundations.md) | [↑ Index](index.md) | [Next →](05-2-grep-in-depth.md)

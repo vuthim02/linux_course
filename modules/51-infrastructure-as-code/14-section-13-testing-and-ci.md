@@ -166,10 +166,8 @@ func TestTerraformAwsInstance(t *testing.T) {
 go test -v -timeout 30m
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-12-terraform-cloud-enterprise.md) | [↑ Index](index.md) | [Next →](15-section-14-best-practices.md)

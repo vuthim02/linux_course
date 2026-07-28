@@ -78,10 +78,8 @@
 
 ### Level 3: Advanced Commands (No additional commands — see troubleshooting section above)
 
----
 
 
 
----
 
 [← Previous](17-practice-section-20-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](19-whats-coming-in-part-12.md)

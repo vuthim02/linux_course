@@ -22,10 +22,8 @@
 | Load test | `k6 run --vus 100 --duration 5m` | Performance testing |
 | Alertmanager route | `match: severity: critical` | Route to PagerDuty |
 
----
 
 
 
----
 
 [← Previous](16-deep-understanding.md) | [↑ Index](index.md) | [Next →](18-whats-coming-in-part-60.md)

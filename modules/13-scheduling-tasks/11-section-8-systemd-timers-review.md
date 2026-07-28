@@ -99,10 +99,8 @@ RandomizedDelaySec=30m   # Always +15 minutes (5000/10000 * 30m for example)
 - You need user crontabs (non-root scheduled tasks)
 - You want the `@reboot` syntax (which systemd handles differently)
 
----
 
 
 
----
 
 [← Previous](10-section-7-at-one-time-scheduling.md) | [↑ Index](index.md) | [Next →](12-level-3-advanced-real-world-patterns.md)

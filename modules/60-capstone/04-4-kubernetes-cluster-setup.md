@@ -50,7 +50,6 @@ metadata:
   namespace: kube-system
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::ACCOUNT_ID:role/cluster-autoscaler-role
----
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
@@ -75,7 +74,6 @@ rules:
   - apiGroups: [""]
     resources: ["events"]
     verbs: ["create", "patch"]
----
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
@@ -197,10 +195,8 @@ volumeBindingMode: WaitForFirstConsumer
 EOF
 ```
 
----
 
 
 
----
 
 [← Previous](03-3-infrastructure-provisioning-terraform.md) | [↑ Index](index.md) | [Next →](05-5-application-deployment.md)

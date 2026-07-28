@@ -129,10 +129,8 @@ sudo iptables -A INPUT -p tcp --dport 53 -j ACCEPT      # DNS TCP
 sudo iptables -A INPUT -p udp --dport 53 -j ACCEPT      # DNS UDP
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-10-winbind-integrating-windows.md) | [↑ Index](index.md) | [Next →](16-section-12-performance-tuning.md)

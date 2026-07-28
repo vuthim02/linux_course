@@ -288,10 +288,8 @@ sudo tcpdump -i enp0s3 -c 100 -nn host 192.168.1.100
 | High latency | Bufferbloat | Check for full buffers with `ss -t -m` |
 | Port not responding | Firewall | `sudo iptables -L`, `sudo ufw status` |
 
----
 
 
 
----
 
 [← Previous](16-section-12-tuning-ethtool-mtu.md) | [↑ Index](index.md) | [Next →](18-15-hands-on-practices.md)

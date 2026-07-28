@@ -64,10 +64,8 @@ Modern Samba and Windows always negotiate the highest common dialect. SMB1 can b
 9. LOGOFF               → End the session
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-smbcifs-concepts.md) | [↑ Index](index.md) | [Next →](04-section-2-samba-overview.md)

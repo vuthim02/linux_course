@@ -161,10 +161,8 @@ redis-cli info memory
 
 > 🔍 **Reverse Engineering Insight:** The biggest mistake in JVM tuning is setting `-Xmx` too close to physical RAM. If you have 32GB RAM and set `-Xmx30g`, the OS has only 2GB for page cache, slab, and kernel structures. Leave 4-6GB for the OS, and use `jcmd` or `jstat` to monitor actual heap usage before tuning.
 
----
 
 
 
----
 
 [← Previous](09-8-diagnosing-memory-pressure.md) | [↑ Index](index.md) | [Next →](11-15-hands-on-practices.md)

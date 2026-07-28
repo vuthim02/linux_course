@@ -39,10 +39,8 @@ annotations:
     {{- end -}}
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-6-vault-in-production.md) | [↑ Index](index.md) | [Next →](09-section-8-external-secrets-operator.md)

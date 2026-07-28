@@ -137,13 +137,11 @@ C) 30 days
 D) 90 days
 ```
 
----
 
 **Score:** 12/15 correct = ready for Part 47.
 
 **Answers:** 1-C, 2-A, 3-C, 4-B, 5-B, 6-A, 7-C, 8-B, 9-B, 10-B, 11-A, 12-B, 13-B, 14-B, 15-B
 
----
 
 *Previous → Part 45: Proxy and Reverse Proxy — Squid, Nginx, HAProxy*
 *Next → Part 47: Performance Tuning and Optimization*
@@ -151,6 +149,5 @@ D) 90 days
 [← Previous](part45.md) | [Next →](part47.md)
 
 
----
 
 [← Previous](20-whats-coming-in-part-47.md) | [↑ Index](index.md)

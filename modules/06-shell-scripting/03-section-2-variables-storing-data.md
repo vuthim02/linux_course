@@ -78,10 +78,8 @@ echo "${name//l/L}"         # Replace all l with L: "ALice"
 : "${MY_VAR:=default}"     # Sets MY_VAR to "default" if unset
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-what-is-a.md) | [↑ Index](index.md) | [Next →](04-section-3-conditionals-making-decisions.md)

@@ -59,10 +59,8 @@ Many tools and sysadmins still depend on traditional log files:
 - Compliance requirements (specific file paths)
 - Habit and familiarity
 
----
 
 
 
----
 
 [← Previous](13-section-9-log-security-and.md) | [↑ Index](index.md) | [Next →](15-practice-section-15-hands-on-exercises.md)

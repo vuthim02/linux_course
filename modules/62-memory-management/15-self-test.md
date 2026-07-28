@@ -35,7 +35,6 @@
 
 **Score:** 12/15 correct = ready for Part 63.
 
----
 
 *Linux SysAdmin Course | Part 62 of ∞ | Reverse Engineering Approach*
 *Previous → Part 61: Filesystem Internals*
@@ -44,6 +43,5 @@
 [← Previous](part61.md) | [Next →](part63.md)
 
 
----
 
 [← Previous](14-whats-coming-in-part-63.md) | [↑ Index](index.md)

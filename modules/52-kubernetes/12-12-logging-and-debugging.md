@@ -130,10 +130,8 @@ Common conditions:
 5. Check image name/pull policy — wrong image or registry auth.
 6. Check liveness/readiness probe timing — too aggressive probes restart pods.
 
----
 
 
 
----
 
 [← Previous](11-11-horizontal-pod-autoscaler-hpa.md) | [↑ Index](index.md) | [Next →](13-13-upgrades.md)

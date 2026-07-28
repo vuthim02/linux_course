@@ -175,10 +175,8 @@ find /etc -name "*.conf" -print | xargs grep "Port" 2>/dev/null
 find . -name "*.txt" -print0 | xargs -0 rm
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-grep-in-practice.md) | [↑ Index](index.md) | [Next →](06-section-5-locate-instant-filename.md)

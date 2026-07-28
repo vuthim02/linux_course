@@ -147,10 +147,8 @@ done
 arr=("${arr[@]}")
 ```
 
----
 
 
 
----
 
 [← Previous](18-12-security-in-scripts.md) | [↑ Index](index.md) | [Next →](20-16-command-reference.md)

@@ -66,10 +66,8 @@ sudo slaptest -u -f /etc/openldap/slapd.conf
 sudo slaptest -f /etc/openldap/slapd.conf -F /etc/openldap/slapd.d/
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-what-is-ldap.md) | [↑ Index](index.md) | [Next →](04-level-2-intermediary-configuring-and.md)

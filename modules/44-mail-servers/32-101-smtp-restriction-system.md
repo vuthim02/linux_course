@@ -31,6 +31,5 @@ smtpd_recipient_restrictions =
 
 
 
----
 
 [← Previous](31-93-postscreen-before-queue-built-in.md) | [↑ Index](index.md) | [Next →](33-102-access-table.md)

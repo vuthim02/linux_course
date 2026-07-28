@@ -95,10 +95,8 @@ defaults
 sudo systemctl restart rsyslog
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-11-haproxy-load-balancing.md) | [↑ Index](index.md) | [Next →](15-section-13-proxy-chaining-and.md)

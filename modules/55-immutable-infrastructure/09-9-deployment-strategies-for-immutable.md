@@ -209,10 +209,8 @@ resource "aws_autoscaling_group" "webapp" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](08-8-security-hardening-in-images.md) | [↑ Index](index.md) | [Next →](10-10-userdata-and-first-boot.md)

@@ -28,6 +28,5 @@ sudo mysql -e "SELECT * FROM testpitr.t;"  # Should only show id=1
 
 
 
----
 
 [← Previous](75-practice-13-database-size-monitoring.md) | [↑ Index](index.md) | [Next →](77-practice-15-real-world-integration-complete.md)

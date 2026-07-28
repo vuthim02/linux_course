@@ -54,10 +54,8 @@ service unit (triggered, runs)
 timer unit (active, waiting for next trigger)
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-9-real-sysadmin-scheduling.md) | [↑ Index](index.md) | [Next →](15-practice-section-15-hands-on-exercises.md)

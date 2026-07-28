@@ -182,10 +182,8 @@ curl -X POST -H "Authorization: Bearer $(curl -s -X POST -H \"Content-Type: appl
 #     Type: Webhook | URL: https://hooks.example.com/alert
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-9-prometheus-exporters.md) | [↑ Index](index.md) | [Next →](13-section-11-alerting.md)

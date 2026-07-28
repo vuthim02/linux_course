@@ -44,10 +44,8 @@ sudo systemctl rescue
 sudo systemctl emergency
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-viewing-and-managing.md) | [↑ Index](index.md) | [Next →](10-section-7-journald-systemds-logging.md)

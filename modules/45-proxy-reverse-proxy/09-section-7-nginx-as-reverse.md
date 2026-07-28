@@ -148,10 +148,8 @@ upstream backend {
 
 **Active health checks** require the `nginx-plus` (commercial) module or the open-source `nginx_upstream_check_module`.
 
----
 
 
 
----
 
 [← Previous](08-section-6-squid-reverse-proxy.md) | [↑ Index](index.md) | [Next →](10-section-8-nginx-caching.md)

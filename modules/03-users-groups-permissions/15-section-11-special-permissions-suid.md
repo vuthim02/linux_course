@@ -96,10 +96,8 @@ find / -type d -perm -1000 -ls 2>/dev/null
 
 > 🚨 **Security:** SUID files are a common attack vector. A misconfigured SUID binary can let an attacker escalate to root. Audit them regularly.
 
----
 
 
 
----
 
 [← Previous](14-level-3-advanced-advanced-access.md) | [↑ Index](index.md) | [Next →](16-section-12-umask-default-permissions.md)

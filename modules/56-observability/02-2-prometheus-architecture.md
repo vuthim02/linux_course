@@ -55,10 +55,8 @@ scrape_configs:
 
 **Target Status:** `up == 0` → targets that failed scrape.
 
----
 
 
 
----
 
 [← Previous](01-1-three-pillars-of-observability.md) | [↑ Index](index.md) | [Next →](03-3-advanced-promql.md)

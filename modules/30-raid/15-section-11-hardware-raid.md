@@ -142,10 +142,8 @@ perccli64 /c0 /d0 show
 
 Remember: Dell PERC controllers are rebranded LSI/Broadcom chipsets. The CLI syntax is very similar to storcli.
 
----
 
 
 
----
 
 [← Previous](14-level-3-advanced-raid-internals.md) | [↑ Index](index.md) | [Next →](16-section-12-comparing-raid-levels.md)

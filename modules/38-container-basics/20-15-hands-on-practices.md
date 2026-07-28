@@ -577,10 +577,8 @@ curl http://localhost:8080/api/http/routers
 docker compose -f docker-compose.fullstack.yml down -v
 ```
 
----
 
 
 
----
 
 [← Previous](19-level-3-advanced-practices-internals.md) | [↑ Index](index.md) | [Next →](21-16-deep-understanding.md)

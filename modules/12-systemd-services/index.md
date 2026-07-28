@@ -1,5 +1,6 @@
 # 12-systemd-services
 
+**Prerequisites:** Complete [Part 11 - package-management](../11-package-management/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

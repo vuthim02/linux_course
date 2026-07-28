@@ -143,10 +143,8 @@ helm upgrade --install tempo grafana/tempo \
   --set server.http_listen_port=3200
 ```
 
----
 
 
 
----
 
 [← Previous](08-8-secrets-and-configuration.md) | [↑ Index](index.md) | [Next →](10-10-scaling-and-resilience.md)

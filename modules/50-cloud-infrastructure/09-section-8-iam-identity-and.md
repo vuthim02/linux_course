@@ -362,10 +362,8 @@ az role assignment create \
   --scope /subscriptions/SUB_ID/resourceGroups/myResourceGroup/providers/Microsoft.Storage/storageAccounts/myuniquestorage12345
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-networking.md) | [↑ Index](index.md) | [Next →](10-section-9-cloud-ssh-access.md)

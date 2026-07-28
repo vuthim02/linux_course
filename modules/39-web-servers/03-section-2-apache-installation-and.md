@@ -72,10 +72,8 @@ cat /etc/apache2/sites-available/000-default.conf
 
 The default document root is `/var/www/html/`. Replace the `index.html` there to see your own page.
 
----
 
 
 
----
 
 [← Previous](02-section-1-web-server-basics.md) | [↑ Index](index.md) | [Next →](04-section-3-apache-virtual-hosts.md)

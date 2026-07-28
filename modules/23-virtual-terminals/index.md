@@ -1,5 +1,6 @@
 # 23-virtual-terminals
 
+**Prerequisites:** Complete [Part 22 - network-services](../22-network-services/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

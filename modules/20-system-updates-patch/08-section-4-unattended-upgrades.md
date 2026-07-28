@@ -68,10 +68,8 @@ sudo systemctl enable --now dnf-automatic.timer
 systemctl status dnf-automatic.timer
 ```
 
----
 
 
 
----
 
 [← Previous](07-level-2-intermediary-automation-and.md) | [↑ Index](index.md) | [Next →](09-section-6-update-strategies-for.md)

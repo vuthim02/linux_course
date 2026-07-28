@@ -109,10 +109,8 @@ property no-quorum-policy=freeze
 EOF
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-7-quorum.md) | [↑ Index](index.md) | [Next →](10-section-9-cluster-filesystems.md)

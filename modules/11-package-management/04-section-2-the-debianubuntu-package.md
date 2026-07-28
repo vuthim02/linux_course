@@ -94,10 +94,8 @@ sudo apt install -y nginx
 DEBIAN_FRONTEND=noninteractive sudo apt install -y nginx
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-the-two-packaging.md) | [↑ Index](index.md) | [Next →](05-section-3-dpkg-the-low-level.md)

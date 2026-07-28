@@ -95,10 +95,8 @@ docker run --read-only \
   nginx
 ```
 
----
 
 
 
----
 
 [← Previous](16-12-rootless-containers.md) | [↑ Index](index.md) | [Next →](18-14-logging-and-monitoring.md)

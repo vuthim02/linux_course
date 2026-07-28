@@ -77,10 +77,8 @@ grep "error" <<< "Everything is fine, no error here"
 tr '[:lower:]' '[:upper:]' <<< "make this uppercase"
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-3-named-pipes-fifos.md) | [↑ Index](index.md) | [Next →](12-more-pipe-patterns.md)

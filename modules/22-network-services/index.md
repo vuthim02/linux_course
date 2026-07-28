@@ -1,5 +1,6 @@
 # 22-network-services
 
+**Prerequisites:** Complete [Part 21 - time-synchronization](../21-time-synchronization/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

@@ -66,10 +66,8 @@ Build security into the architecture from the start, not as an afterthought:
 - Use separate VLANs for different trust levels
 - Automate security checks into CI/CD pipelines
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-cis-benchmarks.md)

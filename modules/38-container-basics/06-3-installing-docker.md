@@ -66,10 +66,8 @@ sudo systemctl restart docker
 docker info
 ```
 
----
 
 
 
----
 
 [← Previous](05-2-docker-vs-podman.md) | [↑ Index](index.md) | [Next →](07-4-installing-podman.md)

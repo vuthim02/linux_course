@@ -32,10 +32,8 @@
 | PAM session logging | `pam_exec.so /path/to/script.sh` |
 | Test PAM manually | `pamtester <service> <user> authenticate` |
 
----
 
 
 
----
 
 [← Previous](12-deep-understanding.md) | [↑ Index](index.md) | [Next →](14-whats-coming-in-part-66.md)

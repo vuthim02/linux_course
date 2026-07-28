@@ -24,10 +24,8 @@ Layer 3: Access Control Lists (ACLs)
 
 Most courses stop at Layer 1. A real sysadmin needs all three.
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-permission-fundamentals.md) | [↑ Index](index.md) | [Next →](04-section-2-reading-permission-strings.md)

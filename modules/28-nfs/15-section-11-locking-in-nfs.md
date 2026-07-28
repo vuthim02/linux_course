@@ -137,10 +137,8 @@ sudo umount /mnt/nfs
 sudo mount -t nfs4 server:/export/data /mnt/nfs
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-10-nfs-vs-other.md) | [↑ Index](index.md) | [Next →](16-practice-section-15-hands-on-exercises.md)

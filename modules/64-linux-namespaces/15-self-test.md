@@ -35,7 +35,6 @@
 
 **Score:** 12/15 correct = ready for Part 65.
 
----
 
 *Linux SysAdmin Course | Part 64 of ∞ | Reverse Engineering Approach*
 *Previous → Part 63: eBPF & Modern Tracing*
@@ -44,6 +43,5 @@
 [← Previous](part63.md) | [Next →](part65.md)
 
 
----
 
 [← Previous](14-whats-coming-in-part-65.md) | [↑ Index](index.md)

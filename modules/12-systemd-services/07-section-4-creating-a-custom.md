@@ -149,10 +149,8 @@ systemctl status hello
 journalctl -u hello -n 5
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-understanding-unit-types.md) | [↑ Index](index.md) | [Next →](08-section-5-viewing-and-managing.md)

@@ -73,10 +73,8 @@
 | `/proc/fs/nfsd/` | Kernel NFS server interface |
 | `/proc/self/mountstats` | Per-mount client statistics |
 
----
 
 
 
----
 
 [← Previous](17-deep-understanding-how-nfs-really.md) | [↑ Index](index.md) | [Next →](19-whats-coming-in-part-29.md)

@@ -107,7 +107,6 @@ SOA record with serial/refresh/retry/expire/minimum, at least one NS record, and
 Queries master's SOA, compares serial numbers. If master's serial is higher, initiates AXFR/IXFR. If serials match, serves cached zone data.
 </details>
 
----
 
 **Score:** ___ / 15
 
@@ -117,7 +116,6 @@ Queries master's SOA, compares serial numbers. If master's serial is higher, ini
 | 9–11 | Review sections 4, 5, 8, 12 |
 | 0–8 | Review entire part and hands-on practices |
 
----
 
 *Previous → Part 41: LDAP and Centralized Authentication*
 *Next → Part 43: DHCP Server*
@@ -125,6 +123,5 @@ Queries master's SOA, compares serial numbers. If master's serial is higher, ini
 [← Previous](part41.md) | [Next →](part43.md)
 
 
----
 
 [← Previous](20-whats-coming-in-part-43.md) | [↑ Index](index.md)

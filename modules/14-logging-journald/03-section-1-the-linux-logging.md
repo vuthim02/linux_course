@@ -34,10 +34,8 @@ In modern Linux, both work together:
 2. rsyslog reads from journald and writes traditional files
 3. Most tools still read from `/var/log/` files
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-logging-architecture.md) | [↑ Index](index.md) | [Next →](04-section-2-the-syslog-protocol.md)

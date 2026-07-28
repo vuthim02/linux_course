@@ -1,5 +1,6 @@
 # 28-nfs
 
+**Prerequisites:** Complete [Part 27 - dns-name-resolution](../27-dns-name-resolution/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

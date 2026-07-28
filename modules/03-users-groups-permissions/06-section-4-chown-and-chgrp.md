@@ -40,10 +40,8 @@ chgrp developers myfile.txt   # Works — alice belongs to developers
 chgrp admins myfile.txt       # Fails — alice is not in admins
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-3-chmod-changing-permissions.md) | [↑ Index](index.md) | [Next →](07-level-2-intermediary-user-group.md)

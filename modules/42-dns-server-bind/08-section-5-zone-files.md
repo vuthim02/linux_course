@@ -91,10 +91,8 @@ $TTL 3600
 critical  IN A 86400 192.168.1.200   ; 24-hour TTL override
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-zones.md) | [↑ Index](index.md) | [Next →](09-section-6-reverse-dns.md)

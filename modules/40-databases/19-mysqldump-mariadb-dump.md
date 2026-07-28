@@ -99,6 +99,5 @@ echo "Backup complete: $BACKUP_DIR/$DATE"
 
 
 
----
 
 [← Previous](18-best-practices.md) | [↑ Index](index.md) | [Next →](20-binary-log-backup-point-in-time-recovery.md)

@@ -122,10 +122,8 @@ prefetch: yes   # Refresh when TTL is 10% of original
 
 This means popular domains never expire from cache.
 
----
 
 
 
----
 
 [← Previous](09-section-6-dig-deep-dig.md) | [↑ Index](index.md) | [Next →](11-section-8-mdns-multicast-dns.md)

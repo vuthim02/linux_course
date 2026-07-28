@@ -55,10 +55,8 @@ histogram_quantile(0.50, rate(http_request_duration_seconds_bucket[5m]))
 histogram_quantile(0.99, rate(http_request_duration_seconds_bucket[5m]))
 ```
 
----
 
 
 
----
 
 [← Previous](02-1-what-is-sre.md) | [↑ Index](index.md) | [Next →](04-3-service-level-objectives-slos.md)

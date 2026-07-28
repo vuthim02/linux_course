@@ -136,10 +136,8 @@ sudo systemctl stop nslcd
 sudo systemctl disable nslcd
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-10-389-directory-server.md) | [↑ Index](index.md) | [Next →](15-section-12-freeipa.md)

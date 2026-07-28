@@ -13,10 +13,8 @@ By the time you finish, you will be able to:
 - **Understand the kernel** well enough to tune parameters and compile modules
 - **Pass any Linux sysadmin interview** with confidence
 
----
 
 
 
----
 
 [← Previous](01-.md) | [↑ Index](index.md) | [Next →](02-the-entire-course-roadmap.md)

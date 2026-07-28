@@ -154,10 +154,8 @@ interface GigabitEthernet0/2
 sudo nft add rule inet filter input udp sport 67 limit rate 10/second accept
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-13-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](19-section-15-command-reference.md)

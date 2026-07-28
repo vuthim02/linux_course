@@ -67,10 +67,8 @@ tmux new -s mysession
 # List: tmux ls
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-5-managing-background-and.md) | [↑ Index](index.md) | [Next →](08-section-7-nice-and-renice.md)

@@ -31,7 +31,6 @@ echo "Test from satellite" | mail -s "Test" admin@example.com
 tail -f /var/log/mail.log
 ```
 
----
 
 ### Practice 3: Set Up Virtual Aliases
 
@@ -57,7 +56,6 @@ sudo systemctl reload postfix
 
 Test by sending to `anyone@example.org` and checking `admin@example.com`'s mailbox.
 
----
 
 ### Practice 4: Install Dovecot for IMAP
 
@@ -80,7 +78,6 @@ Test with Thunderbird or `openssl s_client`:
 openssl s_client -connect localhost:993 -crlf
 ```
 
----
 
 ### Practice 5: Enable TLS with Let's Encrypt
 
@@ -105,7 +102,6 @@ echo -e '#!/bin/bash\nsystemctl reload postfix dovecot' | \
 sudo chmod +x /etc/letsencrypt/renewal-hooks/postfix/reload.sh
 ```
 
----
 
 ### Practice 6: SASL Auth for Relaying
 
@@ -125,7 +121,6 @@ swaks --to recipient@example.com \
 
 Check `/var/log/mail.log` for successful auth and delivery.
 
----
 
 ### Practice 7: Queue Management Commands
 
@@ -148,7 +143,6 @@ sudo postsuper -d ALL
 sudo postsuper -r ALL deferred
 ```
 
----
 
 ### Practice 8: Analyze Mail Logs
 
@@ -167,7 +161,6 @@ grep "status=bounced" /var/log/mail.log | wc -l
 grep "status=deferred" /var/log/mail.log | wc -l
 ```
 
----
 
 ### Practice 9: Virtual Mailbox Domains
 
@@ -181,7 +174,6 @@ sudo chown -R vmail:vmail /var/mail/vhosts
 
 Configure as in Section 8. Send test mail and verify mailbox files appear under `/var/mail/vhosts/`.
 
----
 
 ### Practice 10: SMTP Protocol Debugging
 
@@ -205,10 +197,8 @@ Body content here.
 QUIT
 ```
 
----
 
 
 
----
 
 [← Previous](52-level-1-basic-practices.md) | [↑ Index](index.md) | [Next →](54-level-3-advanced-practices.md)

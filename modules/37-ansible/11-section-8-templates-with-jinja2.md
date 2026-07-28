@@ -77,10 +77,8 @@ upstream backend {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-variables-and-facts.md) | [↑ Index](index.md) | [Next →](12-section-9-conditionals-and-loops.md)

@@ -56,10 +56,8 @@ cat $file       # Fails: tries cat my file.txt
 cat "$file"     # Works
 ```
 
----
 
 
 
----
 
 [← Previous](06-3-variables.md) | [↑ Index](index.md) | [Next →](08-5-conditionals.md)

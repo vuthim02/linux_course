@@ -33,10 +33,8 @@ dpkg-query -W --showformat='${Installed-Size} ${Package}\n' | sort -rn | head -2
 rpm -qa --queryformat '%{SIZE} %{NAME}\n' | sort -rn | head -20
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-9-flatpak-universal-desktop.md) | [↑ Index](index.md) | [Next →](14-level-3-advanced-package-troubleshooting.md)

@@ -34,6 +34,5 @@ SELECT pg_stat_statements_reset();
 
 
 
----
 
 [← Previous](48-explain-analyze.md) | [↑ Index](index.md) | [Next →](50-key-configuration-parameters.md)

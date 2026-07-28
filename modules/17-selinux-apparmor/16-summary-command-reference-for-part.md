@@ -44,10 +44,8 @@
 | `apparmor_parser -r PROFILE` | Reload a specific AppArmor profile |
 | `semanage permissive -a TYPE` | Put a domain in permissive mode |
 
----
 
 
 
----
 
 [← Previous](15-deep-understanding-how-mac-really.md) | [↑ Index](index.md) | [Next →](17-whats-coming-in-part-18.md)

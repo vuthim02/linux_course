@@ -11,10 +11,8 @@ By the end of this part, you will:
 - Build a **complete multi-tier infrastructure** (VPC + subnets + compute + database + load balancer)
 - Pass the self-test and be ready for **Part 52: Kubernetes Administration**
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-section-1-what-is-infrastructure.md)

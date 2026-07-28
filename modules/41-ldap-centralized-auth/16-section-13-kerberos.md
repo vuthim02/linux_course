@@ -190,10 +190,8 @@ kadmin -q "addpol users -minlength 8 -minclasses 3 -history 10"
 kadmin -q "modprinc -policy users alice@EXAMPLE.COM"
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-12-freeipa.md) | [↑ Index](index.md) | [Next →](17-what-you-will-achieve.md)

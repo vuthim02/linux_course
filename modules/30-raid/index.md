@@ -1,5 +1,6 @@
 # 30-raid
 
+**Prerequisites:** Complete [Part 29 - samba-windows](../29-samba-windows/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

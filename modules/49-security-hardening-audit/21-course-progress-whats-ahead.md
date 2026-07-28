@@ -17,11 +17,9 @@ You have built a rock-solid foundation in on-premises Linux system administratio
 2. **Build a homelab** with multiple VMs and practice everything you've learned
 3. **Start Part 50** — Cloud Infrastructure and Infrastructure as Code
 
----
 
 > **Security is not a product, but a process.** — Bruce Schneier
 
----
 
 ```
 *Linux SysAdmin Course | Part 49 of ∞ | Reverse Engineering Approach*
@@ -32,6 +30,5 @@ You have built a rock-solid foundation in on-premises Linux system administratio
 [← Previous](part48.md) | [Next →](part50.md)
 
 
----
 
 [← Previous](20-self-test.md) | [↑ Index](index.md)

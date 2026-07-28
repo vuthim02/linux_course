@@ -16,12 +16,10 @@ SELECT VERSION();
 SHOW DATABASES;
 ```
 
----
 
 # 3. MariaDB Administration
 
 
 
----
 
 [← Previous](07-configuration-files.md) | [↑ Index](index.md) | [Next →](09-the-mysql-cli.md)

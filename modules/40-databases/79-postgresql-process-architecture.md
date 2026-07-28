@@ -110,12 +110,10 @@ checkpoint_completion_target = 0.9  # spread checkpoint I/O
 - `work_mem` — for sorting, hash tables (per operation, not per connection)
 - `maintenance_work_mem` — for VACUUM, CREATE INDEX
 
----
 
 # 📋 Command Reference
 
 
 
----
 
 [← Previous](78-how-storage-engines-work-innodb.md) | [↑ Index](index.md) | [Next →](80-mariadbmysql-vs-postgresql-commands.md)

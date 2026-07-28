@@ -74,10 +74,8 @@ getfacl /shared/project
 # other::---
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-12-umask-default-permissions.md) | [↑ Index](index.md) | [Next →](18-section-14-the-complete-permission.md)

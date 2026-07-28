@@ -47,10 +47,8 @@ ps -ef --forest
 pstree -p
 ```
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-ps-snapshot-of.md)

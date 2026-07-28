@@ -2,7 +2,6 @@
 
 ### ✅ Level 1: Basic Practices
 
----
 
 ### ✅ Practice 1: Explore Your Log Files
 
@@ -23,7 +22,6 @@ echo "kern.log lines: $(wc -l < /var/log/kern.log 2>/dev/null || echo N/A)"
 du -sh /var/log/*.log 2>/dev/null | sort -rn | head -10
 ```
 
----
 
 ### ✅ Practice 2: Explore journalctl
 
@@ -47,7 +45,6 @@ echo "Watch journal for 3 seconds:"
 timeout 3 journalctl -f 2>/dev/null || true
 ```
 
----
 
 ### ✅ Practice 3: Filter by Service
 
@@ -66,7 +63,6 @@ echo "=== Last 5 cron messages ==="
 journalctl -u cron -n 5 --no-pager
 ```
 
----
 
 ### ✅ Practice 4: Filter by Time
 
@@ -83,7 +79,6 @@ journalctl --since "today" --no-pager | wc -l
 journalctl --since "$(date +%Y-%m-%d) 00:00:00" --until "$(date +%Y-%m-%d) 01:00:00" --no-pager | wc -l
 ```
 
----
 
 ### ✅ Practice 5: Filter by Priority
 
@@ -103,11 +98,9 @@ echo "=== Errors in current boot ==="
 journalctl -b -p err -o cat --no-pager | head -20
 ```
 
----
 
 ### ✅ Level 2: Intermediary Practices
 
----
 
 ### ✅ Practice 6: Kernel Messages
 
@@ -129,7 +122,6 @@ echo "=== Hardware errors ==="
 journalctl -k -p err | grep -i "error\|fail\|warn" | tail -10 || echo "No hardware errors found"
 ```
 
----
 
 ### ✅ Practice 7: Track Down a Specific Event
 
@@ -153,7 +145,6 @@ echo "=== Failed logins ==="
 lastb 2>/dev/null | head -10 || echo "No failed login records"
 ```
 
----
 
 ### ✅ Practice 8: Log Analysis — Find Patterns
 
@@ -176,7 +167,6 @@ if [ -f /var/log/auth.log ]; then
 fi
 ```
 
----
 
 ### ✅ Practice 9: Watch Logs in Real-Time
 
@@ -198,7 +188,6 @@ logger "Test message from part14 practice"
 sudo systemctl status cron > /dev/null 2>&1
 ```
 
----
 
 ### ✅ Practice 10: Test logrotate
 
@@ -223,7 +212,6 @@ echo "=== Dry run ==="
 sudo logrotate -d /etc/logrotate.conf 2>&1 | head -20
 ```
 
----
 
 ### ✅ Practice 11: Create a logrotate Config
 
@@ -261,7 +249,6 @@ sudo rm /etc/logrotate.d/test-logs
 rm -rf /tmp/test-logs
 ```
 
----
 
 ### ✅ Practice 12: Forward Logs to Journal
 
@@ -285,11 +272,9 @@ echo "=== MYAPP messages ==="
 journalctl -t MYAPP -n 5 --no-pager
 ```
 
----
 
 ### ✅ Level 3: Advanced Practices
 
----
 
 ### ✅ Practice 13: Check Boot Performance
 
@@ -309,7 +294,6 @@ systemd-analyze plot > /tmp/boot-plot.svg 2>/dev/null
 echo "Boot plot saved to /tmp/boot-plot.svg"
 ```
 
----
 
 ### ✅ Practice 14: Find Large Log Files
 
@@ -331,7 +315,6 @@ echo "=== Total log directory size ==="
 du -sh /var/log/ 2>/dev/null
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Log Analysis Report
 
@@ -415,10 +398,8 @@ chmod +x log_analysis_report.sh
 ./log_analysis_report.sh
 ```
 
----
 
 
 
----
 
 [← Previous](14-deep-understanding-how-logging-really.md) | [↑ Index](index.md) | [Next →](16-summary-complete-command-reference-for.md)

@@ -135,10 +135,8 @@ passwd  → /etc/pam.d/passwd
 
 > 🔍 **Reverse Engineering Insight:** `pam_authenticate()` takes a service name as its first argument. The application passes its own name (e.g., "sshd"), which tells PAM which config file to read. This is why the binary name matters — renaming `ssd` would break its PAM config lookup.
 
----
 
 
 
----
 
 [← Previous](02-1-what-is-pam-pluggable.md) | [↑ Index](index.md) | [Next →](04-3-pam-modules-deep-dive.md)

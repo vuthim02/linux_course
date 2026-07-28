@@ -49,10 +49,8 @@
 
 > 🔍 **Reverse Engineering Insight:** Golden rule: start with the least invasive tool. Don't use strace when top would do. Don't write a bpftrace script when a bcc-tool already exists. Each layer adds overhead — move down only when the previous layer fails.
 
----
 
 
 
----
 
 [← Previous](09-8-real-world-debugging-scenarios.md) | [↑ Index](index.md) | [Next →](11-hands-on-practices.md)

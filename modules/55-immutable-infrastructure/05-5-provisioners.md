@@ -261,10 +261,8 @@ provisioner "breakpoint" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](04-4-builders.md) | [↑ Index](index.md) | [Next →](06-6-cloud-init.md)

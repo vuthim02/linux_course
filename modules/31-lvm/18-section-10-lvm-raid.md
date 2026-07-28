@@ -60,10 +60,8 @@ sudo lvconvert --replace /dev/sdb vg_data/lv_raid1 /dev/sdd
 sudo vgreduce vg_data /dev/sdb
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-9-lvm-striping.md) | [↑ Index](index.md) | [Next →](19-section-12-troubleshooting-advanced.md)

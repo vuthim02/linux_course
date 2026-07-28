@@ -65,10 +65,8 @@ find /var/log -name "*.log" -exec wc -l {} \;
 
 > 💡 **`find -exec` explained:** The `{}` is a placeholder for each file found. The `\;` ends the exec command. So `find /etc -name "*.conf" -exec cat {} \;` would print every config file.
 
----
 
 
 
----
 
 [← Previous](11-section-8-wildcards-work-on.md) | [↑ Index](index.md) | [Next →](13-section-10-links-hard-links.md)

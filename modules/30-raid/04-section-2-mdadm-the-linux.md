@@ -42,10 +42,8 @@ Superblock formats:
 
 Modern Linux uses superblock 1.2 by default. The superblock contains the entire array configuration, which is why you can stop an array, move the drives to another Linux system, and `mdadm --assemble --scan` will find and reconstruct the array automatically.
 
----
 
 
 
----
 
 [← Previous](03-section-1-what-is-raid.md) | [↑ Index](index.md) | [Next →](05-section-3-creating-raid-arrays.md)

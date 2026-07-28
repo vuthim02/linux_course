@@ -43,10 +43,8 @@ sudo ufw allow from 10.0.0.0/8 to any port 514
 # Restrict who can write to log directories
 ```
 
----
 
 
 
----
 
 [← Previous](10-level-3-advanced-centralized-logging.md) | [↑ Index](index.md) | [Next →](12-section-8-analyzing-logs-for.md)

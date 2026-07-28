@@ -90,10 +90,8 @@ smbd -b | grep "CONFIGFILE"
 smbd -s /path/to/custom/smb.conf
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-what-is-smbcifs.md) | [↑ Index](index.md) | [Next →](05-level-2-intermediary-file-serving.md)

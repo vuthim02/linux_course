@@ -32,7 +32,6 @@ chmod +x safe_script.sh
 ./safe_script.sh
 ```
 
----
 
 ### ✅ Practice 2: Real Script — System Info Report
 
@@ -61,7 +60,6 @@ chmod +x sysinfo.sh
 ./sysinfo.sh
 ```
 
----
 
 ### ✅ Practice 3: Real Script — Disk Usage Alert
 
@@ -92,7 +90,6 @@ chmod +x disk_alert.sh
 ./disk_alert.sh
 ```
 
----
 
 ### ✅ Practice 4: Real Script — Backup Directory
 
@@ -135,7 +132,6 @@ touch /tmp/test_backup_source/{file1,file2,file3}.txt
 ls -la /tmp/backup_test/
 ```
 
----
 
 ### ✅ Practice 5: Real Script — User Audit
 
@@ -173,7 +169,6 @@ chmod +x user_audit.sh
 ./user_audit.sh
 ```
 
----
 
 ### ✅ Practice 6: Real Script — Service Manager
 
@@ -208,7 +203,6 @@ chmod +x service_ctl.sh
 # Test with: ./service_ctl.sh ssh status
 ```
 
----
 
 ### ✅ Practice 7: Real Script — Log Rotator (Simple)
 
@@ -242,7 +236,6 @@ touch /tmp/test_logs/new.log
 ls -la /tmp/test_logs/
 ```
 
----
 
 ### ✅ Practice 8: Script With getopts
 
@@ -331,7 +324,6 @@ chmod +x report_generator.sh
 cat /tmp/report.txt
 ```
 
----
 
 ### ✅ Practice 9: Comprehensive Script — System Health Check
 
@@ -507,10 +499,8 @@ chmod +x health_check.sh
 ./health_check.sh
 ```
 
----
 
 
 
----
 
 [← Previous](16-deep-understanding-how-scripts-execute.md) | [↑ Index](index.md) | [Next →](18-summary-complete-command-reference.md)

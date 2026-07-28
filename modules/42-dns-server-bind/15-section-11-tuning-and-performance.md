@@ -22,10 +22,8 @@ options {
 
 BIND 9 uses a **task manager** with N worker threads (default = CPU count). Each query becomes multiple events: parse → cache lookup → recurse → validate → respond.
 
----
 
 
 
----
 
 [← Previous](14-section-10-logging.md) | [↑ Index](index.md) | [Next →](16-section-12-troubleshooting.md)

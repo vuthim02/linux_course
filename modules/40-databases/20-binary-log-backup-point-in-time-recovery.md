@@ -52,6 +52,5 @@ mysql -u root -p -e "SELECT COUNT(*) FROM company.orders;"
 
 
 
----
 
 [← Previous](19-mysqldump-mariadb-dump.md) | [↑ Index](index.md) | [Next →](21-mariadb-dump-modern-wrapper.md)

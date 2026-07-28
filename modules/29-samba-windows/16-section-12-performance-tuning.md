@@ -80,10 +80,8 @@ iperf3 -c 192.168.1.100
 smbstatus | grep -E "SMB|protocol"
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-11-security-hardening-samba.md) | [↑ Index](index.md) | [Next →](17-practice-section-15-hands-on-exercises.md)

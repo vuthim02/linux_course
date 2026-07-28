@@ -28,10 +28,8 @@ This tells you:
 - Your **primary group** (gid)
 - All **groups** you belong to (sudo means you can become root)
 
----
 
 
 
----
 
 [← Previous](08-section-5-the-file-system.md) | [↑ Index](index.md) | [Next →](10-section-7-your-first-terminal.md)

@@ -79,10 +79,8 @@ restic --repo /backups/restic-repo check --read-data
 restic --repo /backups/restic-repo unlock  # stale locks after crash
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-6-borg-backup.md) | [↑ Index](index.md) | [Next →](17-section-8-backup-to-cloud.md)

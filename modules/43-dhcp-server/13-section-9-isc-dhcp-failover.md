@@ -104,10 +104,8 @@ sudo systemctl start isc-dhcp-server
 # Servers resync back to normal
 ```
 
----
 
 
 
----
 
 [← Previous](12-level-3-advanced-failover-kea.md) | [↑ Index](index.md) | [Next →](14-section-10-kea-the-modern.md)

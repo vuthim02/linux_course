@@ -26,12 +26,10 @@ sudo systemctl reload postfix
 
 When both `virtual_alias_maps` and `mydestination` match a domain, virtual aliases take precedence.
 
----
 
 # 8. Virtual Mailbox Domains
 
 
 
----
 
 [← Previous](24-71-email-aliases.md) | [↑ Index](index.md) | [Next →](26-81-concept.md)

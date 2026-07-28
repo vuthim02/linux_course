@@ -142,10 +142,8 @@ EOF
 | Batch mode | Yes | No |
 | VRF, bridge, VLAN | Integrated | Separate tools |
 
----
 
 
 
----
 
 [← Previous](04-level-2-intermediary-network-configuration.md) | [↑ Index](index.md) | [Next →](06-section-3-legacy-ifconfig-and.md)

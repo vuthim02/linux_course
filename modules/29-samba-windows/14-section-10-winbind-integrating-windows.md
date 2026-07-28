@@ -110,10 +110,8 @@ session required    pam_mkhomedir.so umask=0022 skel=/etc/skel
 EOF
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-9-smbstatus-view-active.md) | [↑ Index](index.md) | [Next →](15-section-11-security-hardening-samba.md)

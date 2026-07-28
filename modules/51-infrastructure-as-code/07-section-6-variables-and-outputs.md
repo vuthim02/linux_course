@@ -112,10 +112,8 @@ terraform output vpc_id
 terraform output -json instance_ips
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-5-hcl-syntax-deep.md) | [↑ Index](index.md) | [Next →](08-section-7-state-management.md)

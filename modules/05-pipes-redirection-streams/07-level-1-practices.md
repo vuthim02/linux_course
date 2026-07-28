@@ -19,7 +19,6 @@ echo "---END OF LIST---" >> etc_list.txt
 tail -5 etc_list.txt
 ```
 
----
 
 ### ✅ Practice 2: Pipe Basics
 
@@ -34,7 +33,6 @@ ls /etc | grep "conf" | wc -l
 echo "Number of .conf files in /etc: $(ls /etc | grep '\.conf' | wc -l)"
 ```
 
----
 
 ### ✅ Practice 3: Build a Pipeline Step by Step
 
@@ -64,7 +62,6 @@ head -10 frequency.txt
 history | awk '{print $2}' | sort | uniq -c | sort -rn | head -10
 ```
 
----
 
 ### ✅ Practice 4: Redirect stdin From a File
 
@@ -86,7 +83,6 @@ sort < fruits.txt        # stdin redirect
 # Same result
 ```
 
----
 
 # ⭐ Level 2: Intermediary — Error Handling and Advanced Redirection
 
@@ -97,6 +93,5 @@ sort < fruits.txt        # stdin redirect
 
 
 
----
 
 [← Previous](06-common-pipe-patterns-every-sysadmin.md) | [↑ Index](index.md) | [Next →](08-section-1-redirecting-stderr-the.md)

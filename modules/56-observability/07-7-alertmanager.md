@@ -113,10 +113,8 @@ receivers:
         send_resolved: true
 ```
 
----
 
 
 
----
 
 [← Previous](06-6-prometheus-storage.md) | [↑ Index](index.md) | [Next →](08-8-grafana.md)

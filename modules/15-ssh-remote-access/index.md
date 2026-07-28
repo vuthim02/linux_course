@@ -1,5 +1,6 @@
 # 15-ssh-remote-access
 
+**Prerequisites:** Complete [Part 14 - logging-journald](../14-logging-journald/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

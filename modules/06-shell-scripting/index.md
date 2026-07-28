@@ -1,5 +1,6 @@
 # 06-shell-scripting
 
+**Prerequisites:** Complete [Part 5 - pipes-redirection-streams](../05-pipes-redirection-streams/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

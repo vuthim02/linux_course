@@ -31,10 +31,8 @@ exec 3>&-
 exec 4>&-
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-2-process-substitution-and.md) | [↑ Index](index.md) | [Next →](17-section-4-redirection-gotchas-common.md)

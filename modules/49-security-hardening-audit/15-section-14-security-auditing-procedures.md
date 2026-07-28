@@ -159,10 +159,8 @@ EOF
 sudo chmod +x /etc/cron.weekly/security-audit
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-13-log-security.md) | [↑ Index](index.md) | [Next →](16-practice-section-15-hands-on-exercises.md)

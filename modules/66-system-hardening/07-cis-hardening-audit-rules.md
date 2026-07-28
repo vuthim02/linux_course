@@ -141,10 +141,8 @@ ausearch -k network_connect -ua 0 | \
 
 > 🔍 **Reverse Engineering Insight:** The audit subsystem runs inside the kernel itself. Even if an attacker deletes logs from syslog or journald, audit records in `/var/log/audit/audit.log` are harder to tamper with (and should be on a separate partition with immutable attributes). This is why CIS mandates auditd — it's your last line of defense for forensic evidence.
 
----
 
 
 
----
 
 [← Previous](06-5-auditd-deep-dive-kernel-level.md) | [↑ Index](index.md) | [Next →](08-6-fail2ban-automated-intrusion-prevention.md)

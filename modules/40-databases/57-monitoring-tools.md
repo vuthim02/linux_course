@@ -15,12 +15,10 @@ pgbadger /var/log/postgresql/postgresql-16-main.log
 SELECT * FROM pg_stat_statements ORDER BY total_exec_time DESC LIMIT 10;
 ```
 
----
 
 # 14. Troubleshooting
 
 
 
----
 
 [← Previous](56-postgresql-monitoring.md) | [↑ Index](index.md) | [Next →](58-connection-refused.md)

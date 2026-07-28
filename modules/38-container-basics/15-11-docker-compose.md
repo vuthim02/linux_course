@@ -144,10 +144,8 @@ services:
 docker compose --profile monitoring up -d
 ```
 
----
 
 
 
----
 
 [← Previous](14-10-registry.md) | [↑ Index](index.md) | [Next →](16-12-rootless-containers.md)

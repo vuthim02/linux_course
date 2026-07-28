@@ -12,10 +12,8 @@
 - Security auditing tools (Lynis, rkhunter, chkrootkit)
 - Incident response fundamentals
 
----
 
 
 
----
 
 [← Previous](18-command-reference.md) | [↑ Index](index.md) | [Next →](20-self-test-15-questions.md)

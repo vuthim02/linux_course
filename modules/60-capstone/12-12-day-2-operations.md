@@ -92,6 +92,5 @@ aws rds describe-db-instances \
 
 
 
----
 
-[← Previous](11-11-security-hardening.md) | [↑ Index](index.md) | [Next →](13-severity-sev2.md)
+[← Previous](11-11-security-hardening.md) | [↑ Index](index.md) | [Next →](13-incident-response-steps.md)

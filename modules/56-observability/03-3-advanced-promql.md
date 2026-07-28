@@ -47,10 +47,8 @@ groups:
         expr: 100 * (1 - node_filesystem_avail_bytes{mountpoint="/"} / node_filesystem_size_bytes{mountpoint="/"})
 ```
 
----
 
 
 
----
 
 [← Previous](02-2-prometheus-architecture.md) | [↑ Index](index.md) | [Next →](04-4-prometheus-exporters.md)

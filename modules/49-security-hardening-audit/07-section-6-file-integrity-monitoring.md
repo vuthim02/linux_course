@@ -204,10 +204,8 @@ sudo samhain -t init   # Initialize database
 sudo samhain -t check   # Run check
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-5-auditd-linux-audit.md) | [↑ Index](index.md) | [Next →](08-section-7-user-account-hardening.md)

@@ -498,10 +498,8 @@ gzip "$BACKUP_DIR/config-$DATE.ldif"
 find $BACKUP_DIR -name "*.gz" -mtime +30 -delete
 ```
 
----
 
 
 
----
 
 [← Previous](17-what-you-will-achieve.md) | [↑ Index](index.md) | [Next →](19-section-15-deep-understanding.md)

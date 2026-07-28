@@ -61,10 +61,8 @@ ssh server2 'dpkg -l' | awk 'NR>5 {print $2, $3}' | sort > svr2.txt
 diff -u svr1.txt svr2.txt
 ```
 
----
 
 
 
----
 
 [← Previous](14-10-xargs-building-command-lines.md) | [↑ Index](index.md) | [Next →](16-12-real-world-admin-scripts.md)

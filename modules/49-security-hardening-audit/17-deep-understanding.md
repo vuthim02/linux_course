@@ -226,10 +226,8 @@ cat /sys/kernel/security/lsm
 
 Both are needed: DAC first, then MAC as a safety net.
 
----
 
 
 
----
 
 [← Previous](16-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](18-summary-complete-command-reference.md)

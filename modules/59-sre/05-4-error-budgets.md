@@ -98,10 +98,8 @@ The error budget is a **negotiation between SRE and product development**:
 - SRE wants reliability → they enforce the budget
 - When budget is spent → product velocity stops
 
----
 
 
 
----
 
 [← Previous](04-3-service-level-objectives-slos.md) | [↑ Index](index.md) | [Next →](06-5-four-golden-signals.md)

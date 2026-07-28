@@ -13,10 +13,11 @@ Topics covered:
 - DNS troubleshooting with dig, nslookup, delv, and tcpdump
 - 15 hands-on practices
 
----
+### Why This Matters
+DNS is the phonebook of the internet. Understanding how name resolution works end-to-end — from stub resolvers to authoritative servers — is essential for debugging connectivity issues and running reliable services.
 
 
 
----
+
 
 [← Previous](20-command-reference.md) | [↑ Index](index.md) | [Next →](22-self-test-can-you-answer-these.md)

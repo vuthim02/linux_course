@@ -21,10 +21,8 @@ When you plug in a USB drive, Linux **mounts** it into the tree at a location li
 
 > 💡 **Reverse Engineering Insight:** This design means you can move an entire folder to a different physical disk by just remounting it somewhere else in the tree — without changing any paths your programs use. This is how Linux servers separate `/home`, `/var`, `/tmp` onto different disks for performance and safety.
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-navigation-file.md) | [↑ Index](index.md) | [Next →](04-section-2-paths-the-address.md)

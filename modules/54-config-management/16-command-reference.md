@@ -27,10 +27,8 @@
 | Event driven | No (polling) | Yes (ZeroMQ event bus) | No (polling) | No (push) |
 | GUI | PE Console | SaltStack Enterprise | Chef Automate | AWX/Ansible Tower |
 
----
 
 
 
----
 
 [← Previous](15-deep-understanding.md) | [↑ Index](index.md) | [Next →](17-whats-coming-in-part-55.md)

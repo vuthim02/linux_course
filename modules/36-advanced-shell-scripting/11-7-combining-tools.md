@@ -80,10 +80,8 @@ ps -eo pid,ppid,cmd --no-headers | \
     }'
 ```
 
----
 
 
 
----
 
 [← Previous](10-6-awk-admin-patterns.md) | [↑ Index](index.md) | [Next →](12-8-cut-sort-uniq-wc.md)

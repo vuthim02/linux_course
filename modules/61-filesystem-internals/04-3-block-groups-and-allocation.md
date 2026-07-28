@@ -44,10 +44,8 @@ sudo debugfs -R "dump_extents <12>" /dev/sda1 /tmp/testfile
 
 > 🔍 **Reverse Engineering Insight:** ext4 uses **extents** (contiguous block ranges) instead of individual block pointers. A single extent can describe millions of contiguous blocks, dramatically reducing metadata overhead for large files.
 
----
 
 
 
----
 
 [← Previous](03-2-inodes-the-heart-of.md) | [↑ Index](index.md) | [Next →](05-4-journaling-how-linux-prevents.md)

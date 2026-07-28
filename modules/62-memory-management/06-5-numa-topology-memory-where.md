@@ -126,10 +126,8 @@ cat /proc/<PID>/numa_maps | grep -c "N1"  # Node 1 pages
 
 > 🔍 **Reverse Engineering Insight:** NUMA imbalance is a silent killer of performance. A database process running on Node 0 but allocating memory on Node 1 can see 50-100% throughput degradation. Always use `numactl --interleave=all` for large shared-memory databases, or pin processes to specific nodes with `--membind`.
 
----
 
 
 
----
 
 [← Previous](05-4-zram-and-zswap-compressed.md) | [↑ Index](index.md) | [Next →](07-6-oom-killer-last-resort.md)

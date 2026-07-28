@@ -53,10 +53,8 @@ $ tmux attach -t migration
 | Copy mode | `Ctrl+A [` | `Ctrl+B [` |
 | Mouse support | `:termcapinfo xterm*` | `set -g mouse on` |
 
----
 
 
 
----
 
 [← Previous](10-12-background-foreground-jobs.md) | [↑ Index](index.md) | [Next →](12-level-2-intermediary-finding-processes.md)

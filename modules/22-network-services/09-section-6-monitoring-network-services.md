@@ -39,10 +39,8 @@ sudo lsof -i :22
 sudo lsof -i :80
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-securing-network-services.md) | [↑ Index](index.md) | [Next →](10-level-3-advanced-troubleshooting-and.md)

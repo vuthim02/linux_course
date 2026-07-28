@@ -46,10 +46,8 @@ LLMNR=yes          # Enable LLMNR (default: yes)
 # LLMNR=no         # Disable LLMNR
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-8-mdns-multicast-dns.md) | [↑ Index](index.md) | [Next →](13-section-10-troubleshooting-name-resolution.md)

@@ -33,10 +33,8 @@ sudo lvconvert --splitcache vg_data/lv_origin              # Detach
 sudo lvremove vg_data/lv_cache                            # Remove pool
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-7-thin-provisioning.md) | [↑ Index](index.md) | [Next →](14-section-11-lvm-and-encryption.md)

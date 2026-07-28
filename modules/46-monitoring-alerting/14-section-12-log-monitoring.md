@@ -236,10 +236,8 @@ volumes:
 EOF
 ```
 
----
 
 
 
----
 
 [← Previous](13-section-11-alerting.md) | [↑ Index](index.md) | [Next →](15-section-13-uptime-and-certificate.md)

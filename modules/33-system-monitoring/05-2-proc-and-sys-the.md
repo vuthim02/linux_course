@@ -61,10 +61,8 @@ $ cat /proc/loadavg
 - `3/456` = running processes / total threads
 - `12345` = last PID assigned
 
----
 
 
 
----
 
 [← Previous](04-1-why-monitor.md) | [↑ Index](index.md) | [Next →](06-3-top-htop-interactive-process.md)

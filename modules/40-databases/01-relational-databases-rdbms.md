@@ -13,8 +13,14 @@ A **relational database** organizes data into **tables** (relations) with **rows
 | **Index** | Accelerates lookups | `CREATE INDEX idx_email ON users(email);` |
 | **Transaction** | Group of operations, all or nothing | `BEGIN; UPDATE ...; COMMIT;` |
 
+### Popular RDBMS Options
 
+| Database | License | Best For |
+|----------|---------|----------|
+| **MariaDB** | GPL | Drop-in MySQL replacement, web apps |
+| **PostgreSQL** | PostgreSQL License | Complex queries, GIS, JSONB, extensibility |
+| **MySQL** | GPL + Commercial | Web applications, widespread hosting support |
+| **SQLite** | Public Domain | Embedded, mobile, testing, single-file databases |
 
----
 
 [↑ Index](index.md) | [Next →](02-acid-properties.md)

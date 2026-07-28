@@ -117,10 +117,8 @@ capsh --decode=$(grep CapPrm /proc/<PID>/status | awk '{print $2}')
 
 > ⚠️ **Warning:** Namespaces alone are NOT security boundaries. The kernel is the security boundary. A kernel exploit can escape any namespace. Always combine namespaces with seccomp, AppArmor/SELinux, capability dropping, and minimal images for defense in depth.
 
----
 
 
 
----
 
 [← Previous](09-8-container-internals.md) | [↑ Index](index.md) | [Next →](11-15-hands-on-practices.md)

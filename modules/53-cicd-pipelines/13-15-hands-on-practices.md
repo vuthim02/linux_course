@@ -596,10 +596,8 @@ jobs:
             Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 ```
 
----
 
 
 
----
 
 [← Previous](12-12-monitoring-pipelines.md) | [↑ Index](index.md) | [Next →](14-deep-understanding.md)

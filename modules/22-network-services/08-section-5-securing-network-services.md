@@ -61,10 +61,8 @@ sshd: ALL
 # Note: TCP wrappers are deprecated. Use firewalld/ufw instead.
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-network-service-management.md) | [↑ Index](index.md) | [Next →](09-section-6-monitoring-network-services.md)

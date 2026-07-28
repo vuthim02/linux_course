@@ -315,10 +315,8 @@ define timeperiod {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-monitoring-philosophy.md) | [↑ Index](index.md) | [Next →](05-section-3-nagios-plugins.md)

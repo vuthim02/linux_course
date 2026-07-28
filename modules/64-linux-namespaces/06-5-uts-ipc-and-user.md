@@ -146,10 +146,8 @@ cat /etc/subgid
 # Inside the container, UID 0 maps to UID 100000 on host
 ```
 
----
 
 
 
----
 
 [← Previous](05-4-mount-namespace.md) | [↑ Index](index.md) | [Next →](07-6-cgroup-namespace.md)

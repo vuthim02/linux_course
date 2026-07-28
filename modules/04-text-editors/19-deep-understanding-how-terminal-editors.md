@@ -63,10 +63,8 @@ Vim writes swap files to protect your work. This is critical when SSH disconnect
 # Always delete them after recovery: rm .*.sw?
 ```
 
----
 
 
 
----
 
 [← Previous](18-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](20-summary-complete-command-reference-for.md)

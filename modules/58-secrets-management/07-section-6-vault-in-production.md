@@ -66,10 +66,8 @@ Audit log entries show HMAC-hashed tokens and sensitive data:
 - **Performance Replication:** All data from primary → secondary clusters. Writes on primary, reads anywhere.
 - **DR Replication:** Data replicated for DR. Secondary stays offline until promoted.
 
----
 
 
 
----
 
 [← Previous](06-section-5-vault-policies.md) | [↑ Index](index.md) | [Next →](08-section-7-vault-agent-and.md)

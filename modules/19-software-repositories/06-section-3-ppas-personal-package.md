@@ -57,10 +57,8 @@ sudo add-apt-repository -s ppa:deadsnakes/ppa | head -20
 
 **Best practice:** Only use well-known PPAs (deadsnakes, ondrej/php, etc.)
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-ppas-rpm.md) | [↑ Index](index.md) | [Next →](07-section-4-rpm-repositories-fedorarhel.md)

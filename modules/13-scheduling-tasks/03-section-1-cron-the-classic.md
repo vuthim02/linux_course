@@ -103,10 +103,8 @@ sudo crontab -e -u www-data
 @reboot   /usr/local/bin/check-disks.sh
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-cron-fundamentals.md) | [↑ Index](index.md) | [Next →](04-section-2-where-crontabs-live.md)

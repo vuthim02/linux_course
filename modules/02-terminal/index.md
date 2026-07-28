@@ -1,5 +1,6 @@
 # 02-terminal
 
+**Prerequisites:** Complete [Part 1 - what-is-linux](../01-what-is-linux/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

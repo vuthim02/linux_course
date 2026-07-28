@@ -8,10 +8,15 @@
 
 Complete **15 hands-on practices** across all levels.
 
----
+### By the End of This Part You Will Be Able To
+- Boot into single-user, rescue, and emergency modes when the system won't start
+- Reset a lost root password using GRUB kernel parameters
+- Repair corrupted filesystems with `fsck` and recover data
+- Fix broken GRUB installations and restore bootloader functionality
+- Use a Live USB environment to chroot and repair an unbootable system
 
 
 
----
+
 
 [↑ Index](index.md) | [Next →](02-level-1-basic-understanding-rescue.md)

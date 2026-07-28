@@ -99,10 +99,8 @@ ls -la /dev/disk/by-path/
 # Shows drives by physical connector (e.g., pci-0000:00:1f.2-ata-3)
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-raid-10-stripe.md) | [↑ Index](index.md) | [Next →](12-section-9-monitoring-raid-health.md)

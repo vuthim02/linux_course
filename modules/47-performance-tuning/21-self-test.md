@@ -135,13 +135,11 @@ C) NVMe requires read-ahead to be disabled; HDDs require it enabled
 D) There is no difference in tuning approach
 ```
 
----
 
 **Score:** 12/15 correct = ready for Part 48.
 
 **Answers:** 1-B, 2-C, 3-B, 4-C, 5-B, 6-B, 7-B, 8-B, 9-C, 10-B, 11-B, 12-B, 13-B, 14-B, 15-B
 
----
 
 *Previous → Part 46: Monitoring and Alerting*
 *Next → Part 48: High Availability and Clustering*
@@ -149,6 +147,5 @@ D) There is no difference in tuning approach
 [← Previous](part46.md) | [Next →](part48.md)
 
 
----
 
 [← Previous](20-whats-coming-in-part-48.md) | [↑ Index](index.md)

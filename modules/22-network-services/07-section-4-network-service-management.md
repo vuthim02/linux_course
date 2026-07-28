@@ -54,10 +54,8 @@ sudo netstat -tlnp      # If netstat is installed
 systemctl list-sockets
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-3-ssh-server.md) | [↑ Index](index.md) | [Next →](08-section-5-securing-network-services.md)

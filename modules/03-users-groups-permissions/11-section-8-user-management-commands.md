@@ -131,10 +131,8 @@ sudo passwd -S bob
 # (P=usable, L=locked, NP=no password)
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-etcgroup-group-database.md) | [↑ Index](index.md) | [Next →](12-section-9-group-management-commands.md)

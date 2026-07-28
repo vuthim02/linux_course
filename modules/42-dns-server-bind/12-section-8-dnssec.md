@@ -94,10 +94,8 @@ zone "example.com" {
 };
 ```
 
----
 
 
 
----
 
 [← Previous](11-level-3-advanced-dnssec-access.md) | [↑ Index](index.md) | [Next →](13-section-9-access-control.md)

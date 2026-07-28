@@ -18,10 +18,16 @@ remote_write:
 
 **Storage sizing:** ~2 bytes/sample compressed. 500K series × 1 sample/15s × 15d × 2 bytes ≈ 86 GB. 1M series @ 10s interval, 15d ≈ 260 GB.
 
----
+### Key Takeaways
+
+- **Gorilla XOR compression** is remarkably efficient (~1.3 bytes/sample) — Prometheus can store months of data locally
+- **2-hour block windows** are a fundamental design choice — they balance write throughput with query performance
+- **Remote write** is the escape hatch when local storage is not enough — pair with Thanos or Mimir for long-term retention
+- **Downsampling** only works with remote backends; plan your retention strategy accordingly
+- **Storage sizing** is often underestimated — profile your cardinality and scrape interval before committing to disk
 
 
 
----
+
 
 [← Previous](05-5-prometheus-service-discovery-and.md) | [↑ Index](index.md) | [Next →](07-7-alertmanager.md)

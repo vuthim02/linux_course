@@ -1,5 +1,6 @@
 # 05-pipes-redirection-streams
 
+**Prerequisites:** Complete [Part 4 - text-editors](../04-text-editors/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

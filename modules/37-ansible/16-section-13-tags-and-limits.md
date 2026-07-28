@@ -66,10 +66,8 @@ ansible-playbook site.yml --limit webservers
 ansible-playbook site.yml --limit 'all:!web1.example.com'
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-12-vault.md) | [↑ Index](index.md) | [Next →](17-section-14-error-handling.md)

@@ -1,5 +1,6 @@
 # 11-package-management
 
+**Prerequisites:** Complete [Part 10 - linux-boot-process](../10-linux-boot-process/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

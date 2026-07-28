@@ -11,10 +11,9 @@
 - **Benchmarking** — sysbench, fio, iperf3, stress-ng, unixbench
 - **Capacity planning** — resource trend analysis, headroom calculation, scaling strategies
 
----
+### Why This Matters
 
+The monitoring stack you build in Part 46 will reveal *what* is slow. Part 47 teaches you *how to fix it* — turning data into action.
 
-
----
 
 [← Previous](19-command-reference.md) | [↑ Index](index.md) | [Next →](21-self-test.md)

@@ -29,10 +29,8 @@ dnf repolist | grep epel
 sudo dnf install -y epel-next-release
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-rpm-repositories-fedorarhel.md) | [↑ Index](index.md) | [Next →](09-section-6-rpm-fusion.md)

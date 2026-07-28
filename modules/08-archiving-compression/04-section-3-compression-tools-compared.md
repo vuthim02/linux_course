@@ -55,10 +55,8 @@ xz -9 file.txt      # Very slow, very small
 
 > 💡 **Default choice:** Use `gzip` (via `tar -czf`) for 99% of your work. It is fast enough and compresses well. Only use `xz` for long-term archives where size matters more than time.
 
----
 
 
 
----
 
 [← Previous](03-section-2-tar-the-tape.md) | [↑ Index](index.md) | [Next →](05-section-4-viewing-and-manipulating.md)

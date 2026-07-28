@@ -143,10 +143,8 @@ sudo authselect remove-backup /root/pam-backup-20260726
 
 > ⚠️ **Warning:** If you have manually edited `/etc/pam.d/` files, running `authselect select` will overwrite your changes. Always create a backup first. If you need custom PAM settings, create a custom profile.
 
----
 
 
 
----
 
 [← Previous](07-6-ldap-integration.md) | [↑ Index](index.md) | [Next →](09-8-centralized-auth-in-practice.md)

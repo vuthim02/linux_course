@@ -203,10 +203,8 @@ This creates a complete HA stack:
 7. DRBD promotes on the survivor
 8. Everything restarts in correct order
 
----
 
 
 
----
 
 [← Previous](12-section-11-keepalived-haproxy-integration.md) | [↑ Index](index.md) | [Next →](14-section-13-load-balancing-for.md)

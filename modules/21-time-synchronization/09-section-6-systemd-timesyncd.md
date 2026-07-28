@@ -30,10 +30,8 @@ PollIntervalMax=2048
 | Accuracy | Good | Excellent |
 | Best for | Desktops, simple servers | Servers, infrastructure |
 
----
 
 
 
----
 
 [← Previous](08-section-5-configuring-chrony-as.md) | [↑ Index](index.md) | [Next →](10-level-3-advanced-troubleshooting-and.md)

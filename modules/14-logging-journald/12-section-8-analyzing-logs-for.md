@@ -69,10 +69,8 @@ grep -c "Failed password" /var/log/auth.log
 grep -v "informational" /var/log/syslog | head -20
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-centralized-logging.md) | [↑ Index](index.md) | [Next →](13-section-9-log-security-and.md)

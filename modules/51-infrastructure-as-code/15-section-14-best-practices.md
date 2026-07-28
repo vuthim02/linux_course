@@ -143,10 +143,8 @@ provider "registry.terraform.io/hashicorp/aws" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-13-testing-and-ci.md) | [↑ Index](index.md) | [Next →](16-section-15-deep-understanding.md)

@@ -16,7 +16,6 @@ sudo apt install amavisd-new
 # Amavis integrates SpamAssassin and ClamAV automatically
 ```
 
----
 
 ### Practice 12: Rate Limit Outbound Mail
 
@@ -31,7 +30,6 @@ smtpd_recipient_limit = 50
 
 Test by connecting multiple times from one IP and observing rejections.
 
----
 
 ### Practice 13: Greylisting
 
@@ -52,7 +50,6 @@ smtpd_recipient_restrictions =
 
 Test: First send from a new sender — message is deferred with "greylisted" in the log. Second send (after 5+ minutes) is accepted.
 
----
 
 ### Practice 14: DKIM Signing
 
@@ -80,7 +77,6 @@ non_smtpd_milters = inet:localhost:8891
 
 Test: send mail and verify `DKIM-Signature:` header appears.
 
----
 
 ### Practice 15: Real-World Integration — Full Mail Server
 
@@ -139,12 +135,10 @@ sudo tail -f /var/log/mail.log
 
 This is a production-ready setup for a small domain.
 
----
 
 # Deep Understanding
 
 
 
----
 
 [← Previous](53-level-2-intermediary-practices.md) | [↑ Index](index.md) | [Next →](55-postfixs-process-model-prefork-vs.md)

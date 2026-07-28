@@ -124,10 +124,8 @@ iface eth0 inet static
     post-down /sbin/ip addr flush dev eth0
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-5-netplan-modern-ubuntudebian.md) | [↑ Index](index.md) | [Next →](10-section-7-rhelcentosfedora-network-configuration.md)

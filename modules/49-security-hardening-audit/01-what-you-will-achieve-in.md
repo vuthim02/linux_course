@@ -13,10 +13,8 @@ By the end of this part, you will:
 - Implement a **security auditing procedure** and incident response plan
 - Write a **complete hardening and audit script** tying everything together
 
----
 
 
 
----
 
 [↑ Index](index.md) | [Next →](02-section-1-security-philosophy.md)

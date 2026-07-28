@@ -44,10 +44,8 @@ ls /run/systemd/system/
 
 **Priority:** `/etc/systemd/system/` overrides `/usr/lib/systemd/system/`. This is how you customize without editing package files.
 
----
 
 
 
----
 
 [← Previous](05-level-2-intermediary-service-creation.md) | [↑ Index](index.md) | [Next →](07-section-4-creating-a-custom.md)

@@ -62,10 +62,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 This fingerprint is stored in `~/.ssh/known_hosts`. On subsequent connections, the server must present the same key — or SSH warns you of a possible man-in-the-middle attack.
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-understanding-ssh.md) | [↑ Index](index.md) | [Next →](04-section-2-ssh-client-basics.md)

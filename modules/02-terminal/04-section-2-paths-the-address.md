@@ -57,10 +57,8 @@ This means: "starting from where I am now, go into documents, find report.txt"
 | Go up to /home | `cd /home` | `cd ..` |
 | Go to /etc | `cd /etc` | `cd ../../etc` |
 
----
 
 
 
----
 
 [← Previous](03-section-1-reverse-engineering-the.md) | [↑ Index](index.md) | [Next →](05-section-3-the-ls-command.md)

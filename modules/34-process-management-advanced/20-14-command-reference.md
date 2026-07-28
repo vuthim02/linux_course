@@ -47,10 +47,8 @@
 | `systemd-cgls` | Show cgroup tree |
 | `/proc/PID/sched` | Read CFS vruntime and scheduling stats |
 
----
 
 
 
----
 
 [← Previous](19-16-deep-understanding.md) | [↑ Index](index.md) | [Next →](21-15-15-hands-on-practices.md)

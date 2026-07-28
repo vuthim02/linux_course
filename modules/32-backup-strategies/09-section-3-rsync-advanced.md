@@ -58,10 +58,8 @@ rsync -av --exclude-from=/etc/backup-excludes.txt /data/ /backup/
 sudo systemctl enable --now rsync
 ```
 
----
 
 
 
----
 
 [← Previous](08-section-2-tar-advanced.md) | [↑ Index](index.md) | [Next →](10-section-4-ddrescue-failing-drive.md)

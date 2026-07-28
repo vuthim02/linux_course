@@ -107,10 +107,8 @@
 | `idmap config * : range` | UID/GID range for mapping |
 | `winbind use default domain` | Strip domain prefix from usernames |
 
----
 
 
 
----
 
 [← Previous](18-deep-understanding-how-smbcifs-really.md) | [↑ Index](index.md) | [Next →](20-whats-coming-in-part-30.md)

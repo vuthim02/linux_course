@@ -110,10 +110,8 @@ sudo opensnoop-bpfcc    # Shows file access inside containers
 sudo biolatency-bpfcc   # Shows container I/O latency
 ```
 
----
 
 
 
----
 
 [← Previous](08-7-filesystem-tracing-know-every.md) | [↑ Index](index.md) | [Next →](10-9-when-to-use-which.md)

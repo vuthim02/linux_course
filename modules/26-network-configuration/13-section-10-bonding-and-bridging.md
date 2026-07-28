@@ -153,10 +153,8 @@ brctl show virbr0
 bridge link show master virbr0
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-9-etcresolvconf-and-dns.md) | [↑ Index](index.md) | [Next →](14-section-11-vlan-tagging-8021q.md)

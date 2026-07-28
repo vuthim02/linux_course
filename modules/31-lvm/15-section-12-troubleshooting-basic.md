@@ -33,10 +33,8 @@ sudo lvconvert --replace /dev/sdb vg_data/lv_raid1 /dev/sdd
 sudo vgcfgrestore -f /etc/lvm/backup/vg_data vg_data
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-11-lvm-and-encryption.md) | [↑ Index](index.md) | [Next →](16-level-3-advanced-lvm-internals.md)

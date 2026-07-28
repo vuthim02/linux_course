@@ -83,10 +83,8 @@ sudo grep " 404 " /var/log/apache2/access.log | awk '{print $7}' | sort | uniq -
 sudo awk '{if ($NF > 5000000) print $0}' /var/log/apache2/access.log
 ```
 
----
 
 
 
----
 
 [← Previous](06-section-5-apache-performance-mpm.md) | [↑ Index](index.md) | [Next →](08-section-7-nginx-installation-and.md)

@@ -98,10 +98,8 @@
     index_var: idx      # access loop index
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-8-templates-with-jinja2.md) | [↑ Index](index.md) | [Next →](13-section-10-roles.md)

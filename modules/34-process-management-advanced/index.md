@@ -1,5 +1,6 @@
 # 34-process-management-advanced
 
+**Prerequisites:** Complete [Part 33 - system-monitoring](../33-system-monitoring/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

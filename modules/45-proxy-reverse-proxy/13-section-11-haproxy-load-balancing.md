@@ -97,10 +97,8 @@ backend web_back
     server web2 10.0.0.11:80 check inter 1s fall 2 rise 2
 ```
 
----
 
 
 
----
 
 [← Previous](12-section-10-haproxy-installation-and.md) | [↑ Index](index.md) | [Next →](14-section-12-haproxy-advanced-features.md)

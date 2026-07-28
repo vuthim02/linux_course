@@ -120,10 +120,8 @@ sudo nsenter -t $ISOLATED_PID -p -n bash
 
 > 🔍 **Reverse Engineering Insight:** `docker exec` is implemented as `nsenter` under the hood. Docker finds the container's PID on the host and uses `nsenter -t <PID> --all` to enter all the container's namespaces, then executes the command there. This is why you can debug a container without installing tools inside it — you can run the tools from the host via `nsenter`.
 
----
 
 
 
----
 
 [← Previous](07-6-cgroup-namespace.md) | [↑ Index](index.md) | [Next →](09-8-container-internals.md)

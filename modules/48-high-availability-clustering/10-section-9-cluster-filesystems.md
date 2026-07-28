@@ -84,10 +84,8 @@ crm configure clone cl-clvmd clvmd \
     meta clone-max=2 clone-node-max=2 interleave=true
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-8-pacemaker-resources-deep.md) | [↑ Index](index.md) | [Next →](11-section-10-keepalived-vrrp.md)

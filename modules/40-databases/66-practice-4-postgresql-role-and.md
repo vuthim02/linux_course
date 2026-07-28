@@ -25,6 +25,5 @@ psql -h localhost -U invadmin -d inventory -c "SELECT * FROM items;"
 
 
 
----
 
 [← Previous](65-practice-3-mysqldump-backup-and.md) | [↑ Index](index.md) | [Next →](67-practice-5-pgdumppgrestore.md)

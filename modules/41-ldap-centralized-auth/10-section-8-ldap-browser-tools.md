@@ -98,10 +98,8 @@ $servers->setValue('login','anon_bind',false);
 $servers->setValue('login','dn','cn=admin,dc=example,dc=com');
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-7-ldap-over-tls.md) | [↑ Index](index.md) | [Next →](11-level-3-advanced-ldap-internals.md)

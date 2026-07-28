@@ -18,12 +18,10 @@ SELECT rolname, rolpassword ~ 'SCRAM-SHA-256' AS is_scram
 FROM pg_authid;
 ```
 
----
 
 # 10. PostgreSQL Backup
 
 
 
----
 
 [← Previous](40-pgidentconf-user-mapping.md) | [↑ Index](index.md) | [Next →](42-pgdump-single-database-backup.md)

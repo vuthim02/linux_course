@@ -64,10 +64,8 @@ nano ~/deploy.sh
 
 > 💡 Nano is **always available**. If you SSH into a random server and need to change a config file, Nano will work. Vim might not be installed.
 
----
 
 
 
----
 
 [← Previous](03-section-1-why-terminal-text.md) | [↑ Index](index.md) | [Next →](05-section-3-vim-the-professionals.md)

@@ -83,10 +83,8 @@ echo "put /local/file.txt /remote/" | sftp -b - user@server
 | rsync | Large transfers, backups, directory syncing |
 | sftp | Interactive file management on remote server |
 
----
 
 
 
----
 
 [← Previous](07-section-4-ssh-server-configuration.md) | [↑ Index](index.md) | [Next →](09-section-6-ssh-config-file.md)

@@ -77,10 +77,8 @@
 | `lsblk` | Show block device tree |
 | `blkid /dev/vg_name/lv_name` | Show LV UUID |
 
----
 
 
 
----
 
 [← Previous](21-practice-section-15-hands-on-exercises.md) | [↑ Index](index.md) | [Next →](23-whats-coming-in-part-32.md)

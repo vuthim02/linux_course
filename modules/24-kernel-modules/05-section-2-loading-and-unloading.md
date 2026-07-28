@@ -93,10 +93,8 @@ sudo modprobe pcspkr
 # modprobe: FATAL: Module pcspkr is blacklisted
 ```
 
----
 
 
 
----
 
 [← Previous](04-level-2-intermediary-module-management.md) | [↑ Index](index.md) | [Next →](06-section-3-module-dependencies.md)

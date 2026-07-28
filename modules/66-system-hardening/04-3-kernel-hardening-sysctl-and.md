@@ -96,10 +96,8 @@ grep MODULE_SIG /boot/config-$(uname -r)
 modinfo -F signer /lib/modules/$(uname -r)/kernel/drivers/net/e1000/e1000.ko
 ```
 
----
 
 
 
----
 
 [← Previous](03-2-cis-benchmarks-the-security.md) | [↑ Index](index.md) | [Next →](05-4-filesystem-hardening.md)

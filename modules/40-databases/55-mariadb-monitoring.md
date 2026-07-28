@@ -58,6 +58,5 @@ pt-query-digest /var/log/mysql/mariadb-slow.log
 
 
 
----
 
 [← Previous](54-postgresql-streaming-replication.md) | [↑ Index](index.md) | [Next →](56-postgresql-monitoring.md)

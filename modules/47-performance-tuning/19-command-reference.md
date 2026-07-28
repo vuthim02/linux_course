@@ -56,10 +56,8 @@
 | `/etc/security/limits.conf` | Per-process resource limits |
 | `/etc/udev/rules.d/*.rules` | Persistent device tunings |
 
----
 
 
 
----
 
 [← Previous](18-deep-understanding.md) | [↑ Index](index.md) | [Next →](20-whats-coming-in-part-48.md)

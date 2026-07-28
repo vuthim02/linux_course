@@ -15,10 +15,14 @@ echo "www-data" >> /etc/cron.allow
 echo "backup" >> /etc/cron.allow
 ```
 
----
+### Key Takeaways
+- `cron.allow` takes precedence over `cron.deny` if both exist
+- On production servers, whitelist approach is safest
+- Regular users should never have cron access unless explicitly needed
+- Check `/etc/cron.allow` and `/etc/cron.deny` during security audits
 
 
 
----
+
 
 [← Previous](08-section-5-common-cron-mistakes.md) | [↑ Index](index.md) | [Next →](10-section-7-at-one-time-scheduling.md)

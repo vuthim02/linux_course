@@ -20,6 +20,5 @@ If root uses `unix_socket`, only `sudo mysql` works (no password needed).
 
 
 
----
 
 [← Previous](13-example-complete-workflow.md) | [↑ Index](index.md) | [Next →](15-userhost-format.md)

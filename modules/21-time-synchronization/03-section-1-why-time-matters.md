@@ -37,10 +37,8 @@
 # Clock off by 1 year:     everything breaks
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-time-concepts.md) | [↑ Index](index.md) | [Next →](04-section-2-how-ntp-works.md)

@@ -79,10 +79,8 @@ nohup / setsid:
  1302  1302   1302   sleep 100    ← different PGID, different SID (immune)
 ```
 
----
 
 
 
----
 
 [← Previous](09-7-nice-renice-scheduling-priority.md) | [↑ Index](index.md) | [Next →](11-13-cron-and-long-running-processes.md)

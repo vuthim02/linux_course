@@ -484,10 +484,8 @@ tail -f /var/log/nginx/access.log | grep -v health
 # Should show real client IP, not HAProxy IP
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-15-security.md) | [↑ Index](index.md) | [Next →](19-deep-understanding.md)

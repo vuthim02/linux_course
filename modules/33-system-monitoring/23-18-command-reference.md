@@ -49,10 +49,8 @@ sudo apt install htop sysstat dstat nmon glances smartmontools lnav atop bpfcc-t
 sudo dnf install htop sysstat dstat nmon glances smartmontools lnav atop bcc-tools
 ```
 
----
 
 
 
----
 
 [← Previous](22-13-disk-health-monitoring.md) | [↑ Index](index.md) | [Next →](24-19-15-hands-on-practices.md)

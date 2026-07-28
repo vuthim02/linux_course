@@ -44,10 +44,8 @@ cat /lib/modules/$(uname -r)/modules.dep | grep ext4
 sudo depmod -a
 ```
 
----
 
 
 
----
 
 [← Previous](05-section-2-loading-and-unloading.md) | [↑ Index](index.md) | [Next →](07-section-4-module-parameters.md)

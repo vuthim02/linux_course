@@ -155,10 +155,8 @@ $ ./script.sh -v -o report.txt -n 5 Alice
 # Name: Alice, Count: 5, Output: report.txt, Verbose: 1
 ```
 
----
 
 
 
----
 
-[← Previous](13-section-1-error-handling-writing.md) | [↑ Index](index.md) | [Next →](15-section-3-scheduling-scripts-with.md)
+[← Previous](13-level-2-practices.md) | [↑ Index](index.md) | [Next →](15-section-3-scheduling-scripts-with.md)

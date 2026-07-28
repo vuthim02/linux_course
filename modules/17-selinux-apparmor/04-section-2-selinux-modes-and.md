@@ -67,10 +67,8 @@ setenforce 0
 # Then fix the issue, then setenforce 1
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-1-dac-vs-mac.md) | [↑ Index](index.md) | [Next →](05-level-2-intermediary-selinux-contexts.md)

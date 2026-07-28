@@ -66,10 +66,8 @@
 | `curl 'http://localhost:9115/probe?module=http_2xx&target=https://example.com'` | Blackbox probe |
 | `/usr/local/bin/mysqld_exporter --web.listen-address=:9104` | Start MySQL exporter |
 
----
 
 
 
----
 
 [← Previous](18-deep-understanding.md) | [↑ Index](index.md) | [Next →](20-whats-coming-in-part-47.md)

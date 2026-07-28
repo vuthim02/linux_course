@@ -74,10 +74,8 @@ sudo update-initramfs -u
 sudo reboot
 ```
 
----
 
 
 
----
 
 [← Previous](08-level-3-advanced-building-and.md) | [↑ Index](index.md) | [Next →](10-section-6-building-a-custom.md)

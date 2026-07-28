@@ -103,10 +103,8 @@ ip route               # See default gateway
 cat /etc/resolv.conf   # See DNS servers
 ```
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-dhcp-and.md) | [↑ Index](index.md) | [Next →](04-section-2-http-server.md)

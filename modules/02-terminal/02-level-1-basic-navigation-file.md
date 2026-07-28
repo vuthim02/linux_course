@@ -5,12 +5,16 @@
 
 > **Level 1 Goal:** Navigate confidently using absolute and relative paths, create/copy/move/delete files and directories, read file contents, and understand hidden files.
 
----
+### What You'll Cover
+- Absolute vs relative paths and the `~` shortcut
+- `ls`, `cd`, `pwd`, `mkdir`, `touch` essentials
+- `cp`, `mv`, `rm` for file operations
+- Reading files with `cat`, `less`, `head`, `tail`
 
 
 
 
 
----
+
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-1-reverse-engineering-the.md)

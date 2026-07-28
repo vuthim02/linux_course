@@ -1,5 +1,6 @@
 # 55-immutable-infrastructure
 
+**Prerequisites:** Complete [Part 54 - config-management](../54-config-management/) before this module.
 ## Sections
 
 - [1 Immutable Infrastructure Philosophy](01-1-immutable-infrastructure-philosophy.md)

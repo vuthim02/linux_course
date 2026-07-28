@@ -40,7 +40,6 @@
 | `&&` | AND |
 | `\|\|` | OR |
 
----
 
 ### Level 2: Intermediary Commands
 
@@ -84,7 +83,6 @@
 | `arr+=(d)` | Append element |
 | `declare -A map` | Associative array |
 
----
 
 ### Level 3: Advanced Commands
 
@@ -115,10 +113,8 @@
 | `crontab -l` | List cron jobs |
 | `crontab -r` | Remove all jobs |
 
----
 
 
 
----
 
 [← Previous](17-level-3-practices.md) | [↑ Index](index.md) | [Next →](19-whats-coming-in-part-7.md)

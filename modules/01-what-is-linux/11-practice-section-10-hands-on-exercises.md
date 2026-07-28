@@ -4,7 +4,6 @@
 
 ### Level 1 Practices — Linux Foundations
 
----
 
 ### ✅ Practice 1: Read Your Prompt
 
@@ -20,7 +19,6 @@ john@ubuntu:~$
 - What is your hostname?
 - Are you root or normal user? ($ = normal, # = root)
 
----
 
 ### ✅ Practice 2: Explore Kernel and System Info
 
@@ -43,11 +41,9 @@ uptime
 - Your Linux distribution name and version
 - How many days/hours your system has been running
 
----
 
 ### Level 2 Practices — Navigating the System
 
----
 
 ### ✅ Practice 3: Navigate the File System
 
@@ -76,7 +72,6 @@ pwd
 /home/yourusername
 ```
 
----
 
 ### ✅ Practice 4: Explore Key Directories
 
@@ -96,7 +91,6 @@ ls /proc | head -30
 
 > 💡 The `| head -20` part limits output to 20 lines so your screen doesn't flood.
 
----
 
 ### ✅ Practice 5: Find Out Who You Are
 
@@ -114,7 +108,6 @@ who
 w
 ```
 
----
 
 ### ✅ Practice 6: Read a Real System File
 
@@ -131,7 +124,6 @@ cat /etc/os-release
 
 > 💡 `cat` = "concatenate" — it prints the content of a file to screen. You'll use this thousands of times.
 
----
 
 ### ✅ Practice 7: Look at a Running Process — The Kernel in Action
 
@@ -149,7 +141,6 @@ cat /proc/$$/status | head -10
 
 > 🔍 **Reverse Engineering Insight:** `/proc/$$` is a folder with info about YOUR current shell process. You just accessed live kernel data through a file!
 
----
 
 ### ✅ Practice 8: Understand the Shell
 
@@ -167,7 +158,6 @@ env | head -20
 echo $PATH
 ```
 
----
 
 ### ✅ Practice 9: Get Help — The Right Way
 
@@ -186,7 +176,6 @@ ls --help
 
 > 💡 Professional sysadmins use `man` constantly. Get comfortable with it now.
 
----
 
 ### ✅ Practice 10: Reverse Engineer Your Own Session
 
@@ -210,10 +199,8 @@ head -5 /etc/passwd
 
 **Explain to yourself:** What is `/etc/passwd`? It is the file where Linux stores all user accounts. Each line is one user. You just counted how many users exist!
 
----
 
 
 
----
 
 [← Previous](10-section-7-your-first-terminal.md) | [↑ Index](index.md) | [Next →](12-level-3-advanced-how-linux.md)

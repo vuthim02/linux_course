@@ -201,10 +201,8 @@ module "vpc" {
 }
 ```
 
----
 
 
 
----
 
 [← Previous](09-section-8-remote-backends.md) | [↑ Index](index.md) | [Next →](11-section-10-workspaces.md)

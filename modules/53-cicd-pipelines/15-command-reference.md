@@ -24,10 +24,8 @@
 | Logs | Live streaming in UI | Live streaming | Console output + Blue Ocean |
 | Triggers (CI) | Webhook (instant) | Webhook (instant) | Webhook or Polling |
 
----
 
 
 
----
 
 [← Previous](14-deep-understanding.md) | [↑ Index](index.md) | [Next →](16-whats-coming-in-part-54.md)

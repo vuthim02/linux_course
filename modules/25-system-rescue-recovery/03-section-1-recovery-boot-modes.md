@@ -58,10 +58,8 @@ sudo systemctl emergency
 | Multi-user | Read-write | All non-GUI | Yes | Normal operation |
 | Graphical | Read-write | All | Yes | Normal with GUI |
 
----
 
 
 
----
 
 [← Previous](02-level-1-basic-understanding-rescue.md) | [↑ Index](index.md) | [Next →](04-level-2-intermediary-password-reset.md)

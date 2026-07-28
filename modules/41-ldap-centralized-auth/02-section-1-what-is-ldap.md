@@ -83,10 +83,8 @@ mail: alice@example.com
 | **NIS** | Legacy small networks (do not deploy new) |
 | **SSH keys** | Small teams, no central management |
 
----
 
 
 
----
 
 [← Previous](01-level-1-basic-understanding-ldap.md) | [↑ Index](index.md) | [Next →](03-section-2-openldap-installation.md)

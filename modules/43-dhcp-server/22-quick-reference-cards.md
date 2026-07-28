@@ -63,7 +63,6 @@ Client gets 169.254.x.x?
 | 547/udp | DHCPv6 | DHCPv6 Server |
 | 647/tcp | DHCP Failover | Failover peer |
 
----
 
 *Previous → Part 42: DNS Server Administration (BIND)*
 *Next → Part 44: Mail Servers — Postfix*
@@ -71,6 +70,5 @@ Client gets 169.254.x.x?
 [← Previous](part42.md) | [Next →](part44.md)
 
 
----
 
 [← Previous](21-section-17-self-test.md) | [↑ Index](index.md)

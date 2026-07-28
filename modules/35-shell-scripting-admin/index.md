@@ -1,5 +1,6 @@
 # 35-shell-scripting-admin
 
+**Prerequisites:** Complete [Part 34 - process-management-advanced](../34-process-management-advanced/) before this module.
 ## Sections
 
 - [What You Will Achieve](01-what-you-will-achieve.md)

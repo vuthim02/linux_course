@@ -5,10 +5,15 @@
 
 > **Level 2 Goal:** Configure rsyslog rules, master journalctl queries and filtering, configure journald persistence, and set up log rotation with logrotate.
 
----
+### What You'll Cover
+- Writing rsyslog rules: facilities, selectors, and actions
+- Filtering logs by program name, severity, and facility
+- Configuring journald persistence and storage limits
+- Using `journalctl` queries: time ranges, unit filters, priority levels
+- Setting up `logrotate` with compression, rotation schedules, and post-rotate scripts
 
 
 
----
+
 
 [← Previous](05-section-4-key-log-files.md) | [↑ Index](index.md) | [Next →](07-section-3-rsyslog-configuration.md)

@@ -12,10 +12,14 @@ By the end of this part, you will:
 - Automate backups with compression in scripts
 - Complete **15 hands-on practices**
 
----
+### Key Skills You'll Build
+- Efficient backup strategies for production servers
+- Reducing storage and bandwidth with compression
+- Cross-platform file exchange with zip
+- Automating archive-based workflows in scripts
 
 
 
----
+
 
 [↑ Index](index.md) | [Next →](02-section-1-archiving-vs-compression.md)

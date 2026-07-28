@@ -151,10 +151,8 @@ grep -A100 "/mnt/data" /proc/self/mountstats | head -50
 #   read/write RTT (round-trip time)
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-security.md) | [↑ Index](index.md) | [Next →](13-section-9-troubleshooting.md)

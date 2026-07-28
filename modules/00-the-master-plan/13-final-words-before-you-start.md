@@ -10,7 +10,6 @@ When you understand how Linux works, you can work with any Linux distribution, a
 
 Now close this file. Open your terminal. And begin Part 1.
 
----
 
 *Linux SysAdmin Course | Part 0 of ∞ | The Master Plan*
 *Next → Part 1: What Is Linux & How It Really Works*
@@ -18,6 +17,5 @@ Now close this file. Open your terminal. And begin Part 1.
 [Next →](part1.md)
 
 
----
 
 [← Previous](12-before-you-start-part-1.md) | [↑ Index](index.md)

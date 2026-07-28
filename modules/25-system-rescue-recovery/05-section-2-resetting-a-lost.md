@@ -56,10 +56,8 @@
 #    sudo reboot
 ```
 
----
 
 
 
----
 
 [← Previous](04-level-2-intermediary-password-reset.md) | [↑ Index](index.md) | [Next →](06-section-3-filesystem-repair-fsck.md)

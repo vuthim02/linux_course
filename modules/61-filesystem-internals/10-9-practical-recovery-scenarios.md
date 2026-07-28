@@ -53,10 +53,8 @@ sudo mount /dev/sda1 /mnt
 sudo rsync -av /recovery/ /mnt/
 ```
 
----
 
 
 
----
 
 [← Previous](09-8-filesystem-monitoring.md) | [↑ Index](index.md) | [Next →](11-15-hands-on-practices.md)

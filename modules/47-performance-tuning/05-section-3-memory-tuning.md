@@ -142,10 +142,8 @@ Local memory access:    ~100 ns
 Remote memory access:   ~150-200 ns (1.5-2x slower)
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-cpu-tuning.md) | [↑ Index](index.md) | [Next →](06-section-4-disk-io-tuning.md)

@@ -9,12 +9,13 @@ You will learn:
 - Sending signals to processes with kill
 - Prioritizing processes with nice and renice
 - Managing background and foreground jobs
+- Using `nohup`, `disown`, and `screen` for long-running tasks
 - 15 hands-on practices
 
----
+> **Tip:** Managing processes is a daily sysadmin task. Knowing the difference between SIGTERM and SIGKILL will save you from data loss.
 
 
 
----
+
 
 [← Previous](12-summary-complete-command-reference-for.md) | [↑ Index](index.md) | [Next →](14-self-test-can-you-answer-these.md)

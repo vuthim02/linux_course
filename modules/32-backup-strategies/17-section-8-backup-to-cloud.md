@@ -48,10 +48,8 @@ aws s3api put-object-lock-configuration \
 aws s3 cp backup.tar.gz s3://my-backup-bucket/ --object-lock-mode COMPLIANCE
 ```
 
----
 
 
 
----
 
 [← Previous](16-section-7-restic.md) | [↑ Index](index.md) | [Next →](18-section-11-offsite-and-remote.md)

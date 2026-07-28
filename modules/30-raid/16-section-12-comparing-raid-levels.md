@@ -60,10 +60,8 @@ As the number of drives increases, RAID 5 and 6 become more capacity-efficient. 
 - **RAID 6**: Large-capacity storage, archive servers, video surveillance. Protection during URE (unrecoverable read error) events during rebuild.
 - **RAID 10**: Databases (MySQL, PostgreSQL, Oracle), virtual machine stores, high-performance file servers. Best write performance of any redundant level.
 
----
 
 
 
----
 
 [← Previous](15-section-11-hardware-raid.md) | [↑ Index](index.md) | [Next →](17-15-hands-on-practices.md)

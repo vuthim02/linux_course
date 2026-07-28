@@ -42,10 +42,8 @@ rsync -av rsync://backup@backup-server/backups/ /local/restore/
 rsync -avz --bwlimit=1024 /data/ user@host:/backups/   # 1 MB/s max
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-2-tar-tape-archiver.md) | [↑ Index](index.md) | [Next →](06-section-4-dd-and-ddrescue.md)

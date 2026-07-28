@@ -9,8 +9,18 @@ Jun 24 10:00:02 mail postfix/smtp[12348]: ABCDEF1234: to=<recipient@example.org>
 
 Fields: `timestamp host process[pid]: queueid: event details`
 
+### Common Status Codes
 
+| Status | Meaning | Action |
+|--------|---------|--------|
+| `status=sent` | Delivered successfully | None — normal |
+| `status=deferred` | Temporary failure (retry later) | Check DNS, network, remote server |
+| `status=bounced` | Permanent failure | Check recipient address, remote policy |
+| `status=reject` | Rejected by Postfix | Check access maps, restrictions |
+| `status=hold` | Held by admin | Check with `postsuper -l` |
 
----
+### Key Takeaway
+The queue ID (`ABCDEF1234`) is your thread — search all logs for this ID to trace a message's entire journey through Postfix.
+
 
 [← Previous](40-121-log-locations.md) | [↑ Index](index.md) | [Next →](42-123-log-summaries-with-pflogsumm.md)

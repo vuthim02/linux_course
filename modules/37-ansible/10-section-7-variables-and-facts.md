@@ -87,10 +87,8 @@ db_port: 5432
 
 > **Rule of thumb:** `--extra-vars` always wins. Role defaults are the easiest to override.
 
----
 
 
 
----
 
 [← Previous](09-section-6-modules-deep-dive.md) | [↑ Index](index.md) | [Next →](11-section-8-templates-with-jinja2.md)

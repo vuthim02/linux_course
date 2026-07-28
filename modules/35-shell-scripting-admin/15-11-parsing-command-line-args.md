@@ -88,10 +88,8 @@ name="$1"
 echo "Name: $name, Verbose: $verbose, Output: ${output_file:-stdout}, Count: $count"
 ```
 
----
 
 
 
----
 
 [← Previous](14-10-arrays.md) | [↑ Index](index.md) | [Next →](16-13-real-admin-script-examples.md)

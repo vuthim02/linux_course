@@ -103,10 +103,8 @@ tar -tf backup.tar.gz | grep "report.pdf"
 tar -tf backup.tar.gz | wc -l
 ```
 
----
 
 
 
----
 
 [← Previous](02-section-1-archiving-vs-compression.md) | [↑ Index](index.md) | [Next →](04-section-3-compression-tools-compared.md)

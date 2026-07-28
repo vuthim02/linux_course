@@ -22,10 +22,8 @@ Vault stores the master key encrypted by a cloud KMS key in its storage backend.
 
 Controller generates RSA 4096-bit key pair on startup. Stores private key in a K8s Secret (`sealed-secrets-key`). kubeseal fetches the public key, then for each secret value: generates a random AES-256 session key → encrypts the secret value with AES-256-GCM → encrypts the session key with RSA-OAEP (public key). The SealedSecret YAML is safe in Git. The controller decrypts using the private RSA key and creates a regular K8s Secret.
 
----
 
 
 
----
 
 [← Previous](14-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](16-command-reference.md)

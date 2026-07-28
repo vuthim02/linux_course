@@ -95,7 +95,6 @@ spec:
         image: nginx:1.25-alpine
         ports:
         - containerPort: 80
----
 apiVersion: v1
 kind: Service
 metadata:
@@ -153,7 +152,6 @@ spec:
   - port: 5432
     targetPort: 5432
   clusterIP: None       # headless service for stable DNS
----
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
@@ -255,7 +253,6 @@ data:
   APP_ENV: production
   APP_DEBUG: "false"
   DB_HOST: postgres.production.svc.cluster.local
----
 apiVersion: v1
 kind: Secret
 metadata:
@@ -264,7 +261,6 @@ type: Opaque
 data:
   DB_USER: YWRtaW4=              # base64(admin)
   DB_PASSWORD: cDNjcjN0          # base64(p3cr3t)
----
 apiVersion: v1
 kind: Pod
 metadata:
@@ -351,7 +347,6 @@ spec:
   policyTypes:
   - Ingress
   - Egress
----
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
@@ -389,7 +384,6 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: readonly-sa
----
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
@@ -398,7 +392,6 @@ rules:
 - apiGroups: [""]
   resources: ["pods", "pods/log", "services", "configmaps"]
   verbs: ["get", "list", "watch"]
----
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
@@ -495,7 +488,6 @@ Deploy a three-tier application: React frontend, Node.js backend, PostgreSQL dat
 
 ```yaml
 # 01-db.yaml
----
 apiVersion: v1
 kind: Secret
 metadata:
@@ -505,7 +497,6 @@ stringData:
   POSTGRES_USER: app
   POSTGRES_PASSWORD: changeme
   POSTGRES_DB: myapp
----
 apiVersion: v1
 kind: Service
 metadata:
@@ -517,7 +508,6 @@ spec:
   - port: 5432
     targetPort: 5432
   clusterIP: None
----
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
@@ -556,7 +546,6 @@ spec:
 
 ```yaml
 # 02-backend.yaml
----
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -564,7 +553,6 @@ metadata:
 data:
   DB_HOST: postgres.default.svc.cluster.local
   DB_PORT: "5432"
----
 apiVersion: v1
 kind: Service
 metadata:
@@ -575,7 +563,6 @@ spec:
   ports:
   - port: 3000
     targetPort: 3000
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -634,14 +621,12 @@ spec:
 
 ```yaml
 # 03-frontend.yaml
----
 apiVersion: v1
 kind: ConfigMap
 metadata:
   name: frontend-config
 data:
   API_URL: http://backend.default.svc.cluster.local:3000
----
 apiVersion: v1
 kind: Service
 metadata:
@@ -652,7 +637,6 @@ spec:
   ports:
   - port: 80
     targetPort: 80
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -683,7 +667,6 @@ spec:
 
 ```yaml
 # 04-ingress.yaml
----
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -714,12 +697,10 @@ spec:
 
 ```yaml
 # 05-rbac.yaml
----
 apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: backend-sa
----
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
@@ -728,7 +709,6 @@ rules:
 - apiGroups: [""]
   resources: ["endpoints", "pods"]
   verbs: ["get", "list", "watch"]
----
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
@@ -763,10 +743,8 @@ curl -H "Host: myapp.example.com" http://<ingress-ip>/api/health
 kubectl delete -f 01-db.yaml -f 02-backend.yaml -f 03-frontend.yaml -f 04-ingress.yaml -f 05-rbac.yaml
 ```
 
----
 
 
 
----
 
 [← Previous](15-15-command-reference.md) | [↑ Index](index.md) | [Next →](17-whats-coming-in-part-53.md)

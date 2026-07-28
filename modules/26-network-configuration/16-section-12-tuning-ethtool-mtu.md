@@ -171,10 +171,8 @@ netstat -s
 ss -s
 ```
 
----
 
 
 
----
 
 [← Previous](15-level-3-advanced-performance-tuning.md) | [↑ Index](index.md) | [Next →](17-section-13-troubleshooting-ping-traceroute.md)

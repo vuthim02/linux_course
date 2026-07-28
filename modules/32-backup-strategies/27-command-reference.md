@@ -100,10 +100,8 @@
 | `rclone ls remote:/path/` | List cloud |
 | `aws s3 sync /src/ s3://bucket/` | AWS S3 sync |
 
----
 
 
 
----
 
 [← Previous](26-15-hands-on-practices.md) | [↑ Index](index.md) | [Next →](28-whats-coming-in-part-33.md)

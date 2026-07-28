@@ -37,10 +37,8 @@ chmod +x script.sh
 # Solution: Sticky bit. Only owner can delete.
 ```
 
----
 
 
 
----
 
 [← Previous](17-section-13-access-control-lists.md) | [↑ Index](index.md) | [Next →](19-practice-section-20-hands-on-exercises.md)

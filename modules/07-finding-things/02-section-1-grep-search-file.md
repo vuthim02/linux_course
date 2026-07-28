@@ -93,10 +93,8 @@ if grep -q "ERROR" /var/log/syslog; then
 fi
 ```
 
----
 
 
 
----
 
 [← Previous](01-what-you-will-achieve-in.md) | [↑ Index](index.md) | [Next →](03-section-2-regular-expressions-the.md)

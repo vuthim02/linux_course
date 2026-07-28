@@ -98,10 +98,8 @@ sudo resolvectl tls-server-name eth0 cloudflare-dns.com
 /run/systemd/resolve/resolv.conf        → "nameserver 8.8.8.8" (real upstream)
 ```
 
----
 
 
 
----
 
 [← Previous](07-section-4-etcnsswitchconf-name-service.md) | [↑ Index](index.md) | [Next →](09-section-6-dig-deep-dig.md)

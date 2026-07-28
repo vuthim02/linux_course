@@ -244,10 +244,8 @@ sh 'docker run --rm aquasec/trivy:latest image --severity HIGH,CRITICAL --exit-c
 # GitHub Actions: uses: zaproxy/action-full-scan@v0.11.0 with target: https://staging.example.com
 ```
 
----
 
 
 
----
 
 [← Previous](09-9-pipeline-security.md) | [↑ Index](index.md) | [Next →](11-11-deployment-strategies.md)

@@ -42,10 +42,8 @@ If you work with:
 - **Debian / Ubuntu** → Learn **AppArmor** thoroughly
 - **Mixed environment** → Learn both at conceptual level
 
----
 
 
 
----
 
 [← Previous](12-level-3-advanced-comparing-selinux.md) | [↑ Index](index.md) | [Next →](14-practice-section-15-hands-on-exercises.md)

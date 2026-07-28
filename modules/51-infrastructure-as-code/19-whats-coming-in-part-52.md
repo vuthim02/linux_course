@@ -11,10 +11,9 @@
 - Production cluster hardening
 - **Self-Test**: 15 questions on Kubernetes fundamentals
 
----
+### Why Kubernetes After IaC?
 
+Terraform provisions the infrastructure. Kubernetes orchestrates the workloads running on it. Together, they form the complete modern deployment pipeline: Terraform creates the cluster, Kubernetes runs the applications.
 
-
----
 
 [← Previous](18-command-reference.md) | [↑ Index](index.md) | [Next →](20-self-test-part-51-infrastructure-as.md)

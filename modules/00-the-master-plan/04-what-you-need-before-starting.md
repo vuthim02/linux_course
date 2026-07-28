@@ -32,10 +32,8 @@ wsl --install -d Ubuntu-24.04
 
 > 💡 **Recommendation:** Use Option A or B. WSL is convenient but will not teach you systemd, boot processes, or real server management.
 
----
 
 
 
----
 
 [← Previous](03-the-reverse-engineering-method-how.md) | [↑ Index](index.md) | [Next →](05-how-to-read-each-part.md)

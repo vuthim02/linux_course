@@ -33,10 +33,8 @@ c        Change selected (delete + insert mode)
 # 4. Press d — characters are deleted from all lines
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-7-vim-search-and.md) | [↑ Index](index.md) | [Next →](12-section-9-vim-configuration-vimrc.md)

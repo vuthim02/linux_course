@@ -57,10 +57,8 @@ EOF
 >
 > Many beginners accidentally destroy files by using `>` when they meant `>>`.
 
----
 
 
 
----
 
 [← Previous](06-section-4-hidden-files-linuxs.md) | [↑ Index](index.md) | [Next →](08-section-6-reading-file-contents.md)

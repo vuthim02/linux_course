@@ -201,10 +201,8 @@ Plan Actions:
   -/+ Replace           — immutable attribute changed (e.g., AMI)
 ```
 
----
 
 
 
----
 
 [← Previous](15-section-14-best-practices.md) | [↑ Index](index.md) | [Next →](17-section-16-hands-on-practices.md)

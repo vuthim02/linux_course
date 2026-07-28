@@ -78,10 +78,8 @@ NEVER start with kill -9 unless absolutely necessary.
 SIGKILL doesn't let the process save files or close connections.
 ```
 
----
 
 
 
----
 
 [← Previous](04-section-3-top-real-time-process.md) | [↑ Index](index.md) | [Next →](06-section-5-managing-background-and.md)

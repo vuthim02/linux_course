@@ -58,10 +58,8 @@ vault write auth/gcp/role/my-instance type=gce \
 vault auth tune approle/ default_lease_ttl=12h max_lease_ttl=48h
 ```
 
----
 
 
 
----
 
 [← Previous](03-section-2-hashicorp-vault-architecture.md) | [↑ Index](index.md) | [Next →](05-section-4-vault-secret-engines.md)

@@ -15,10 +15,8 @@ When you press the power button:
 
 At this point, nothing Linux-specific has happened. The firmware doesn't know or care about Linux.
 
----
 
 
 
----
 
 [← Previous](03-section-1-the-boot-process.md) | [↑ Index](index.md) | [Next →](05-section-3-stage-2-bios.md)

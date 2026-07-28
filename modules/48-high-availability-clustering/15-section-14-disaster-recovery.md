@@ -106,10 +106,8 @@ drbdadm secondary webdata
 iptables -F
 ```
 
----
 
 
 
----
 
 [← Previous](14-section-13-load-balancing-for.md) | [↑ Index](index.md) | [Next →](16-15-hands-on-practices.md)

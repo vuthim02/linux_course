@@ -1,5 +1,6 @@
 # 27-dns-name-resolution
 
+**Prerequisites:** Complete [Part 26 - network-configuration](../26-network-configuration/) before this module.
 ## Sections
 
 - [What You Will Achieve In](01-what-you-will-achieve-in.md)

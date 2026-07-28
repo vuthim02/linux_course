@@ -76,10 +76,8 @@ at now + 5 minutes <<< "iptables -P INPUT ACCEPT; iptables -F"
 # Or: Keep a second out-of-band connection (iDRAC, IPMI, serial console)
 ```
 
----
 
 
 
----
 
 [← Previous](10-section-6-common-iptablesnftables-patterns.md) | [↑ Index](index.md) | [Next →](12-practice-section-15-hands-on-exercises.md)

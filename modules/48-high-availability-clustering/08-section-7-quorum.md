@@ -79,10 +79,8 @@ crm configure property no-quorum-policy=stop
 | `ignore` | Full operation without quorum (dangerous) |
 | `suicide` | Node fences itself |
 
----
 
 
 
----
 
 [← Previous](07-section-6-stonith-shoot-the.md) | [↑ Index](index.md) | [Next →](09-section-8-pacemaker-resources-deep.md)

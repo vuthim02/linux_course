@@ -131,10 +131,8 @@ chronyc tracking
 # Leap status     : Normal
 ```
 
----
 
 
 
----
 
 [← Previous](06-level-2-intermediary-chrony-configuration.md) | [↑ Index](index.md) | [Next →](08-section-5-configuring-chrony-as.md)

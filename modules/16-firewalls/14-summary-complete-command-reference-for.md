@@ -46,10 +46,8 @@
 | `nc -zv host port` | Test port connectivity |
 | `sudo cat /proc/net/nf_conntrack \| head` | View connection tracking table |
 
----
 
 
 
----
 
 [← Previous](13-deep-understanding-how-packet-filtering.md) | [↑ Index](index.md) | [Next →](15-whats-coming-in-part-17.md)

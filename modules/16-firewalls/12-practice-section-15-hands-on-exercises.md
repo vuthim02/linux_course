@@ -2,7 +2,6 @@
 
 ### Level 1 Practices: Exploring and Basic Filtering
 
----
 
 ### ✅ Practice 1: Explore Current Firewall State
 
@@ -24,7 +23,6 @@ sudo iptables -t nat -L -n -v
 sudo iptables -L --line-numbers -n
 ```
 
----
 
 ### ✅ Practice 2: Check firewalld/ufw
 
@@ -45,7 +43,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 3: Create a Simple iptables Rule
 
@@ -68,7 +65,6 @@ sudo iptables -D INPUT -p icmp --icmp-type echo-request -j ACCEPT
 sudo iptables -L INPUT -n -v
 ```
 
----
 
 ### ✅ Practice 4: Block an IP Address
 
@@ -88,7 +84,6 @@ sudo iptables -D INPUT -s 192.168.1.200 -j DROP
 sudo iptables -L INPUT -n -v | grep "192.168.1.200" || echo "Rule removed"
 ```
 
----
 
 ### Level 2 Practices: Configuration, firewalld, and nftables
 
@@ -111,7 +106,6 @@ sudo iptables -L INPUT -n -v | grep 8080
 sudo iptables -D INPUT -p tcp --dport 8080 -j ACCEPT
 ```
 
----
 
 ### ✅ Practice 6: Stateful Firewall Rules
 
@@ -128,7 +122,6 @@ sudo iptables -L INPUT -n -v | grep "state"
 # connections would be blocked
 ```
 
----
 
 ### ✅ Practice 7: Log Dropped Packets
 
@@ -153,7 +146,6 @@ sudo dmesg | tail -5 | grep "IPTABLES" || echo "No drops logged yet"
 # sudo iptables -D INPUT <linenumber>
 ```
 
----
 
 ### ✅ Practice 8: firewalld Zone Exploration
 
@@ -196,7 +188,6 @@ EOF
 fi
 ```
 
----
 
 ### ✅ Practice 9: firewalld Service Management
 
@@ -229,7 +220,6 @@ else
 fi
 ```
 
----
 
 ### ✅ Practice 10: firewalld Port Management
 
@@ -252,7 +242,6 @@ Checking open ports:
 EOF
 ```
 
----
 
 ### ✅ Practice 11: Save and Restore iptables Rules
 
@@ -274,7 +263,6 @@ sudo iptables-save > /etc/iptables/rules.v4 2>/dev/null || \
   echo "Would save to /etc/iptables/rules.v4"
 ```
 
----
 
 ### ✅ Practice 12: nftables Quick Tour
 
@@ -309,7 +297,6 @@ iptables-restore < file        nft -f file
 EOF
 ```
 
----
 
 ### Level 3 Practices: Advanced Patterns and Auditing
 
@@ -339,7 +326,6 @@ sudo iptables -D INPUT -p tcp --dport 9999 -j DROP
 kill $LISTENER_PID 2>/dev/null || true
 ```
 
----
 
 ### ✅ Practice 14: Masquerading (Simulated)
 
@@ -369,7 +355,6 @@ In firewalld:
 EOF
 ```
 
----
 
 ### ✅ Practice 15: Real SysAdmin Scenario — Firewall Report
 
@@ -448,10 +433,8 @@ chmod +x firewall_audit.sh
 ./firewall_audit.sh
 ```
 
----
 
 
 
----
 
 [← Previous](11-section-7-troubleshooting-firewalls.md) | [↑ Index](index.md) | [Next →](13-deep-understanding-how-packet-filtering.md)

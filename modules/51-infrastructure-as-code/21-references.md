@@ -9,7 +9,6 @@
 - [Terratest](https://terratest.gruntwork.io/)
 - [Terraform Best Practices](https://www.terraform-best-practices.com/)
 
----
 
 *Linux SysAdmin Course | Part 51 of ∞ | Reverse Engineering Approach*
 *Previous → Part 50: Cloud Infrastructure*
@@ -18,6 +17,5 @@
 [← Previous](part50.md) | [Next →](part52.md)
 
 
----
 
 [← Previous](20-self-test-part-51-infrastructure-as.md) | [↑ Index](index.md)

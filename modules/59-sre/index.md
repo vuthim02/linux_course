@@ -1,5 +1,6 @@
 # 59-sre
 
+**Prerequisites:** Complete [Part 58 - secrets-management](../58-secrets-management/) before this module.
 ## Sections
 
 - [Reverse Engineering Approach](01-reverse-engineering-approach.md)
