@@ -10,7 +10,7 @@ systemctl list-units --type=service
 systemctl list-units --type=service --state=running
 
 # Start/stop/restart/reload
-sudo systemctl start sshd
+sudo systemctl start sshd     # RHEL/Fedora; use "ssh" on Debian/Ubuntu
 sudo systemctl stop sshd
 sudo systemctl restart sshd
 sudo systemctl reload sshd    # Load config without dropping connections
@@ -37,6 +37,9 @@ sudo systemctl edit sshd
 
 # Show service file content
 systemctl cat sshd
+
+# Note: On Debian/Ubuntu, the SSH server service is named "ssh" not "sshd"
+# Example: sudo systemctl status ssh
 ```
 
 ### Checking Ports and Sockets
@@ -47,8 +50,8 @@ sudo ss -tlnp     # TCP listening with process info
 sudo ss -ulnp     # UDP listening
 ss -tlnp | grep :80    # Check if HTTP is listening
 
-# Alternative
-sudo netstat -tlnp      # If netstat is installed
+# Alternative (netstat is deprecated — prefer ss above)
+sudo netstat -tlnp      # Requires net-tools package
 
 # Check socket units
 systemctl list-sockets

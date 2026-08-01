@@ -22,6 +22,7 @@
 - [Deep Understanding](17-deep-understanding.md)
 - [Summary Complete Command Reference](18-summary-complete-command-reference.md)
 - [Whats Coming In Part 50](19-whats-coming-in-part-50.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](20-self-test.md)
 - [Course Progress Whats Ahead](21-course-progress-whats-ahead.md)
 

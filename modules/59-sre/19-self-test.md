@@ -1,5 +1,4 @@
 ## Self-Test
-
 1. What is the difference between an SLI and an SLO?
 2. Why is 100% the wrong SLO target?
 3. Calculate: SLO is 99.99%, 5M requests/day, how many can fail per day?
@@ -15,7 +14,6 @@
 13. Difference between embedded, consultative, and centralized SRE?
 14. How does error budget create shared language between product and SRE?
 15. What is the first thing an SRE should do when joining a new service?
-
 **Answers:**
 1. SLI = indicator (what you measure); SLO = objective (what you target)
 2. Cost approaches infinity, users cannot tell difference, innovation stops
@@ -32,16 +30,8 @@
 13. Embedded (in product team), Consultative (central advises), Centralized (one team for all)
 14. SRE defines cost of unreliability; product decides if features worth spending that cost
 15. Find existing dashboards, runbooks, SLOs, and incident history — measure before changing
-
 **Score:** 12/15 correct = ready for Part 60.
-
-
 *Linux SysAdmin Course | Part 59 of ∞ | Reverse Engineering Approach*
 *Previous → Part 58: Secrets Management*
 *Next → Part 60: Final Capstone — Production-Grade Infrastructure*
-
-[← Previous](part58.md) | [Next →](part60.md)
-
-
-
 [← Previous](18-whats-coming-in-part-60.md) | [↑ Index](index.md)

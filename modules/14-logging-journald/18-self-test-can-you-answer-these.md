@@ -67,12 +67,4 @@
 **Answer:** Configure rsyslog with `action(type="omfwd" target="remote-server")` or use `RemoteSyslog` in journald.conf to forward to a central log server.
 
 
-*Linux SysAdmin Course | Part 14 of ∞ | Reverse Engineering Approach*
-*Previous → Part 13: Scheduling Tasks — cron, at, systemd timers*
-*Next → Part 15: SSH and Remote Access*
-
-[← Previous](part13.md) | [Next →](part15.md)
-
-
-
-[← Previous](17-whats-coming-in-part-15.md) | [↑ Index](index.md)
+[← Previous](17-whats-coming-in-part-15.md) | [↑ Index](index.md) | [Next →](19-section-10-logwatch-and-syslog-ng.md)

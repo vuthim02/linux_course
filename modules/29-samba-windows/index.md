@@ -23,6 +23,7 @@
 - [Deep Understanding How Smbcifs Really](18-deep-understanding-how-smbcifs-really.md)
 - [Summary Complete Command Reference For](19-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 30](20-whats-coming-in-part-30.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 - [Self Test Can You Answer These](21-self-test-can-you-answer-these.md)
 
 ---

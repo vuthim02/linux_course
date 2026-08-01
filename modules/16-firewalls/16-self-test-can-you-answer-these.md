@@ -67,12 +67,4 @@
 **Answer:** `nft list ruleset > /etc/nftables.conf` to save. `nft -f /etc/nftables.conf` to restore.
 
 
-*Linux SysAdmin Course | Part 16 of ∞ | Reverse Engineering Approach*
-*Previous → Part 15: SSH and Remote Access*
-*Next → Part 17: SELinux and AppArmor*
-
-[← Previous](part15.md) | [Next →](part17.md)
-
-
-
-[← Previous](15-whats-coming-in-part-17.md) | [↑ Index](index.md)
+[← Previous](15-whats-coming-in-part-17.md) | [↑ Index](index.md) | [Next →](17-section-8-ufw.md)

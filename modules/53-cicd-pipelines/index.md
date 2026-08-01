@@ -19,7 +19,9 @@
 - [Deep Understanding](14-deep-understanding.md)
 - [Command Reference](15-command-reference.md)
 - [Whats Coming In Part 54](16-whats-coming-in-part-54.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](17-self-test.md)
+- [Section 9 Circleci Argo CD And Tekton](22-section-9-circleci-argocd-tekton.md)
 
 ---
 

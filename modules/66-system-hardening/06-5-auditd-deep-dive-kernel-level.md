@@ -98,4 +98,4 @@ cat > /etc/audit/rules.d/hardening.rules << 'RULES'
 
 
 
-[← Previous](05-4-filesystem-hardening.md) | [↑ Index](index.md) | [Next →](07-cis-hardening-audit-rules.md)
+[← Previous](05-4-filesystem-hardening.md) | [↑ Index](index.md) | [Next →](07-6-cis-hardening-audit-rules.md)

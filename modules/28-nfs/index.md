@@ -22,6 +22,7 @@
 - [Deep Understanding How Nfs Really](17-deep-understanding-how-nfs-really.md)
 - [Summary Complete Command Reference For](18-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 29](19-whats-coming-in-part-29.md)
+- [Rules of Thumb](26-rules-of-thumb.md)
 - [Self Test Can You Answer These](20-self-test-can-you-answer-these.md)
 
 ---

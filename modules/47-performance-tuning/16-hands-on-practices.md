@@ -435,4 +435,4 @@ echo "Now review the findings and write recommendations."
 
 
 
-[← Previous](15-section-13-capacity-planning.md) | [↑ Index](index.md) | [Next →](17-date-date.md)
+[← Previous](15-section-13-capacity-planning.md) | [↑ Index](index.md) | [Next →](18-deep-understanding.md)

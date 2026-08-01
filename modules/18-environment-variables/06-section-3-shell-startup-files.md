@@ -8,7 +8,9 @@ This is where confusion arises. Different files are read depending on whether th
 |---|---|---|
 | **Login shell** | ssh, tty login, `su -`, `bash --login` | `/etc/profile` → `~/.bash_profile` (or `.bash_login` or `.profile`) |
 | **Interactive non-login** | Terminal inside X, `bash` | `~/.bashrc` (after parent shell's config) |
-| **Non-interactive** | Script run with `./script.sh` | `$BASH_ENV` (if set) |
+| **Non-interactive** | Script run with `./script.sh` | `$BASH_ENV` (if set) — bash only |
+| **POSIX sh** | `sh ./script.sh` | `$ENV` (if set) — POSIX standard |
+| **SSH non-interactive** | Remote command via SSH | `~/.bashrc` (bash-specific behavior) |
 
 ### The File Reading Order
 

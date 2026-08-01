@@ -6,7 +6,8 @@
 # APT does NOT have a built-in rollback command
 # Strategies:
 
-# 1. Reinstall previous version from cache
+# 1. Reinstall previous version from cache (if still there)
+# NOTE: apt clears the cache after successful installs by default
 ls /var/cache/apt/archives/nginx*.deb
 sudo dpkg -i /var/cache/apt/archives/nginx_1.18.0-0ubuntu1_amd64.deb
 
@@ -32,14 +33,13 @@ dnf history
 # Rollback a specific transaction
 sudo dnf history undo 42
 
-# Rollback to a specific date
-sudo dnf history rollback 2024-01-15
+# Rollback to a specific transaction (use transaction ID from dnf history)
+sudo dnf history rollback 39
 
 # View what a rollback would do
 dnf history undo 42 --dry-run
 
-# Example:
-# dnf history
+# Example output of dnf history:
 # ID  Command line                    Date/time       Action
 # 42  update nginx                    2024-01-15 14:22 Install/Upgrade
 # 41  install httpd                   2024-01-14 10:00 Install
@@ -47,6 +47,10 @@ dnf history undo 42 --dry-run
 # Rollback transaction 42
 sudo dnf history undo 42
 # This removes the upgraded nginx and reinstalls the previous version
+
+# Rollback ALL changes after a specific transaction
+sudo dnf history rollback 39
+# This undoes transactions 40, 41, 42 — returning to state after transaction 39
 ```
 
 ### Kernel Rollback

@@ -14,11 +14,13 @@
 - [Section 6 Rpm Fusion](09-section-6-rpm-fusion.md)
 - [Level 3 Advanced Third Party Repositories](10-level-3-advanced-third-party-repositories.md)
 - [Section 7 Third Party Repositories](11-section-7-third-party-repositories.md)
+- [Section 7.5 Apt Pinning](11-section-7.5-apt-pinning.md)
 - [Section 8 Gpg Key Management](12-section-8-gpg-key-management.md)
 - [Practice Section 15 Hands On Exercises](13-practice-section-15-hands-on-exercises.md)
 - [Deep Understanding How Repository Security](14-deep-understanding-how-repository-security.md)
 - [Summary Command Reference For Part](15-summary-command-reference-for-part.md)
 - [Whats Coming In Part 20](16-whats-coming-in-part-20.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 - [Self Test Can You Answer These](17-self-test-can-you-answer-these.md)
 
 ---

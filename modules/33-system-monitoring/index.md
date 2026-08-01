@@ -27,6 +27,7 @@
 - [13 Disk Health Monitoring](22-13-disk-health-monitoring.md)
 - [18 Command Reference](23-18-command-reference.md)
 - [19 15 Hands On Practices](24-19-15-hands-on-practices.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 - [20 Self Test](25-20-self-test.md)
 - [Whats Coming In Part 34](26-whats-coming-in-part-34.md)
 - [Footer](27-footer.md)

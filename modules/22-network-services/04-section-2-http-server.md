@@ -1,5 +1,59 @@
 ## 🔍 Section 2: HTTP Server
 
+### Real-World Web Stack Architecture
+
+In production, a web server is never standalone. It is one layer in a multi-tier stack:
+
+```
+Internet
+    │
+    ▼
+Load Balancer (HAProxy / Nginx / Cloud LB)
+    │
+    ├─── SSL/TLS Termination
+    │
+    ▼
+Apache httpd / Nginx (Reverse Proxy)
+    │
+    ├─────────────────────────┬──────────────────────┐
+    ▼                         ▼                      ▼
+Static Files             App Server              Cache Layer
+(HTML/CSS/JS/Images)     (Tomcat, uWSGI,        (Redis, Varnish,
+                          Gunicorn, Node.js)       Memcached)
+                                                     │
+                          │                           │
+                          ▼                           │
+                    Application Code                   │
+                    (Java, Python, PHP, Ruby)          │
+                          │                           │
+                          ▼                           │
+                    Database / API                     │
+                    (MySQL, PostgreSQL, REST)          │
+                          │                           │
+                          └───────────────────────────┘
+```
+
+**Apache's real role in this stack:**
+
+| Role | What Apache Does | Example Config |
+|------|-----------------|----------------|
+| **Reverse Proxy** | Forwards requests to backend app servers | `ProxyPass /app http://localhost:8080` |
+| **SSL Termination** | Decrypts HTTPS, passes plain HTTP to backend | `SSLEngine On` + cert files |
+| **Load Balancer** | Distributes traffic across multiple backends | `ProxyPass / balancer://mycluster` |
+| **Static File Server** | Serves CSS/JS/images directly (no backend hit) | `DocumentRoot /var/www/html` |
+| **App Server (PHP)** | Runs PHP via mod_php or php-fpm | Ubuntu uses `libapache2-mod-php` |
+
+**When to use Apache vs Nginx vs a full stack:**
+
+| Scenario | Recommended |
+|----------|-------------|
+| Single server, PHP app (WordPress) | Apache with mod_php |
+| High concurrency, static content | Nginx |
+| Java app (Tomcat behind web server) | Apache/Nginx → Tomcat |
+| Microservices API gateway | Nginx |
+| Need .htaccess per-directory control | Apache |
+| Need to serve 10K+ concurrent connections | Nginx |
+
 ### Apache vs Nginx
 
 | Feature | Apache | Nginx |

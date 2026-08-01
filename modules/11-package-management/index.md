@@ -22,7 +22,10 @@
 - [Practice Section 20 Hands On Exercises](17-practice-section-20-hands-on-exercises.md)
 - [Summary Complete Command Reference For](18-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 12](19-whats-coming-in-part-12.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test Can You Answer These](20-self-test-can-you-answer-these.md)
+- [Section 13 AppImage — Portable Self Contained Apps](21-section-13-appimage.md)
+- [Section 14 Pacman And Aur — Arch Linux Packaging](22-section-14-pacman-and-aur.md)
 
 ---
 

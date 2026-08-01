@@ -84,7 +84,6 @@ upstream backend {
 *Previous → Part 36: Advanced Shell Scripting*
 *Next → Part 38: Container Basics — Docker and Podman*
 
-[← Previous](part36.md) | [Next →](part38.md)
 
 
 

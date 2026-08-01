@@ -25,7 +25,7 @@
 | `sudo apt-cache policy` | Show repository priorities |
 | `apt-cache showpkg PACKAGE` | Show available versions from repos |
 
-### Level 3 — Advanced GPG and Third-Party Repositories
+### Level 3 — Advanced GPG, Pinning, and Third-Party Repositories
 
 | Command | Action |
 |---------|--------|
@@ -38,6 +38,16 @@
 | `sudo dnf install epel-release` | Install EPEL repository |
 | `sudo dnf install rpmfusion-free-release` | Install RPM Fusion free repo |
 | `sudo apt-add-repository "deb [signed-by=/path/keyring] URL dist components"` | Add repo with signed-by |
+| `sudo dnf copr enable USER/PROJECT` | Enable a Fedora COPR repo |
+| `dnf copr list` | List enabled COPR repos |
+| `apt-cache policy` | Show repository version priorities |
+| `apt-cache policy PACKAGE` | Show from which repo a package would install |
+| `apt-mark hold PACKAGE` | Hold a package at current version |
+| `apt-mark showhold` | List all held packages |
+| `sudo dnf versionlock add PACKAGE` | Lock a package version (RHEL) |
+| `flatpak install flathub APP` | Install from Flathub |
+| `snap install APP` | Install a Snap package |
+| `ls /etc/apt/sources.list.d/*.sources` | List DEB822-format repo files |
 
 ### Common Third-Party Repositories
 

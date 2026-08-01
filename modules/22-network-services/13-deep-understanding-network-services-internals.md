@@ -50,7 +50,7 @@ Option 67: Boot file (for PXE boot)
    - systemctl enable → Starts at boot
    - Just because it's installed doesn't mean it should run
 
-3. Use relicate instead of restart when possible
+3. Use reload instead of restart when possible
    - reload: Re-read config without dropping connections
    - restart: Drop connections, start fresh
 

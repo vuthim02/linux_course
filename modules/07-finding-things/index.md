@@ -15,7 +15,9 @@
 - [Deep Understanding How Search Tools](10-deep-understanding-how-search-tools.md)
 - [Summary Complete Command Reference For](11-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 8](12-whats-coming-in-part-8.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 - [Self Test Can You Answer These](13-self-test-can-you-answer-these.md)
+- [Section 9 Fd And Tree — Modern Alternatives](14-section-9-fd-and-tree.md)
 
 ---
 

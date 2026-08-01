@@ -23,6 +23,7 @@
 - [Level 3 Deep Understanding How](18-level-3-deep-understanding-how.md)
 - [Command Reference By Level](19-command-reference-by-level.md)
 - [Whats Coming In Part 31](20-whats-coming-in-part-31.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test Can You Answer These](21-self-test-can-you-answer-these.md)
 
 ---

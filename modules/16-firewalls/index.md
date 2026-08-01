@@ -19,6 +19,13 @@
 - [Summary Complete Command Reference For](14-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 17](15-whats-coming-in-part-17.md)
 - [Self Test Can You Answer These](16-self-test-can-you-answer-these.md)
+- [Section 8 Ufw Uncomplicated Firewall](17-section-8-ufw.md)
+- [Section 9 Iptables Nat Deep Dive](18-section-9-iptables-nat-deep-dive.md)
+- [Section 10 Nftables Maps Counters And Logging](19-section-10-nftables-maps-counters-logging.md)
+- [Section 11 Ipset And Connection Tracking](20-section-11-ipset-and-connection-tracking.md)
+- [Section 12 Firewalld Direct Rules](21-section-12-firewalld-direct-rules.md)
+- [Level 4 Mastery Real World Scenarios](23-level-4-mastery-scenarios.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 
 ---
 

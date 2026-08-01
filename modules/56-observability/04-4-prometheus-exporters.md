@@ -94,4 +94,4 @@ Output to `/var/lib/node_exporter/textfile_collector/custom.prom` via cron. Enab
 
 
 
-[← Previous](03-3-advanced-promql.md) | [↑ Index](index.md) | [Next →](05-5-prometheus-service-discovery-and.md)
+[← Previous](03-3-advanced-promql.md) | [↑ Index](index.md) | [Next →](05-5-prometheus-service-discovery-and-relabeling.md)

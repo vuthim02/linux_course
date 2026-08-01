@@ -47,9 +47,44 @@ Type: sshd_t
   → Cannot connect to: postgresql_port_t (database ports)
 ```
 
+### Running With a Different Context
+
+```bash
+# Run a command with a specific context:
+runcon -t httpd_t cat /var/www/html/index.html
+
+# Run with a specific user:role:type:
+runcon user_u:user_r:user_t id -Z
+
+# Check your current context:
+id -Z
+
+# Reduce your clearance (MLS systems):
+runcon -l s0:c0.c10 sh
+```
+
+### Querying Policy With seinfo
+
+```bash
+# List all types in the policy (thousands):
+seinfo -t | head -20
+
+# List all roles:
+seinfo -r
+
+# List all SELinux users:
+seinfo -u
+
+# Show details of a specific type:
+seinfo -thttpd_t -x
+
+# Show port contexts:
+seinfo --portcon=80
+```
+
 ### File Context Rules
 
-When a file is created, it inherits the context of its parent directory. But specific paths have predefined contexts:
+When a file is created, it inherits the context of its parent directory. However, specific paths have predefined contexts in the policy database:
 
 ```bash
 # List file context rules
@@ -63,8 +98,12 @@ sudo semanage fcontext -l | head -20
 # Restore default context for a path
 sudo restorecon -Rv /var/www/html
 
-# Change context manually
+# Change context manually (temporary — use semanage for persistence)
 sudo chcon -t httpd_sys_content_t /var/www/html/index.html
+
+# Add a persistent file context rule:
+sudo semanage fcontext -a -t httpd_sys_content_t "/webroot(/.*)?"
+sudo restorecon -Rv /webroot
 ```
 
 

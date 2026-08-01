@@ -42,6 +42,71 @@ which python
 type python
 ```
 
+### XDG Base Directory Variables
+
+Modern Linux applications follow the XDG Base Directory specification:
+
+| Variable | Purpose | Default |
+|----------|---------|---------|
+| `XDG_CONFIG_HOME` | User-specific config files | `~/.config` |
+| `XDG_DATA_HOME` | User-specific data files | `~/.local/share` |
+| `XDG_CACHE_HOME` | User-specific cache files | `~/.cache` |
+| `XDG_STATE_HOME` | User-specific state files | `~/.local/state` |
+| `XDG_RUNTIME_DIR` | Runtime files (sockets, pipes) | `/run/user/$UID` |
+
+```bash
+# Check your XDG variables
+printenv | grep XDG
+
+# Common usage:
+# ~/.config/ contains: git config, nvim, tmux, etc.
+# ~/.local/share/ contains: flatpak, steam, applications
+# ~/.cache/ contains: thumbnails, pip cache, browser cache
+```
+
+### Proxy and Network Variables
+
+Sysadmins frequently need proxy variables for restricted networks:
+
+| Variable | Purpose |
+|----------|---------|
+| `http_proxy` | HTTP proxy URL |
+| `https_proxy` | HTTPS proxy URL |
+| `ftp_proxy` | FTP proxy URL |
+| `no_proxy` | Comma-separated domains to exclude |
+| `HTTP_PROXY` | Same as http_proxy (uppercase) |
+
+```bash
+# Set proxies for a command
+http_proxy=http://proxy.example.com:8080 curl https://example.com
+
+# Persistent proxy (add to ~/.bashrc or /etc/profile.d/proxy.sh)
+export http_proxy=http://proxy.example.com:8080
+export https_proxy=http://proxy.example.com:8080
+export no_proxy=localhost,127.0.0.1,.local
+
+# Some programs only read UPPERCASE variants
+export HTTP_PROXY="$http_proxy"
+export HTTPS_PROXY="$https_proxy"
+```
+
+### SSH Environment Variables
+
+When connecting via SSH, these variables are set automatically:
+
+| Variable | Purpose | Example |
+|----------|---------|---------|
+| `SSH_CONNECTION` | Client and server IPs/ports | `192.168.1.5 45678 10.0.0.1 22` |
+| `SSH_CLIENT` | Client IP and port | `192.168.1.5 45678 22` |
+| `SSH_TTY` | The TTY assigned by SSH | `/dev/pts/1` |
+
+```bash
+# Check if running over SSH
+if [ -n "$SSH_CONNECTION" ]; then
+    echo "Connected from $(echo $SSH_CONNECTION | awk '{print $1}')"
+fi
+```
+
 ### Display and Locale Variables
 
 ```bash

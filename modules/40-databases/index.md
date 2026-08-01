@@ -83,6 +83,7 @@
 - [How Storage Engines Work Innodb](78-how-storage-engines-work-innodb.md)
 - [Postgresql Process Architecture](79-postgresql-process-architecture.md)
 - [Mariadbmysql Vs Postgresql Commands](80-mariadbmysql-vs-postgresql-commands.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 
 ---
 

@@ -112,4 +112,4 @@ echo "${EFS_ID}.efs.${REGION}.amazonaws.com:/ /mnt/efs nfs4 nfsvers=4.1,rsize=10
 
 
 
-[← Previous](10-10-userdata-and-first-boot.md) | [↑ Index](index.md) | [Next →](12-12-hands-on-practices-115.md)
+[← Previous](10-10-userdata-and-first-boot.md) | [↑ Index](index.md) | [Next →](12-12-hands-on-practices.md)

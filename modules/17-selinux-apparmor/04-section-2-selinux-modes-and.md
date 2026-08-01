@@ -53,6 +53,41 @@ ls /etc/selinux/
 ls /etc/selinux/targeted/
 ```
 
+### Unconfined Domains
+
+A critical SELinux concept: even in enforcing mode, some domains are **unconfined** — they run with minimal restrictions:
+
+```bash
+# Unconfined domains have "_t" types like:
+#   unconfined_t    — root shell, admin processes
+#   initrc_t        — init scripts
+#   kernel_t        — kernel threads
+
+# Check if a process is unconfined:
+ps -Z | grep unconfined
+```
+
+Unconfined domains still use SELinux, but the policy grants them broad access. They are NOT the same as permissive mode — unconfined domains don't log denials (the policy allows their actions), while permissive mode logs all denials without blocking.
+
+### Policy Store Types
+
+SELinux supports multiple policy configurations:
+
+| Policy Type | Description | Use Case |
+|-------------|-------------|----------|
+| **targeted** | Only specific daemons are confined (default on RHEL/Fedora) | General purpose servers |
+| **minimum** | Minimal policy — subset of targeted | Minimal/container systems |
+| **MLS** | Multi-Level Security — full sensitivity labels | Military, government (classified data) |
+| **MCS** | Multi-Category Security — categories without levels | Cloud, multi-tenant (Ubuntu, some RHEL) |
+
+```bash
+# Check which policy is loaded:
+sestatus | grep "Policy MLS status"
+
+# List available policies on disk:
+ls /etc/selinux/
+```
+
 ### Disabling SELinux (Not Recommended)
 
 ```bash

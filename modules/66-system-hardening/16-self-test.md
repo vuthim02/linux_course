@@ -1,5 +1,4 @@
 ## Self-Test
-
 1. What are the three levels of CIS Benchmarks and who uses each?
 2. What does `kernel.randomize_va_space = 2` enable and why does it matter?
 3. What is the difference between `noexec`, `nosuid`, and `nodev` mount options?
@@ -15,7 +14,6 @@
 13. What is the correct order to initialize and activate AIDE?
 14. How does OpenSCAP differ from Lynis in purpose?
 15. Why is defense in depth more effective than relying on a single hardening tool?
-
 **Answers:**
 1. Level I = minimum hygiene (all systems), Level II = defense in depth (servers), Level III = maximum hardening (classified/high-security)
 2. Full ASLR — randomizes stack, heap, mmap, and VDSO addresses; prevents attackers from predicting memory layout for exploitation
@@ -32,16 +30,8 @@
 13. `aide --init` (generate baseline) → `cp aide.db.new aide.db` (activate) → `aide --check` (verify)
 14. OpenSCAP validates compliance against formal standards (CIS, STIG, PCI-DSS) with pass/fail per rule; Lynis provides security scoring with suggestions
 15. Each tool covers different attack vectors; layered defense means if one control fails or is bypassed, others still provide protection
-
 **Score:** 12/15 correct = ready for Part 67.
-
-
 *Linux SysAdmin Course | Part 66 of ∞ | Reverse Engineering Approach*
 *Previous → Part 65: PAM & Centralized Auth*
 *Next → Part 67: Course Summary*
-
-[← Previous](part65.md) | [Next →](part67.md)
-
-
-
 [← Previous](15-whats-coming-in-part-67.md) | [↑ Index](index.md)

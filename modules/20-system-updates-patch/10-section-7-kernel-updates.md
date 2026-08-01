@@ -20,7 +20,8 @@ apt list --upgradable 2>/dev/null | grep "^linux-image"
 ### Kernel Update Process
 
 ```bash
-# 1. Install new kernel (alongside old one)
+# 1. Install new kernel (alongside old one, version will vary)
+#    Use 'apt list --upgradable | grep linux-image' to find available version
 sudo apt install linux-image-6.2.0-25-generic
 
 # 2. Update GRUB (automatically done)

@@ -20,6 +20,8 @@
 - [Summary Complete Command Reference For](15-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 21](16-whats-coming-in-part-21.md)
 - [Self Test Can You Answer These](17-self-test-can-you-answer-these.md)
+- [Section 9 Live Kernel Patching And Snapshot Rollback](22-section-9-live-patching-and-snapshots.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 
 ---
 

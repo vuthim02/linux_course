@@ -23,7 +23,14 @@
 - [Practice Section 15 Hands On Exercises](18-practice-section-15-hands-on-exercises.md)
 - [Summary Complete Command Reference For](19-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 13](20-whats-coming-in-part-13.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 - [Self Test Can You Answer These](21-self-test-can-you-answer-these.md)
+- [Section 13 Drop In Overrides And Systemctl Edit](22-section-13-dropins-and-edit.md)
+- [Section 14 Path Mount And Automount Units](23-section-14-path-mount-automount.md)
+- [Section 15 User Services And Environment Files](24-section-15-user-services.md)
+- [Section 16 Systemd Networkd And Systemd Resolved](25-section-16-networkd-resolved.md)
+- [Section 17 Tmpfiles Analyze Verify And Advanced Tools](26-section-17-tmpfiles-and-analyze.md)
+- [Level 4 Mastery Practices](27-level-4-practices.md)
 
 ---
 

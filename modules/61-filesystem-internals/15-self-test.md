@@ -1,5 +1,4 @@
 ## Self-Test
-
 1. What is an inode and what information does it contain?
 2. Why can you run out of inodes but have free disk space?
 3. What is the difference between ext4 journaling modes (journal, writeback, ordered)?
@@ -15,7 +14,6 @@
 13. What is the danger of `xfs_repair -L`?
 14. How do you reduce reserved blocks on a non-root partition?
 15. What is the first step in any filesystem repair procedure?
-
 **Answers:**
 1. Inode = index node; contains mode, owner, size, timestamps, block pointers, xattr, ACL
 2. Each file needs one inode regardless of size; millions of small files exhaust inodes first
@@ -32,16 +30,8 @@
 13. Forces log zeroing — loses all unsynced data still in the journal
 14. `tune2fs -m 1 /dev/sdX` reduces reserved to 1%
 15. Unmount the filesystem before running any repair tool
-
 **Score:** 12/15 correct = ready for Part 62.
-
-
 *Linux SysAdmin Course | Part 61 of ∞ | Reverse Engineering Approach*
 *Previous → Part 60: Final Capstone*
 *Next → Part 62: Memory Management*
-
-[← Previous](part60.md) | [Next →](part62.md)
-
-
-
 [← Previous](14-whats-coming-in-part-62.md) | [↑ Index](index.md)

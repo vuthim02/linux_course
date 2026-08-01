@@ -7,7 +7,7 @@
 - [2 Prometheus Architecture](02-2-prometheus-architecture.md)
 - [3 Advanced Promql](03-3-advanced-promql.md)
 - [4 Prometheus Exporters](04-4-prometheus-exporters.md)
-- [5 Prometheus Service Discovery And](05-5-prometheus-service-discovery-and.md)
+- [5 Prometheus Service Discovery And Relabeling](05-5-prometheus-service-discovery-and-relabeling.md)
 - [6 Prometheus Storage](06-6-prometheus-storage.md)
 - [7 Alertmanager](07-7-alertmanager.md)
 - [8 Grafana](08-8-grafana.md)
@@ -22,7 +22,9 @@
 - [Observability Maturity Model](17-observability-maturity-model.md)
 - [Command Reference](18-command-reference.md)
 - [Whats Coming In Part 57](19-whats-coming-in-part-57.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](20-self-test.md)
+- [Section 11 Thanos Victoria Metrics And Datadog](22-section-11-thanos-vm-datadog.md)
 
 ---
 

@@ -20,10 +20,11 @@
 - [Section 12 Application Tuning](14-section-12-application-tuning.md)
 - [Section 13 Capacity Planning](15-section-13-capacity-planning.md)
 - [Hands On Practices](16-hands-on-practices.md)
-- [Date Date](17-date-date.md)
+
 - [Deep Understanding](18-deep-understanding.md)
 - [Command Reference](19-command-reference.md)
 - [Whats Coming In Part 48](20-whats-coming-in-part-48.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](21-self-test.md)
 
 ---

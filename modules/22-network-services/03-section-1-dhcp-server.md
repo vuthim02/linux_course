@@ -75,16 +75,23 @@ host printer {
 ### Managing DHCP Server
 
 ```bash
-# Start/stop/restart
+# Start/stop/restart (Debian/Ubuntu)
 sudo systemctl start isc-dhcp-server
 sudo systemctl stop isc-dhcp-server
 sudo systemctl restart isc-dhcp-server
 
+# On RHEL/Fedora the service is named dhcpd:
+sudo systemctl start dhcpd
+sudo systemctl stop dhcpd
+sudo systemctl restart dhcpd
+
 # Enable on boot
-sudo systemctl enable isc-dhcp-server
+sudo systemctl enable isc-dhcp-server   # Debian
+sudo systemctl enable dhcpd             # RHEL
 
 # Check status
-sudo systemctl status isc-dhcp-server
+sudo systemctl status isc-dhcp-server   # Debian
+sudo systemctl status dhcpd             # RHEL
 
 # View leases
 cat /var/lib/dhcp/dhcpd.leases

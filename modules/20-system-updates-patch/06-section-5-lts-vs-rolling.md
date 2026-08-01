@@ -41,8 +41,8 @@
 
 ```bash
 # Use LTS base, but pull specific packages from backports
-# Example: Install newer kernel on Ubuntu LTS
-sudo apt install -t jammy-backports linux-image-6.2
+# Example: Install newer kernel from Ubuntu 22.04 backports
+sudo apt install -t $(lsb_release -cs)-backports linux-image-generic
 
 # Or enable specific PPAs for newer versions of specific software
 sudo add-apt-repository ppa:deadsnakes/ppa

@@ -10,7 +10,7 @@
 - [Section 4 Vault Secret Engines](05-section-4-vault-secret-engines.md)
 - [Section 5 Vault Policies](06-section-5-vault-policies.md)
 - [Section 6 Vault In Production](07-section-6-vault-in-production.md)
-- [Section 7 Vault Agent And](08-section-7-vault-agent-and.md)
+- [Section 7 Vault Agent And Sidecar](08-section-7-vault-agent-and-sidecar.md)
 - [Section 8 External Secrets Operator](09-section-8-external-secrets-operator.md)
 - [Section 9 Sops Mozilla](10-section-9-sops-mozilla.md)
 - [Section 10 Sealed Secrets Bitnami](11-section-10-sealed-secrets-bitnami.md)
@@ -20,7 +20,9 @@
 - [Deep Understanding](15-deep-understanding.md)
 - [Command Reference](16-command-reference.md)
 - [Whats Coming In Part 59](17-whats-coming-in-part-59.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](18-self-test.md)
+- [Section 9 Cyberark Conjur And Git Crypt](22-section-9-conjur-git-crypt.md)
 
 ---
 

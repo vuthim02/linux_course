@@ -1,5 +1,4 @@
 ## Self-Test
-
 1. What is eBPF and what problem does it solve?
 2. What does the eBPF verifier check before allowing a program to load?
 3. What is the difference between a kprobe and a tracepoint?
@@ -15,7 +14,6 @@
 13. What does `biolatency -D` show that `iostat` does not?
 14. How do you profile a specific process with perf record?
 15. What is the recommended tracing tool hierarchy (least to most invasive)?
-
 **Answers:**
 1. eBPF = extended Berkeley Packet Filter; programmable sandboxed code running inside the kernel for safe, high-performance tracing and observability
 2. No infinite loops, no out-of-bounds memory access, no null dereferences, bounded execution, valid helper calls, max 1M instructions
@@ -32,16 +30,8 @@
 13. biolatency shows actual I/O latency distribution (histogram); iostat shows throughput and utilization averages
 14. `sudo perf record -p <PID> -g --call-graph dwarf -- sleep 10` then `sudo perf report`
 15. Standard tools → bcc-tools → perf → bpftrace → strace → ftrace → kernel modules
-
 **Score:** 12/15 correct = ready for Part 64.
-
-
 *Linux SysAdmin Course | Part 63 of ∞ | Reverse Engineering Approach*
 *Previous → Part 62: Memory Management*
 *Next → Part 64: Linux Namespaces*
-
-[← Previous](part62.md) | [Next →](part64.md)
-
-
-
 [← Previous](14-whats-coming-in-part-64.md) | [↑ Index](index.md)

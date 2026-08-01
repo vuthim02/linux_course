@@ -17,7 +17,9 @@
 - [Deep Understanding](12-deep-understanding.md)
 - [Command Reference](13-command-reference.md)
 - [Whats Coming In Part 63](14-whats-coming-in-part-63.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](15-self-test.md)
+- [Section 8 Ksm Pmem Cxl And Cgroup V2 Memory](22-section-8-ksm-pmem-cgroupv2.md)
 
 ---
 

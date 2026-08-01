@@ -70,4 +70,4 @@ Audit log entries show HMAC-hashed tokens and sensitive data:
 
 
 
-[← Previous](06-section-5-vault-policies.md) | [↑ Index](index.md) | [Next →](08-section-7-vault-agent-and.md)
+[← Previous](06-section-5-vault-policies.md) | [↑ Index](index.md) | [Next →](08-section-7-vault-agent-and-sidecar.md)

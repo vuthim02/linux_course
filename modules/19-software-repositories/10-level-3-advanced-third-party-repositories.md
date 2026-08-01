@@ -7,8 +7,8 @@
 
 ### What You'll Cover
 - Adding third-party repos safely: verifying publisher trust
-- Importing GPG keys with `rpm --import` and `apt-key`
-- Setting repository priorities to prevent version conflicts
+- Importing GPG keys with `rpm --import` and `signed-by`
+- Setting repository priorities with APT pinning to prevent conflicts
 - Troubleshooting: expired keys, unreachable mirrors, broken GPG checks
 - Disabling repos temporarily for troubleshooting
 

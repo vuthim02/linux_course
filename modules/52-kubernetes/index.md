@@ -20,6 +20,7 @@
 - [15 Command Reference](15-15-command-reference.md)
 - [16 15 Hands On Practices](16-16-15-hands-on-practices.md)
 - [Whats Coming In Part 53](17-whats-coming-in-part-53.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](18-self-test.md)
 - [Reverse Engineering Challenge](19-reverse-engineering-challenge.md)
 

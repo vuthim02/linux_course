@@ -21,6 +21,12 @@
 - [Summary Complete Command Reference For](16-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 15](17-whats-coming-in-part-15.md)
 - [Self Test Can You Answer These](18-self-test-can-you-answer-these.md)
+- [Section 10 Logwatch And Syslog Ng](19-section-10-logwatch-and-syslog-ng.md)
+- [Section 11 Logger And Systemd Cat](21-section-11-logger-and-systemd-cat.md)
+- [Section 12 Auditd Linux Audit Framework](22-section-12-auditd-linux-audit-framework.md)
+- [Section 13 Coredumpctl Crash Analysis](23-section-13-coredumpctl-crash-analysis.md)
+- [Level 4 Mastery Real World Scenarios](24-level-4-mastery-scenarios.md)
+- [Rules of Thumb](20-rules-of-thumb.md)
 
 ---
 

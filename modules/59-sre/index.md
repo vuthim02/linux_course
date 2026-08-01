@@ -21,7 +21,9 @@
 - [Deep Understanding](16-deep-understanding.md)
 - [Command Reference](17-command-reference.md)
 - [Whats Coming In Part 60](18-whats-coming-in-part-60.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](19-self-test.md)
+- [Section 10 Tco Modeling And Sre Team Structures](22-section-10-tco-and-team-structures.md)
 
 ---
 

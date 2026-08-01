@@ -69,6 +69,59 @@ declare -F
 unset -f mydir
 ```
 
+### Variable Attributes with declare/typeset
+
+```bash
+# Readonly variable (cannot be changed)
+declare -r DB_PASS="s3cret"
+DB_PASS="new"  # Error: readonly variable
+
+# Integer variable (arithmetic, not string)
+declare -i COUNT=5
+COUNT=COUNT+3     # Result: 8 (no $ needed)
+echo "$COUNT"     # 8
+
+# Array variable
+declare -a FRUITS=("apple" "banana" "cherry")
+echo "${FRUITS[0]}"  # apple
+
+# Associative array (key-value)
+declare -A USER_IDS=(["alice"]=1001 ["bob"]=1002)
+echo "${USER_IDS[alice]}"  # 1001
+
+# Lowercase/uppercase (bash 4+)
+declare -l NAME="HELLO"   # Automatically lowercase
+echo "$NAME"              # hello
+declare -u NAME="hello"   # Automatically uppercase
+echo "$NAME"              # HELLO
+
+# Export all variables automatically
+set -a    # allexport — every variable is exported
+MYVAR="test"  # automatically exported
+set +a    # disable
+```
+
+### Safe Variable Handling
+
+```bash
+# Print variable safely quoted (for reuse in shell)
+printf '%q\n' "$PATH"
+
+# Check if variable is set
+[[ -v HOME ]] && echo "HOME is set"
+
+# Use default value if unset
+echo "${MYVAR:-default}"   # prints "default" if MYVAR is not set
+echo "${MYVAR:=default}"   # assigns default if unset, then prints
+echo "${MYVAR:?error msg}" # error if not set (good for required vars)
+
+# Substring removal (for paths)
+path="/home/user/file.txt"
+echo "${path##*/}"   # file.txt  (remove longest */ prefix)
+echo "${path%/*}"    # /home/user (remove shortest /* suffix)
+echo "${path%.*}"    # /home/user/file (remove shortest .* suffix)
+```
+
 
 
 

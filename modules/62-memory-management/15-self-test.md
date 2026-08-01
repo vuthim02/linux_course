@@ -1,5 +1,4 @@
 ## Self-Test
-
 1. What is the difference between `free` and `available` in `free -h` output?
 2. When should you use `vm.swappiness=0` vs `vm.swappiness=60`?
 3. What is the difference between zram and zswap?
@@ -15,7 +14,6 @@
 13. Why should PostgreSQL be run with `numactl --interleave=all`?
 14. What is slab memory and why does it grow?
 15. How do you find which process is using the most swap?
-
 **Answers:**
 1. `free` = completely unused RAM; `available` = memory usable without swapping (free + reclaimable cache + reclaimable slab). Always watch `available`.
 2. `swappiness=0` = avoid swapping until necessary (servers); `swappiness=60` = swap actively to free page cache (old default, desktops).
@@ -32,16 +30,8 @@
 13. PostgreSQL uses shared memory. NUMA-local allocation would put all shared buffers on one node, starving other nodes. Interleaving distributes memory evenly across NUMA nodes.
 14. Slab = kernel memory for data structures (inodes, dentries, task_struct). It grows to cache frequently accessed kernel objects and can be reclaimed via `slabtop` monitoring and `echo 2 > /proc/sys/vm/drop_caches`.
 15. `for f in /proc/[0-9]*/status; do awk '/VmSwap/{printf "%s %s\n", $2, $3}' "$f" 2>/dev/null; done | sort -k2 -rn | head -10`
-
 **Score:** 12/15 correct = ready for Part 63.
-
-
 *Linux SysAdmin Course | Part 62 of ∞ | Reverse Engineering Approach*
 *Previous → Part 61: Filesystem Internals*
 *Next → Part 63: eBPF & Modern Tracing*
-
-[← Previous](part61.md) | [Next →](part63.md)
-
-
-
 [← Previous](14-whats-coming-in-part-63.md) | [↑ Index](index.md)

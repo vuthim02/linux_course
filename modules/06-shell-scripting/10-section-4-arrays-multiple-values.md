@@ -1,7 +1,11 @@
 ## 🔍 Section 4: Arrays — Multiple Values in One Variable
 
+Bash supports two kinds of arrays: **indexed** (numbered positions) and **associative** (string keys, bash 4+).
+
+Indexed arrays can be created implicitly (without `declare`), but associative arrays **require** `declare -A`.
+
 ```bash
-# Define an array
+# Define an indexed array (declare -a is optional)
 fruits=("apple" "banana" "cherry" "date")
 
 # Access elements

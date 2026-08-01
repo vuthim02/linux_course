@@ -29,7 +29,7 @@ sudo chronyc -a makestep
 # Check how far off
 chronyc tracking | grep "System time"
 
-# If Chromy cannot adjust enough, stop it and set time manually:
+# If Chrony cannot adjust enough, stop it and set time manually:
 sudo systemctl stop chrony
 sudo timedatectl set-ntp no
 sudo timedatectl set-time "2024-01-15 10:30:00"

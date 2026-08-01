@@ -20,7 +20,9 @@
 - [Deep Understanding How Mac Really](15-deep-understanding-how-mac-really.md)
 - [Summary Command Reference For Part](16-summary-command-reference-for-part.md)
 - [Whats Coming In Part 18](17-whats-coming-in-part-18.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 - [Self Test Can You Answer These](18-self-test-can-you-answer-these.md)
+- [Section 7 Tomoyo Smack And Other Lsms](20-section-7-other-lsms.md)
 
 ---
 

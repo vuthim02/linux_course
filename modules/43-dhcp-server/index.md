@@ -23,6 +23,7 @@
 - [Section 14 Deep Understanding](18-section-14-deep-understanding.md)
 - [Section 15 Command Reference](19-section-15-command-reference.md)
 - [Section 16 Whats Coming In](20-section-16-whats-coming-in.md)
+- [Rules of Thumb](23-rules-of-thumb.md)
 - [Section 17 Self Test](21-section-17-self-test.md)
 - [Quick Reference Cards](22-quick-reference-cards.md)
 

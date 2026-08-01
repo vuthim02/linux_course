@@ -71,7 +71,6 @@
 *Previous → Part 10: The Linux Boot Process*
 *Next → Part 12: Systemd and Services — Managing the Modern Linux*
 
-[← Previous](part10.md) | [Next →](part12.md)
 
 
 

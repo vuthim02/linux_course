@@ -64,6 +64,52 @@ deb  http://archive.ubuntu.com/ubuntu  jammy         main restricted
 # non-free-firmware — Non-free firmware (Debian 12+)
 ```
 
+### Sources List Options
+
+APT supports additional options in brackets after the type:
+
+```
+deb [arch=amd64 signed-by=/etc/apt/keyrings/repo.asc] http://example.com jammy main
+    │                                  │
+    │                                  └── signed-by: Scopes GPG key to this repo
+    └── arch: Only use for specific architectures
+```
+
+| Option | Purpose | Example |
+|--------|---------|---------|
+| `arch=` | Limit to specific architecture | `arch=amd64` or `arch=i386` |
+| `signed-by=` | Scoped GPG key for verification | `signed-by=/etc/apt/keyrings/docker.asc` |
+| `trusted=yes` | Skip GPG verification (not recommended) | `trusted=yes` |
+| `check-valid-until=no` | Ignore expired Release file | `check-valid-until=no` |
+| `allow-insecure=yes` | Allow unsigned repos (dangerous) | `allow-insecure=yes` |
+
+### DEB822 Format (.sources files)
+
+Modern Debian/Ubuntu support a new key-value format (DEB822) in `/etc/apt/sources.list.d/`:
+
+```
+# /etc/apt/sources.list.d/example.sources
+Types: deb
+URIs: http://example.com/ubuntu
+Suites: jammy
+Components: main universe
+Architectures: amd64
+Signed-By: /etc/apt/keyrings/example.asc
+```
+
+Advantages over one-line format:
+- More readable (key-value pairs)
+- Multiple URIs per entry
+- Multiple suites per entry
+- Better for automation
+
+```bash
+# Both formats work — .list (old) and .sources (new)
+ls /etc/apt/sources.list.d/
+# docker.list        → Old one-line format
+# docker.sources     → New DEB822 format
+```
+
 ### The sources.list.d Directory
 
 Modern systems use separate files in `/etc/apt/sources.list.d/`:

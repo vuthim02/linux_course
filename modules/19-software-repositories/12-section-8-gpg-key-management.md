@@ -7,6 +7,25 @@ Every repository should be cryptographically signed. This ensures:
 - **Integrity** — packages haven't been modified in transit
 - **Non-repudiation** — repository maintainer cannot deny publishing
 
+### GPG Key Types and Security
+
+```bash
+# Repository GPG keys have two components:
+# Master key   — Kept offline, used to sign subkeys (very secure)
+# Subkey       — Used for daily signing (lives on build servers)
+
+# When you import a key, you typically get the subkey
+# If a subkey is compromised, the master key revokes it
+
+# Inspect a GPG key's details:
+gpg --show-keys /etc/apt/keyrings/docker.asc
+
+# Look for:
+# pub — Public key (master)
+# sub — Subkey (used for signing)
+# uid — User ID (identity)
+```
+
 ### Old Method (apt-key — Deprecated)
 
 ```bash

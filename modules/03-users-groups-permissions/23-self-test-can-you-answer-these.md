@@ -60,19 +60,5 @@
 ### Q13: What is the difference between `sudo -s` and `sudo -i`?
 **Answer:** `sudo -s` opens a shell as root but keeps the current user's environment. `sudo -i` simulates a full root login (loads root's profile, changes to root's home).
 
-### Q14: A user reports they were added to `developers` but can't access the shared directory. What is the most likely cause?
-**Answer:** The user needs to log out and back in for group changes to take effect, or the directory's permissions/group ownership don't include the `developers` group.
 
-### Q15: How do you find all files on the system with the SUID bit set?
-**Answer:** `find / -type f -perm -4000` — finds all files with the user SUID bit (4000 in octal).
-
-
-*Linux SysAdmin Course | Part 3 of ∞ | Reverse Engineering Approach*
-*Previous → Part 2: Mastering the Terminal — Navigation, Files & Directories*
-*Next → Part 4: Text Editors — Vim, Nano, and Why They Matter*
-
-[← Previous](part2.md) | [Next →](part4.md)
-
-
-
-[← Previous](22-whats-coming-in-part-4.md) | [↑ Index](index.md)
+[← Previous](22-whats-coming-in-part-4.md) | [↑ Index](index.md) | [Next →](24-section-15-file-attributes-chattr.md)

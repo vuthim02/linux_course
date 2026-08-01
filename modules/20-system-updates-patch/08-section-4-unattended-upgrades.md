@@ -66,6 +66,9 @@ sudo systemctl enable --now dnf-automatic.timer
 
 # Check status
 systemctl status dnf-automatic.timer
+
+# Verify timer is scheduled
+systemctl list-timers dnf-automatic*
 ```
 
 

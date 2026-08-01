@@ -26,6 +26,7 @@
 - [Practice Section 15 Hands On Exercises](21-practice-section-15-hands-on-exercises.md)
 - [Summary Complete Command Reference For](22-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 32](23-whats-coming-in-part-32.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test Can You Answer These](24-self-test-can-you-answer-these.md)
 
 ---

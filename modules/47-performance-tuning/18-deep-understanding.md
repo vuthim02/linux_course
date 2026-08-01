@@ -273,4 +273,4 @@ watch -n 1 cat /proc/softirqs
 
 
 
-[← Previous](17-date-date.md) | [↑ Index](index.md) | [Next →](19-command-reference.md)
+[← Previous](16-hands-on-practices.md) | [↑ Index](index.md) | [Next →](19-command-reference.md)

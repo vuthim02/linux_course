@@ -58,21 +58,13 @@
 **Answer:** A signed file containing repository metadata: suite name, component, architecture, checksums of index files, and signature.
 
 ### Q13: How do you temporarily disable a repository?
-**Answer:** `sudo apt --disable-repo=repo-name` (for one operation) or add `#` before the repo line in `sources.list`.
+**Answer:** Move the `.list` file: `sudo mv /etc/apt/sources.list.d/repo.list /etc/apt/sources.list.d/repo.list.disabled` and run `sudo apt update`. For DNF: `sudo dnf config-manager --set-disabled repo-name` or `--disablerepo=repo-name` for a single command.
 
 ### Q14: What is RPM Fusion and what does it provide?
 **Answer:** A community repo for Fedora/RHEL providing packages excluded due to legal/patent issues (codecs, drivers, ffmpeg).
 
 ### Q15: How do you find your distribution's codename?
 **Answer:** `lsb_release -cs` — returns the codename (e.g., `jammy`, `noble`).
-
-
-*Linux SysAdmin Course | Part 19 of ∞ | Reverse Engineering Approach*
-*Previous → Part 18: Environment Variables and Shell Configuration*
-*Next → Part 20: System Updates and Patch Management*
-
-[← Previous](part18.md) | [Next →](part20.md)
-
 
 
 [← Previous](16-whats-coming-in-part-20.md) | [↑ Index](index.md)

@@ -38,7 +38,7 @@ On reboot:
 ### Library Compatibility
 
 ```
-APR (Application Binary Interface):
+ABI (Application Binary Interface):
 When a shared library (libssl.so.3) is updated:
 - Old programs linked against libssl.so.1.1 continue to work
 - New programs use the new library

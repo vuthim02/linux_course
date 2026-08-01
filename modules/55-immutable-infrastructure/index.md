@@ -14,10 +14,12 @@
 - [9 Deployment Strategies For Immutable](09-9-deployment-strategies-for-immutable.md)
 - [10 Userdata And First Boot](10-10-userdata-and-first-boot.md)
 - [11 Troubleshooting Immutable](11-11-troubleshooting-immutable.md)
-- [12 Hands On Practices 115](12-12-hands-on-practices-115.md)
+- [12 Hands On Practices](12-12-hands-on-practices.md)
 - [13 Deep Understanding](13-13-deep-understanding.md)
 - [14 Command Reference](14-14-command-reference.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [15 Self Test](15-15-self-test.md)
+- [Section 10 Ec2 Image Builder And Buildkit Kaniko](15-section-10-ec2-image-builder.md)
 - [Whats Coming In Part 56](16-whats-coming-in-part-56.md)
 
 ---

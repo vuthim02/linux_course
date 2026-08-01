@@ -187,4 +187,4 @@ journalctl -u fail2ban -f
 
 
 
-[← Previous](07-cis-hardening-audit-rules.md) | [↑ Index](index.md) | [Next →](09-7-lynis-security-auditing-and.md)
+[← Previous](07-6-cis-hardening-audit-rules.md) | [↑ Index](index.md) | [Next →](09-7-lynis-security-auditing-and.md)

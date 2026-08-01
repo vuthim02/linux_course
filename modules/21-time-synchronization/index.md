@@ -19,6 +19,7 @@
 - [Summary Complete Command Reference For](14-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 22](15-whats-coming-in-part-22.md)
 - [Self Test Can You Answer These](16-self-test-can-you-answer-these.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 
 ---
 

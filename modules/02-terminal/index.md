@@ -21,8 +21,11 @@
 - [Section 11 Deep Understanding How](16-section-11-deep-understanding-how.md)
 - [Summary Complete Command Reference For](17-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 3](18-whats-coming-in-part-3.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 - [Self Test Can You Answer These](19-self-test-can-you-answer-these.md)
+- [Section 12 File Stat and Advanced Metadata](20-section-12-file-stat-and-advanced-metadata.md)
+- [Section 13 Readline Shortcuts and Batch Rename](21-section-13-keyboard-shortcuts-and-rename.md)
 
 ---
 
-[← Back to Modules](../)
+[← Next to Modules](../03-users-groups-permissions/01-what-you-will-achieve-in.md)

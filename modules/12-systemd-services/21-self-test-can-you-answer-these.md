@@ -71,8 +71,6 @@
 *Previous → Part 11: Package Management — apt, dnf, yum, snap*
 *Next → Part 13: Scheduling Tasks — cron, at, systemd timers*
 
-[← Previous](part11.md) | [Next →](part13.md)
+[← Previous](20-whats-coming-in-part-13.md) | [↑ Index](index.md) | [Next →](22-section-13-dropins-and-edit.md)
 
 
-
-[← Previous](20-whats-coming-in-part-13.md) | [↑ Index](index.md)

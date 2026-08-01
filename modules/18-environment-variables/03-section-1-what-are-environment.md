@@ -9,6 +9,9 @@ Environment variables are named values that programs read to understand their en
 # View all environment variables
 env
 
+# View specific variables (accepts multiple args)
+printenv PATH HOME USER
+
 # View all variables (including shell-local)
 set
 
@@ -19,6 +22,10 @@ echo "$USER"
 
 # Check if a variable exists (returns 1 if not set)
 test -v HOME && echo "HOME is set"
+
+# View any running process's environment (from /proc)
+cat /proc/1/environ | tr '\0' '\n'    # PID 1's environment
+sed 's/\x0/\n/g' /proc/$$/environ     # Current shell's env
 ```
 
 ### How Environment Variables Work

@@ -67,12 +67,4 @@
 **Answer:** `/etc/environment` or `/etc/profile.d/custom.sh` — affects all users at login.
 
 
-*Linux SysAdmin Course | Part 18 of ∞ | Reverse Engineering Approach*
-*Previous → Part 17: SELinux and AppArmor*
-*Next → Part 19: Software Repositories and PPAs*
-
-[← Previous](part17.md) | [Next →](part19.md)
-
-
-
 [← Previous](15-whats-coming-in-part-19.md) | [↑ Index](index.md)

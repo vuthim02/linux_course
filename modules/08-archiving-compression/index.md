@@ -16,6 +16,7 @@
 - [Deep Understanding How Compression Works](11-deep-understanding-how-compression-works.md)
 - [Summary Complete Command Reference For](12-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 9](13-whats-coming-in-part-9.md)
+- [Rules of Thumb](19-rules-of-thumb.md)
 - [Self Test Can You Answer These](14-self-test-can-you-answer-these.md)
 
 ---

@@ -78,6 +78,39 @@ sudo semodule -i myapp.pp
 sudo setenforce 1
 ```
 
+### Per-Domain Permissive Mode
+
+Instead of putting the entire system into permissive mode, you can make a specific domain permissive:
+
+```bash
+# Make httpd_t permissive (logs denials but allows actions)
+sudo semanage permissive -a httpd_t
+
+# Remove permissive mode for a domain
+sudo semanage permissive -d httpd_t
+
+# List all permissive domains
+semanage permissive -l
+```
+
+This is safer than `setenforce 0` — only the target domain is loosened.
+
+### Searching Policy Rules
+
+```bash
+# Search for rules that ALLOW a specific source type:
+sesearch --allow -s httpd_t | head -20
+
+# Search for rules involving a specific target type:
+sesearch --allow -t shadow_t
+
+# Search for rules with a specific class:
+sesearch --allow -c file -p read | head -10
+
+# Show all rules for a domain:
+sesearch --all -s httpd_t | head -40
+```
+
 ### Common SELinux Fixes
 
 ```bash

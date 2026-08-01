@@ -67,12 +67,4 @@
 **Answer:** Monitors auth logs for repeated failed logins. After `maxretry` failures from an IP, it bans that IP via firewall rules for `bantime` seconds.
 
 
-*Linux SysAdmin Course | Part 15 of ∞ | Reverse Engineering Approach*
-*Previous → Part 14: Logging and Journald*
-*Next → Part 16: Firewalls — iptables, firewalld, nftables*
-
-[← Previous](part14.md) | [Next →](part16.md)
-
-
-
-[← Previous](17-whats-coming-in-part-16.md) | [↑ Index](index.md)
+[← Previous](17-whats-coming-in-part-16.md) | [↑ Index](index.md) | [Next →](19-section-10-agent-forwarding-and-multiplexing.md)

@@ -67,12 +67,4 @@
 **Answer:** Cron emails the output (stdout and stderr) to the task owner's local mailbox.
 
 
-*Linux SysAdmin Course | Part 13 of ∞ | Reverse Engineering Approach*
-*Previous → Part 12: Systemd and Services*
-*Next → Part 14: Logging and Journald*
-
-[← Previous](part12.md) | [Next →](part14.md)
-
-
-
-[← Previous](17-whats-coming-in-part-14.md) | [↑ Index](index.md)
+[← Previous](17-whats-coming-in-part-14.md) | [↑ Index](index.md) | [Next →](19-section-10-anacron-offline-scheduling.md)

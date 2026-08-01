@@ -17,6 +17,8 @@
 
 DHCP and HTTP are the bread and butter of network services. DHCP automatically assigns IP addresses to devices on your network. Without it, you would manually configure every laptop, phone, and server that connects. HTTP is how the world serves web content. Even if you are not a web developer, every sysadmin needs to set up and maintain a web server at some point.
 
+**Real-world context:** In production, DHCP does more than assign IPs — it hands out PXE boot servers (for network provisioning), NTP servers, domain search lists, and even VoIP configuration. HTTP servers like Apache rarely work alone — they sit behind load balancers, in front of application servers (Tomcat, uWSGI, Node.js), and integrate with caching layers, databases, and monitoring stacks.
+
 The DORA process (Discover, Offer, Request, Acknowledge) is how DHCP works under the hood. Understanding it helps you debug why a device is not getting an IP address. Is the broadcast not reaching the server? Is the offer being rejected? Is the lease expiring too quickly?
 
 ### What You'll Practice

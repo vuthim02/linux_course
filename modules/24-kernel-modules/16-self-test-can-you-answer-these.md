@@ -71,7 +71,6 @@
 *Previous → Part 23: Virtual Terminals and Console Management*
 
 
-[← Previous](part23.md)
 
 
 

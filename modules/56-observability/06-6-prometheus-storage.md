@@ -30,4 +30,4 @@ remote_write:
 
 
 
-[← Previous](05-5-prometheus-service-discovery-and.md) | [↑ Index](index.md) | [Next →](07-7-alertmanager.md)
+[← Previous](05-5-prometheus-service-discovery-and-relabeling.md) | [↑ Index](index.md) | [Next →](07-7-alertmanager.md)

@@ -1,5 +1,4 @@
 ## Self-Test
-
 1. What is a Linux namespace and how does it differ from a virtual machine?
 2. Which namespaces does `docker run` create by default?
 3. Why must a process fork before entering a PID namespace?
@@ -15,7 +14,6 @@
 13. Name three container escape CVEs and what they exploited.
 14. Why is running a shell as PID 1 in a container problematic?
 15. How does Docker implement `docker exec` internally?
-
 **Answers:**
 1. Namespace = kernel partitioning of global resources into isolated views; VMs use hardware virtualization (hypervisor), containers share the host kernel with resource isolation
 2. All seven: PID, Network, Mount, UTS, IPC, User, Cgroup
@@ -32,16 +30,8 @@
 13. CVE-2019-5736 (runc binary overwrite), CVE-2022-0185 (heap overflow in legacy_parse_param), CVE-2024-21626 (runc /proc/self/fd escape)
 14. Bash does not properly reap orphaned child processes; orphans become zombies in the PID namespace; use `tini` or `dumb-init` as PID 1 instead
 15. Docker uses `nsenter -t <container_PID> --all` to enter the container's namespaces, then executes the specified command with the user's privileges within those namespaces
-
 **Score:** 12/15 correct = ready for Part 65.
-
-
 *Linux SysAdmin Course | Part 64 of ∞ | Reverse Engineering Approach*
 *Previous → Part 63: eBPF & Modern Tracing*
 *Next → Part 65: PAM & Centralized Authentication*
-
-[← Previous](part63.md) | [Next →](part65.md)
-
-
-
 [← Previous](14-whats-coming-in-part-65.md) | [↑ Index](index.md)

@@ -111,4 +111,4 @@ spec:
 
 
 
-[← Previous](08-section-7-vault-agent-and.md) | [↑ Index](index.md) | [Next →](10-section-9-sops-mozilla.md)
+[← Previous](08-section-7-vault-agent-and-sidecar.md) | [↑ Index](index.md) | [Next →](10-section-9-sops-mozilla.md)

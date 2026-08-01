@@ -20,7 +20,9 @@
 - [Deep Understanding](15-deep-understanding.md)
 - [Command Reference](16-command-reference.md)
 - [Whats Coming In Part 58](17-whats-coming-in-part-58.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test Can You Answer These](18-self-test-can-you-answer-these.md)
+- [Section 9 Calico Flannel And Service Meshes](21-section-9-calico-flannel-istio.md)
 
 ---
 

@@ -3,6 +3,9 @@
 ### Firewall Basics (ufw)
 
 ```bash
+# Install (if not already installed)
+sudo apt install ufw        # Debian/Ubuntu only; RHEL uses firewalld
+
 # Enable firewall
 sudo ufw enable
 

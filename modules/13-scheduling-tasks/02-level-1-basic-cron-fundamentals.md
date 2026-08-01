@@ -1,6 +1,6 @@
 ## ⭐ Level 1: Basic — Cron Fundamentals
 
-![Cron Backup Scheduling Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Backup-CRON-incremental-Y-diferencial.svg/626px-Backup-CRON-incremental-Y-diferencial.svg.png)
+![Cron Backup Scheduling Diagram](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT7WjHJJvkobU1xaG5J4UFMjD-H9naw7OwaP2gj8ey1A&s=10)
 *Schematic of cron-based backup scheduling with incremental, differential, and full strategies. Source: Wikimedia Commons*
 
 > **Level 1 Goal:** Understand how the cron daemon works, master the 5-field crontab syntax, and know where different types of crontabs live on the system.

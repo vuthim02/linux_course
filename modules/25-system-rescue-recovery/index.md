@@ -17,6 +17,7 @@
 - [Level 3 Advanced Boot Process](12-level-3-advanced-boot-process.md)
 - [Deep Understanding How System Recovery](13-deep-understanding-how-system-recovery.md)
 - [Summary Complete Command Reference For](14-summary-complete-command-reference-for.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 - [Final Self Test Can You Answer](15-final-self-test-can-you-answer.md)
 - [Whats Next After Part 25](16-whats-next-after-part-25.md)
 

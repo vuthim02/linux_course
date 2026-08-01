@@ -17,6 +17,7 @@
 - [Deep Understanding How The Scheduler](12-deep-understanding-how-the-scheduler.md)
 - [Summary Complete Command Reference For](13-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 10](14-whats-coming-in-part-10.md)
+- [Rules of Thumb](19-rules-of-thumb.md)
 - [Self Test Can You Answer These](15-self-test-can-you-answer-these.md)
 
 ---

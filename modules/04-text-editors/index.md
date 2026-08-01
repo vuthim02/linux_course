@@ -24,6 +24,7 @@
 - [Deep Understanding How Terminal Editors](19-deep-understanding-how-terminal-editors.md)
 - [Summary Complete Command Reference For](20-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 5](21-whats-coming-in-part-5.md)
+- [Rules of Thumb](23-rules-of-thumb.md)
 - [Self Test Can You Answer These](22-self-test-can-you-answer-these.md)
 
 ---

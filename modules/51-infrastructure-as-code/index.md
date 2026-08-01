@@ -22,6 +22,7 @@
 - [Section 16 Hands On Practices](17-section-16-hands-on-practices.md)
 - [Command Reference](18-command-reference.md)
 - [Whats Coming In Part 52](19-whats-coming-in-part-52.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test Part 51 Infrastructure As](20-self-test-part-51-infrastructure-as.md)
 - [References](21-references.md)
 

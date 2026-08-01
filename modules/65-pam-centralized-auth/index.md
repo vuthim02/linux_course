@@ -17,7 +17,9 @@
 - [Deep Understanding](12-deep-understanding.md)
 - [Command Reference](13-command-reference.md)
 - [Whats Coming In Part 66](14-whats-coming-in-part-66.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](15-self-test.md)
+- [Section 12 Kerberos Deep Dive And Webauthn Fido2](22-section-12-kerberos-deep-and-webauthn.md)
 
 ---
 

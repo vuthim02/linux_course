@@ -12,6 +12,21 @@
 | `id -Z` | Show current user/role/type context |
 | `cat /etc/selinux/config` | View permanent SELinux configuration |
 
+### SELinux User and Role Management
+
+| Command | Action |
+|---------|--------|
+| `semanage login -l` | Map Linux users to SELinux users |
+| `semanage login -a -s SELUSER LINUXUSER` | Create a login mapping |
+| `semanage user -l` | List SELinux users and their roles |
+| `id -Z` | Show current SELinux context |
+| `runcon -t TYPE COMMAND` | Run command with a different type |
+| `runcon -l LEVEL COMMAND` | Run with specific MLS level |
+| `seinfo -t` | List all types in policy |
+| `seinfo -r` | List all roles |
+| `seinfo -u` | List all SELinux users |
+| `seinfo --portcon=PORT` | Show port context |
+
 ### Level 2 — Intermediary Configuration and Daily Use
 
 | Command | Action |
@@ -43,6 +58,12 @@
 | `aa-genprof PROG` | Interactively generate AppArmor profile |
 | `apparmor_parser -r PROFILE` | Reload a specific AppArmor profile |
 | `semanage permissive -a TYPE` | Put a domain in permissive mode |
+| `semanage permissive -d TYPE` | Remove permissive mode from a domain |
+| `semanage permissive -l` | List all permissive domains |
+| `sesearch --allow -s TYPE` | Search for allow rules by source type |
+| `sesearch --all -s TYPE` | Show all rules for a domain |
+| `chcat +c CAT FILE` | Set MLS/MCS category on a file |
+| `chcat -L` | List MLS/MCS categories |
 
 
 

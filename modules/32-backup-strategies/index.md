@@ -31,6 +31,7 @@
 - [15 Hands On Practices](26-15-hands-on-practices.md)
 - [Command Reference](27-command-reference.md)
 - [Whats Coming In Part 33](28-whats-coming-in-part-33.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 - [Self Test](29-self-test.md)
 
 ---

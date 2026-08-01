@@ -26,6 +26,7 @@
 - [16 Deep Understanding](21-16-deep-understanding.md)
 - [17 Command Reference](22-17-command-reference.md)
 - [18 Whats Coming In Part](23-18-whats-coming-in-part.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 - [19 Self Test](24-19-self-test.md)
 
 ---

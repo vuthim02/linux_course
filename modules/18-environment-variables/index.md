@@ -18,6 +18,7 @@
 - [Deep Understanding How The Shell](13-deep-understanding-how-the-shell.md)
 - [Summary Command Reference For Part](14-summary-command-reference-for-part.md)
 - [Whats Coming In Part 19](15-whats-coming-in-part-19.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 - [Self Test Can You Answer These](16-self-test-can-you-answer-these.md)
 
 ---

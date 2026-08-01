@@ -56,7 +56,7 @@ ss -tlnp | grep "0.0.0.0:PORT"  # All interfaces
 ss -tlnp | grep "127.0.0.1:PORT" # Localhost only
 
 # Check if address already in use
-sudo netstat -tlnp | grep PORT
+sudo ss -tlnp | grep PORT
 ```
 
 **Problem 3: DHCP not assigning IPs**
@@ -101,7 +101,7 @@ sudo -u www-data ls -la /var/www/html/
 
 ```bash
 # On server:
-sudo systemctl status sshd
+sudo systemctl status sshd   # RHEL/Fedora; use "ssh" on Debian/Ubuntu
 ss -tlnp | grep 22         # Check if SSH is listening
 sudo sshd -t               # Check config
 sudo journalctl -u sshd -n 20

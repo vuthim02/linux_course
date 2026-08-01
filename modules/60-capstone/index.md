@@ -29,6 +29,7 @@
 - [23 Cost Optimization](23-cost-optimization.md)
 - [24 Hands-On Practices](24-hands-on-practices.md)
 - [25 Course Complete](25-course-complete.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [26 Self-Test](26-self-test.md)
 
 ---

@@ -22,7 +22,12 @@
 - [Level 3 Practices](17-level-3-practices.md)
 - [Summary Complete Command Reference](18-summary-complete-command-reference.md)
 - [Whats Coming In Part 7](19-whats-coming-in-part-7.md)
+- [Rules of Thumb](25-rules-of-thumb.md)
 - [Self Test Can You Answer These](20-self-test-can-you-answer-these.md)
+- [Section 6 Arithmetic Indirect Expansion And String Ops](21-section-6-arithmetic-and-expansions.md)
+- [Section 7 Process Substitution Subshells And Debugging](22-section-7-process-substitution-and-debugging.md)
+- [Section 8 Security Linting And Testing Bash Scripts](23-section-8-security-and-testing.md)
+- [Level 4 Mastery Practices](24-level-4-practices.md)
 
 ---
 

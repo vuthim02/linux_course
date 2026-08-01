@@ -23,6 +23,7 @@
 - [Section 14 15 Hands On Practices](18-section-14-15-hands-on-practices.md)
 - [Deep Understanding](19-deep-understanding.md)
 - [Whats Coming In Part 43](20-whats-coming-in-part-43.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 - [Self Test 15 Questions](21-self-test-15-questions.md)
 
 ---

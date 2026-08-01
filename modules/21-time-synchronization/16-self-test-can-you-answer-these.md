@@ -61,17 +61,13 @@
 **Answer:** A lightweight SNTP client built into systemd. Used on desktop/embedded systems that need simple time sync without full NTP.
 
 ### Q14: How do you check the hardware clock from Linux?
-**Answer:** `timedatectl show-property=TimeUSec` or `hwclock --show` — reads the RTC (Real Time Clock).
+**Answer:** `hwclock --show` — reads the RTC (Real Time Clock). Also: `timedatectl | grep "RTC time"` shows the hardware clock time.
 
 ### Q15: Why is Chrony better than ntpd for virtual machines?
 **Answer:** VMs have unstable clock rates (virtualization jitter). Chrony adapts faster to frequency changes and handles intermittent connectivity gracefully.
 
 
 *Linux SysAdmin Course | Part 21 of ∞ | Reverse Engineering Approach*
-*Previous → Part 20: System Updates and Patch Management*
-*Next → Part 22: Network Services — DHCP, HTTP, SSH*
-
-[← Previous](part20.md) | [Next →](part22.md)
 
 
 

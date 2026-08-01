@@ -1,8 +1,7 @@
 ## ⭐ Level 1: Basic — Foundations
 
-![Regular expression visualization](https://upload.wikimedia.org/wikipedia/commons/2/2e/Regular_expression.svg)
+![Regular expression visualization](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3FpaTgyZTRkb2dwaTV5czM3eGxtanF2eDF1bnB0ZmU5aGQwMG10OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/MdA16VIoXKKxNE8Stk/giphy.webp)
 
-> *"The power of the command line lies in pattern matching. Master regex, and you master text."*
 
 ### What You'll Cover
 - Regular expression flavors: BRE, ERE, PCRE — when to use each

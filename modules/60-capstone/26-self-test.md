@@ -69,7 +69,6 @@
 *Previous → Part 59: Site Reliability Engineering (SRE)*
 *Next → This is the final part. Revisit any section or begin your production journey!*
 
-[← Previous](part59.md) and [-> Reference](reference.md)
 
 
 

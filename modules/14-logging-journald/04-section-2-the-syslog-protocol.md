@@ -41,8 +41,8 @@ Each message has a **facility** (what generated it) and a **severity** (how seri
 
 ```
 Jan 15 10:30:45 server sshd[12345]: Failed password for root from 192.168.1.100 port 22 ssh2
-└─────┬────┘ └──┬┘ └──┬┘ └───┬──┘ └─────────────────────────┬────────────────────────┘
- timestamp    host   prog[PID]           message
+    └────┬────┘ └──┬┘  └─┬┘ └──┬──┘ └─────────────────────────┬────────────────────────┘
+     timestamp   host  prog[PID]           message
 ```
 
 

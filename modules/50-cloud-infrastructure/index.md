@@ -19,6 +19,7 @@
 - [Deep Understanding How Cloud Infrastructure](14-deep-understanding-how-cloud-infrastructure.md)
 - [Complete Command Reference Equivalent Commands](15-complete-command-reference-equivalent-commands.md)
 - [Whats Coming In Part 51](16-whats-coming-in-part-51.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test Can You Answer These](17-self-test-can-you-answer-these.md)
 
 ---

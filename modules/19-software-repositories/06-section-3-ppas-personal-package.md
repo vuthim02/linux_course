@@ -19,17 +19,26 @@ sudo apt install python3.12
 ```bash
 # The command does three things:
 # 1. Downloads the GPG key
-# 2. Creates a .list file in /etc/apt/sources.list.d/
+# 2. Creates a .list file in /etc/apt/sources.list.d/ (or .sources for DEB822)
 # 3. Runs apt update
 
-# Equivalent manual steps:
-# 1. Add to sources.list.d/
-echo "deb http://ppa.launchpad.net/deadsnakes/ppa/ubuntu $(lsb_release -cs) main" | \
-  sudo tee /etc/apt/sources.list.d/deadsnakes.list
+# Modern add-apt-repository creates DEB822-format .sources files:
+cat /etc/apt/sources.list.d/deadsnakes-ppa.sources
+# Types: deb
+# URIs: http://ppa.launchpad.net/deadsnakes/ppa/ubuntu
+# Suites: noble
+# Components: main
+# Signed-By: /etc/apt/keyrings/deadsnakes-ppa.asc
 
-# 2. Add GPG key
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys KEY_ID
-# (Note: apt-key is deprecated — use signed-by instead)
+# Equivalent manual steps (modern signed-by method):
+# 1. Download the GPG key
+sudo gpg --homedir /tmp/keyring --keyserver keyserver.ubuntu.com --recv-keys KEY_ID
+sudo gpg --homedir /tmp/keyring --export KEY_ID | sudo tee /etc/apt/keyrings/deadsnakes.asc > /dev/null
+
+# 2. Add to sources.list.d/ with signed-by
+echo "deb [signed-by=/etc/apt/keyrings/deadsnakes.asc] \
+  http://ppa.launchpad.net/deadsnakes/ppa/ubuntu $(lsb_release -cs) main" | \
+  sudo tee /etc/apt/sources.list.d/deadsnakes.list
 
 # 3. Update
 sudo apt update
@@ -56,6 +65,21 @@ sudo add-apt-repository -s ppa:deadsnakes/ppa | head -20
 | Dependencies | Can pull in incompatible libraries |
 
 **Best practice:** Only use well-known PPAs (deadsnakes, ondrej/php, etc.)
+
+### Fedora Equivalent: COPR
+
+Fedora's COPR (Cool Other Package Repo) works similarly to PPAs:
+
+```bash
+# Enable a COPR repository
+sudo dnf copr enable user/project
+
+# Example: newer PHP
+sudo dnf copr enable remi/php-8.3
+
+# Remove a COPR
+sudo dnf copr remove user/project
+```
 
 
 

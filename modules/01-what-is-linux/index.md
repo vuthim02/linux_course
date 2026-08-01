@@ -18,8 +18,9 @@
 - [Section 8 Concepts Review Deep](13-section-8-concepts-review-deep.md)
 - [Summary What You Learned In](14-summary-what-you-learned-in.md)
 - [Whats Coming In Part 2](15-whats-coming-in-part-2.md)
+- [Rules of Thumb](20-rules-of-thumb.md)
 - [Self Test Can You Answer These](16-self-test-can-you-answer-these.md)
 
----
 
-[← Back to Modules](../)
+
+[ Next to Modules ->](../02-terminal/01-what-you-will-achieve-in.md)

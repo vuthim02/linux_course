@@ -33,9 +33,10 @@ while [ "$#" -gt 0 ]; do
     shift
 done
 ```
-
-
-
+```bash 
+╭─ ~/Desktop/TEST on feature-login !5 ?
+╰─❯ source script2.sh a b c d e f g h i j k l m n o p q r s t u v w x y z
+```
 
 
 [← Previous](04-section-3-conditionals-making-decisions.md) | [↑ Index](index.md) | [Next →](06-level-1-practices.md)

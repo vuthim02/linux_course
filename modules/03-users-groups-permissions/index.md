@@ -25,8 +25,14 @@
 - [Deep Understanding How Permissions Really](20-deep-understanding-how-permissions-really.md)
 - [Summary Complete Command Reference For](21-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 4](22-whats-coming-in-part-4.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 - [Self Test Can You Answer These](23-self-test-can-you-answer-these.md)
+
+- [Section 15 File Attributes Chattr And Lsattr](24-section-15-file-attributes-chattr.md)
+- [Section 16 Linux Capabilities Fine Grained Privileges](25-section-16-linux-capabilities.md)
+- [Section 17 Password Aging And Account Lockout](26-section-17-password-aging-and-account-lockout.md)
+- [Section 18 Resource Limits Group Switching And Quotas](27-section-18-resource-limits-and-groups.md)
 
 ---
 
-[← Back to Modules](../)
+[ Next to Modules->](../04-text-editors/01-what-you-will-achieve-in.md)

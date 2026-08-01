@@ -1,5 +1,4 @@
 ## Self-Test
-
 1. What are the four PAM module types and what does each one handle?
 2. What is the difference between `required` and `requisite` control flags?
 3. Why does PAM use `required` instead of `requisite` for password checks (hint: enumeration)?
@@ -15,7 +14,6 @@
 13. What is the danger of using `pam_permit.so` in an auth stack?
 14. How do you reset a locked account managed by pam_faillock?
 15. What logs should you check when debugging SSSD authentication failures?
-
 **Answers:**
 1. auth (identity verification), account (validity checks), password (password changes), session (setup/teardown)
 2. `required` continues checking other modules on failure (delays failure message); `requisite` fails immediately
@@ -32,16 +30,8 @@
 13. pam_permit.so always succeeds, allowing anyone to authenticate without any checks — a critical security hole
 14. `sudo faillock --user <username> --reset`
 15. `/var/log/sssd/sssd_<domain>.log`, `/var/log/sssd/sssd_pam.log`, `/var/log/secure` or `/var/log/auth.log`, `journalctl -u sshd`
-
 **Score:** 12/15 correct = ready for Part 66.
-
-
 *Linux SysAdmin Course | Part 65 of ∞ | Reverse Engineering Approach*
 *Previous → Part 64: Linux Namespaces*
 *Next → Part 66: System Hardening*
-
-[← Previous](part64.md) | [Next →](part66.md)
-
-
-
 [← Previous](14-whats-coming-in-part-66.md) | [↑ Index](index.md)

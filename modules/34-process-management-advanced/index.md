@@ -24,6 +24,7 @@
 - [16 Deep Understanding](19-16-deep-understanding.md)
 - [14 Command Reference](20-14-command-reference.md)
 - [15 15 Hands On Practices](21-15-15-hands-on-practices.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 - [17 Self Test](22-17-self-test.md)
 - [18 Whats Coming In Part](23-18-whats-coming-in-part.md)
 

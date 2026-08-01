@@ -118,7 +118,6 @@ d) The file becomes read-only
 *Next → Part 39: Web Servers — Apache and Nginx*
 ```
 
-[← Previous](part37.md) | [Next →](part39.md)
 
 
 

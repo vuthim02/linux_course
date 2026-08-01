@@ -34,7 +34,7 @@
 **Answer:** Unexpected upgrades may break dependencies, restart services, or introduce incompatible changes. Review prevents production issues.
 
 ### Q5: What three update channels does Ubuntu provide?
-**Answer:** LTS (Long Term Support, 5yr), Standard (interim releases, 9 months), ESM (Extended Security Maintenance, paid).
+**Answer:** `-security` (critical security fixes), `-updates` (bug fixes and non-security improvements), and `-backports` (newer software from later releases).
 
 ### Q6: Why are kernel updates especially impactful?
 **Answer:** They affect all running processes, may change drivers/APIs, require reboot, and can introduce or fix security vulnerabilities at the deepest level.
@@ -68,10 +68,6 @@
 
 
 *Linux SysAdmin Course | Part 20 of ∞ | Reverse Engineering Approach*
-*Previous → Part 19: Software Repositories and PPAs*
-*Next → Part 21: Time Synchronization — NTP and Chrony*
-
-[← Previous](part19.md) | [Next →](part21.md)
 
 
 

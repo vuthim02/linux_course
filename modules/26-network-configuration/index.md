@@ -24,6 +24,7 @@
 - [Deep Understanding How Linux Networking](19-deep-understanding-how-linux-networking.md)
 - [Command Reference](20-command-reference.md)
 - [Whats Coming In Part 27](21-whats-coming-in-part-27.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 - [Self Test Can You Answer These](22-self-test-can-you-answer-these.md)
 
 ---

@@ -10,8 +10,8 @@ sudo apt install openssh-server
 # Fedora/RHEL
 sudo dnf install openssh-server
 
-# Check status
-sudo systemctl status sshd
+# Check status (sshd on RHEL/Fedora, ssh on Debian/Ubuntu)
+sudo systemctl status sshd || sudo systemctl status ssh
 ```
 
 ### SSH Server Configuration
@@ -42,7 +42,6 @@ cat /etc/ssh/sshd_config
 # /etc/ssh/sshd_config — Security-hardened settings
 
 Port 2222                          # Change default port
-Protocol 2                         # Only SSH protocol 2
 
 PermitRootLogin no                 # No direct root login
 PasswordAuthentication no          # Key-based authentication only
@@ -54,7 +53,7 @@ MaxSessions 2                      # Limit concurrent sessions
 
 LoginGraceTime 60                  # 60 seconds to complete login
 ClientAliveInterval 300            # Check every 5 minutes
-ClientAliveCountMax 0              # Disconnect on inactive
+ClientAliveCountMax 3              # Disconnect after ~15 min of inactivity
 
 Banner /etc/issue.net              # Legal banner
 
@@ -67,7 +66,7 @@ LogLevel VERBOSE
 
 ```bash
 # After editing, restart
-sudo systemctl restart sshd
+sudo systemctl restart sshd   # RHEL/Fedora; use "ssh" on Debian/Ubuntu
 
 # Always verify config before restart
 sudo sshd -t
@@ -107,6 +106,37 @@ ssh -D 1080 user@server
 ssh -L 3306:db.internal:3306 user@jump-server -N
 ```
 
+### SSH in the Real World
+
+SSH is not just for interactive logins. In production, SSH is the backbone of automation and secure tunnels:
+
+```
+Internet ──→ Bastion Host (Jump Box)
+                  │
+        ┌─────────┼─────────┐
+        ▼         ▼         ▼
+    Web Server  App Server  Database
+    (port 22)   (port 22)  (no direct access)
+
+# Common SSH patterns:
+# 1. Jump host / Bastion — single entry point to a private network
+# 2. Port forwarding — tunnel to databases without public IPs
+# 3. SOCKS proxy — route all traffic through a secure tunnel
+# 4. SSH config (~/.ssh/config) — manage complex multi-hop setups
+```
+
+```bash
+# Jump host: connect through bastion
+ssh -J bastion.example.com web.internal
+
+# SSH config for jump host (~/.ssh/config)
+Host internal-*
+    ProxyJump bastion.example.com
+
+# Tunnel to a database through a jump host
+ssh -L 3306:db.internal:3306 bastion.example.com -N
+```
+
 ### SSH Security Best Practices
 
 ```bash
@@ -114,7 +144,9 @@ ssh -L 3306:db.internal:3306 user@jump-server -N
 # 2. Use key-based auth only
 # 3. Change default port
 # 4. Use fail2ban to block brute force
-sudo apt install fail2ban
+sudo apt install fail2ban          # Debian/Ubuntu
+sudo dnf install fail2ban          # RHEL/Fedora (requires EPEL)
+# Then configure /etc/fail2ban/jail.local with [sshd] section
 
 # 5. Disable SSH protocol 1
 # 6. Limit user access

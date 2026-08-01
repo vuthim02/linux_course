@@ -17,7 +17,9 @@
 - [Deep Understanding](12-deep-understanding.md)
 - [Command Reference](13-command-reference.md)
 - [Whats Coming In Part 64](14-whats-coming-in-part-64.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](15-self-test.md)
+- [Section 8 Lsm Bpf And Rust For Ebpf](22-section-8-lsm-bpf-and-rust.md)
 
 ---
 

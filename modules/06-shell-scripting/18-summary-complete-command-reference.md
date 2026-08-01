@@ -23,7 +23,18 @@
 | `${var:offset:len}` | Substring |
 | `${var/old/new}` | Replace first match |
 | `${var//old/new}` | Replace all matches |
-| `readonly var` | Make read-only |
+| `readonly var=N` | Make read-only |
+| `declare -i var=N` | Integer attribute |
+| `declare -r var=N` | Read-only (same as `readonly`) |
+| `declare -l var=S` | Auto-lowercase on assign |
+| `declare -u var=S` | Auto-uppercase on assign |
+| `declare -x var=N` | Export to environment |
+| `declare -g var=N` | Global scope (in function) |
+| `declare -a arr=()` | Indexed array |
+| `declare -A map=()` | Associative array |
+| `declare -n ref=v` | Nameref (alias) |
+| `declare -p var` | Print attributes and value |
+| `typeset var=N` | Older synonym for `declare` |
 
 **Conditionals**
 

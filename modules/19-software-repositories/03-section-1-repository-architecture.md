@@ -23,6 +23,32 @@ A repository is a server (or directory) containing:
 10. apt downloads, verifies, and installs
 ```
 
+### Beyond Traditional Repositories: Flatpak, Snap, and AppImage
+
+Modern Linux also uses alternative package distribution methods alongside traditional repos:
+
+| Format | Description | Sandboxed | Repo Command |
+|--------|-------------|-----------|--------------|
+| **Flatpak** | Universal packages with sandboxing | Yes | `flatpak install flathub app` |
+| **Snap** | Canonical's sandboxed packages | Yes | `snap install app` |
+| **AppImage** | Portable single-file executables | Partial | Download and run (no repo needed) |
+
+```bash
+# Flatpak (universal, works on all distros)
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.gimp.GIMP
+
+# Snap (mainly Ubuntu)
+snap install vlc
+
+# AppImage — download, chmod +x, run
+wget https://example.com/app.AppImage
+chmod +x app.AppImage
+./app.AppImage
+```
+
+These are complementary to traditional package managers, not replacements. System-level packages (kernels, drivers, libraries) still use APT/DNF.
+
 ### Repository Structure
 
 ```

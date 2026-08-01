@@ -9,7 +9,7 @@
 - [3 Kernel Hardening Sysctl And](04-3-kernel-hardening-sysctl-and.md)
 - [4 Filesystem Hardening](05-4-filesystem-hardening.md)
 - [5 Auditd Deep Dive Kernel Level](06-5-auditd-deep-dive-kernel-level.md)
-- [Cis Hardening Audit Rules](07-cis-hardening-audit-rules.md)
+- [Cis Hardening Audit Rules](07-6-cis-hardening-audit-rules.md)
 - [6 Fail2ban Automated Intrusion Prevention](08-6-fail2ban-automated-intrusion-prevention.md)
 - [7 Lynis Security Auditing And](09-7-lynis-security-auditing-and.md)
 - [8 Aide File Integrity Monitoring](10-8-aide-file-integrity-monitoring.md)
@@ -18,7 +18,9 @@
 - [Deep Understanding](13-deep-understanding.md)
 - [Command Reference](14-command-reference.md)
 - [Whats Coming In Part 67](15-whats-coming-in-part-67.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](16-self-test.md)
+- [Section 8 Gvisor Kata Containers And Ima Evm](22-section-8-gvisor-kata-ima-evm.md)
 
 ---
 

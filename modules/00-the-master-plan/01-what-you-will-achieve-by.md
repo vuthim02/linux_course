@@ -1,4 +1,4 @@
-## 🎯 What You Will Achieve by the End of This Course
+\## 🎯 What You Will Achieve by the End of This Course
 
 By the time you finish, you will be able to:
 
@@ -17,4 +17,4 @@ By the time you finish, you will be able to:
 
 
 
-[← Previous](01-.md) | [↑ Index](index.md) | [Next →](02-the-entire-course-roadmap.md)
+[← Previous](01-welcome.md) | [↑ Index](index.md) | [Next →](02-the-entire-course-roadmap.md)

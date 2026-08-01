@@ -23,6 +23,7 @@
 - [Deep Understanding How Dns Resolution](18-deep-understanding-how-dns-resolution.md)
 - [Summary Complete Command Reference For](19-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 28](20-whats-coming-in-part-28.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test Can You Answer These](21-self-test-can-you-answer-these.md)
 
 ---

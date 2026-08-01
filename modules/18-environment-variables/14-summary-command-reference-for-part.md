@@ -5,10 +5,15 @@
 | Command | Action |
 |---------|--------|
 | `env` | List all environment variables |
+| `printenv` | List environment variables (or specific ones: `printenv PATH HOME`) |
 | `set` | List all variables (including shell-local) |
 | `echo $VAR` | Print value of a variable |
 | `export VAR=value` | Set and export variable to child processes |
 | `unset VAR` | Remove a variable |
+| `readonly VAR` | Make a variable read-only |
+| `set -a` / `set +a` | Enable/disable automatic export of all variables |
+| `printf '%q' "$VAR"` | Print variable safely quoted for reuse |
+| `cat /proc/PID/environ` | View any process's environment |
 
 ### Level 2 — Intermediary Configuration
 
@@ -45,6 +50,13 @@
 | `EDITOR` | Default text editor |
 | `PAGER` | Default pager (e.g., less) |
 | `PS1` | Primary shell prompt string |
+| `XDG_CONFIG_HOME` | User config files (~/.config) |
+| `XDG_DATA_HOME` | User data files (~/.local/share) |
+| `XDG_CACHE_HOME` | User cache files (~/.cache) |
+| `http_proxy` / `https_proxy` | Proxy URLs for network access |
+| `SSH_CONNECTION` | SSH client/server IPs (set by sshd) |
+| `DISPLAY` | X11 display (:0) |
+| `WAYLAND_DISPLAY` | Wayland display (wayland-0) |
 
 ### Level 3 — Advanced Shell Functions and Debugging
 
@@ -62,6 +74,15 @@
 | `bash -x SCRIPT` | Debug script execution |
 | `set -x` / `set +x` | Enable/disable debug trace in script |
 | `strace -e process CMD` | Trace process execution (advanced debug) |
+| `shopt` | List/modify shell options |
+| `shopt -s OPT` | Enable a shell option |
+| `declare -r VAR` | Declare a read-only variable |
+| `declare -i VAR` | Declare an integer variable |
+| `declare -a VAR` | Declare an indexed array |
+| `declare -A VAR` | Declare an associative array |
+| `declare -l VAR` | Declare auto-lowercase variable |
+| `declare -u VAR` | Declare auto-uppercase variable |
+| `shopt -s globstar` | Enable recursive glob (** matches all depths) |
 
 
 

@@ -18,6 +18,7 @@
 - [Deep Understanding Kernel Module Internals](13-deep-understanding-kernel-module-internals.md)
 - [Summary Complete Command Reference For](14-summary-complete-command-reference-for.md)
 - [Whats Next](15-whats-next.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 - [Self Test Can You Answer These](16-self-test-can-you-answer-these.md)
 
 ---

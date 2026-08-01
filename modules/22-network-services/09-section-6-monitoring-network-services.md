@@ -15,10 +15,10 @@ nc -zv localhost 80
 # Check if service is accepting connections
 curl -I http://localhost
 
-# Monitor logs
-journalctl -u sshd -n 20 --no-pager
-journalctl -u apache2 -n 20 --no-pager
-journalctl -u isc-dhcp-server -n 20 --no-pager
+# Monitor logs (use sudo for full access)
+sudo journalctl -u sshd -n 20 --no-pager
+sudo journalctl -u apache2 -n 20 --no-pager
+sudo journalctl -u isc-dhcp-server -n 20 --no-pager
 
 # Follow logs in real-time
 sudo journalctl -u sshd -f

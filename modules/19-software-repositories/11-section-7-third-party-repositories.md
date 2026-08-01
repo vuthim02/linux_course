@@ -21,12 +21,15 @@ sudo apt update
 ### Google Chrome Repository
 
 ```bash
-# Add Google's GPG key
-wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+# Add Google's GPG key (modern signed-by method)
+sudo curl -fsSL https://dl.google.com/linux/linux_signing_key.pub \
+  -o /etc/apt/keyrings/google-chrome.asc
+sudo chmod a+r /etc/apt/keyrings/google-chrome.asc
 
 # Add the repository
-sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" \
-  >> /etc/apt/sources.list.d/google-chrome.list'
+echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/google-chrome.asc] \
+  http://dl.google.com/linux/chrome/deb/ stable main" | \
+  sudo tee /etc/apt/sources.list.d/google-chrome.list
 
 sudo apt update
 sudo apt install google-chrome-stable
@@ -43,6 +46,30 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/packages.microsoft
 
 sudo apt update
 sudo apt install code
+```
+
+### COPR (Fedora's Equivalent of PPAs)
+
+Fedora has COPR (Cool Other Package Repo), similar to Ubuntu PPAs:
+
+```bash
+# Enable a COPR repository
+sudo dnf copr enable user/project
+
+# Example: newer PHP versions
+sudo dnf copr enable remi/php-8.3
+
+# Disable a COPR
+sudo dnf copr remove user/project
+
+# Search COPR repos
+dnf copr search php
+
+# List enabled COPR repos
+dnf copr list
+
+# COPR repos appear in /etc/yum.repos.d/_copr_*.repo
+ls /etc/yum.repos.d/_copr_*.repo 2>/dev/null
 ```
 
 

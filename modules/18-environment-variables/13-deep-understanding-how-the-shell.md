@@ -36,6 +36,41 @@ systemd sets basic PATH for all users
 → script adds its own variables
 ```
 
+### Shell Options with shopt
+
+Bash has runtime options that control behavior. Check and change them with `shopt`:
+
+```bash
+# List all shell options
+shopt
+
+# Enable/disable an option
+shopt -s autocd          # Type directory name to cd into it
+shopt -u autocd          # Disable
+shopt -s cdspell         # Auto-correct typos in cd
+shopt -s checkwinsize    # Check window size after each command
+shopt -s histappend      # Append history, don't overwrite
+shopt -s dotglob         # Include dotfiles in glob expansion (*)
+
+# Common options for sysadmins:
+shopt -s globstar        # ** matches any depth of subdirectories
+# Then you can:  ls **/*.log   to find all log files recursively
+```
+
+### The `BASH_ENV` and `ENV` Variables
+
+These control startup for non-interactive shells:
+
+```bash
+# BASH_ENV (bash-only): file sourced for non-interactive bash shells
+export BASH_ENV=~/.bash_env
+
+# ENV (POSIX sh): file sourced for POSIX-mode shells (sh)
+export ENV=~/.sh_env
+```
+
+When bash runs a script (non-interactive), it checks `$BASH_ENV` and sources that file if set. This is rarely used but important to know for debugging.
+
 ### The `env` Command
 
 ```bash

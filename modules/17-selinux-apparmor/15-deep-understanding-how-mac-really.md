@@ -64,6 +64,53 @@ semanage login -l
 semanage login -a -s user_u username
 ```
 
+**Roles** bridge users and types:
+- `user_r` — regular user, can only run `user_t` domain
+- `staff_r` — staff, can run `staff_t` and switch to `sysadm_r`
+- `sysadm_r` — system admin, can run `sysadm_t` domain
+- `system_r` — system processes (daemons)
+
+```bash
+# List SELinux users and their allowed roles:
+semanage user -l
+
+# Create a custom SELinux user:
+semanage user -a -R "staff_r sysadm_r" myadmin_u
+```
+
+### MLS and MCS: Sensitivity and Categories
+
+Multi-Level Security adds an extra field to the context: `user:role:type:sensitivity[:category]`
+
+```
+Example MLS context:
+  system_u:object_r:shadow_t:s0          # Level s0 (lowest)
+  system_u:object_r:secret_t:s2          # Level s2 (higher)
+  user_u:user_r:user_t:s0-s0:c0.c1023    # Range: s0-s0, categories 0-1023
+```
+
+```bash
+# Check if MLS/MCS is active:
+sestatus | grep "Policy MLS status"
+
+# Set categories on a file:
+chcat +c12 /path/to/file
+
+# List categories:
+chcat -L
+
+# Run a shell with reduced clearance:
+runcon -l s0:c0,c1 sh
+id -Z   # Shows restricted context
+
+# The "no read up, no write down" rule:
+# A process at s0 can read s0 files only
+# A process at s1 can read s0 and s1 files
+# A process at s1 can write to s1 files only (no write down)
+```
+
+MLS (multi-level) uses ordered sensitivity levels. MCS (multi-category) uses unordered categories — simpler for cloud/multi-tenant isolation.
+
 
 
 

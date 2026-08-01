@@ -145,4 +145,4 @@ No SSH access to production:
 
 
 
-[← Previous](12-12-hands-on-practices-115.md) | [↑ Index](index.md) | [Next →](14-14-command-reference.md)
+[← Previous](12-12-hands-on-practices.md) | [↑ Index](index.md) | [Next →](14-14-command-reference.md)

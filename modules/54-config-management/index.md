@@ -14,12 +14,14 @@
 - [9 Chef Architecture](09-9-chef-architecture.md)
 - [10 Chef Dsl](10-10-chef-dsl.md)
 - [11 Chef In Practice](11-11-chef-in-practice.md)
+- [11.5 Ansible — Agentless Automation](11-5-ansible.md)
 - [12 Comparative Analysis](12-12-comparative-analysis.md)
 - [13 Modern Era](13-13-modern-era.md)
 - [15 Hands On Practices](14-15-hands-on-practices.md)
 - [Deep Understanding](15-deep-understanding.md)
 - [Command Reference](16-command-reference.md)
 - [Whats Coming In Part 55](17-whats-coming-in-part-55.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test](18-self-test.md)
 
 ---

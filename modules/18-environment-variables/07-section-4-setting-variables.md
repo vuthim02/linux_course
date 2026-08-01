@@ -25,21 +25,42 @@ echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-### System-Wide Permanent (/etc/profile or /etc/environment)
+### System-Wide Permanent
 
+#### Method 1: /etc/profile (shell scripts, bash syntax)
 ```bash
-# Method 1: /etc/profile (shell scripts, bash syntax)
 echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk' | sudo tee -a /etc/profile
+```
 
-# Method 2: /etc/environment (simple KEY=VALUE format, no export needed)
+#### Method 2: /etc/environment (PAM-level, no export needed)
+Read by `pam_env` module — affects all PAM-authenticated sessions (login, SSH, display manager). Simple KEY=VALUE only, no shell expansion:
+```bash
 echo 'JAVA_HOME=/usr/lib/jvm/java-11-openjdk' | sudo tee -a /etc/environment
+```
 
-# Method 3: /etc/profile.d/ script (preferred for packages)
+#### Method 3: /etc/profile.d/ script (preferred for packages)
+```bash
 sudo tee /etc/profile.d/java.sh << 'EOF'
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 export PATH="$JAVA_HOME/bin:$PATH"
 EOF
 sudo chmod +x /etc/profile.d/java.sh
+```
+
+#### Method 4: /etc/security/pam_env.conf (advanced PAM)
+Supports `@{HOME}` and `${VAR}` expansion:
+```
+# /etc/security/pam_env.conf
+XDG_CONFIG_HOME   DEFAULT=@{HOME}/.config
+GOPATH            DEFAULT=${XDG_DATA_HOME}/go
+```
+
+#### Method 5: systemd environment.d (user services/graphical)
+For systemd user services, Wayland sessions, and GDM:
+```
+# ~/.config/environment.d/envvars.conf
+EDITOR=nano
+BROWSER=firefox
 ```
 
 

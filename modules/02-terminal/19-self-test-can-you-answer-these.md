@@ -34,26 +34,5 @@ Before moving to Part 3, answer without looking:
 **Answer:** `rm -rf` recursively deletes files and directories without confirmation. A typo like `rm -rf /` or `rm -rf ~` can destroy the entire system or home directory.
 
 ### Q6: What does `tail -f` do and when would a sysadmin use it?
-**Answer:** `tail -f` follows (streams) new lines appended to a file in real-time. Sysadmins use it to watch log files as events occur.
 
-### Q7: What does a file starting with `.` mean in Linux?
-**Answer:** It is a hidden file. Files prefixed with `.` are not shown by default in `ls` (use `ls -a` to see them).
-
-### Q8: What is the difference between a symlink and a hard link?
-**Answer:** A symlink (symbolic link) is a pointer to a path name; it breaks if the original is moved/deleted. A hard link points directly to the inode; the data survives even if the original filename is removed.
-
-### Q9: How do you find all files larger than 100MB on the system?
-**Answer:** `find / -type f -size +100M` — searches from root for files over 100 megabytes.
-
-### Q10: What does `ls -ltr` show and why is it useful for sysadmins?
-**Answer:** Lists files in long format, sorted by modification time (newest last). Useful for quickly finding recently modified files, especially in log directories.
-
-
-*Linux SysAdmin Course | Part 2 of 50+ | Reverse Engineering Approach*
-*Previous → Part 1: What Is Linux & How It Really Works*
-*Next → Part 3: Users, Groups, and Permissions — Who Can Do What*
-[← Previous](part1.md) | [Next →](part3.md)
-
-
-
-[← Previous](18-whats-coming-in-part-3.md) | [↑ Index](index.md)
+[← Previous](18-whats-coming-in-part-3.md) | [↑ Index](index.md) | [Next →](20-section-12-file-stat-and-advanced-metadata.md)

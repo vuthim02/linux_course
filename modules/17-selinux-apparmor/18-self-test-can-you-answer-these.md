@@ -67,12 +67,4 @@
 **Answer:** Resets file contexts to their policy-defined defaults. Essential after moving files or correcting mislabeled contexts.
 
 
-*Linux SysAdmin Course | Part 17 of ∞ | Reverse Engineering Approach*
-*Previous → Part 16: Firewalls — iptables, firewalld, nftables*
-*Next → Part 18: Environment Variables and Shell Configuration*
-
-[← Previous](part16.md) | [Next →](part18.md)
-
-
-
 [← Previous](17-whats-coming-in-part-18.md) | [↑ Index](index.md)

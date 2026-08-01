@@ -24,6 +24,7 @@
 - [Level 3 Practices](19-level-3-practices.md)
 - [Summary Complete Command Reference](20-summary-complete-command-reference.md)
 - [Whats Coming In Part 6](21-whats-coming-in-part-6.md)
+- [Rules of Thumb](24-rules-of-thumb.md)
 - [Self Test Can You Answer These](22-self-test-can-you-answer-these.md)
 
 ---

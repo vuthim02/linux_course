@@ -57,8 +57,8 @@ Note: `/sbin/init` is a symlink to `systemd` on modern systems.
 | Arch Linux | 2012 |
 | openSUSE | 12.1 (2011) |
 
-
-
+**Notics:**
+- 1. ps -p \<PID> -o \<format> where \<format> is a comma-separated list of keywords (e.g., pid,comm,cmd,ppid,%cpu,%mem,user).
 
 
 [← Previous](02-level-1-basic-systemd-fundamentals.md) | [↑ Index](index.md) | [Next →](04-section-2-systemctl-the-main.md)

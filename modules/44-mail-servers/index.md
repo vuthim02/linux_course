@@ -66,6 +66,7 @@
 - [Level 1 Basic Commands](61-level-1-basic-commands.md)
 - [Level 2 Intermediary Commands](62-level-2-intermediary-commands.md)
 - [Level 3 Advanced Commands](63-level-3-advanced-commands.md)
+- [Rules of Thumb](22-rules-of-thumb.md)
 
 ---
 

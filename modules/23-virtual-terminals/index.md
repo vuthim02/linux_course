@@ -17,6 +17,7 @@
 - [Deep Understanding Tty Internals And](12-deep-understanding-tty-internals-and.md)
 - [Summary Complete Command Reference For](13-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 24](14-whats-coming-in-part-24.md)
+- [Rules of Thumb](20-rules-of-thumb.md)
 - [Self Test Can You Answer These](15-self-test-can-you-answer-these.md)
 
 ---

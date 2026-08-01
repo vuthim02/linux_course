@@ -41,6 +41,4 @@ If you can answer 6 out of 8, you are ready for Part 2.
 **Answer:** PATH is an environment variable containing a colon-separated list of directories the shell searches when you type a command without an absolute path.
 
 
-*Linux SysAdmin Course | Part 1 of 50+ | Reverse Engineering Approach*
-*Next → Part 2: Mastering the Terminal — Navigation, Files, and Directories*
-[← Previous](./16-self-test-can-you-answer-these.md) | [next->](../02-terminal/01-what-you-will-achieve-in.md) | [↑ Index](index.md)
+[← Previous](15-whats-coming-in-part-2.md) | [↑ Index](index.md) | [Next →](../02-terminal/01-what-you-will-achieve-in.md)

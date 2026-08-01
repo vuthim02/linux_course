@@ -21,6 +21,12 @@
 - [Summary Complete Command Reference For](16-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 16](17-whats-coming-in-part-16.md)
 - [Self Test Can You Answer These](18-self-test-can-you-answer-these.md)
+- [Section 10 Agent Forwarding And Multiplexing](19-section-10-agent-forwarding-and-multiplexing.md)
+- [Section 11 Proxyjump And Bastion Hosts](20-section-11-proxyjump-and-bastion-hosts.md)
+- [Section 12 Sftp Chroot And Restricted Shells](21-section-12-sftp-chroot-and-restricted-shells.md)
+- [Section 13 Ssh Certificates](22-section-13-ssh-certificates.md)
+- [Level 4 Mastery Real World Scenarios](24-level-4-mastery-scenarios.md)
+- [Rules of Thumb](23-rules-of-thumb.md)
 
 ---
 

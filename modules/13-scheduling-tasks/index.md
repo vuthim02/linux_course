@@ -21,6 +21,11 @@
 - [Summary Complete Command Reference For](16-summary-complete-command-reference-for.md)
 - [Whats Coming In Part 14](17-whats-coming-in-part-14.md)
 - [Self Test Can You Answer These](18-self-test-can-you-answer-these.md)
+- [Section 10 Anacron Offline Scheduling](19-section-10-anacron-offline-scheduling.md)
+- [Section 11 Flock And Cron Lockfile Patterns](20-section-11-flock-cron-lockfile-patterns.md)
+- [Section 12 Systemd Timer Deep Dive](21-section-12-systemd-timer-deep-dive.md)
+- [Level 4 Mastery Real World Scenarios](22-level-4-mastery-scenarios.md)
+- [Rules of Thumb](21-rules-of-thumb.md)
 
 ---
 
